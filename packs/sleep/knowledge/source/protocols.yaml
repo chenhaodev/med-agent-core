@@ -1,0 +1,496 @@
+# 具体治疗方案参数（剂量/频率/时长/强度/设备参数）
+# 来源：同 consensus.yaml（三份 PDF 原文）
+# PDF3 新增：drug_classes / cbt_i_8_techniques / physical_therapy_insomnia
+
+# ─── OSA 非手术治疗参数 ───────────────────────────────
+
+cpap:
+  consensus_ref: "推荐意见第 4 条"
+  source_page: 726
+  full_name: 持续气道正压通气
+  indication: "各严重程度 OSA，尤其是中重度；CPAP 不耐受者换 APAP 或 BiPAP"
+  key_requirements:
+    - "首次佩戴前必须进行压力滴定（确定消除所有睡眠时相及不同体位呼吸事件的压力）"
+    - "使用时长建议：每晚≥4 小时为有效使用，平均每晚≥6 小时为理想"
+    - "常见不耐受原因：面部漏气、口干、鼻塞、幽闭恐惧、压力不适等"
+  apap_notes: "每晚佩戴依从性方面优于 CPAP（平均多佩戴 11 分钟），压力自动调节"
+  bipap_indication: "CPAP 不耐受患者，或合并中枢性睡眠呼吸暂停"
+  perioperative:
+    moderate_preop: "中度 OSA 术前使用 1-3 晚（证据等级 C；弱推荐）"
+    severe_preop: "重度 OSA 术前使用 3-5 晚（证据等级 C；弱推荐）"
+    postop: "术后 1-3 晚"
+    note: "颌面部手术后使用 CPAP 可能引起面部皮下气肿、胃充气以及口唇水肿"
+
+oral_appliance:
+  consensus_ref: "推荐意见第 4 条"
+  source_page: 727
+  full_name: 口腔矫治器（下颌前移装置）
+  indication:
+    - "单纯鼾症"
+    - "轻中度 OSA（BMI<32 kg/m² 的轻中度优先）"
+    - "与手术联合治疗中重度 OSA"
+    - "CPAP 不耐受或拒绝手术患者"
+  evidence: "证据等级 A；强推荐"
+  mechanism: "对来自腭咽平面到舌平面的阻塞均有扩张效果，尤其下颌复位类型矫治器"
+  contraindication: "已存在颞下颌关节素乱的 OSA 患者，使用并没有加剧已有的颞下颌功能紊乱状态"
+  efficacy: "治疗后 AHI 改善 MD=13.40（95%CI=10.87-15.93，F=74%），与 CPAP 相比 AHI 改善程度较 CPAP 差"
+
+positional_therapy:
+  consensus_ref: "推荐意见第 4 条"
+  source_page: 726
+  full_name: 体位治疗（体位性 OSA）
+  indication: "体位相关性 OSA（POSA）：仰卧位 AHI 至少是非仰卧位 AHI 的 2 倍"
+  protocol:
+    method: "体位枕/体位监测设备辅助侧卧位睡眠，避免仰卧位"
+    evidence: "证据等级 C；弱推荐"
+  efficacy: "可有效缓解 AHI（MD=-7.38，95%CI=-10.06~-4.70，P<0.01），依从性优于 CPAP（器械佩戴时长 MD=2.50 h/night，P<0.05）"
+  limitation: "轻度 POSA 体位治疗效果优于重度 POSA，长期疗效和依从性的证据仍缺乏"
+
+weight_management:
+  consensus_ref: "推荐意见第 4 条"
+  source_page: 727
+  indication: "BMI≥25 kg/m² 的 OSA 患者"
+  evidence: "证据等级 B；强推荐"
+  dose_response:
+    - "体重每增加 10%，AHI 将升高 32%"
+    - "体重每减轻 10%，AHI 将降低 26%"
+  bariatric_surgery:
+    indication: "BMI≥32.5 kg/m² 的重度 OSA 患者（证据等级 B；强推荐）"
+    efficacy: "减重代谢手术可有效降低 BMI（WMD=-11.90，P<0.01）和 AHI（WMD=-19.30，P<0.01）；缓解率 65%（95%CI=0.54-0.76）"
+
+# ─── OSA 手术相关参数 ─────────────────────────────────
+
+surgical_procedures:
+  consensus_ref: "推荐意见第 5 条"
+  source_page: 727
+
+  uppp:
+    full_name: 悬雍垂腭咽成形术（UPPP）
+    indication: "非严重肥胖的轻中度 OSA，扁桃体 II 级以上肥大，同期行双侧扁桃体切除"
+    evidence: "证据等级 B；强推荐"
+    efficacy: "腭咽成形术可有效缓解 AHI（MD=19.90，95%CI=4.90-36.90，P<0.01）；ESS 评分明显下降"
+    success_criteria: "AHI<20 次/h 且降低幅度≥50%"
+    complications: "腭咽关闭不全（最常见，31.20%）、吞咽困难、咽异物感、声音改变、咽干"
+    note: "Friedman I/II/III/IV 型手术成功率分别为 80.60%/37.90%/8.10%/0%"
+
+  soft_palate_implant:
+    full_name: 软腭植入术
+    indication: "无其他解剖异常、BMI<32 kg/m² 的单纯鼾症或轻度 OSA 患者"
+    evidence: "证据等级 B；强推荐"
+    complications: "暂时性腭咽关闭不全、暂时性吞咽困难及中耳炎"
+
+  soft_palate_rf:
+    full_name: 软腭射频消融术
+    indication: "软腭塌陷的中度或单纯鼾症患者"
+    evidence: "证据等级 B；强推荐"
+
+  tonsillectomy:
+    full_name: 扁桃体切除术
+    indication: "扁桃体 II 级以上肥大的轻中度 OSA 患者"
+    evidence: "证据等级 B；强推荐"
+    efficacy: "AHI 降低 MD=-30.20（95%CI=-39.30~-21.10，P<0.01），LSaO2 改善（MD=8.50%，P<0.01）"
+
+  hns:
+    full_name: 舌下神经刺激术（HNS）
+    indication: "咽区非向心性塌陷的中重度 OSA，CPAP 不耐受"
+    evidence: "证据等级 B；强推荐"
+    note: "HNS 技术目前在国内开展有限，缺少相关数据"
+    efficacy: "茎分析（n=8670，3 年随访）：AHI 降低 MD=20.61（P<0.01）、ODI 降低（MD=14.76，P<0.01）、ESS 改善（MD=5.05，P<0.01）"
+
+  mma:
+    full_name: 颌骨前移术（上下颌骨前移术，MMA）
+    indication: "合并颌面部畸形的中重度 OSA，或已行其他 OSA 外科手术但失败的患者"
+    evidence: "证据等级 A；强推荐"
+    efficacy: "AHI 降低 MD=-33.36（95%CI=-41.43~-25.29，P<0.01，f²=77%）；治疗 AHI<40 次/h 患者 AHI 降幅显著优于 MLS"
+    complications: "下颌区感觉异常（最常见）、咬合关系紊乱、张口困难、骨骼形变、植入物外露、进食困难"
+
+  tracheotomy:
+    full_name: 气管切开术
+    indication: "无其他治疗选择或临床紧急情况（如重度肥胖合并重度 OSA）"
+    evidence: "证据等级 A；强推荐"
+    note: "可单独有效治疗 OSA 的手段，但仅适用于没有其他治疗方式可选择或临床紧急情况下的 OSA 患者"
+
+# ─── 老年睡眠康复治疗参数 ───────────────────────────────
+
+rtms:
+  consensus_ref: "共识第 9 条"
+  source_page: 3614
+  full_name: 重复经颅磁刺激（rTMS）
+  general_note: "系统综述表明，rTMS 刺激双侧背外侧前额叶皮质（DLPFC）、顶叶皮质和优势侧初级运动皮质（M1）可治疗原发性失眠；具体参数见各适应症"
+
+  primary_insomnia:
+    indication: "原发性失眠"
+    protocol:
+      coil_type: "8 字形线圈"
+      target_area: "双侧 DLPFC、顶叶皮质/顶叶皮质（at top of head）、优势 M1 优先"
+      frequency: "1 Hz"
+      intensity: "100%～110% 静息运动阈值（MT）"
+      session_duration: "20～30 分钟/次"
+      sessions_total: "干预 10～20 次"
+      pulses_per_session: "800～1000 脉冲"
+    efficacy: "增加 N3 和 REM 睡眠比例，减少觉醒，优于心理治疗，具有长期效果和更高的疗效"
+    note: "RCT 研究表明，对合并睡眠障碍的轻度认知障碍老年人，1 Hz rTMS 作用于右侧 DLPFC 能够最快速改善 PSQI 评分"
+
+  rls:
+    indication: "不宁腿综合征（RLS）"
+    protocol:
+      coil_type: "8 字形线圈"
+      target_area: "左侧辅助运动区、双侧 M1"
+      frequency: "1 Hz、5 Hz、15 Hz"
+      intensity: "100%～120% 静息运动阈值（MT）"
+      sessions_total: "10 次"
+      pulses_per_session: "600～1000 脉冲"
+    efficacy: "有效改善国际不宁腿综合征评分量表得分"
+
+  osa:
+    indication: "阻塞性睡眠呼吸暂停（OSA）"
+    protocol:
+      coil_type: "8 字形线圈"
+      target_area: "双侧 M1 均可"
+      frequency: "5 Hz、10 Hz、25 Hz"
+      intensity: "80%～120% 静息运动阈值/80% 主动运动阈值"
+      pulses_per_session: "600～1200 脉冲"
+      sessions_variance: "差异较大"
+    efficacy: "未见明显改善"
+    note: "证据有限，仍需进一步研究"
+
+cbt_i:
+  consensus_ref: "共识第 8 条"
+  source_page: 3614
+  full_name: 失眠认知行为治疗（CBT-I）
+  indication: "老年人失眠（原发性或继发性）"
+  core_techniques:
+    - "刺激控制：床只用于睡眠和性生活；不在床上看手机/电视；规律起床时间"
+    - "睡眠限制：压缩在床时间至实际睡眠时间，逐渐延长，提高睡眠效率"
+    - "放松训练：渐进性肌肉放松、深呼吸放松、正念冥想"
+    - "认知重构：改变对睡眠的错误信念和担忧（如'一晚没睡就会垮掉'）"
+    - "睡眠卫生教育：规律作息、避免咖啡因/酒精、适量运动等"
+  protocol:
+    duration: "4～8 周"
+    format: "个体治疗或团体治疗均有效"
+    digital_version: "数字化 CBT（dCBT）可大规模推广，适合基层"
+  efficacy:
+    - "显著降低 PSQI 和失眠严重程度指数评分"
+    - "提高睡眠效率、缩短入睡潜伏期、减少 WASO"
+    - "减少助眠药物使用"
+
+light_therapy:
+  consensus_ref: "共识第 9 条"
+  source_page: 3614
+  full_name: 光照疗法
+  indication: "老年人失眠、昼夜节律睡眠障碍"
+  protocol:
+    timing: "7:00～12:00（晨间优先）"
+    duration: "30～120 分钟/次"
+    intensity_high: "高光照（≥10000 勒克斯）：短期暴露（30-60 分钟）"
+    intensity_medium: "中等光照（2500～10000 勒克斯）：中长期暴露（1-4 小时或全天）"
+    intensity_low: "低光照（≤2500 勒克斯）：长期暴露（1-4 小时或全天）"
+    devices: "可穿戴光疗设备及室内光照改造等多种形式"
+  efficacy:
+    residential: "可有效改善长期居住在护理机构老年人的睡眠效率（由 73% 提升到 86%）"
+    circadian: "可有效调整昼夜节律"
+  note: "其疗效可能受到光照暴露时长及暴露等因素影响，需进一步研究优化治疗参数"
+
+exercise_therapy:
+  consensus_ref: "共识第 9 条"
+  source_page: 3614
+  full_name: 运动疗法
+  indication: "社区老年睡眠障碍（失眠、睡眠效率低）"
+  protocol:
+    general_recommendation: "每周≥3 次，有氧运动+传统功法均有效"
+    aerobic: "有氧运动（快走、游泳、骑车等）：中等强度（达到轻微气喘但能说话）"
+    traditional_exercise:
+      taichi: "太极拳：改善早期痴呆老人短期认知功能；可降低跌倒风险"
+      baduanjin_duration: "12 周以上八段锦可改善老年人失眠严重程度"
+      frequency: "每周≥3 次与有氧运动结合"
+  efficacy:
+    meta_analysis: "纳入 3937 名老年人的 Meta 分析：可显著增强睡眠质量、降低失眠严重程度、提高睡眠效率、减少 WASO"
+    best_for: "有氧运动是改善老年人 PSQI 总分效果最好的方式（文献 34-36）"
+
+music_therapy:
+  consensus_ref: "共识第 9 条"
+  source_page: 3615
+  full_name: 音乐疗法
+  indication: "老年人失眠、睡眠质量差"
+  protocol:
+    type: "柔和/镇静类音乐（听柔和/镇静的音乐）"
+    tempo: "60～80 拍/分钟"
+    style: "以缓慢节奏和流畅的旋律为特点；节奏型音乐效果更好"
+    duration: "干预时长超 4 周效果更优"
+  efficacy: "Meta 分析（69(7):1925-1932）显示可有效改善老年人睡眠质量"
+  note: "研究质量参差不齐，证据有限"
+
+ta_vns:
+  consensus_ref: "共识第 9 条"
+  source_page: 3614
+  full_name: 经皮耳迷走神经电刺激（ta-VNS）
+  indication: "老年人睡眠障碍（失眠、RLS 等）"
+  protocol:
+    duration: "为期 2 周的 ta-VNS"
+  efficacy:
+    community: "RCT 研究表明为期 2 周的 ta-VNS 能改善社区居民的 PSQI 评分"
+    caregivers: "其他研究表明 ta-VNS 能够改善老年医务人员的睡眠质量、缓解焦虑情绪"
+    rls: "同时减轻重度难治性 RLS 患者的症状严重程度"
+
+vr_therapy:
+  consensus_ref: "共识第 9 条"
+  source_page: 3614
+  full_name: 虚拟现实（VR）疗法
+  indication: "慢性失眠"
+  protocol:
+    study: "一项纳入 63 例慢性失眠患者的 RCT 研究"
+  efficacy: "VR 疗法能够显著改善睡眠质量，减轻抑郁和焦虑症状，并同步改善认知和自主神经功能"
+
+# ─── 睡眠评估量表参数 ─────────────────────────────────
+
+assessment_tools:
+  psqi:
+    full_name: 匹兹堡睡眠质量指数（PSQI）
+    dimensions: 7
+    items: 9
+    time_required: "5～10 分钟"
+    total_score_range: "0～21 分"
+    thresholds:
+      normal: "≤5 分（每年常规随访）"
+      mild: "6～10 分（健康教育 + 睡眠卫生行为干预）"
+      moderate: "11～15 分（康复治疗 + 心理干预）"
+      severe: ">15 分（转专业机构，制订个体康复计划）"
+
+  isi:
+    full_name: 失眠严重程度指数（ISI）
+    use: "失眠严重程度评估"
+
+  ru_sated:
+    full_name: 睡眠健康规律性等量表（RU-SATED v2.0）
+    items: 6
+    scoring: "0-2 分 Likert 3 级评分"
+    total_score: "满分 12 分"
+    use: "社区睡眠健康评估"
+    note: "得分越高表示睡眠健康状态越好"
+
+  ess:
+    full_name: Epworth 睡眠量表
+    use: "日间嗜睡程度评估；也用于 OSA 筛查（弱推荐）"
+    threshold: "ESS≥10 提示明显日间嗜睡"
+
+  stop_bang:
+    full_name: STOP-Bang 问卷
+    items: 8
+    scoring: "各计 1 分，满分 8 分"
+    thresholds:
+      screen_positive: "≥3 分：考虑 OSA 风险"
+      sensitivity:
+        mild_osa: "92%（SBQ≥3）"
+        moderate_osa: "95%（SBQ≥3）"
+        severe_osa: "96%（SBQ≥3）"
+      specificity:
+        mild_osa: "35%"
+        moderate_osa: "27%"
+        severe_osa: "28%"
+
+  osa_50:
+    full_name: OSA-50 筛查问卷
+    use: "老年人 OSA 风险筛查（与 ISI 联合使用）"
+
+# ─── PDF3：失眠药物分类（类名+通用名，NO 剂量）────────────────
+# 注意：本文件不记录剂量字段，所有"具体药物和剂量由医生决定"
+
+drug_classes:
+  source: "推荐意见第 INS-4 条《中国成人失眠诊断与治疗指南（2023版）》"
+  source_page: 564
+  note: "以下记录类名和代表通用名；剂量由医生处方，本系统不提供"
+
+  bzds:
+    class_name: "苯二氮䓬类（BZDs）"
+    representative_drugs: ["艾司唑仑", "氟西泮", "夸西泮", "替马西泮", "三唑仑", "阿普唑仑", "地西泮", "劳拉西泮", "奥沙西泮"]
+    indication: "入睡困难或睡眠维持障碍；焦虑伴失眠"
+    mechanism: "非选择性激动 γ-氨基丁酸受体 A 上不同的 γ 亚基，发挥镇静催眠/抗焦虑/肌松/抗惊厥作用"
+    adverse_effects: ["宿醉（口干/头晕）", "共济失调", "认知功能减退（老年人尤甚）", "跌倒风险", "依赖/成瘾"]
+    contraindications: ["重度 OSA（A级 I级 绝对禁忌）", "重度 COPD", "老年人慎用", "有物质滥用史者慎用"]
+    notes: "三唑仑已被我国列为一类精神药品。突然停药可出现戒断症状和反跳性失眠，需逐步减停。"
+
+  non_bzds:
+    class_name: "非苯二氮䓬类（non-BZDs / Z类药物）"
+    representative_drugs: ["唑吡坦（Zolpidem）", "佐匹克隆（Zopiclone）", "右佐匹克隆（Eszopiclone）", "扎来普隆（Zaleplon）"]
+    indication: "入睡困难或睡眠维持障碍"
+    mechanism: "选择性激动 γ-氨基丁酸受体 A 上的 α1 亚基，发挥催眠作用"
+    adverse_effects: ["头晕/头痛", "遗忘", "次日残留（通常较 BZDs 轻）"]
+    contraindications: ["OSA 患者慎用（佐匹克隆/右佐匹克隆）", "老年人从最低剂量开始"]
+    notes: "non-BZDs 与 BZDs 催眠疗效类似，但药物依赖风险较传统 BZDs 低。半衰期相对较短，次日残留效应小。A级证据 I级推荐（短期应用）。"
+
+  new_bzra:
+    class_name: "新型苯二氮䓬受体激动剂（地达西尼）"
+    representative_drugs: ["地达西尼（Daridorexant）"]
+    indication: "入睡困难和睡眠维持困难"
+    mechanism: "为 γ-氨基丁酸 A 型受体的部分正向调构调节剂，选择性作用于 α1亚基，部分激动 GABA A 受体"
+    adverse_effects: ["头痛", "乏力", "恶心"]
+    notes: "地达西尼峰时约 1 h，半衰期约 4 h。无次日残留，对认知及呼吸影响小，可改善日间疲劳。A级证据 I级推荐。"
+
+  dora:
+    class_name: "双重食欲素受体拮抗剂（DORA）"
+    representative_drugs: ["苏沃雷生（Suvorexant）", "莱博雷生（Lemborexant）", "达利雷生（Daridorexant）"]
+    indication: "入睡困难和次日思睡困难（睡眠维持）"
+    mechanism: "食欲素受体（OX1R/OX2R）拮抗剂，阻断清醒信号促进睡眠"
+    adverse_effects: ["次日思睡（苏沃雷生常见，莱博雷生较轻）", "头痛", "头晕"]
+    contraindications: ["发作性睡病（禁用）"]
+    notes: "DORA 无次日残留，对认知及呼吸影响小，无成瘾性，已成为失眠治疗的新靶点。可用于轻中度 COPD 和 OSA 患者（莱博雷生对呼吸无不良影响）。A级证据 I级推荐。苏沃雷生：10 mg 或 20 mg（老年推荐 10 mg）。莱博雷生：5 mg 或 10 mg（明显提高睡眠效率，A级 I级）。"
+
+  melatonin_agonists:
+    class_name: "褪黑素及褪黑素受体激动剂"
+    representative_drugs: ["褪黑素缓释片（Melatonin 缓释）", "雷美替胺（Ramelteon）", "阿戈美拉汀（Agomelatine）", "特斯美尔通（Tasimelteon）"]
+    indication: "昼夜节律失调睡眠觉醒障碍（如时差/倒班）；入睡困难（尤其≥55岁老年人）"
+    mechanism: "通过激动褪黑素受体，发挥催眠作用，缩短睡眠潜伏期，提高睡眠效率"
+    adverse_effects: ["头痛", "胃肠反应", "血压变化", "情绪低落"]
+    notes: "褪黑素：仅用于昼夜节律失调睡眠觉醒障碍，不建议作为常规药物治疗失眠（B级 I级）。褪黑素缓释片（2 mg）在欧洲批准用于≥55岁老年人群（B级 I级）。长期使用褪黑素可影响内源性褪黑素的分泌。阿戈美拉汀：改善抑郁相关的失眠。特斯美尔通：非24 h 昼夜节律睡眠障碍（如全盲患者）。"
+
+  antihistamine_h1:
+    class_name: "抗组胺 H1 受体药物"
+    representative_drugs: ["多西拉敏（Doxylamine）", "苯海拉明（Diphenhydramine）"]
+    indication: "急性失眠的辅助治疗（非处方）"
+    mechanism: "穿过血脑屏障，通过中枢神经活动的抑制到达镇静催眠作用"
+    adverse_effects: ["次日残留", "口干", "视力模糊", "可能加重谵妄"]
+    contraindications: ["重症肌无力", "青光眼", "老年人（慎用）"]
+    notes: "临床上不推荐作为处方药使用，仅用于非处方自我调节。B级 I级推荐。"
+
+  sedating_antidepressants:
+    class_name: "具有镇静作用的抗抑郁药"
+    representative_drugs: ["多塞平（Doxepin）", "曲唑酮（Trazodone）", "米氮平（Mirtazapine）"]
+    indication: "睡眠维持障碍；伴焦虑和抑郁症状的失眠"
+    mechanism: "小剂量多塞平：抗组胺 H1 作用；曲唑酮：α1 受体拮抗；米氮平：抗 H1/α1/5-HT2A"
+    adverse_effects: ["直立性低血压（曲唑酮）", "体重增加（米氮平）", "过度镇静"]
+    notes: "抗抑郁药不采用间歇给药或按需使用。小剂量多塞平（B级 I级）和曲唑酮（A级 II级）用于睡眠维持障碍。米氮平对浅睡眠增加有用（C级 II级）。"
+
+  antipsychotics:
+    class_name: "具有镇静作用的抗精神病药"
+    representative_drugs: ["喹硫平（Quetiapine）", "奥氮平（Olanzapine）", "氯氮平（Clozapine）"]
+    indication: "失眠合并精神疾病时的辅助使用"
+    adverse_effects: ["代谢综合征", "体重增加", "镇静过度", "锥体外系反应"]
+    notes: "抗精神病药不作为首选药物使用，仅适用于某些特殊情况和人群（C级 I级推荐）。在具有镇静作用的抗精神病药物中，首选小剂量喹硫平，其镇静效果较好，安全性高（B级 I级推荐）。"
+
+  anesthetic_class:
+    class_name: "麻醉类药物（右美托咪定）"
+    representative_drugs: ["右美托咪定（Dexmedetomidine）"]
+    indication: "重症难治性失眠；其他治疗无效时"
+    mechanism: "α2肾上腺素能受体激动剂，能显著改善睡眠效率，增加 N2 期睡眠"
+    notes: "右美托咪定注射：主要当其他治疗无效时，用于重症、难治性失眠患者，需要神经科/精神科/呼吸科等多学科评估；麻醉科医师应情应用。鼻吸右美托咪定可缩短入睡时间、延长睡眠时间、改善焦虑，但该药物治疗失眠目前还属于超适应证用药（B级 不推荐）。"
+
+  tcm_drugs:
+    class_name: "中医药（中成药/植物提取物）"
+    representative_drugs: ["酸枣仁类制剂", "乌灵胶囊", "甜梦口服液", "缬草提取物", "南非醉茄（ashwagandha）"]
+    indication: "失眠（辨证施治后选用相应证型中药）"
+    notes: "中成药单用或联合其他治疗可显著改善失眠质量（C级 II级）。需辨证论治由中医师处方。植物提取物（缬草/南非醉茄）长期安全性数据有限，需谨慎。"
+
+# ─── PDF3：CBT-I 8种核心技术（表4）────────────────────────────
+
+cbt_i_8_techniques:
+  source: "推荐意见第 INS-5 条《中国成人失眠诊断与治疗指南（2023版）》表4"
+  source_page: 570
+  standard_course:
+    sessions: "6-8 次治疗"
+    session_duration: "每次 50 分钟"
+    frequency: "每周 1 次"
+  digital_format: "dCBT-I（数字化网络式），可大规模推广"
+
+  techniques:
+    sleep_hygiene:
+      name: "睡眠卫生"
+      recommendation: I级推荐
+      type: "健康教育"
+      description: "提供与促进良好睡眠的环境因素、生理因素、行为和习惯相关的一般建议；具体包括改善睡眠环境、避免夜间看时钟、规律睡眠安排、避免长时间日间睡眠、减少/限制酒精/咖啡因和尼古丁摄入、避免夜食等"
+
+    stimulus_control:
+      name: "刺激控制法"
+      recommendation: I级推荐
+      type: "行为指导"
+      description: "重建一种睡眠与床之间积极联系，通过减少卧床期间的觉醒时间，以消除患者卧床时产生非睡眠的消极联系，从而使睡眠与床建立起积极连接；如在15-20 min 内无法入睡时离开卧室；只有在困倦才回到床上"
+
+    sleep_restriction:
+      name: "睡眠限制法"
+      recommendation: II级推荐
+      type: "行为指导"
+      description: "限制卧床时间，以增加睡眠驱动力的感知力；允许在床的时间最初被限制为每晚平均睡眠时间，然后逐步增加以确保睡眠效率保持在 85% 以上"
+
+    cognitive_correction:
+      name: "认知矫正"
+      recommendation: I级推荐
+      type: "改变认知"
+      description: "旨在识别和取代关于睡眠和失眠功能失调的信念和态度；这种错误观念可能包括对睡眠不切实际的期望，对睡不着的过度担忧"
+
+    mindfulness_relaxation:
+      name: "正念放松"
+      recommendation: I级推荐
+      type: "心理调节"
+      description: "任何有效的放松技术都可用于限制认知觉醒和减少肌肉紧张以促进睡眠；可以使用的具体技巧包括冥想、肌肉放松、正念和呼吸技巧"
+
+    paradoxical_intention:
+      name: "矛盾意向"
+      recommendation: II级推荐
+      type: "行为指导"
+      description: "通过患者在就寝时进行相反的意念控制，努力让自己保持清醒，避免睡着的方法，转移患者对于试图入睡的过度关注，从而降低患者试图入睡时引发的担忧和焦虑，减少内源性睡眠觉醒"
+
+    intensive_sleep_retraining:
+      name: "强化睡眠再训练"
+      recommendation: II级推荐
+      type: "行为干预"
+      description: "行为干预，通过在夜间监测在5分钟内增加睡眠驱动力；次日患者每30分钟尝试入睡，并在入睡后3分钟被唤醒，以促进患者形成正确的睡眠感知能力"
+
+    music_therapy:
+      name: "音乐疗法"
+      recommendation: II级推荐
+      type: "心理调节"
+      description: "通过轻柔舒缓的音乐/白噪音可以使患者交感神经兴奋降低，转移患者对失眠的关注，从而缓解焦虑情绪和应激反应"
+
+# ─── PDF3：失眠物理治疗参数────────────────────────────────────
+
+physical_therapy_insomnia:
+  source: "推荐意见第 INS-6 条《中国成人失眠诊断与治疗指南（2023版）》"
+  source_page: 569
+
+  rtms_insomnia:
+    full_name: "重复经颅磁刺激（rTMS）治疗失眠"
+    evidence: "B级 I级推荐"
+    frequency: "低频（≤1 Hz）"
+    target_area: "双侧背外侧前额叶皮质（DLPFC）和顶枕区域"
+    mechanism: "抑制大脑皮质兴奋性，调节大脑可塑性，诱导产生与自然慢波相似的睡眠慢波"
+    notes: "需大型医疗用电设备，瞬间输出功率达3 kW以上。常规安全且无不良反应，但可能会导致头痛和头皮疼痛。禁忌：既往癫痫病史、心脏起搏器/人工耳蜗等对磁场敏感者。"
+
+  tcs:
+    tdcs:
+      full_name: "经颅直流电刺激（tDCS）"
+      evidence: "B级 I级推荐"
+      intensity: "2 mA"
+      session_duration: "20-60 分钟"
+      adverse_effects: ["头皮不适（麻刺感或发痒）", "乏力", "头晕", "恶心", "注意力难集中", "视觉模糊"]
+    tacs:
+      full_name: "经颅交流电刺激（tACS）"
+      evidence: "B级 II级推荐（初步）"
+      frequency: "77.5 Hz"
+      intensity: "15 mA"
+      session_duration: "30 min/d"
+      notes: "tACS 技术相对较新，能增加慢波振荡的振幅以加深睡眠"
+
+  ta_vns_insomnia:
+    full_name: "经皮耳迷走神经电刺激（ta-VNS）治疗失眠"
+    evidence: "C级 不推荐（机制尚不明确）"
+    notes: "ta-VNS 可平衡交感神经的过度活跃，能有效治疗原发性失眠，同时可改善焦虑和抑郁状态。机制尚不明确，未来可进一步机制探索。"
+
+  biofeedback:
+    full_name: "生物反馈"
+    evidence: "C级 II级推荐"
+    mechanism: "通过外部传感器将人体生理信号可感知化，使患者有意识地通过一系列放松技术控制身体生理功能，可降低自主神经的兴奋性，促进大脑放松，调适心理状态"
+    notes: "生物反馈疗法可联合其他疗法改善失眠，疗效尚不明确。"
+
+  light_therapy_insomnia:
+    full_name: "光照疗法（用于失眠）"
+    evidence: "C级 II级推荐"
+    intensity: "2500-10000 Lux"
+    duration: "30 min 至 2 h"
+    notes: "光照治疗最佳参数尚未确定。潜在禁忌：躁狂、偏头痛、视网膜光敏感性。"
+
+  sound_therapy:
+    music:
+      evidence: "A级 I级推荐"
+      notes: "音乐对失眠患者睡眠质量有中到大的有益影响；主要手段是音乐治疗和噪声治疗"
+    white_pink_noise:
+      evidence: "C级 II级推荐"
+      notes: "噪声治疗疗效待进一步研究"

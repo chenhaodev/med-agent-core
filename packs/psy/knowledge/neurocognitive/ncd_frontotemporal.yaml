@@ -1,0 +1,83 @@
+specialty: neurocognitive
+specialty_zh: 神经认知障碍
+disease: ncd_frontotemporal
+disease_zh: 额颞叶神经认知障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: FTD_OVERVIEW
+  title: 额颞叶NCD核心特征
+  source_page: 682
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 额颞叶神经认知障碍（NCD）主要分为行为变异型和语言变异型，也可混合出现。
+  - 行为变异型特点为进行性行为和人格改变，如社交不当、冷漠、固执或暴食。
+  - 语言变异型表现为原发性进行性失语，包括语义型和语法缺失/非流畅型。
+  - 脑萎缩集中在额叶和/或颞叶，早期学习和记忆力相对保留。
+- id: FTD_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准
+  source_page: 680
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 符合大或轻度NCD标准，起病隐匿、逐渐进展。
+  - 行为变异型需满足≥3种行为症状：脱抑制、淡漠、缺乏同情、刻板/强迫行为、饮食改变。
+  - 语言变异型显著语言能力下降，如找词、命名、语法或理解困难。
+  - 学习和记忆、感知-运动功能相对保留；排除其他病因。
+- id: FTD_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 683
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 是<65岁早发性NCD的常见原因，患病率约2-31/10万人。
+  - 男女比例大致相等，约20-25%病例在65岁以上发生。
+  - 在尸检中占所有痴呆症的约5%，行为变异型最常见（约60%）。
+- id: FTD_DEVELOPMENT
+  title: 起病与病程
+  source_page: 683
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 典型发病年龄在50多岁，但范围可从20到80岁。
+  - 疾病逐渐进展，中位生存期6-11年（自症状出现）或3-4年（诊断后）。
+  - 比典型阿尔茨海默病进展更快，生存期更短。
+- id: FTD_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 684
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 约40%有早发性NCD家族史，约10%为常染色体显性遗传。
+  - 已知突变基因包括MAPT、GRN、C9ORF72等，但很多家族突变未知。
+  - 合并运动神经元病会加速认知下降，预后更差。
+- id: FTD_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 685
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与阿尔茨海默病区分：AD早期记忆和学习下降；但10-30%病理上实际是AD。
+  - 与路易体痴呆：需存在路易体核心特征；与帕金森病NCD：帕金森症状先于认知下降。
+  - 与血管性NCD：有脑血管事件史和影像证据；与进行性核上性麻痹有重叠。
+  - 行为变异型易被误诊为抑郁症、双相障碍或精神分裂症，需长期随访。
+- id: FTD_COMORBIDITIES
+  title: 常见共病
+  source_page: 683
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 部分病例伴有运动神经元病（如肌肉萎缩、无力），加速恶化。
+  - 与进行性核上性麻痹、皮质基底节变性在临床和病理上有重叠。
+  - 行为变异型常先由精神科接诊，可能合并抑郁、双相等精神症状。
+  - 少数患者出现视觉幻觉，晚期可能有括约肌失控。
+- id: FTD_FUNCTIONAL_CONSEQUENCES
+  title: 功能影响与安全注意
+  source_page: 685
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 因发病年龄较早，常严重影响工作和家庭生活。
+  - 行为和语言障碍导致早期功能受损，可能引发法律纠纷或解雇。
+  - 暴食、冲动游走等失控行为可能需护理机构收治，即使身体尚健康。
+  - 行为异常常比认知缺陷更严重，对照顾环境造成巨大挑战。

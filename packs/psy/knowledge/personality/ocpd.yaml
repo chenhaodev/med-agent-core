@@ -1,0 +1,56 @@
+specialty: personality
+specialty_zh: 人格障碍
+disease: ocpd
+disease_zh: 强迫型人格障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: OCPD_DEFINITION
+  title: 核心定义与特征
+  source_page: 763
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 强迫型人格障碍是一种普遍模式，关注秩序、完美主义和控制，牺牲灵活性、开放性和效率。
+  - 起病于成年早期，在多种情境中持续表现，导致功能损害或主观痛苦。
+- id: OCPD_CRITERIA
+  title: 诊断标准要点
+  source_page: 764
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需满足8项症状中的至少4项，包括：执着于细节、完美主义妨碍完成、过度投入工作、道德刻板、无法丢弃无用物、不愿委派任务、吝啬、僵化固执。
+  - 症状导致显著功能损害或主观痛苦，且不能仅由文化或宗教习惯解释。
+- id: OCPD_PREVALENCE
+  title: 患病率数据
+  source_page: 769
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国全国共病调查重复研究估计患病率为2.4%，另一大型研究为7.9%。
+  - 五项流行病学研究中位患病率为4.7%，男女患病率大致相等。
+- id: OCPD_ONSET_COURSE
+  title: 起病与病程
+  source_page: 763
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 起病于成年早期，通常呈慢性持续模式，在多种生活领域表现僵化行为。
+  - 随着时间推移，若环境变化或要求灵活性，功能障碍可能加剧。
+- id: OCPD_RISK_PROGNOSIS
+  title: 风险与预后因素
+  source_page: 771
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 中等程度的强迫型人格特质在某些高要求情境下可能适应良好，但僵化、适应不良时才构成障碍。
+  - 文化群体（如宗教、移民）强调的秩序和道德可能模糊诊断边界，需排除文化规范。
+- id: OCPD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 770
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与强迫症的区别：强迫症存在真正的强迫思维/行为，而本障碍无这些侵入性症状。
+  - 与囤积障碍：当囤积极端（如火灾隐患）时需考虑，两者可共病。
+  - 与自恋型人格障碍：自恋者自认完美且自我批评少，本障碍患者常自我苛责。
+  - 与分裂型人格障碍：分裂型缺乏亲密能力，本障碍源于情绪不适和工作投入。

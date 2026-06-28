@@ -1,0 +1,97 @@
+specialty: ocd
+specialty_zh: 强迫及相关障碍
+disease: ocd
+disease_zh: 强迫症
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: OCD_CORE_FEATURES
+  title: 强迫症的核心特征
+  source_page: 269
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 强迫症核心是出现强迫思维和/或强迫行为。
+  - 强迫思维是反复、持续、侵入性想法/冲动/意象，引起焦虑，个体试图忽略或中和。
+  - 强迫行为是重复行为或精神仪式，用于减少焦虑或防止可怕事件，但实际无合理联系或过度。
+  - 常见主题维度：清洁、对称、禁忌想法（如攻击、性、宗教）、伤害。
+  - 大多数患者同时具有强迫思维和强迫行为，且主题相关。
+  must_warn: []
+- id: OCD_DIAGNOSTIC_CRITERIA
+  title: 强迫症的诊断标准
+  source_page: 267
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 诊断需满足强迫思维和/或强迫行为（标准A）。
+  - 强迫思维（A1）：反复、持续、不受欢迎的想法/冲动/意象，引起明显焦虑。
+  - 强迫行为（A2）：重复行为或精神仪式，个体感到被迫执行以回应强迫思维或按严格规则。
+  - 症状耗时每天超过1小时，或引起显著痛苦/功能损害（标准B）。
+  - 症状不是由物质或其它疾病引起（标准C），也不能由其他精神障碍更好解释（标准D）。
+  - 根据对信念的洞察力分型：良好/一般、差、缺乏/妄想性信念。
+  must_warn: []
+- id: OCD_PREVALENCE
+  title: 强迫症的患病率
+  source_page: 272
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 12个月患病率在美国为1.2%，国际上约为1.1%-1.8%。
+  - 成人中女性略高于男性，儿童中男性更常见。
+  must_warn: []
+- id: OCD_ONSET_COURSE
+  title: 强迫症的起病与病程
+  source_page: 273
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 平均起病年龄19.5岁，25%在14岁前起病，35岁后少见。
+  - 男性起病更早（约25%在10岁前），通常渐发，少数急性。
+  - 未经治疗常呈慢性波动病程，部分呈发作性，少数恶化。
+  - 成人缓解率低（40年随访20%缓解），儿童/青少年起病者约40%在成年早期缓解。
+  must_warn: []
+- id: OCD_RISK_PROGNOSIS
+  title: 强迫症的风险与预后因素
+  source_page: 274
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 童年内化症状、高负性情绪、行为抑制是气质风险因素。
+  - 围产期不良事件、早产、母亲孕期吸烟、童年虐待/创伤是环境风险因素。
+  - 一级亲属患病率：成人起病者约2倍，儿童起病者增加10倍。遗传因素约占40%变异。
+  - 脑区异常：眶额皮层、前扣带皮层、纹状体等。
+  must_warn: []
+- id: OCD_DIFFERENTIAL_DIAGNOSIS
+  title: 强迫症的鉴别诊断要点
+  source_page: 278
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与焦虑障碍区别：OCD强迫思维通常不涉及现实担忧，且伴有强迫行为。
+  - 与抑郁沉思区别：抑郁沉思与情绪一致，不视为侵入，不与强迫行为关联。
+  - 与其他OCD相关障碍（如体像障碍、拔毛症）区别：症状局限于特定领域。
+  - 与抽动障碍区别：抽动更简单，无强迫思维先导，但可共病。
+  - 与精神病性障碍区别：OCD患者即使缺乏自知力，仍有强迫症状。
+  - 与强迫型人格障碍区别：后者无强迫思维/行为，而是完美主义和控制。
+  must_warn: []
+- id: OCD_COMORBIDITY
+  title: 强迫症的常见共病
+  source_page: 280
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 终身共病焦虑障碍率76%，抑郁/双相障碍率63%（重性抑郁最常见41%）。
+  - 冲动控制障碍（56%）和物质使用障碍（39%）也常见。
+  - 约30%患者共病终身抽动障碍，最常见于儿童起病的男性。
+  must_warn: []
+- id: OCD_SUICIDE_RISK
+  title: 强迫症的自杀风险
+  source_page: 276
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 临床样本中终身自杀未遂率平均14.2%，终身自杀意念率44.1%，当前自杀意念率25.9%。
+  - 自杀风险预测因素：OCD严重度、不可接受想法维度、共病抑郁焦虑、既往自杀史。
+  - 瑞典研究显示OCD患者自杀死亡风险增高9.8倍，自杀未遂增高5.5倍（校正后）。
+  - 共病人格障碍或物质使用障碍增加风险；女性、高教育父母、共病焦虑障碍为保护因素。
+  must_warn:
+  - 注意：强迫症患者自杀风险显著高于一般人群，需警惕自杀意念和行为，尤其是症状严重、共病抑郁或物质使用障碍的患者。

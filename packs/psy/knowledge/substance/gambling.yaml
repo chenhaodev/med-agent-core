@@ -1,0 +1,95 @@
+specialty: substance
+specialty_zh: 物质相关及成瘾障碍
+disease: gambling
+disease_zh: 赌博障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: GD_DEFINITION
+  title: 赌博障碍核心定义
+  source_page: 661
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 赌博障碍是持续反复的适应不良赌博行为，导致个人、家庭或职业功能损害。
+  - 诊断需在12个月内出现4条或以上诊断标准中的症状。
+- id: GD_CRITERIA
+  title: 主要诊断标准
+  source_page: 661
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需要不断增加赌注才能获得兴奋。
+  - 减少或停止赌博时烦躁不安。
+  - 反复努力控制、减少或停止赌博但失败。
+  - 经常沉迷于赌博（回想过去、计划下次、筹钱）。
+  - 在痛苦情绪（无助、内疚、焦虑、抑郁）时赌博。
+  - 输钱后第二天又回去试图捞回（追逐损失）。
+  - 说谎掩盖赌博参与程度。
+  - 因赌博危及或失去重要关系、工作、教育机会。
+  - 依赖他人提供金钱解决赌博造成的财务困境。
+- id: GD_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 663
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国普通人群过去一年患病率约0.2%-0.3%，终生患病率约0.4%-1.0%。
+  - 男性终生患病率（0.6%）高于女性（0.2%）。
+  - 非裔美国人患病率最高（0.52%），拉丁裔（0.25%），非拉丁裔白人（0.23%）。
+- id: GD_COURSE
+  title: 起病与病程特点
+  source_page: 664
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 起病可在青少年或成年早期，女性进展比男性快。
+  - 赌博模式可呈规律性或间歇性，可有自发长期缓解。
+  - 早期发病在年轻男性中更常见，中晚年发病在女性中更常见。
+- id: GD_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 664
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 童年或早期青少年开始赌博增加患病风险。
+  - 家族聚集性，遗传和环境因素均相关。
+  - 共病反社会人格障碍、抑郁、双相、其他物质使用障碍增加风险。
+  - 以前有赌博问题是最强预测因子。
+- id: GD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 665
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与职业性赌博（有限风险、有纪律）和社交性赌博（有限时间、可接受损失）区分。
+  - 躁狂发作时的过度赌博需排除；若情况不限于躁狂期则合并诊断。
+  - 多巴胺能药物（如帕金森病治疗）引起的赌博冲动也属赌博障碍。
+  - 可同时诊断反社会人格障碍等其他障碍。
+- id: GD_COMORBIDITY
+  title: 常见共病
+  source_page: 666
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常共病物质使用障碍、抑郁障碍、焦虑障碍、人格障碍。
+  - 赌博障碍可能先于或后于其他精神障碍出现。
+  - 共病中约3/4案例其他精神障碍先于赌博障碍。
+- id: GD_SUICIDE
+  title: 自杀风险与安全警示
+  source_page: 665
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国治疗中的赌博障碍患者一半报告自杀意念，约17%有过自杀尝试。
+  - 瑞典研究显示赌博障碍患者自杀死亡率是无障碍者的15倍。
+  must_warn:
+  - 赌博障碍患者有极高的自杀意念和自杀尝试风险，自杀死亡率显著升高。一旦出现自杀念头或行为，必须立即寻求精神卫生急救或紧急医疗帮助。
+- id: GD_SEVERITY
+  title: 严重程度分层
+  source_page: 662
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 轻度：符合4-5条标准；中度：6-7条；重度：8-9条。
+  - 寻求治疗的患者多为中重度。
+  - 危及关系或靠他人提供赌资通常只在重度中出现。

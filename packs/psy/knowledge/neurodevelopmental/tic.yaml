@@ -1,0 +1,114 @@
+specialty: neurodevelopmental
+specialty_zh: 神经发育障碍
+disease: tic
+disease_zh: 抽动障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: TIC_DEFINITION
+  title: 抽动障碍核心定义
+  source_page: 93
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 抽动(tic)是一种突然、快速、反复、非节律性的运动或发声，通常被视为不自主。
+  - 多数抽动出现前有局部不舒服的感觉（前驱感觉）或难以抗拒的“冲动”。
+  - 部分抽动可以短暂被压制，但讨论抽动或观察他人类似动作可能诱发。
+  - 抽动分为简单型（如眨眼、清嗓）和复杂型（如模仿动作/言语、说脏话）。
+  must_warn: []
+- id: TIC_DIAGNOSTIC_CRITERIA
+  title: 诊断标准与亚型
+  source_page: 93
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 抽动障碍分三类主要亚型：Tourette障碍、持续性（慢性）运动或发声抽动障碍、短暂性抽动障碍。
+  - Tourette障碍：病程中既有多种运动抽动，又有至少一种发声抽动；首次抽动后持续超过1年；18岁前起病。
+  - 慢性抽动障碍：只有运动抽动或只有发声抽动，持续超过1年；之前从未符合Tourette障碍标准。
+  - 短暂性抽动障碍：一种或多种运动/发声抽动，持续不足1年；之前未符合更高级别障碍标准。
+  - 所有抽动障碍必须排除物质（如可卡因）或躯体疾病（如亨廷顿病）的直接生理效应。
+  must_warn: []
+- id: TIC_PREVALENCE
+  title: 患病率
+  source_page: 96
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 儿童期抽动很常见，但多数是短暂的；美国临床识别率约3/1000。
+  - 加拿大Tourette障碍患病率约3-9/1000学龄儿童；全球男性多于女性（比例2:1到4:1）。
+  - 非裔美国人和拉丁裔识别率较低，可能与医疗可及性差异有关。
+  must_warn: []
+- id: TIC_COURSE
+  title: 起病与病程
+  source_page: 96
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 抽动通常4-6岁首次出现，典型初始症状是眨眼；10-12岁严重程度达高峰。
+  - 青春期后多数人症状减轻，但部分成人仍可持续严重甚至恶化。
+  - 成年后首次出现抽动极为罕见，通常提示物质使用、中枢神经系统损伤或功能性障碍。
+  must_warn: []
+- id: TIC_RISK
+  title: 风险与预后因素
+  source_page: 96
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 环境风险：父亲年龄大、孕期和围产期不良事件（如胎儿生长受限、母亲吸烟、早产）。
+  - 遗传因素：遗传度70%-85%；有共同遗传变异与OCD、ADHD等重叠。
+  - 抽动被焦虑、兴奋、疲劳加重；平静、专注活动时减少。
+  - 免疫系统可能在部分患者中起作用（如链球菌感染相关的儿科发作性神经精神综合征）。
+  must_warn: []
+- id: TIC_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 98
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 运动刻板(stereotypies)：起病更早（<3岁）、动作节律性、可被分心停止，无前驱冲动。
+  - 舞蹈症、肌张力障碍、肌阵挛等其他运动障碍也有不同特征（如不规律、不可压制）。
+  - 强迫症中的强迫行为常与抽动共病，需区分：强迫行为旨在缓解焦虑，抽动则追求“刚好的感觉”。
+  - 功能性抽动发作常持续较长时间（15分钟至数小时），需考虑功能性障碍。
+  must_warn: []
+- id: TIC_COMORBIDITY
+  title: 常见共病
+  source_page: 99
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 抽动障碍常共病ADHD、破坏性行为、强迫症及相关障碍。
+  - 学龄前儿童容易共病ADHD、OCD、分离焦虑障碍；青少年和成人更易出现情绪障碍、焦虑和物质使用障碍。
+  - 也可能共病其他神经发育障碍（如自闭症谱系障碍、特定学习障碍）和运动障碍。
+  must_warn: []
+- id: TIC_SUICIDE
+  title: 自杀风险与安全
+  source_page: 97
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 瑞典研究显示Tourette或慢性抽动障碍患者自杀未遂风险升高(OR=3.86)，自杀死亡风险升高(OR=4.39)。
+  - 青年期后抽动持续、既往自杀未遂是自杀死亡的最强预测因素。
+  - 约1/10的青少年慢性抽动障碍有自杀想法/行为，常与愤怒、焦虑、社交问题、抽动严重程度相关。
+  - 该风险即使调整了精神共病仍显著，需要临床高度警觉和及时干预。
+  must_warn:
+  - 抽动障碍患者自杀风险显著高于一般人群，尤其是症状持续至成年且有自杀未遂史者。
+  - 青少年患者中约10%存在自杀想法或行为，需定期评估自杀意念并紧急转介心理危机干预。
+- id: TIC_FUNCTIONAL
+  title: 功能影响
+  source_page: 97
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 轻度到中度抽动可能不影响功能，甚至不被患者察觉；严重症状则导致社交隔离、校园欺凌、学习/工作困难。
+  - 共病（如ADHD、OCD）对功能的负面影响往往比抽动本身更大。
+  - 罕见并发症包括因强力头部动作导致的眼伤、椎间盘损伤等物理伤害。
+  must_warn: []
+- id: TIC_CULTURE_SEX
+  title: 性别与文化差异
+  source_page: 97
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 男性患病率高于女性（2:1至4:1），但抽动类型、起病年龄和病程无性别差异。
+  - 女性慢性抽动患者更易出现焦虑和抑郁。
+  - 文化背景影响抽动的认知和就医行为，如韩国样本对抽动患者的社会距离更大。
+  must_warn: []

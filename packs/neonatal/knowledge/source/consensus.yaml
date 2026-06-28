@@ -1,0 +1,746 @@
+domain_map:
+  vomiting: "新生儿呕吐"
+  uti: "新生儿泌尿系感染"
+  sepsis: "新生儿败血症"
+  pneumonia: "新生儿感染性肺炎"
+
+consensus:
+  # ─── 新生儿呕吐（V01-V21）共21条 ───────────────────────
+  - id: V01
+    domain: vomiting
+    title: 鉴别生理性溢乳与病理性呕吐
+    source_page: 2
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      新生儿呕吐评估需首先区分生理性溢乳与病理性呕吐。新生儿因胃容量小、食管下端括约肌发育不完善，
+      易发生溢乳，通常无需干预。若出现呕吐量多、频次增多、异常呕吐物（咖啡样、胆汁样、粪便样）等任一
+      症状为病理性呕吐，可伴随异常腹部体征和严重全身症状。
+    key_points:
+      - 生理性溢乳无需干预，约6个月自行消失
+      - 病理性呕吐：量大、频繁、含咖啡样/胆汁样/粪便样成分
+      - 喷射性呕吐提示幽门梗阻等外科疾病
+      - 腹部异常体征：膨隆、压痛、反跳痛、肿块、肠鸣音异常
+
+  - id: V02
+    domain: vomiting
+    title: 呕吐病因分类
+    source_page: 2
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      新生儿呕吐病因复杂，一般可分为内科性呕吐和外科性呕吐两大类型，其中内科性呕吐占80%~90%。
+
+  - id: V03
+    domain: vomiting
+    title: 内科性呕吐常见病因
+    source_page: 3
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      内科性呕吐常见于：喂养不当（乳头内陷、奶嘴孔径过大、喂奶过多过频）、胃食管反流、肠道感染、
+      过敏性胃肠道疾病，以及全身性疾病（颅内压增高、肠道外感染、代谢紊乱、先天性遗传代谢性疾病）。
+    key_points:
+      - 喂养不当是最常见可纠正原因
+      - 败血症/脑膜炎/UTI等肠道外感染也可引起呕吐
+      - 低血糖、低钙血症等代谢紊乱需排查
+      - 先天性遗传代谢病（如肾上腺皮质增生、苯丙酮尿症）要考虑
+
+  - id: V04
+    domain: vomiting
+    title: 外科性呕吐常见病因
+    source_page: 3
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      外科性呕吐病因包括：消化道发育异常（食管闭锁、先天性肥厚性幽门狭窄、肠旋转不良、先天性巨结肠等）、
+      急腹症（坏死性小肠结肠炎、消化道穿孔、肠套叠）及神经系统外科疾病（颅内出血）。
+
+  - id: V05
+    domain: vomiting
+    title: 内外科呕吐鉴别要点
+    source_page: 3
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      依据病史、呕吐类型、发病时间、伴随症状、相应体征及辅助检查结果鉴别内科性与外科性呕吐。
+      生后7 d内发病重点考虑食管闭锁、咽下综合征、胃食管反流；7 d后考虑幽门狭窄、肠梗阻、NEC。
+    key_points:
+      - 呕吐物含胆汁/粪便 → 高度怀疑外科疾病
+      - 喷射性呕吐 → 幽门梗阻
+      - 腹部可触及橄榄状肿块 → 幽门肥厚
+      - 便血、腹部高度膨隆、血压异常 → 外科急腹症
+
+  - id: V06
+    domain: vomiting
+    title: 内科性呕吐特征
+    source_page: 3
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      内科性呕吐主要表现为呕吐胃内容物（奶汁或咖啡样物），呕吐物不含胆汁或粪便成分，无肠梗阻表现。
+      若伴全身症状（发热、惊厥、喂养困难、发绀），需考虑全身性疾病。
+
+  - id: V07
+    domain: vomiting
+    title: 外科性呕吐临床特征
+    source_page: 3
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      若出现反复呕吐或喷射性呕吐、呕吐物含胆汁或粪便、呕吐量大、有肠梗阻表现，需考虑外科性呕吐；
+      合并惊厥、意识障碍者需除外颅内病变。
+
+  - id: V08
+    domain: vomiting
+    title: 外科急腹症预警信号
+    source_page: 3
+    evidence_quality: 专家共识
+    recommendation_strength: 强推荐
+    recommendation: >
+      新生儿出现胆汁样或粪便样异常呕吐物，并伴有痛苦或淡漠表情、面色苍灰、便血、腹部高度膨隆或
+      腹肌紧张、腹股沟包块难以还纳、血压异常等时，需警惕外科急腹症，立即转诊。
+
+  - id: V09
+    domain: vomiting
+    title: 辅助检查原则
+    source_page: 3
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      应根据拟诊疾病选择相应检查项目。若考虑外科性疾病，应先进行影像学检查。
+
+  - id: V10
+    domain: vomiting
+    title: 影像学检查
+    source_page: 4
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      影像学检查包括腹部正侧位平片/立位片、腹部超声、消化道造影。胃肠道超声简便快捷、无辐射、无时间
+      限制，建议优先选择。高度腹胀、怀疑穿孔及血便时禁用胃肠造影。
+    key_points:
+      - 腹部超声：首选，可检测肠道蠕动及血运
+      - 立位平片：气液平面提示梗阻，游离气体提示穿孔
+      - 疑颅内疾病：颅脑MRI（首选），颅内出血可选CT
+
+  - id: V11
+    domain: vomiting
+    title: 实验室检查
+    source_page: 4
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      实验室检查包括血常规、CRP、电解质检测、葡萄糖测定、血气分析、粪便常规、病原体检测等。
+      疑诊遗传代谢病时需进行血氨、同型半胱氨酸、串联质谱及基因检测。
+
+  - id: V12
+    domain: vomiting
+    title: 内科性呕吐处理原则
+    source_page: 4
+    evidence_quality: 专家共识
+    recommendation_strength: 强推荐
+    recommendation: >
+      首先评估严重程度及病因，及时纠正水电解质紊乱，采取针对性对症支持治疗及病因治疗。
+      重度呕吐或喂养不耐受者暂停喂养，给予肠外营养直至呕吐控制。抗菌药物治疗针对感染病因（败血症、
+      脑膜炎、UTI）。止吐药在新生儿中应谨慎使用，优先处理病因。
+    key_points:
+      - 感染性病因：参考败血症/UTI共识，及时使用抗生素
+      - 胃食管反流轻度：体位治疗（头高30-45°，右侧卧位）+ 少量多餐
+      - 胃食管反流重症（呼吸暂停/体重不增）：可考虑H2受体拮抗剂/质子泵抑制剂
+      - 频繁呕吐脱水：及时补液，维持水电解质平衡
+
+  - id: V13
+    domain: vomiting
+    title: 喂养管理
+    source_page: 4
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      病情允许可经胃肠道喂养者，母乳喂养是首选，少量多餐并调整喂养姿势（右侧卧，头部抬高30-45°）。
+      牛奶蛋白过敏及先天性遗传代谢性疾病患儿，应给予相应特殊配方乳。
+
+  - id: V14
+    domain: vomiting
+    title: 外科性呕吐处理
+    source_page: 5
+    evidence_quality: 专家共识
+    recommendation_strength: 强推荐
+    recommendation: >
+      外科疾病引起的新生儿呕吐通常与机械性梗阻或解剖结构异常有关，需紧急评估、尽快明确病因、及时诊治。
+      食管裂孔疝、胃扭转可先采用体位疗法（内科保守治疗）；其他外科疾病需尽早手术。
+
+  - id: V16
+    domain: vomiting
+    title: 外科急腹症紧急处理
+    source_page: 5
+    evidence_quality: 专家共识
+    recommendation_strength: 强推荐
+    recommendation: >
+      采取禁食、胃肠减压、抗感染、补液、纠酸、扩容等措施，有条件者请儿外科会诊，立即转诊至有救治能力
+      的上级医院（有新生儿外科条件的三级医院）。
+
+  - id: V18
+    domain: vomiting
+    title: 呕吐护理与体位
+    source_page: 5
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      根据患儿实际情况选择合适体位：上半身抬高并取右侧卧位（30-45°），避免呕吐物吸入导致窒息或吸入性
+      肺炎。少量多次喂养，喂奶后竖抱轻拍背部排气，注意奶嘴开孔大小。呕吐频繁者保持颈部及耳部干燥。
+
+  - id: V20
+    domain: vomiting
+    title: 呕吐转诊指征
+    source_page: 5
+    evidence_quality: 专家共识
+    recommendation_strength: 强推荐
+    recommendation: >
+      基层机构技术受限无法确诊，或出现外科性呕吐时，应及时启动转诊。急腹症、代谢危象、生命体征不稳定
+      或怀疑神经系统疾病的急危重症患儿，应尽早通过危重新生儿转运系统转诊至上级医院。
+
+  # ─── 新生儿泌尿系感染（U01-U17）共17条 ─────────────────
+  - id: U01
+    domain: uti
+    title: UTI高危因素
+    source_page: 2
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      男婴、泌尿系畸形、早产儿、长时间住院、侵入性操作等是新生儿UTI的高危因素。
+      0-6月龄男婴UTI发病率5.3%，女婴2%。
+    key_points:
+      - 男婴发病率高于女婴（早期）
+      - 包茎、尿路畸形易导致上行感染
+      - 早产儿免疫低下+导尿等有创操作增加风险
+
+  - id: U02
+    domain: uti
+    title: UTI临床表现
+    source_page: 2
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      新生儿UTI临床表现以全身症状为主，缺乏特异性。多为血行感染，表现为发热、体重不增、黄疸、
+      嗜睡、呕吐、腹泻和喂养困难等。发热可能是唯一症状，无其他原因的发热要排查UTI，同时需排除
+      并发脑膜炎。早产儿还易出现呼吸暂停和发绀。
+
+  - id: U03
+    domain: uti
+    title: UTI最常见致病菌
+    source_page: 2
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      新生儿UTI最常见致病菌是大肠埃希菌（占80%~90%）。早产儿UTI多为院内感染，最常见为肠球菌属
+      （20%）和大肠埃希菌（19%）。复杂性UTI还可见奇异变形杆菌、铜绿假单胞菌。
+
+  - id: U04
+    domain: uti
+    title: UTI实验室检查
+    source_page: 2
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      最常用实验室检查是尿常规和尿培养。尿液沉淀后WBC>10/HPF或不离心尿WBC>5/HPF即应怀疑UTI，
+      但10%患儿尿白细胞正常仍可能为UTI。尿培养菌落计数>10^5 CFU/mL确诊感染，10^4~10^5可疑，
+      <10^4多为污染。耻骨上膀胱穿刺所获尿液，任何菌落计数均提示感染。
+    key_points:
+      - 试纸亚硝酸盐+白细胞酯酶联合可提高特异度和灵敏度
+      - 同时查血常规、CRP、PCT、IL-6及血培养
+      - 高度怀疑UTI传统方法难获证据时可送tNGS
+
+  - id: U05
+    domain: uti
+    title: UTI影像学检查
+    source_page: 2
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      首选肾脏和膀胱超声（评估肾脏大小、集合系统扩张、结构异常）。首次UTI发作需完成肾脏超声，
+      发热性UTI要在24 h内完成。超声异常、非大肠埃希菌感染或复发性UTI者，需进行排泄性膀胱尿路造影
+      以排除膀胱输尿管反流。
+
+  - id: U06
+    domain: uti
+    title: 尿常规标本留取
+    source_page: 3
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      尿常规标本在清洁外生殖器后粘附集尿袋留取（污染率50%~60%，阴性可排除UTI）。
+      清洁中段尿污染率约26%，阴性也有助于排除。
+
+  - id: U07
+    domain: uti
+    title: 尿培养标本留取
+    source_page: 3
+    evidence_quality: 专家共识
+    recommendation_strength: 强推荐
+    recommendation: >
+      尿培养标本采用清洁导尿技术（污染率约10%，前3 mL尿液丢弃）。有条件的单位可采取超声引导下
+      经耻骨上膀胱穿刺留取（污染率1%，为金标准）。给予抗感染治疗前必须规范留取标本。
+
+  - id: U08
+    domain: uti
+    title: UTI疑似诊断标准
+    source_page: 4
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      新生儿UTI疑似诊断的依据：存在感染的临床表现（发热、喂养困难、黄疸等）+ 尿常规白细胞计数增加。
+
+  - id: U09
+    domain: uti
+    title: UTI确诊标准
+    source_page: 4
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      新生儿UTI确诊的依据：尿培养阳性（导尿标本>10^5 CFU/mL，耻骨上穿刺标本任何计数）。
+
+  - id: U10
+    domain: uti
+    title: UTI抗感染时机
+    source_page: 4
+    evidence_quality: 专家共识
+    recommendation_strength: 强推荐
+    recommendation: >
+      新生儿疑似UTI时应尽早开始抗生素治疗（留取尿培养标本后立即开始）。延迟治疗与永久性肾瘢痕形成
+      相关。恰当抗感染治疗48 h后未达预期效果，需重新进行尿培养或送检tNGS。
+
+  - id: U11
+    domain: uti
+    title: UTI经验性与靶向治疗
+    source_page: 4
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      病原不明时给予经验性抗生素治疗（覆盖大肠埃希菌等革兰氏阴性杆菌和革兰氏阳性球菌）。
+      推荐静脉给予第三代头孢菌素和氨苄西林；耐药菌可选碳青霉烯类；凝固酶阴性葡萄球菌/金黄色葡萄球菌/
+      肠球菌感染可选万古霉素或替考拉宁。病原明确后根据药敏结果调整用药。
+
+  - id: U12
+    domain: uti
+    title: UTI抗感染疗程
+    source_page: 4
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      抗感染疗程为10~14 d，全程静脉用药。合并泌尿系畸形或耐药菌/真菌感染需根据培养结果延长疗程。
+      明确存在严重泌尿系畸形者，出院后需常规口服阿莫西林克拉维酸钾预防UTI，直至畸形被矫正。
+
+  - id: U13
+    domain: uti
+    title: 早产儿UTI特点
+    source_page: 4
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      早产儿UTI主要是院内感染，怀疑早产儿晚发型败血症时，需同时进行尿培养，以免漏诊UTI。
+
+  - id: U14
+    domain: uti
+    title: 早产儿UTI抗感染方案
+    source_page: 5
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      早产儿UTI抗感染强调个体化用药。针对院内获得性UTI，病原明确前经验性选用"第三代头孢菌素+万古霉素
+      （或替考拉宁）"，或参照本地病原药敏优先选窄谱药物联用。高度怀疑多重耐药革兰氏阴性菌时可选碳青霉烯类
+      （怀疑颅内感染时选美罗培南）。
+
+  - id: U15
+    domain: uti
+    title: UTI出院标准
+    source_page: 5
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      出院标准：感染的临床表现消失、尿常规检查正常、尿培养转阴。正常治疗24~48 h后体温恢复正常，
+      90%病例尿液3~4 d内无菌。临床正常后仍需完成10~14 d疗程，避免复发。
+
+  - id: U16
+    domain: uti
+    title: UTI预后与随访
+    source_page: 5
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      新生儿UTI大部分预后良好，合并泌尿系畸形者易复发。出院后门诊随访（出院后1周、4周随访，以后每月
+      至6月龄）。随访内容：尿常规、尿培养、血常规、CRP、生长发育，必要时复查泌尿系超声。
+
+  - id: U17
+    domain: uti
+    title: UTI转诊指征
+    source_page: 5
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      转诊指征：存在重症感染表现（反复呕吐、脱水、体温>39℃）、复发性UTI、明确存在泌尿系畸形、
+      抗菌药物治疗效果不佳。
+
+  # ─── 新生儿败血症（S01-S19）共19条 ─────────────────────
+  - id: S01
+    domain: sepsis
+    title: EOS高危因素与处理
+    source_page: 2
+    evidence_quality: 专家共识
+    recommendation_strength: 强推荐
+    recommendation: >
+      存在任何EOS危险因素（羊膜腔内感染确诊/疑似、胎膜早破≥18 h等），建议生后立即进行全面体格检查
+      和临床评估，并经验性应用抗菌药物，同时进行实验室筛查。
+    key_points:
+      - EOS（早发型败血症）定义：发病时间≤3日龄
+      - LOS（晚发型败血症）定义：发病时间>3日龄
+      - 胎龄≥35周合并：羊膜腔内感染确诊/疑似，或PROM≥18 h
+      - 胎龄<35周合并：羊膜腔内感染，或PROM引起的早产
+
+  - id: S02
+    domain: sepsis
+    title: LOS高危因素
+    source_page: 2
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      LOS高危因素包括早产/低出生体重、有创诊疗措施（机械通气、中心静脉置管、脐血管置管）、不合理使用
+      抗菌药物等，但不作为经验性使用或延长抗菌药物的适应证。胎龄<28周早产儿LOS发生风险是足月儿10~30倍。
+      基层医师需询问不洁处理脐带、挑马牙、挤乳房、挤痈疖等社区感染高危因素。
+
+  - id: S03
+    domain: sepsis
+    title: 败血症临床表现
+    source_page: 3
+    evidence_quality: 专家共识
+    recommendation_strength: 强推荐
+    recommendation: >
+      新生儿败血症无特异性临床表现，可涉及多个脏器，需密切观察，一旦出现疑似感染症状立即进行全面
+      体格检查和评估。包括：呼吸暂停、心率异常、皮肤花纹、反应差/激惹、拒奶/腹胀/呕吐、少尿、体温异常
+      （≥38°C或<36°C）、代谢性酸中毒、无法解释的低血糖/高血糖。
+
+  - id: S04
+    domain: sepsis
+    title: 高危临床表现（立即用药指征）
+    source_page: 3
+    evidence_quality: 专家共识
+    recommendation_strength: 强推荐
+    recommendation: >
+      休克征象（面色苍白、四肢厥冷、低血压或毛细血管充盈时间>3 s）、需要心肺复苏，以及生后3 d内或
+      病情变化需接受有创机械通气，是感染的高危临床表现，应立即经验性使用抗菌药物。
+
+  - id: S05
+    domain: sepsis
+    title: 非特异性实验室检查
+    source_page: 3
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      非特异性检查包括WBC、I/T比值、PLT、CRP、PCT。单一检查在EOS中诊断价值有限，不作为抗菌药物
+      使用依据，但在指导LOS诊疗及EOS抗菌药物停用方面有价值。CRP间隔18~24 h两次阴性对EOS阴性预测
+      价值高，可指导停用抗生素。
+    key_points:
+      - WBC异常标准：生后6h至3d内≥25×10^9/L；3d后≥20×10^9/L；任何日龄<5×10^9/L
+      - CRP异常：生后6h内≥3 mg/L；6~24h≥5 mg/L；24h后≥10 mg/L
+      - PLT≤100×10^9/L为异常，与预后不良有关
+      - I/T比值异常：出生至72h≥0.16；72h后≥0.12
+
+  - id: S06
+    domain: sepsis
+    title: 血培养（金标准）
+    source_page: 3
+    evidence_quality: 专家共识
+    recommendation_strength: 强推荐
+    recommendation: >
+      血培养是新生儿败血症确诊金标准，但EOS血培养阳性率仅4%左右，灵敏度低。建议每次抽血量不低于
+      1 mL。LOS中尿培养有诊断价值，需采用清洁导尿或耻骨上膀胱穿刺标本。
+
+  - id: S07
+    domain: sepsis
+    title: 脑脊液检查适应证
+    source_page: 3
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      腰椎穿刺适应证（满足任意1项）：①血培养阳性；②有临床表现且非特异性感染指标≥2项阳性；
+      ③抗感染治疗效果不佳；④神经系统症状高度怀疑颅内感染。
+      仅有实验室异常（不含血培养阳性）且无临床/神经系统表现者，不需常规腰穿。
+
+  - id: S08
+    domain: sepsis
+    title: EOS诊断标准
+    source_page: 4
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      EOS疑似诊断（生后≤72h）：具有临床表现，或具有EOS重要高危因素。
+      临床诊断：有临床表现+血液非特异性检查≥2项阳性，或CSF化脓性改变，或血/CSF检出病原菌DNA。
+      确诊：有临床表现+血培养或CSF（或其他无菌腔液）培养阳性。
+      注：90%以上EOS在生后24 h内出现症状。
+
+  - id: S09
+    domain: sepsis
+    title: LOS诊断标准
+    source_page: 4
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      LOS疑似诊断：生后>72h出现不能用现有疾病或已知原因解释的新发临床异常表现。
+      LOS中23%新生儿可能合并脑膜炎，需评估是否腰穿。
+
+  - id: S10
+    domain: sepsis
+    title: 抗菌药物应用基本原则
+    source_page: 4
+    evidence_quality: 专家共识
+    recommendation_strength: 强推荐
+    recommendation: >
+      疑似EOS或LOS时，应在留取病原学标本后立即开始经验性抗菌药物治疗（1 h内完成给药）。
+      在应用48~72 h内评估是否停药（排除诊断者必须停药）。确诊败血症抗菌药物疗程一般7~14 d。
+      血培养阴性且快速恢复者疗程可短至7 d（甚至5 d）。
+
+  - id: S12
+    domain: sepsis
+    title: EOS经验性抗菌药物
+    source_page: 5
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      EOS经验性一线方案："氨苄西林（或青霉素）+第三代头孢菌素"。不同地区应根据本地病原分布及
+      药敏试验结果选择具体种类。病情严重且有耐药风险者（母亲产前长疗程抗菌药物或明确耐药菌定植），
+      可选氨苄西林舒巴坦+头孢吡肟或美罗培南。
+
+  - id: S13
+    domain: sepsis
+    title: 社区获得性LOS经验性治疗
+    source_page: 5
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      社区获得性LOS（无明确局部感染灶）推荐单用第三代头孢菌素作为经验性用药。社区LOS病情严重程度
+      显著低于EOS及院内获得性LOS，预后较好。
+
+  - id: S14
+    domain: sepsis
+    title: 院内获得性LOS经验性治疗
+    source_page: 6
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      院内LOS经验性治疗以当地流行病学和抗菌谱为指导，联合窄谱抗菌药物覆盖革兰氏阴阳性菌。
+      高度怀疑耐药革兰氏阳性菌：万古霉素或替考拉宁（监测血药浓度）。腹腔感染（NEC相关）：
+      哌拉西林他唑巴坦（怀疑颅内感染时不选）。多重耐药革兰氏阴性菌：碳青霉烯类（亚胺培南或美罗培南）。
+
+  - id: S15
+    domain: sepsis
+    title: 病原明确后抗菌药物选择
+    source_page: 6
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      根据药敏试验结果及感染部位，尽量选择窄谱敏感抗菌药物，尽量单一用药。GBS确认后仅用氨苄西林或
+      青霉素即可。无局灶感染、无并发症确诊败血症通常7~14 d。
+
+  - id: S16
+    domain: sepsis
+    title: 合并脑膜炎抗菌药物选择
+    source_page: 7
+    evidence_quality: 专家共识
+    recommendation_strength: 推荐
+    recommendation: >
+      非院内感染脑膜炎：经验性选用"第三代头孢菌素（如头孢噻肟）+大剂量氨苄西林或青霉素"。
+      院内感染脑膜炎：万古霉素+美罗培南。脑脊液培养阳性者建议48~72 h后复查CSF培养。
+      革兰氏阳性菌脑膜炎疗程14~21 d（GBS至少21 d）；革兰氏阴性菌至少21 d或CSF正常后再14 d。
+
+  - id: S18
+    domain: sepsis
+    title: 败血症转诊指征
+    source_page: 7
+    evidence_quality: 专家共识
+    recommendation_strength: 强推荐
+    recommendation: >
+      转诊指征：①血培养或CSF培养抗感染治疗3 d后持续阳性，或CSF常规/生化复查异常加剧；
+      ②出现感染性休克，积极治疗好转不明显；③需要≥2种血管活性药物维持血压；④出现1个或多个脏器功能衰竭。
+
+  # ─── 新生儿感染性肺炎（P01-P18）共18条 ─────────────────
+  - id: P01
+    domain: pneumonia
+    title: 肺炎按时间分类
+    source_page: 2
+    evidence_quality: 良好实践声明(GPS)
+    recommendation_strength: 推荐
+    recommendation: >
+      新生儿感染性肺炎按发病时间分为早发型感染性肺炎（生后48h内或1周内）和晚发型感染性肺炎。
+
+  - id: P02
+    domain: pneumonia
+    title: 肺炎按感染途径分类
+    source_page: 2
+    evidence_quality: 中(B)
+    recommendation_strength: 强推荐(1B)
+    recommendation: >
+      新生儿感染性肺炎按感染途径分为：宫内感染性肺炎（羊水/胎盘传播）、出生时感染性肺炎（产道感染）、
+      出生后感染性肺炎（接触传播/血行传播/医源性感染）。
+
+  - id: P03
+    domain: pneumonia
+    title: 早发型肺炎危险因素
+    source_page: 2
+    evidence_quality: 中(B)
+    recommendation_strength: 强推荐(1B)
+    recommendation: >
+      早发型新生儿感染性肺炎危险因素：早产、低出生体重、母亲绒毛膜羊膜炎、胎膜早破（早产儿>18 h，
+      足月儿产程发动前破膜>24 h）、母亲GBS定植、母亲产时发热（≥38.0°C）。
+
+  - id: P04
+    domain: pneumonia
+    title: 晚发型肺炎危险因素
+    source_page: 3
+    evidence_quality: 中(B)
+    recommendation_strength: 强推荐(1B)
+    recommendation: >
+      晚发型感染性肺炎危险因素：早产、低出生体重、长时间机械通气、使用胃酸阻滞剂、气道畸形、
+      重度基础心肺疾病、住院时间较长、神经功能受损、接触有呼吸道感染的养护人员。
+
+  - id: P05
+    domain: pneumonia
+    title: 肺炎临床表现
+    source_page: 3
+    evidence_quality: 中(B)
+    recommendation_strength: 强推荐(1B)
+    recommendation: >
+      新生儿感染性肺炎临床表现不典型：体温不稳定、呼吸暂停、嗜睡、心动过速或过缓、灌注不良等非特异性
+      感染征象。早发型突出表现为出生时或出生后不久的呼吸窘迫；晚发型多表现为呼吸急促、喂养困难、黄疸、
+      呕吐、进乳呛咳、新发脓痰或痰性质改变、呼吸道分泌物增加及咳嗽。肺部听诊可有呼吸音粗糙或细湿啰音。
+
+  - id: P06
+    domain: pneumonia
+    title: 细菌性肺炎病原
+    source_page: 3
+    evidence_quality: 中(B)
+    recommendation_strength: 强推荐(1B)
+    recommendation: >
+      早发型细菌性肺炎大多由GBS和大肠埃希菌引起（GBS足月儿多见，大肠埃希菌早产儿多见）。晚发型病原体
+      受地区、抗生素使用、流行病学暴露影响；院内感染性肺炎需警惕机会致病菌及耐药菌（葡萄球菌、大肠埃希菌、
+      产超广谱β-内酰胺酶菌）。社区获得性肺炎主要为病毒（RSV、腺病毒等）。
+
+  - id: P07
+    domain: pneumonia
+    title: 病毒性肺炎病原
+    source_page: 3
+    evidence_quality: 中(B)
+    recommendation_strength: 强推荐(1B)
+    recommendation: >
+      病毒性肺炎病原：单纯疱疹病毒、巨细胞病毒（CMV）、肠道病毒、副肠孤病毒、呼吸道合胞病毒（RSV）、
+      SARS-CoV-2及流感病毒、副流感病毒、腺病毒等。HSV肺炎可进展为出血性肺炎，CMV可经母乳传播。
+
+  - id: P08
+    domain: pneumonia
+    title: 不典型病原体
+    source_page: 3
+    evidence_quality: 高(A)
+    recommendation_strength: 强推荐(1A)
+    recommendation: >
+      需要注意不典型病原体引起的新生儿感染性肺炎：沙眼衣原体（生后2周后发病）、脲原体（与BPD及脑膜炎
+      相关）、肺炎支原体及百日咳鲍特菌。
+
+  - id: P09
+    domain: pneumonia
+    title: 病原学检查
+    source_page: 4
+    evidence_quality: 高(A)
+    recommendation_strength: 强推荐(1A)
+    recommendation: >
+      病原学检查包括：下呼吸道/肺泡灌洗液培养（金标准，建议留取下呼吸道样本）、鼻咽样本和血液的
+      抗原/抗体检测及核酸扩增试验（NAAT）。重症患儿常规检查阴性且治疗3 d无效，有条件可送宏基因组
+      二代测序（首选肺泡灌洗液）。痰涂片镜检与培养一致具有重要参考价值。
+
+  - id: P10
+    domain: pneumonia
+    title: 影像学检查
+    source_page: 4
+    evidence_quality: 低(C)
+    recommendation_strength: 弱推荐(2C)
+    recommendation: >
+      诊断性影像学检查：胸部X线（首选，细菌性肺炎表现为两肺弥漫模糊影或点片状浸润影，病毒性以间质
+      病变/肺气肿多见）及肺部超声（良好灵敏度和特异度，特征性表现为肺实变伴支气管充气征）。
+      胸部CT不常规使用，仅当临床/影像学结果不一致或怀疑气道/肺部畸形时考虑。
+
+  - id: P11
+    domain: pneumonia
+    title: 诊断依据
+    source_page: 4
+    evidence_quality: 良好实践声明(GPS)
+    recommendation_strength: 推荐
+    recommendation: >
+      新生儿感染性肺炎诊断需结合：①高危因素；②临床表现（发热、呼吸急促/窘迫、呼吸暂停、肺部啰音）；
+      ③影像学（胸片示浸润影，超声示肺实变）；④实验室检查（WBC/CRP/PCT异常，病原学阳性）。
+      影像学改变未在48 h内消失。新生儿出生后8~12h内气管抽吸物培养有助于宫内感染性肺炎诊断。
+
+  - id: P12
+    domain: pneumonia
+    title: 鉴别诊断
+    source_page: 4
+    evidence_quality: 高(A)
+    recommendation_strength: 强推荐(1A)
+    recommendation: >
+      需与所有引起新生儿呼吸窘迫的疾病鉴别：新生儿暂时性呼吸增快（晚期早产儿/足月剖宫产儿，
+      12~24 h后恢复）、新生儿呼吸窘迫综合征（早产儿，PS治疗有效）、胎粪吸入综合征、先天性心脏病。
+
+  - id: P13
+    domain: pneumonia
+    title: 细菌性肺炎抗感染治疗
+    source_page: 5
+    evidence_quality: 良好实践声明(GPS)
+    recommendation_strength: 推荐
+    recommendation: >
+      怀疑细菌性肺炎，在获得培养结果前根据发病时间及流行病史启动经验性抗生素治疗，明确病原后按药敏调整。
+      早发型：氨苄西林（或青霉素）+第三代头孢菌素。晚发型院内感染：万古霉素（或替考拉宁）+第三代头孢菌素
+      （或参照本地药敏）。培养阴性者：经验性IV抗生素治疗至少48~72 h；高度提示肺炎则治疗7~10 d（研究显示5 d安全）。
+      常见病原菌用药：B族链球菌→氨苄西林或青霉素；大肠埃希菌（氨苄西林耐药）→头孢类；耐甲氧西林金黄色葡萄球菌→
+      万古霉素；衣原体/支原体→红霉素或阿奇霉素；HSV→阿昔洛韦；CMV→更昔洛韦；流感→奥司他韦。
+
+  - id: P15
+    domain: pneumonia
+    title: 不典型病原体肺炎治疗
+    source_page: 5
+    evidence_quality: 高(A)
+    recommendation_strength: 强推荐(1A)
+    recommendation: >
+      脲原体肺炎和衣原体肺炎：首选红霉素，红霉素耐药者用阿奇霉素。
+
+  - id: P16
+    domain: pneumonia
+    title: 呼吸支持
+    source_page: 6
+    evidence_quality: 中(B)
+    recommendation_strength: 弱推荐(2B)
+    recommendation: >
+      出现低氧血症及呼吸衰竭时给予吸氧或呼吸支持。基层可选鼻导管、头罩、面罩及暖箱内供氧。
+      有条件可用经鼻高流量氧疗（初始FiO2 30%~40%，初始流量3~8 L/min）。
+      首选nCPAP（经鼻持续气道正压通气）。有创呼吸支持指征：nCPAP压力>6 cmH2O且FiO2>30%仍SpO2<93%。
+    key_points:
+      - 监测SpO2和血气，防止低氧和高氧损伤
+      - 依赖呼吸机者新发脓性分泌物提示肺炎
+      - 机械通气模式根据病情个体化选择
+
+  - id: P17
+    domain: pneumonia
+    title: 氧合监测
+    source_page: 6
+    evidence_quality: 良好实践声明(GPS)
+    recommendation_strength: 推荐
+    recommendation: >
+      对接受辅助供氧治疗的新生儿进行氧合状态及肺部气体交换有效性监测，防止低氧和高氧损伤。
+      推荐脉搏血氧仪监测，辅以动脉血气分析。
+
+  - id: P18
+    domain: pneumonia
+    title: 重症肺炎转诊指征
+    source_page: 6
+    evidence_quality: 良好实践声明(GPS)
+    recommendation_strength: 强推荐
+    recommendation: >
+      重症肺炎转诊指征（满足任意1项）：一般情况差、拒食或脱水征、意识障碍、呼吸频率明显增快（>70次/min）、
+      发绀、呼吸困难、SpO2≤92%（海平面）或<90%（高原）、多肺叶或单肺叶≥2/3受累、胸腔积液、肺外并发症、
+      生命体征不稳定需要高级生命支持。需结合实际情况综合评估转运风险。

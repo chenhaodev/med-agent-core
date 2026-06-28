@@ -1,0 +1,118 @@
+specialty: feeding_eating
+specialty_zh: 喂食及进食障碍
+disease: bulimia
+disease_zh: 神经性贪食
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: BN_CORE
+  title: 核心特征（三要素）
+  source_page: 387
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 反复暴食：短时间内吃下明显超常量食物，且感到无法控制。
+  - 反复采取不当代偿行为（如自行催吐、滥用泻药、禁食、过度运动）以防体重增加。
+  - 自我评价过分受体型和体重影响，极度关注体形。
+  - 暴食与代偿行为平均每周至少1次，持续3个月才能诊断。
+  must_warn: []
+- id: BN_CRITERIA
+  title: DSM-5诊断标准
+  source_page: 386
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A. 反复暴食发作：1) 短时间内吃异常大量食物；2) 发作时感到失控。
+  - B. 反复不当代偿行为（催吐、滥用泻药、禁食、过度运动等）以防体重增加。
+  - C. 暴食与代偿行为平均每周≥1次，持续3个月。
+  - D. 自我评价过度受体型和体重影响。
+  - E. 此障碍并非仅发生在神经性厌食症期间。
+  must_warn: []
+- id: BN_SEVERITY
+  title: 严重程度分级
+  source_page: 387
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 根据每周不当代偿行为次数分级：轻度1-3次，中度4-7次，重度8-13次，极重度≥14次。
+  - 严重程度也可结合其他症状和功能损害综合判断。
+  must_warn: []
+- id: BN_PREVALENCE
+  title: 患病率
+  source_page: 390
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国成人12月患病率0.14%-0.3%，女性远高于男性（0.22%-0.5% vs 0.05%-0.1%）。
+  - 美国青少年（13-18岁）终生患病率：女孩1.3%，男孩0.5%。
+  - 高收入工业化国家患病率最高；拉丁美洲和中东部分国家也较高。
+  - 中低收入国家患病率似乎逐渐上升。
+  must_warn: []
+- id: BN_COURSE
+  title: 起病与病程
+  source_page: 391
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见于青春期或成年早期，青春期前或40岁后起病少见。
+  - 暴食常始于节食减肥之后；多重生活压力可诱发。
+  - 病程可慢性或间歇性，长期随访症状多减轻；完全缓解>1年提示远期结局较好。
+  - 少数患者（10%-15%）会转变为神经性厌食症，且可能再变回。
+  - 死亡率约每十年2%，自杀风险显著升高。
+  must_warn: []
+- id: BN_RISK
+  title: 风险与预后因素
+  source_page: 391
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 气质：体重担忧、低自尊、抑郁、社交焦虑、儿童期广泛性焦虑增加风险。
+  - 环境：内化“瘦理想”、儿童期性虐待或躯体虐待增加风险。
+  - 遗传生理：儿童期肥胖、早熟、家族遗传和遗传易感性增加风险。
+  - 病程调节：精神共病严重程度预示较差长期结局。
+  must_warn: []
+- id: BN_DIFFERENTIAL
+  title: 鉴别诊断
+  source_page: 392
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与神经性厌食症暴食/清除型区分：若暴食仅发生在厌食症期间，应诊断为厌食症。
+  - 与暴食障碍区分：暴食障碍无规律代偿行为。
+  - 与Kleine-Levin综合征区分：该综合征有进食异常但无对体形的过度关注。
+  - 与伴非典型特征的重性抑郁区分：抑郁症可暴食但无代偿行为和对体形的过度关注。
+  - 与边缘型人格障碍区分：暴食可以是冲动行为，但可同时诊断。
+  must_warn: []
+- id: BN_COMORBIDITY
+  title: 常见共病
+  source_page: 393
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 多数患者共病至少一种其他精神障碍，常见抑郁障碍（常同时或之后出现）和焦虑障碍。
+  - 物质使用障碍（尤其是酒精和兴奋剂）终生患病率至少30%，兴奋剂常被用于控制食欲。
+  - 部分患者具有边缘型人格障碍特征。
+  - 焦虑和抑郁症状常在神经性贪食有效治疗后缓解。
+  must_warn: []
+- id: BN_SUICIDE
+  title: 自杀与自伤风险
+  source_page: 392
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 神经性贪食患者自杀风险显著升高。
+  - 研究发现约1/4至1/3有过自杀意念，类似比例有过自杀企图。
+  - 死亡率显著升高，包括自杀和全因死亡。
+  - 需警惕患者的自杀意念和行为，及时干预。
+  must_warn:
+  - 本障碍与显著的自杀风险相关。如患者有自杀想法或行为，应立即寻求专业帮助或拨打危机热线。
+- id: BN_SIGNS
+  title: 体征与实验室异常
+  source_page: 392
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 反复呕吐可致牙齿釉质侵蚀（门牙舌侧）、唾液腺肿大、手背部疤痕（刺激咽反射所致）。
+  - 实验室异常：低钾（可致心律失常）、低氯、低钠；呕吐致代谢性碱中毒，滥用泻药/利尿剂致代谢性酸中毒。
+  - 血清淀粉酶轻度升高（唾液同工酶增加）。
+  - 反复使用吐根糖浆催吐可致严重心肌病和骨骼肌病。
+  must_warn: []

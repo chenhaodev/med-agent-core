@@ -1,0 +1,85 @@
+specialty: disruptive
+specialty_zh: 破坏性、冲动控制及品行障碍
+disease: odd
+disease_zh: 对立违抗障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: ODD_DEFINITION
+  title: 对立违抗障碍核心特征
+  source_page: 524
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 核心是一种持续的愤怒/易怒心境、争辩/对抗行为或报复性模式
+  - 症状可仅局限于一个场景（最常见是家庭），但严重时扩展至多个场景
+  - 个体通常不认为自己愤怒或对立，常将行为归咎于环境
+- id: ODD_CRITERIA
+  title: 主要诊断标准
+  source_page: 523
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 必须持续至少6个月，出现至少4项症状，且只针对非兄弟姐妹的人表现
+  - 症状分为三类：愤怒/易怒心境（3条）、争辩/对抗行为（4条）、报复性（1条）
+  - 5岁以下儿童症状应大多数天出现；5岁及以上每周至少一次，持续6个月
+  - 行为必须引起本人或他人的痛苦，或导致社交、学业等功能损害
+  - 症状不能仅出现在精神病性、物质滥用、抑郁、双相或破坏性心境失调障碍期间
+- id: ODD_PREVALENCE
+  title: 患病率
+  source_page: 524
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 跨国患病率1%～11%，平均约3.3%
+  - 青春期前男孩多于女孩（比例约1.59:1），青少年和成人中性别差异不恒定
+- id: ODD_ONSET_COURSE
+  title: 起病与病程
+  source_page: 525
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 首症通常在学龄前（极少晚于青春期早期）出现
+  - 常先于品行障碍，但多数对立违抗儿童不会发展为品行障碍
+  - 愤怒/易怒症状主要增加未来心境和焦虑障碍风险；争辩/报复症状主要增加品行障碍风险
+  - 儿童期持续存在会导致成人期功能损害（人际关系、教育、工作等）和其他精神问题
+- id: ODD_RISK_PROGNOSIS
+  title: 风险与预后因素
+  source_page: 525
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 气质因素：情绪调节困难、高反应性、挫折耐受差
+  - 环境因素：严厉、不一致或忽视的教养方式，多次更换照料者
+  - 患儿既可能欺凌他人也易被欺凌
+  - 神经生物学标记：心率低、皮肤电反应低、皮质醇反应低、前额叶及杏仁核异常
+  - 遗传与抑郁、广泛性焦虑有重叠影响
+- id: ODD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 526
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与品行障碍区别：对立违抗行为较轻，不含对人或动物的攻击、毁物或偷窃欺骗
+  - 与适应障碍区别：症状与应激源相关且应激源缓解后不超过6个月
+  - 与PTSD区别：年幼儿童需考虑创伤事件和创伤游戏表现
+  - 与ADHD区别：不服从行为不仅仅发生在需要持续注意力或静坐的情境
+  - 与抑郁/双相障碍区别：若症状仅出现在心境障碍发作期，不单独诊断OOD
+  - 与DMDD区别：若符合DMDD标准，即使满足OOD标准也不诊断OOD
+- id: ODD_COMORBIDITY
+  title: 常见共病
+  source_page: 527
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常共病ADHD（可能因共同气质风险因素），对立违抗常先于品行障碍
+  - 增加焦虑障碍和重性抑郁障碍风险，主要与愤怒/易怒症状相关
+  - 与DMDD高度共病，但DMDD标准优先，不另做OOD诊断
+- id: ODD_SUICIDE_RISK
+  title: 自杀风险
+  source_page: 524
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 对立违抗障碍与自杀尝试风险增加有关，即使控制其他共病障碍后
+  must_warn:
+  - 对立违抗障碍与自杀尝试风险增加有关，即使控制其他共病障碍后

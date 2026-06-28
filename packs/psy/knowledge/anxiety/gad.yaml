@@ -1,0 +1,105 @@
+specialty: anxiety
+specialty_zh: 焦虑障碍
+disease: gad
+disease_zh: 广泛性焦虑障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: GAD_CORE_FEATURE
+  title: 核心特征与定义
+  source_page: 251
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 本质是对多个事件或活动的过度焦虑和担忧，强度、持续时间或频率远超实际可能性。
+  - 个体难以控制担忧，且担忧常涉及日常琐事（如工作、健康、家庭、小事）。
+  - 与普通焦虑的区别：更严重、更广泛、更持久、常伴躯体症状，明显损害社会功能。
+  must_warn: []
+- id: GAD_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准
+  source_page: 251
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 至少6个月中多数日子存在过度焦虑和担忧，涉及多个事件。
+  - 个体难以控制担忧。
+  - 伴有至少3项躯体症状（儿童仅需1项）：坐立不安、易疲劳、注意力难集中或脑子空白、易怒、肌肉紧张、睡眠问题。
+  - 症状导致临床显著痛苦或社交、职业等重要功能损害。
+  - 排除物质（如药物、毒品）或躯体疾病（如甲亢）所致，也非其他精神障碍更佳解释。
+  must_warn: []
+- id: GAD_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 252
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国成人12月患病率约2.9%，青少年0.9%；全球平均1.3%（0.2%–4.3%）。
+  - 美国终生患病风险约9.0%。
+  - 女性患病率至少是男性的2倍。
+  - 欧洲裔患病率高于亚裔和非裔；高收入国家高于中低收入国家。
+  must_warn: []
+- id: GAD_DEVELOPMENT_COURSE
+  title: 起病与病程特征
+  source_page: 252
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 北美平均发病年龄约35岁，晚于其他焦虑障碍，极少在青春期前发病。
+  - 症状常呈慢性波动，完全缓解率很低。
+  - 越早发病，共病和功能损害越重。
+  - 担忧内容随年龄变化：儿童关注学业/运动表现，老年人常担忧慢性疾病和跌倒。
+  must_warn: []
+- id: GAD_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 253
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 气质因素：行为抑制、负性情感（神经质）、伤害回避、奖赏依赖、对威胁的注意偏向。
+  - 遗传因素：约三分之一的风险来自遗传，与神经质和其他焦虑、抑郁障碍共享。
+  - 环境因素：童年逆境、过度保护/过度控制、回避行为的强化。
+  must_warn: []
+- id: GAD_COMORBIDITY
+  title: 常见共病模式
+  source_page: 254
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 女性共病主要限于焦虑障碍和单相抑郁。
+  - 男性共病更可能扩展至物质使用障碍。
+  - 越早发病，共病比例和损害程度越高。
+  must_warn: []
+- id: GAD_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 254
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与社交焦虑障碍：担忧是否被评价，GAD担忧不限于社交情境。
+  - 与分离焦虑障碍：GAD的担忧不限于分离。
+  - 与惊恐障碍：GAD中由担忧诱发的惊恐发作不诊断为惊恐障碍。
+  - 与强迫症：GAD担忧未来问题，强迫症是闯入性想法/冲动。
+  - 与创伤后应激障碍：焦虑已被PTSD症状解释时不诊断GAD。
+  - 与疾病焦虑/躯体症状障碍：GAD担忧健康但不止于此。
+  must_warn: []
+- id: GAD_SUICIDE
+  title: 自杀风险与安全警示
+  source_page: 254
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 广泛性焦虑障碍与自杀意念和行为增加相关，即使在控制共病和应激后。
+  - 心理尸检研究发现，GAD是自杀完成者中最常见的焦虑障碍。
+  - 过去一年内的阈下和阈限GAD均与自杀意念相关。
+  must_warn:
+  - 广泛性焦虑障碍患者自杀意念和行为风险升高，需警惕并定期评估自杀风险。
+  - 即使症状未完全达到诊断标准，也应关注自杀可能性。
+- id: GAD_CULTURAL_ISSUES
+  title: 文化相关诊断考虑
+  source_page: 253
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 不同文化中症状表现有差异：部分以躯体症状为主，部分以认知症状为主。
+  - 担忧的具体内容可具文化特异性，评估时要考虑社会文化背景。
+  - 美国暴露于种族歧视与较高患病率相关。
+  must_warn: []

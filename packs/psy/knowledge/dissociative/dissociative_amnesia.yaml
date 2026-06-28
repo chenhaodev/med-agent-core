@@ -1,0 +1,79 @@
+specialty: dissociative
+specialty_zh: 分离障碍
+disease: dissociative_amnesia
+disease_zh: 分离性遗忘
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: DA_DEFINITION
+  title: 分离性遗忘定义
+  source_page: 338
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 无法回忆重要的自传体信息，且不是普通健忘，是一种可逆的记忆提取障碍。
+  - 最常见类型是局部遗忘（遗忘特定时间段）或选择性遗忘（部分回忆）。
+  - 广泛性遗忘会失去大部分人生经历甚至个人身份，但罕见。
+- id: DA_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准
+  source_page: 338
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 核心标准：无法回忆重要自传体信息，且不符合普通遗忘。
+  - 症状导致社交、职业或其他重要功能的显著痛苦或损害。
+  - 排除物质（酒精、药物）或神经系统疾病（如癫痫、脑外伤）所致。
+  - 排除其他更难解释的障碍，如分离性身份障碍、PTSD等。
+- id: DA_PREVALENCE
+  title: 患病率
+  source_page: 339
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国小型社区研究中，成人12个月患病率约为1.8%。
+- id: DA_ONSET_COURSE
+  title: 起病与病程
+  source_page: 339
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可发生于所有年龄段，儿童评估较困难，需多方信息。
+  - 广泛性遗忘通常突然起病，脱离创伤环境后可能快速恢复。
+  - 部分患者发展为慢性且高度致残的自传体记忆缺陷。
+- id: DA_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 340
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 严重急慢性创伤是主要风险因素，尤其童年身体或性虐待。
+  - 遗传因素约解释50%的分离症状差异，环境压力也起重要作用。
+  - 成人严重累积创伤（如反复战斗、被贩卖）也可导致广泛性遗忘。
+- id: DA_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 341
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与分离性身份障碍区别：后者有持续的自我感断裂和日常时间丢失。
+  - 与PTSD区别：若遗忘超出创伤事件本身，可合并诊断。
+  - 与神经认知障碍区别：常伴认知全面衰退和顺行性遗忘。
+  - 排除物质性黑蒙、脑外伤后遗忘、癫痫及诈病等。
+- id: DA_COMORBIDITY
+  title: 常见共病
+  source_page: 343
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 共病常见，尤其记忆恢复时出现悲伤、愤怒、内疚等情感反应。
+  - 常伴非自杀性自伤、高危险行为、抑郁及功能性神经症状。
+- id: DA_SUICIDE_RISK
+  title: 自杀与自伤风险
+  source_page: 341
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 自杀及自毁行为在分离性遗忘患者中常见。
+  - 遗忘减轻时自杀念头与行为风险增加，尤其突然缓解时。
+  must_warn:
+  - 遗忘减轻或突然缓解时，患者可能被难以承受的记忆压倒，自杀风险显著升高，需密切监测并紧急干预。
+  - 临床中应主动评估自杀计划与冲动，避免因症状改善而放松警惕。

@@ -1,0 +1,71 @@
+specialty: disruptive
+specialty_zh: 破坏性、冲动控制及品行障碍
+disease: pyromania
+disease_zh: 纵火癖
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: PYROMANIA_FEATURES
+  title: 核心特征与定义
+  source_page: 538
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 纵火癖的核心是多次故意纵火，纵火前有紧张或情绪唤起，对火着迷，纵火或目睹后果时感到愉快或释放。
+  must_warn: []
+- id: PYROMANIA_CRITERIA
+  title: 诊断标准
+  source_page: 538
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A. 多次故意纵火；B. 纵火前紧张或情绪唤起；C. 对火着迷；D. 纵火或参与后果时愉快/满足/释放；E. 非为金钱、掩饰犯罪、报复等；F. 不能由品行障碍、躁狂发作或反社会人格解释。
+  must_warn: []
+- id: PYROMANIA_PREVALENCE
+  title: 患病率与流行情况
+  source_page: 538
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 纵火癖的人群患病率未知。纵火行为（仅其一部分）终生患病率约1.0%-1.1%，男性1.7%高于女性0.4%。
+  must_warn: []
+- id: PYROMANIA_DEVELOPMENT
+  title: 起病与病程
+  source_page: 539
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 典型发病年龄可能在青春期后期；纵火事件呈发作性，频率波动，长期病程未知。儿童纵火通常与品行障碍、ADHD或适应障碍有关。
+  must_warn: []
+- id: PYROMANIA_RISK
+  title: 风险与相关特征
+  source_page: 538
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 纵火癖患者可能对生命财产后果漠不关心；冲动纵火者常有酒精使用障碍史；行为可致财产损失、法律后果或伤亡。
+  must_warn: []
+- id: PYROMANIA_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 539
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 诊断前需排除为利益、报复、掩盖犯罪、政治声明、吸引注意或童年好奇实验等导致的纵火。若纵火是品行障碍、躁狂发作或反社会人格的一部分，不单独诊断。
+  must_warn: []
+- id: PYROMANIA_COMORBIDITY
+  title: 常见共病
+  source_page: 538
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 纵火行为最常见的共病包括反社会型人格障碍、物质使用障碍（如酒精使用障碍）、双相障碍和赌博障碍。
+  must_warn: []
+- id: PYROMANIA_SUICIDE
+  title: 自杀风险与安全警示
+  source_page: 539
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 男性纵火者在随访中自杀及自杀未遂率更高，此关联是否适用于纵火癖尚不明确。
+  must_warn:
+  - 纵火行为可能与自杀风险增加有关，需警惕自伤和他伤风险。

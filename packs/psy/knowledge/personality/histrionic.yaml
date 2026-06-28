@@ -1,0 +1,86 @@
+specialty: personality
+specialty_zh: 人格障碍
+disease: histrionic
+disease_zh: 表演型人格障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: HPD_DEFINITION
+  title: 表演型人格障碍定义
+  source_page: 760
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 核心特征为过度情绪化和持续寻求他人关注，行为表现像“舞台表演”。
+  - 这种模式从成年早期开始，在多种场合下都存在，给人感觉做作、肤浅。
+  - 患者需要成为注意中心，否则会感到不舒服或被忽视。
+  must_warn: []
+- id: HPD_DIAGNOSTIC_CRITERIA
+  title: 诊断标准（8条中需5条）
+  source_page: 760
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - ① 不是注意焦点就难受；② 与他人互动常带不当的性挑逗或诱惑行为。
+  - ③ 情绪表达快速变化且肤浅；④ 总用外表吸引注意（过度打扮）。
+  - ⑤ 说话方式过于印象化、缺细节（华丽但空洞）；⑥ 自我戏剧化、夸张情绪。
+  - ⑦ 易受他人或环境暗示影响；⑧ 认为关系比实际更亲密。
+  must_warn: []
+- id: HPD_PREVALENCE
+  title: 患病率
+  source_page: 763
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国国家共病调查复测中概率样本估计为0.0%，但另一大型调查为1.8%。
+  - 五项流行病学研究（四项在美国）汇总中位患病率为0.9%。
+  must_warn: []
+- id: HPD_ONSET_COURSE
+  title: 起病与病程
+  source_page: 762
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 起病于成年早期，呈持续性，但总体功能损害通常比其他多数人格障碍轻。
+  - 主要损害在人际关系，患者社会支配性强，容易感到无聊、寻求刺激。
+  - 常有离婚、从未结婚、难以建立情感亲密关系等转归问题。
+  must_warn: []
+- id: HPD_RISK_PROGNOSIS
+  title: 风险与预后因素
+  source_page: 763
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 人际关系尤其浪漫关系受损严重，离婚率高，可能终身不婚。
+  - 难以耐受延迟满足，常追求即时满足，易因新刺激放弃长期关系。
+  - 在同性别朋友关系中因挑逗行为造成威胁，也可能因持续要求关注而疏远他人。
+  must_warn: []
+- id: HPD_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 764
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与边缘型人格障碍区别：后者有自我破坏、愤怒紊乱、深层空虚感和身份紊乱。
+  - 与反社会型人格障碍区别：表演型为获得呵护而操控，反社会型为获利或权力。
+  - 与自恋型人格障碍区别：自恋型追求赞美“优越”，表演型愿被视为脆弱或依赖以获关注。
+  must_warn: []
+- id: HPD_COMORBIDITY
+  title: 常见共病
+  source_page: 759
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常共病抑郁障碍、双相障碍、物质使用障碍、焦虑障碍（特别是惊恐障碍和社交焦虑障碍）。
+  - 也共病进食障碍（尤其神经性贪食和暴食障碍）、创伤后应激障碍、注意缺陷/多动障碍。
+  - 边缘型人格障碍与此障碍也经常同时出现。
+  must_warn: []
+- id: HPD_SUICIDE_RISK
+  title: 自杀风险与安全
+  source_page: 764
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 实际自杀风险尚不清楚，但临床经验提示此类患者可能更容易出现自杀姿态和威胁。
+  - 需警惕其戏剧化行为中包含的自我伤害信号。
+  must_warn:
+  - 患者可能出现自杀姿态或威胁，虽然风险程度不明，但应认真对待并评估安全。

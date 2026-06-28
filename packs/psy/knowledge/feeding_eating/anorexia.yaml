@@ -1,0 +1,106 @@
+specialty: feeding_eating
+specialty_zh: 喂食及进食障碍
+disease: anorexia
+disease_zh: 神经性厌食
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: AN_CORE_FEATURES
+  title: 核心特征
+  source_page: 382
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 三个核心特征：能量摄入限制、害怕变胖、体重体型感知障碍。
+  - 患者体重显著低于正常水平（年龄、性别、发育、健康背景下）。
+  - 常见于青少年和年轻成人，女性多于男性。
+  - 患者常不主动求助，多由家人察觉体重下降后带来就诊。
+  must_warn: []
+- id: AN_DIAGNOSTIC_CRITERIA
+  title: 诊断标准
+  source_page: 382
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准A：能量摄入不足导致体重显著偏低（成人BMI<17.0 kg/m²常为显著低体重）。
+  - 标准B：强烈害怕变胖或持续阻碍增重的行为，即使体重已很低。
+  - 标准C：体重体型体验障碍、自我评价过分受其影响，或不承认低体重的严重性。
+  - 严重程度按BMI分级：轻度≥17，中度16–16.99，重度15–15.99，极重度<15 kg/m²。
+  must_warn: []
+- id: AN_SUBTYPES
+  title: 亚型与分度
+  source_page: 382
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 限制型：过去3个月无暴食或清除行为，主要通过节食、禁食、过度运动减重。
+  - 暴食/清除型：过去3个月有反复暴食或清除行为（如自我引吐、滥用泻药等）。
+  - 亚型可随病程转换，因此描述应反映当前症状而非长期病程。
+  must_warn: []
+- id: AN_PREVALENCE
+  title: 患病率
+  source_page: 384
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 12个月患病率：女性0%~0.08%，男性0%~0.01%。
+  - 终生患病率：女性0.9%~1.42%，男性0.12%~0.3%。
+  - 在工业化高收入国家更常见，如美国、欧洲、澳大利亚、日本。
+  - 美国拉丁裔和非拉丁裔黑人患病率低于非拉丁裔白人。
+  must_warn: []
+- id: AN_DEVELOPMENT_COURSE
+  title: 起病与病程
+  source_page: 385
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常始于青春期或年轻成人，很少在青春期前或40岁后起病。
+  - 起病常与应激事件相关，如离家上大学。
+  - 病程变异大：部分单次发作后完全恢复，部分波动（复发），部分慢性多年。
+  - 粗死亡率约5%/十年，多因医学并发症或自杀死亡。
+  must_warn: []
+- id: AN_RISK_FACTORS
+  title: 风险因素
+  source_page: 385
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 童年期焦虑障碍或强迫特质增加风险。
+  - 重视瘦的文化环境（如模特、精英体育）增加风险。
+  - 患者亲属罹患此病或其他进食/精神疾病风险增高。
+  - 遗传研究已识别出与精神疾病及代谢特征相关的风险位点。
+  must_warn: []
+- id: AN_DIFFERENTIAL_DX
+  title: 鉴别诊断
+  source_page: 387
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与躯体疾病导致体重减轻鉴别：神经性厌食者有害怕变胖和体型困扰。
+  - 与抑郁症鉴别：抑郁症患者体重下降但无强烈害怕变胖。
+  - 与精神分裂症鉴别：后者奇怪进食行为但罕有害怕变胖和体型困扰。
+  - 与神经性贪食鉴别：贪食者体重正常或超重，厌食者体重显著偏低。
+  - 与回避性/限制性食物摄入障碍鉴别：后者无害怕变胖或体型困扰。
+  must_warn: []
+- id: AN_COMORBIDITY
+  title: 常见共病
+  source_page: 387
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见共病：双相障碍、抑郁障碍、焦虑障碍。
+  - 许多患者在进食障碍起病前已有焦虑障碍或焦虑症状。
+  - 强迫症（OCD）见于部分患者，尤其是限制型。
+  - 酒精及物质使用障碍在暴食/清除型中更常见。
+  must_warn: []
+- id: AN_SUICIDE_RISK
+  title: 自杀风险
+  source_page: 386
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 自杀风险是同龄同性别对照组的18倍。
+  - 自杀是神经性厌食的第二大死因。
+  - 约1/4至1/3患者有自杀意念，9%~25%曾尝试自杀。
+  - 风险因素包括性虐待暴露、决策能力受损、高比非自杀性自伤、共病心境障碍。
+  must_warn:
+  - 自杀风险显著升高，是第二大死因。如有自杀意念或行为，需立即就医或联系心理危机干预。

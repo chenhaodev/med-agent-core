@@ -1,0 +1,65 @@
+specialty: med_induced
+specialty_zh: 药物所致运动障碍及其他药物不良反应
+disease: antidepressant_discontinuation
+disease_zh: 抗抑郁药停药综合征
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: ANTIDEP_DISCONTINUATION_SYNDROME_DEF
+  title: 抗抑郁药停药综合征定义
+  source_page: 819
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 停用抗抑郁药后出现的一系列症状，与药物药理因素有关，不具成瘾性，无觅药行为。
+  - 症状多样无特征性，通常于停药后2-4天出现，持续一般不超过2-3周。
+  must_warn: []
+- id: DIAGNOSTIC_FEATURES
+  title: 诊断要点
+  source_page: 819
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 停药前用药未导致轻躁狂或混合状态，需排除情感波动。
+  - SSRI类停药症状：头晕、耳鸣、电击感、失眠、急性焦虑。
+  - TCA类停药症状：胃肠痉挛（胆碱能反跳）、反跳性轻躁狂。
+  - 突然停药或显著减量风险最高，尤其对短半衰期药物。
+  must_warn: []
+- id: PREVALENCE_EPIDEMIOLOGY
+  title: 患病率与影响因素
+  source_page: 820
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 患病率未知，受停药前剂量、药物半衰期及受体亲和力影响。
+  - 短半衰期药物（如帕罗西汀、文拉法辛）更常见。
+  - 个体CYP酶代谢速度（快速/超快速）可能增加风险。
+  must_warn: []
+- id: ONSET_COURSE
+  title: 起病与病程
+  source_page: 820
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 症状在末次给药后2-4天开始出现。
+  - 逐渐减量可减轻症状，通常短于2周，极少超过3周。
+  must_warn: []
+- id: RISK_PROGNOSTIC
+  title: 风险与预后因素
+  source_page: 819
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 主要风险：短半衰期药物（如帕罗西汀、文拉法辛）、突然停药或显著减量。
+  - 长半衰期药物（如氟西汀）很少引起明显停药症状。
+  - 间歇性不遵医嘱也可能不规则出现停药症状。
+  must_warn: []
+- id: DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断
+  source_page: 820
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与原发疾病复发（如抑郁、惊恐障碍）区分，停药综合征短暂且与减药相关。
+  - 需与躯体症状障碍、双相障碍混合发作、物质使用障碍、偏头痛或脑血管意外鉴别。
+  - 抗抑郁药无欣快或强化作用，不出现渴求或剂量升级行为。
+  must_warn: []

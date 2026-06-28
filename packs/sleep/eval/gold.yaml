@@ -1,0 +1,974 @@
+# 睡眠指南问答系统 — In-Scope 金标评估题集
+# 格式：id / domain / question / expected_topics / expected_protocol / must_warn / consensus_refs / must_not
+
+questions:
+
+  # ─── OSA 诊断 (10 题) ────────────────────────────────────────
+
+  - id: D01
+    domain: osa_diagnosis
+    question: "AHI 是什么意思？AHI 多少算重度？"
+    expected_topics:
+      - "AHI 定义（每小时呼吸暂停低通气次数）"
+      - "AHI 5-15 轻度 / 15-30 中度 / ≥30 重度"
+      - "只有 PSG 或 OCST 才能测量 AHI"
+    expected_protocol:
+      mild_ahi: "5～15 次/h"
+      moderate_ahi: "15～30 次/h"
+      severe_ahi: "≥30 次/h"
+    must_warn:
+      - "仅凭症状描述不能判断 AHI 数值"
+      - "需要 PSG 或睡眠监测才能确定"
+    consensus_refs: ["推荐意见第 3 条"]
+    must_not:
+      - "从家属描述推算具体 AHI 数值"
+      - "不做检查就确认诊断"
+
+  - id: D02
+    domain: osa_diagnosis
+    question: "打鼾一定是睡眠呼吸暂停吗？怎么判断需不需要检查？"
+    expected_topics:
+      - "打鼾是 OSA 最常见症状（70-95%），但不等于 OSA"
+      - "需要结合憋气/夜间觉醒/日间嗜睡等症状"
+      - "单一症状或体征不能可靠诊断 OSA"
+      - "建议用 STOP-Bang 问卷初步筛查"
+    expected_protocol:
+      sbq_positive: "SBQ≥3 分"
+    must_warn:
+      - "打鼾不能排除 OSA，也不能确认 OSA"
+      - "明确诊断需要 PSG 或便携式监测"
+    consensus_refs: ["推荐意见第 1 条", "推荐意见第 2 条"]
+    must_not:
+      - "仅凭打鼾确诊或排除 OSA"
+
+  - id: D03
+    domain: osa_diagnosis
+    question: "什么是 STOP-Bang 问卷？怎么用它筛查睡眠呼吸暂停？"
+    expected_topics:
+      - "STOP-Bang 8 个问题（打鼾/疲劳/观察到呼吸暂停/高血压/BMI/年龄/颈围/性别）"
+      - "SBQ≥3 分为筛查阳性"
+      - "灵敏度高（92-96%），特异度较低（27-35%）"
+      - "SBQ 是目前推荐的最佳一线 OSA 筛查工具"
+    expected_protocol:
+      threshold: "≥3 分"
+      sensitivity_moderate: "95%"
+      sensitivity_severe: "96%"
+    must_warn:
+      - "SBQ 阳性不等于确诊，仍需 PSG 或监测"
+    consensus_refs: ["推荐意见第 2 条"]
+    must_not:
+      - "说 SBQ≥3 就可以确诊 OSA"
+
+  - id: D04
+    domain: osa_diagnosis
+    question: "多导睡眠监测（PSG）和便携式监测有什么区别？哪个更准？"
+    expected_topics:
+      - "PSG 是诊断 OSA 的金标准"
+      - "便携式监测（III 型 PM）可居家完成，适合筛查和中重度 OSA"
+      - "PSG 监测指标更全（脑电/眼电/心电等）"
+      - "PM 无法分辨睡眠阶段，可能低估 AHI"
+    expected_protocol:
+      psq_duration: "整晚（7-8 小时）"
+      pm_ahi_sensitivity: "86.70%"
+    must_warn:
+      - "便携式监测结果不确定时仍需 PSG 确认"
+    consensus_refs: ["推荐意见第 2 条", "推荐意见第 3 条"]
+    must_not:
+      - "说便携式监测可以完全替代 PSG"
+
+  - id: D05
+    domain: osa_diagnosis
+    question: "日间嗜睡一定是睡眠呼吸暂停吗？"
+    expected_topics:
+      - "日间嗜睡是 OSA 的重要危险因素（15-50% OSA 患者有）"
+      - "但 OSA 患者中部分无日间嗜睡症状，不能以此排除"
+      - "需要 ESS 量表（≥10 提示明显嗜睡）综合评估"
+      - "其他原因：睡眠不足、药物、甲状腺功能减退等"
+    expected_protocol:
+      ess_threshold: "≥10 提示明显日间嗜睡"
+    must_warn:
+      - "不能单凭嗜睡确诊或排除 OSA"
+      - "驾驶员日间嗜睡需立即就医"
+    consensus_refs: ["推荐意见第 1 条"]
+    must_not:
+      - "直接将日间嗜睡等同于 OSA"
+
+  - id: D06
+    domain: osa_diagnosis
+    question: "肥胖的人更容易得睡眠呼吸暂停吗？颈围多粗算危险？"
+    expected_topics:
+      - "肥胖（BMI≥25）是 OSA 主要危险因素"
+      - "体重每增加 10%，AHI 升高 32%"
+      - "颈围粗大与 OSA 严重程度相关"
+      - "腹部脂肪堆积减少肺容积，增加气道塌陷风险"
+    expected_protocol:
+      weight_ahi_relation: "体重增加 10% → AHI 升高 32%"
+    must_warn:
+      - "单靠 BMI 或颈围不能确诊 OSA"
+    consensus_refs: ["推荐意见第 1 条"]
+    must_not:
+      - "给出具体颈围阈值作为诊断标准（指南未对成人颈围给出统一阈值）"
+
+  - id: D07
+    domain: osa_diagnosis
+    question: "心房颤动患者需要筛查睡眠呼吸暂停吗？用什么工具？"
+    expected_topics:
+      - "OSA 与房颤密切相关，建议筛查"
+      - "III 型便携式监测推荐用于 AF 患者中 OSA 筛查（B，强推荐）"
+      - "PM 对中重度 OSA 灵敏度 86.70%，特异度 76.50%"
+    expected_protocol:
+      pm_sensitivity: "86.70%"
+      pm_specificity: "76.50%"
+    must_warn:
+      - "确诊 OSA 仍需医生综合判读"
+    consensus_refs: ["推荐意见第 2 条"]
+    must_not: []
+
+  - id: D08
+    domain: osa_diagnosis
+    question: "OSA 诊断标准是什么？AHI 多少才算确诊？"
+    expected_topics:
+      - "ICSD-3-TR 诊断标准"
+      - "满足 A+B 或 C+D 且 AHI≥5 次/h"
+      - "A：症状（嗜睡/憋气/觉醒等）；B：PSG 证实 AHI≥5"
+      - "C：PSG 证实 AHI≥15；D：无法用其他疾病解释"
+    expected_protocol:
+      diagnosis_ahi: "AHI≥5 次/h（有症状）或 AHI≥15 次/h（无症状）"
+    must_warn:
+      - "必须结合症状和客观监测，不能单凭 AHI 数值诊断"
+    consensus_refs: ["推荐意见第 3 条"]
+    must_not:
+      - "说 AHI≥5 就能确诊（需有症状或 AHI≥15）"
+
+  - id: D09
+    domain: osa_diagnosis
+    question: "打鼾要不要去做睡眠检查？去哪里检查？"
+    expected_topics:
+      - "有以下情况建议做检查：打鼾+憋醒/日间嗜睡/家人观察到呼吸暂停"
+      - "检查机构：医院睡眠中心（PSG）或可居家便携式监测"
+      - "STOP-Bang 问卷可作为去检查前的初步自评"
+    expected_protocol:
+      sbq_threshold: "SBQ≥3 分建议进一步检查"
+    must_warn:
+      - "单纯打鼾（无憋醒/嗜睡）可先用 STOP-Bang 评估风险等级"
+    consensus_refs: ["推荐意见第 1 条", "推荐意见第 2 条"]
+    must_not: []
+
+  - id: D10
+    domain: osa_diagnosis
+    question: "重度 OSA 和中度 OSA 的治疗有什么区别？"
+    expected_topics:
+      - "重度 OSA（AHI≥30）首选 CPAP（A，强推荐）"
+      - "中度 OSA（15-30）首选 CPAP，也可考虑 MAD 或手术"
+      - "重度 OSA 不建议单独用 MAD 或体位治疗"
+      - "重度 OSA 有更高 CVD/认知并发症风险，需更积极治疗"
+    expected_protocol:
+      severe_first_line: "CPAP（A，强推荐）"
+    must_warn:
+      - "重度 OSA 患者如驾驶需告知医生，治疗前评估驾驶安全"
+    consensus_refs: ["推荐意见第 4 条"]
+    must_not:
+      - "建议重度 OSA 仅靠生活方式改善"
+
+  # ─── OSA 手术 (6 题) ─────────────────────────────────────────
+
+  - id: S01
+    domain: osa_surgery
+    question: "UPPP 手术是什么？成功率高吗？"
+    expected_topics:
+      - "UPPP = 悬雍垂腭咽成形术，切除悬雍垂/部分软腭/扁桃体"
+      - "Friedman 分型影响成功率：I/II/III/IV 型分别为 80.60%/37.90%/8.10%/0%"
+      - "适合：非严重肥胖 + 扁桃体 II 级以上肥大 + 轻中度 OSA"
+      - "有效标准：AHI<20 次/h 且降低幅度≥50%"
+    expected_protocol:
+      success_rate_friedman1: "80.60%"
+      success_rate_friedman2: "37.90%"
+      success_criteria: "AHI<20 次/h 且降低≥50%"
+    must_warn:
+      - "手术前需要 DISE 评估塌陷平面，不适合所有人"
+      - "最常见并发症：腭咽关闭不全（31.20%）"
+    consensus_refs: ["推荐意见第 5 条", "推荐意见第 9 条"]
+    must_not:
+      - "说 UPPP 适合所有 OSA 患者"
+      - "不提及 Friedman 分型对成功率的影响"
+
+  - id: S02
+    domain: osa_surgery
+    question: "MMA（颌骨前移手术）是什么？什么人适合做？"
+    expected_topics:
+      - "MMA = 上下颌骨前移术，通过前移颌骨扩大上气道"
+      - "适合：合并颌面部畸形的中重度 OSA，或其他手术失败后"
+      - "最有效的手术之一（A，强推荐），AHI 降低 MD=-33.36"
+      - "主要并发症：下颌区感觉异常"
+    expected_protocol:
+      ahi_reduction: "MD=-33.36（P<0.01）"
+      evidence: "A，强推荐"
+    must_warn:
+      - "需要专科医生综合评估是否适合手术"
+      - "手术前需全颌曲面断层片及头影测量"
+    consensus_refs: ["推荐意见第 5 条"]
+    must_not:
+      - "说 MMA 适合所有人"
+
+  - id: S03
+    domain: osa_surgery
+    question: "OSA 手术有哪些禁忌证？什么情况不能做手术？"
+    expected_topics:
+      - "全身状况差、无法耐受全麻"
+      - "妊娠期"
+      - "急性感染期"
+      - "药物/酒精依赖/难以控制的精神疾病"
+      - "智力障碍或行为能力不成熟"
+    expected_protocol: {}
+    must_warn:
+      - "这些禁忌证是指南明确规定的，不可忽视"
+    consensus_refs: ["推荐意见第 6 条"]
+    must_not:
+      - "建议禁忌证患者尝试手术"
+
+  - id: S04
+    domain: osa_surgery
+    question: "OSA 手术前需要做什么评估？"
+    expected_topics:
+      - "上气道评估：确定狭窄/塌陷部位和性质"
+      - "评估方法：Friedman 分型、DISE（药物诱导睡眠内镜）、X 线头影测量等"
+      - "DISE 可识别多平面阻塞（68.2% 患者存在）"
+    expected_protocol:
+      multilevel_obstruction: "68.2% 患者存在多平面阻塞"
+    must_warn:
+      - "术前评估由专科医生完成，不能自行判断"
+    consensus_refs: ["推荐意见第 7 条"]
+    must_not: []
+
+  - id: S05
+    domain: osa_surgery
+    question: "OSA 手术治好了算什么标准？怎么知道手术有没有效果？"
+    expected_topics:
+      - "主要有效标准：AHI<20 次/h 且降低幅度≥50%（A，强推荐）"
+      - "辅助标准：LSaO2>85% 且日增加值≥3%（C，弱推荐）"
+      - "综合评估：PSG + 主观症状 + CVD 风险改善"
+      - "通常术后 3 个月复查 PSG 评估"
+    expected_protocol:
+      success_primary: "AHI<20 次/h 且降低≥50%"
+      success_secondary: "LSaO2>85% 且日增加值≥3%"
+    must_warn:
+      - "手术不保证 100% 治愈，需要复查评估"
+    consensus_refs: ["推荐意见第 9 条"]
+    must_not: []
+
+  - id: S06
+    domain: osa_surgery
+    question: "OSA 手术后需要注意什么？还需要用 CPAP 吗？"
+    expected_topics:
+      - "术后体位：半卧位或侧卧位，避免仰卧（B，弱推荐）"
+      - "围手术期 CPAP：重度 OSA 术前 3-5 晚，术后 1-3 晚"
+      - "困难气道风险：OSA 患者插管困难风险升高 2-4 倍，需做好预案"
+      - "监测：脉搏血氧仪 + 心电监护"
+    expected_protocol:
+      severe_preop_cpap: "术前 3-5 晚"
+      postop_cpap: "术后 1-3 晚"
+    must_warn:
+      - "颌面部手术后不宜使用 CPAP（可引起皮下气肿）"
+      - "术后出现大量出血或呼吸困难立即就医"
+    consensus_refs: ["推荐意见第 8 条"]
+    must_not: []
+
+  # ─── OSA 非手术 (6 题) ───────────────────────────────────────
+
+  - id: N01
+    domain: osa_nonsurgery
+    question: "CPAP 怎么用？每晚要用多久？"
+    expected_topics:
+      - "CPAP = 持续气道正压通气，戴面罩入睡，机器送气保持气道畅通"
+      - "首次使用前须压力滴定（在睡眠中心）"
+      - "每晚≥4 小时为有效使用，理想≥6 小时"
+      - "CPAP 是首选治疗（A，强推荐）"
+    expected_protocol:
+      min_use: "每晚≥4 小时"
+      ideal_use: "每晚≥6 小时"
+    must_warn:
+      - "不要自行调压，压力需要医生滴定"
+    consensus_refs: ["推荐意见第 4 条"]
+    must_not:
+      - "建议患者自行设定 CPAP 压力"
+
+  - id: N02
+    domain: osa_nonsurgery
+    question: "CPAP 戴不住，有没有替代方案？"
+    expected_topics:
+      - "APAP（自动调压）：依从性更好（每晚多约 11 分钟）"
+      - "BiPAP：呼气阻力更低，适合 CPAP 不耐受"
+      - "MAD（口腔矫治器）：适合轻中度 OSA，BMI<32"
+      - "手术治疗：CPAP 不耐受是手术适应证之一"
+    expected_protocol:
+      mad_ahi_improvement: "AHI 改善 MD=13.40（F=74%）"
+    must_warn:
+      - "中重度 OSA 不能仅靠 MAD，疗效不如 CPAP"
+    consensus_refs: ["推荐意见第 4 条"]
+    must_not:
+      - "说停止 CPAP 没关系"
+
+  - id: N03
+    domain: osa_nonsurgery
+    question: "口腔矫治器适合什么人？效果怎么样？"
+    expected_topics:
+      - "适合：单纯鼾症、轻中度 OSA、BMI<32 kg/m²、CPAP 不耐受"
+      - "机制：下颌前移，扩大腭咽到舌平面气道"
+      - "有效证据：AHI 降低 MD=13.40，F=74%；效果不如 CPAP"
+      - "需要口腔科医生定制，不能自购通用型"
+    expected_protocol:
+      ahi_improvement: "MD=13.40（F=74%）"
+      bmi_limit: "BMI<32 kg/m²（轻中度 OSA 优先）"
+    must_warn:
+      - "有颞下颌关节紊乱者需先口腔科评估"
+    consensus_refs: ["推荐意见第 4 条"]
+    must_not:
+      - "说口腔矫治器可以完全代替 CPAP 用于重度 OSA"
+
+  - id: N04
+    domain: osa_nonsurgery
+    question: "减肥能治好睡眠呼吸暂停吗？"
+    expected_topics:
+      - "减重是 OSA 重要辅助治疗（B，强推荐）"
+      - "体重减轻 10%，AHI 降低约 26%"
+      - "对轻度 OSA 可能有显著改善，但单靠减重通常不能治愈中重度 OSA"
+      - "BMI≥32.5 的重度 OSA 可考虑减重代谢手术"
+    expected_protocol:
+      weight_loss_effect: "减轻 10% → AHI 降低 26%"
+      bariatric_criteria: "BMI≥32.5 kg/m² 重度 OSA"
+    must_warn:
+      - "减重是辅助手段，不能替代中重度 OSA 的 CPAP 治疗"
+    consensus_refs: ["推荐意见第 4 条"]
+    must_not:
+      - "建议仅靠减肥治疗重度 OSA"
+
+  - id: N05
+    domain: osa_nonsurgery
+    question: "侧着睡觉能改善打鼾吗？什么是体位治疗？"
+    expected_topics:
+      - "体位相关性 OSA（POSA）：仰卧位 AHI 至少是侧卧位 2 倍"
+      - "体位治疗：使用体位枕强制侧卧睡眠（C，弱推荐）"
+      - "POSA 的体位治疗效果优于重度 POSA；依从性比 CPAP 好"
+      - "长期依从性缺乏高质量证据"
+    expected_protocol:
+      posa_criteria: "仰卧 AHI / 侧卧 AHI ≥ 2"
+    must_warn:
+      - "不是所有打鼾都是 POSA，需要 PSG 确认"
+    consensus_refs: ["推荐意见第 4 条"]
+    must_not: []
+
+  - id: N06
+    domain: osa_nonsurgery
+    question: "睡眠呼吸暂停患者可以喝酒和用安眠药吗？"
+    expected_topics:
+      - "酒精会加重上气道肌肉松弛，加重 OSA（B，强推荐戒酒）"
+      - "镇静安眠类药物（苯二氮䓬类）也会加重气道塌陷（D，弱推荐慎用）"
+      - "建议睡前 4 小时内避免饮酒"
+      - "如需助眠，应告知医生自己有 OSA"
+    expected_protocol:
+      alcohol_avoidance: "睡前 4 小时内"
+    must_warn:
+      - "OSA 患者使用任何镇静药物需告知医生"
+    consensus_refs: ["推荐意见第 4 条"]
+    must_not:
+      - "建议 OSA 患者使用苯二氮䓬类助眠"
+
+  # ─── 老年睡眠 (8 题) ─────────────────────────────────────────
+
+  - id: E01
+    domain: elderly_sleep
+    question: "老年人正常每天睡多久？睡 5 小时算失眠吗？"
+    expected_topics:
+      - "总睡眠时长随年龄增长每 10 年减少约 10.1 分钟，60 岁后趋于稳定"
+      - "老年期睡眠时间减少属正常生理变化，不等于失眠"
+      - "关键是日间功能是否受损（不是睡多少小时）"
+      - "良好睡眠参考：入睡≤30 分钟，夜间觉醒 0-2 次，睡眠效率≥75%"
+    expected_protocol:
+      sleep_latency: "≤30 分钟"
+      night_awakenings: "0-2 次"
+      sleep_efficiency: "≥75%"
+    must_warn:
+      - "不要因为睡得少就自行服用助眠药"
+    consensus_refs: ["共识第 3 条"]
+    must_not:
+      - "说老年人必须睡 8 小时"
+      - "把正常生理性睡眠减少等同于失眠"
+
+  - id: E02
+    domain: elderly_sleep
+    question: "PSQI 是什么？怎么用来评估老人睡眠？"
+    expected_topics:
+      - "PSQI = 匹兹堡睡眠质量指数，7 维度 9 条目，0-21 分，核心评估工具"
+      - "PSQI≤5：正常；6-10：轻度（健康教育）；11-15：中度（康复+心理）；>15：重度（转专科）"
+      - "完成时间 5-10 分钟，回顾最近 1 个月的睡眠"
+    expected_protocol:
+      normal: "≤5 分"
+      mild: "6-10 分"
+      moderate: "11-15 分"
+      severe: ">15 分"
+    must_warn:
+      - "PSQI>15 分需转专科，基层处理困难"
+    consensus_refs: ["共识第 3 条"]
+    must_not:
+      - "说 PSQI 可以诊断 OSA 或其他特定疾病"
+
+  - id: E03
+    domain: elderly_sleep
+    question: "社区老年人睡眠管理的流程是怎样的？"
+    expected_topics:
+      - "初筛：PSQI 评估；≥5 分或主诉失眠≥3 次/周持续≥3 个月 → 纳入重点管理"
+      - "分级：PSQI 6-10 非药物；11-15 康复+心理；>15 转专科"
+      - "动态随访：良好者每 6 个月；重点群每 1-3 个月"
+      - "核心团队：家庭医生为主导"
+    expected_protocol:
+      mild_treatment_duration: "4-8 周非药物干预"
+      followup_good: "每 6 个月"
+      followup_key: "每 1-3 个月"
+    must_warn:
+      - "重度障碍（PSQI>15）或怀疑 OSA 应及时转上级医院"
+    consensus_refs: ["共识第 11 条"]
+    must_not: []
+
+  - id: E04
+    domain: elderly_sleep
+    question: "老人午睡好不好？午睡多久合适？"
+    expected_topics:
+      - "老年期正常午睡次数：0-3 次/天为良好，≥4 次为不良"
+      - "老年期良好午睡时长：≤100 分钟"
+      - "白天长时间补觉会削弱夜间睡眠驱动力，不推荐"
+      - "午睡控制在 30 分钟以内，下午 3 点前结束"
+    expected_protocol:
+      nap_duration: "≤30 分钟（推荐上限）；老年期标准：≤100 分钟为良好"
+      nap_timing: "下午 3 点前"
+    must_warn:
+      - "长时间午睡（超 1 小时）会加重夜间失眠"
+    consensus_refs: ["共识第 7 条"]
+    must_not: []
+
+  - id: E05
+    domain: elderly_sleep
+    question: "老年人失眠常见原因有哪些？"
+    expected_topics:
+      - "生理因素：昼夜节律变化、激素改变（褪黑素减少/皮质醇升高）"
+      - "药物因素：利尿剂、糖皮质激素、镇静催眠药、抗抑郁药"
+      - "躯体疾病：高血压、糖尿病、心血管疾病、慢性疼痛等"
+      - "精神心理：抑郁、焦虑、认知障碍"
+      - "OSA：老年人 OSA 合并失眠常见"
+    expected_protocol: {}
+    must_warn:
+      - "老年人失眠原因复杂，需医生综合评估后再干预"
+    consensus_refs: ["共识第 2 条"]
+    must_not:
+      - "直接推荐药物而不评估原因"
+
+  - id: E06
+    domain: elderly_sleep
+    question: "rTMS 能治老年失眠吗？怎么做？"
+    expected_topics:
+      - "rTMS = 重复经颅磁刺激，刺激 DLPFC 和 M1 可治疗原发性失眠"
+      - "参数：1 Hz，100-110% MT，每次 20-30 分钟，10-20 次，800-1000 脉冲/次"
+      - "需要专业设备和人员，不是所有基层机构都有"
+      - "有效性：增加 N3 和 REM 睡眠，优于心理治疗，有长期效果"
+    expected_protocol:
+      frequency: "1 Hz（原发性失眠）"
+      intensity: "100-110% 静息运动阈值"
+      duration: "20-30 分钟/次"
+      sessions: "10-20 次"
+      pulses: "800-1000 脉冲/次"
+    must_warn:
+      - "需要专业设备和医疗人员操作，不能自行购买设备"
+    consensus_refs: ["共识第 9 条"]
+    must_not:
+      - "建议患者自行购买 rTMS 设备"
+
+  - id: E07
+    domain: elderly_sleep
+    question: "光照疗法怎么改善老年人睡眠？强度和时间怎么选？"
+    expected_topics:
+      - "光照疗法适合昼夜节律睡眠障碍、失眠"
+      - "晨间（7:00-12:00）接受自然光或光疗灯照射为最佳方案"
+      - "强度：2500-10000 勒克斯；时长：30-120 分钟"
+      - "有效证据：改善护理机构老年人睡眠效率（73% → 86%）"
+    expected_protocol:
+      timing: "7:00-12:00"
+      intensity_range: "2500-10000 勒克斯"
+      duration: "30-120 分钟/次"
+    must_warn: []
+    consensus_refs: ["共识第 9 条"]
+    must_not: []
+
+  - id: E08
+    domain: elderly_sleep
+    question: "老年人睡眠监测用什么设备好？智能手表准吗？"
+    expected_topics:
+      - "PSG 是金标准，但成本高、对老年人依从性有挑战"
+      - "便携式 PSG：居家可用，费用较低"
+      - "腕式体动记录仪：无创操作简单，适合老年人，但无法分辨睡眠阶段"
+      - "可穿戴设备（智能手表）：通过算法评估，不能替代 PSG 诊断"
+    expected_protocol: {}
+    must_warn:
+      - "智能手表不能诊断 OSA，结果仅供参考"
+    consensus_refs: ["共识第 4 条"]
+    must_not:
+      - "说智能手表可以替代 PSG 做 OSA 诊断"
+
+  # ─── 睡眠卫生 (4 题) ─────────────────────────────────────────
+
+  - id: H01
+    domain: sleep_hygiene
+    question: "失眠怎么不靠药也能治好？CBT-I 是什么？"
+    expected_topics:
+      - "CBT-I 是失眠最有效非药物方法（多项 RCT/Meta 分析支持）"
+      - "五大技术：刺激控制/睡眠限制/放松训练/认知重构/睡眠卫生"
+      - "疗程：4-8 周"
+      - "数字化 CBT（dCBT）可大规模推广，适合基层"
+    expected_protocol:
+      duration: "4-8 周"
+    must_warn:
+      - "睡眠限制初期可能出现短暂白天嗜睡加重，坚持 1-2 周通常好转"
+    consensus_refs: ["共识第 8 条"]
+    must_not: []
+
+  - id: H02
+    domain: sleep_hygiene
+    question: "运动帮助睡眠有科学依据吗？做什么运动最好？"
+    expected_topics:
+      - "Meta 分析（3937 名老年人）证实运动改善睡眠质量、降低失眠严重程度"
+      - "有氧运动是改善 PSQI 总分效果最好的方式"
+      - "传统功法（太极拳/八段锦）也有效；12 周以上八段锦可改善失眠严重程度"
+      - "每周≥3 次，每次 30-60 分钟，中等强度"
+    expected_protocol:
+      frequency: "每周≥3 次"
+      duration: "每次 30-60 分钟"
+      intensity: "中等强度（运动时轻微气喘但能说话）"
+      course: "建议坚持 8 周以上"
+    must_warn:
+      - "避免睡前 2-3 小时内剧烈运动"
+    consensus_refs: ["共识第 9 条"]
+    must_not: []
+
+  - id: H03
+    domain: sleep_hygiene
+    question: "有哪些睡眠卫生习惯可以改善失眠？"
+    expected_topics:
+      - "固定就寝/起床时间（即使周末）"
+      - "控制午睡≤30 分钟，下午 3 点前"
+      - "睡前 6 小时内避免咖啡因；睡前 4 小时内避免酒精"
+      - "卧室保持安静、黑暗、凉爽；减少睡前蓝光"
+    expected_protocol:
+      caffeine_cutoff: "睡前 6 小时"
+      alcohol_cutoff: "睡前 4 小时"
+      nap_limit: "≤30 分钟，下午 3 点前"
+    must_warn:
+      - "睡眠卫生单独使用效果有限，最好与 CBT-I 其他技术结合"
+    consensus_refs: ["共识第 7 条"]
+    must_not: []
+
+  - id: H04
+    domain: sleep_hygiene
+    question: "正念冥想能帮助睡眠吗？怎么做？"
+    expected_topics:
+      - "正念疗法：通过冥想与正念练习提升睡眠体验，减少睡眠障碍"
+      - "有效证据（RCT）：可有效降低 PSQI 和失眠严重程度，改善入睡潜伏期和 WASO"
+      - "优于传统睡眠卫生联合运动干预"
+      - "核心做法：专注当下的呼吸觉察，接纳而非抗拒失眠"
+    expected_protocol:
+      session_duration: "15-30 分钟/次"
+    must_warn: []
+    consensus_refs: ["共识第 8 条"]
+    must_not: []
+
+  # ─── 合并症 (4 题) ───────────────────────────────────────────
+
+  - id: C01
+    domain: comorbidity
+    question: "高血压合并打鼾需要注意什么？"
+    expected_topics:
+      - "高血压合并打鼾是 OSA 高危组合，建议用 SBQ 筛查"
+      - "OSA 可导致夜间血压升高（非杓型血压），CPAP 可改善"
+      - "BQ 有利于筛查心血管高危人群中的 OSA（B，强推荐）"
+    expected_protocol:
+      sbq_threshold: "SBQ≥3 分需进一步检查"
+    must_warn:
+      - "不要自行停降压药"
+      - "CPAP 起效后血压可能变化，需医生重新评估降压方案"
+    consensus_refs: ["推荐意见第 2 条"]
+    must_not: []
+
+  - id: C02
+    domain: comorbidity
+    question: "糖尿病患者需要查睡眠呼吸暂停吗？"
+    expected_topics:
+      - "T2DM 患者 OSA 患病率 54.50%（远高于一般人群）"
+      - "OSA 的 AHI 每增加 5 次/h，T2DM 风险增加 8%"
+      - "建议对 DM 患者进行 OSA 筛查（GPS）"
+      - "积极治疗 OSA 可能改善血糖控制"
+    expected_protocol:
+      t2dm_osa_prevalence: "54.50%"
+    must_warn:
+      - "血糖控制仍需专科医生管理，CPAP 是辅助手段"
+    consensus_refs: ["推荐意见第 2 条"]
+    must_not: []
+
+  - id: C03
+    domain: comorbidity
+    question: "睡眠不好会影响记忆力吗？老年人失眠和认知有什么关系？"
+    expected_topics:
+      - "睡眠障碍（OSA/失眠）与认知障碍密切相关（双向影响）"
+      - "CPAP 治疗可缓解 OSA 相关记忆功能障碍"
+      - "rTMS 对轻度认知障碍合并睡眠障碍老年人有效（DLPFC，1 Hz）"
+      - "CBT-I 和运动干预有助改善认知"
+    expected_protocol:
+      rtms_target: "右侧 DLPFC"
+      rtms_frequency: "1 Hz"
+    must_warn:
+      - "认知障碍的诊断和管理需要专科医生评估"
+    consensus_refs: ["共识第 9 条", "推荐意见第 4 条"]
+    must_not:
+      - "说睡眠治疗可以治愈痴呆"
+
+  - id: C04
+    domain: comorbidity
+    question: "抑郁和失眠同时有，应该先治哪个？"
+    expected_topics:
+      - "失眠和抑郁是双向关联，需同时处理"
+      - "CBT 可同步改善失眠、焦虑和抑郁（多项 RCT 支持）"
+      - "ta-VNS 可改善睡眠质量和缓解焦虑"
+      - "重度抑郁需转精神科评估"
+    expected_protocol:
+      cbt_duration: "4-8 周"
+    must_warn:
+      - "有自伤/轻生想法立即就医"
+      - "抗抑郁药的选择和剂量由医生决定"
+    consensus_refs: ["共识第 8 条", "共识第 9 条"]
+    must_not:
+      - "推荐具体抗抑郁药名称或剂量"
+
+  # ─── 药物 (2 题) ─────────────────────────────────────────────
+
+  - id: M01
+    domain: medication
+    question: "安眠药长期吃有什么危害？老人能长期吃吗？"
+    expected_topics:
+      - "苯二氮䓬类长期使用风险：耐受、依赖、次日残留（跌倒风险）、认知下降"
+      - "老年人风险更高（跌倒/骨折/认知损害）"
+      - "不能突然停药，需医生指导逐渐减量配合 CBT-I"
+      - "非药物方法（CBT-I）是更好的长期方案"
+    expected_protocol:
+      taper_rate: "每 1-2 周减少当前剂量 25%（由医生制定）"
+    must_warn:
+      - "长期苯二氮䓬类需医生监督下逐步减停"
+      - "不要自行突然停药"
+    consensus_refs: ["共识第 9 条"]
+    must_not:
+      - "推荐具体苯二氮䓬类药物名称或剂量"
+
+  - id: M02
+    domain: medication
+    question: "有什么助眠的中药或中成药？"
+    expected_topics:
+      - "共识推荐方向：酸枣仁胶囊、乌灵胶囊、甜梦口服液等（需医生辨证后处方）"
+      - "中医辨证为主：心脾两虚、肝郁化火、心肾不交等不同证型对应不同治法"
+      - "老年人中西药合用需注意药物相互作用"
+      - "建议由家庭医生定期药物审查"
+    expected_protocol: {}
+    must_warn:
+      - "中药也需医生处方后使用，不要自行购买随意服用"
+      - "老年人多药共用需关注相互作用"
+    consensus_refs: ["共识第 10 条"]
+    must_not:
+      - "推荐具体中药剂量"
+
+  # ─── 失眠（PDF3）(18 题 INS01-INS18) ─────────────────────────
+
+  - id: INS01
+    domain: insomnia
+    question: "什么是慢性失眠？怎么诊断？"
+    expected_topics:
+      - "慢性失眠诊断 A-F 项：主诉入睡/维持/早醒困难，有充足睡眠机会，日间功能损害"
+      - "频率标准：≥3 次/周；持续时间：≥3 个月"
+      - "需排除其他睡眠/精神/躯体疾病"
+      - "主观量表（ISI、PSQI、DBAS）辅助评估"
+    expected_protocol:
+      frequency: "≥3 次/周"
+      duration: "≥3 个月"
+    must_warn:
+      - "诊断需由医生综合评估，不能仅凭症状自我诊断"
+    consensus_refs: ["指南推荐意见第 1 条（失眠定义与诊断标准）"]
+    must_not:
+      - "仅凭描述就确认慢性失眠诊断"
+
+  - id: INS02
+    domain: insomnia
+    question: "短期失眠和慢性失眠有什么不同？"
+    expected_topics:
+      - "短期失眠：病程 <3 个月，有明确诱发事件（应激/环境）"
+      - "慢性失眠：病程 ≥3 个月，≥3 次/周，伴日间功能损害"
+      - "短期失眠不处理可进展为慢性——维持因素（3P 模型）关键"
+      - "治疗策略相同：优先 CBT-I，短期可酌情使用药物"
+    expected_protocol: {}
+    must_warn:
+      - "即使是短期失眠也应关注是否存在维持因素，防止慢性化"
+    consensus_refs: ["指南推荐意见第 1 条"]
+    must_not: []
+
+  - id: INS03
+    domain: insomnia
+    question: "non-BZDs 和 BZDs 有什么区别？老人能吃吗？"
+    expected_topics:
+      - "BZDs（苯二氮䓬类）：地西泮、阿普唑仑等；长期使用有依赖/跌倒/认知损害风险"
+      - "non-BZDs（非苯二氮䓬 BZRAs）：唑吡坦、佐匹克隆、艾司佐匹克隆；选择性更高，残余效应较低"
+      - "老年人：BZDs 列为不推荐/慎用（A 级 I 级）；non-BZDs 可短期、低剂量使用，需医生判断"
+      - "所有镇静催眠药均应由医生处方，不可自行购药"
+    expected_protocol: {}
+    must_warn:
+      - "老年人 BZDs 跌倒和认知损害风险显著增加"
+      - "具体药物和剂量由医生根据您的情况决定，不可自行购药使用"
+    consensus_refs: ["指南推荐意见第 4 条（失眠药物治疗方案）", "指南推荐意见第 5 条（老年人失眠）"]
+    must_not:
+      - "推荐具体 BZDs 或 non-BZDs 的剂量"
+      - "告知患者自行选购 non-BZDs"
+
+  - id: INS04
+    domain: insomnia
+    question: "DORA（食欲素受体拮抗剂）是什么？什么人适合？"
+    expected_topics:
+      - "DORA 机制：拮抗食欲素受体，降低觉醒驱动，不影响全身 GABA 受体"
+      - "代表药物：苏沃雷生、莱博雷生、达利雷生"
+      - "优势：依赖性和残余效应较 BZDs/non-BZDs 低"
+      - "适应症：慢性失眠（入睡困难 + 睡眠维持困难）"
+      - "具体药物和剂量须由医生处方"
+    expected_protocol: {}
+    must_warn:
+      - "具体药物和剂量由医生根据您的情况决定，不可自行购药使用"
+    consensus_refs: ["指南推荐意见第 4 条"]
+    must_not:
+      - "给出 DORA 类药物的具体剂量"
+
+  - id: INS05
+    domain: insomnia
+    question: "CBT-I 包括哪些技术？8 种方法都是什么？"
+    expected_topics:
+      - "1. 睡眠卫生教育"
+      - "2. 刺激控制（床和卧室仅用于睡眠）"
+      - "3. 睡眠限制疗法（缩短在床时间，提高睡眠效率）"
+      - "4. 认知矫正（纠正灾难化思维）"
+      - "5. 正念/放松训练（渐进肌肉放松、腹式呼吸）"
+      - "6. 矛盾意向法"
+      - "7. 强化睡眠再训练"
+      - "8. 音乐疗法/催眠疗法"
+      - "CBT-I 是失眠一线治疗（A 级 I 级证据）"
+    expected_protocol:
+      cbt_i_sessions: "6-8 周，每周 1 次"
+    must_warn: []
+    consensus_refs: ["指南推荐意见第 3 条（心理行为治疗）"]
+    must_not: []
+
+  - id: INS06
+    domain: insomnia
+    question: "矛盾意向法是什么？怎么用？"
+    expected_topics:
+      - "矛盾意向法：刻意要求患者保持清醒，消除入睡焦虑（逆向操作）"
+      - "适用人群：过度担心睡不着导致入睡困难的患者"
+      - "操作要点：关灯后保持睁眼、不主动催眠，减少'努力入睡'的焦虑"
+      - "常与刺激控制和认知矫正联合使用"
+    expected_protocol: {}
+    must_warn: []
+    consensus_refs: ["指南推荐意见第 3 条（CBT-I 8 种技术）"]
+    must_not: []
+
+  - id: INS07
+    domain: insomnia
+    question: "失眠的 3P 模型是什么？"
+    expected_topics:
+      - "3P：Predisposing（易感因素）/ Precipitating（诱发因素）/ Perpetuating（维持因素）"
+      - "易感：遗传、性格特质（焦虑倾向）、女性"
+      - "诱发：生活事件、心理应激、环境改变"
+      - "维持：过度在床时间、日间补觉、睡眠焦虑（最关键，导致慢性化）"
+      - "CBT-I 主要针对维持因素"
+    expected_protocol: {}
+    must_warn: []
+    consensus_refs: ["指南推荐意见第 1 条（3P 模型）"]
+    must_not: []
+
+  - id: INS08
+    domain: insomnia
+    question: "tDCS 治疗失眠有用吗？怎么做？"
+    expected_topics:
+      - "tDCS（经颅直流电刺激）：阳极刺激前额叶，可改善睡眠质量"
+      - "参数：2 mA，20-60 分钟/次"
+      - "tACS（经颅交流电刺激）：77.5 Hz，15 mA，30 分钟/天"
+      - "属于物理治疗之一，需在专业机构进行"
+      - "可作为药物不耐受患者的替代/辅助方案"
+    expected_protocol:
+      tdcs_current: "2 mA"
+      tdcs_duration: "20-60 min/次"
+      tacs_frequency: "77.5 Hz"
+      tacs_current: "15 mA"
+      tacs_duration: "30 min/d"
+    must_warn:
+      - "需在专业医疗机构进行，不可自行在家操作"
+    consensus_refs: ["指南推荐意见第 3 条（物理治疗）"]
+    must_not:
+      - "建议患者自行购买设备在家使用"
+
+  - id: INS09
+    domain: insomnia
+    question: "COMISA（失眠+睡眠呼吸暂停）该怎么治？"
+    expected_topics:
+      - "COMISA 定义：慢性失眠合并 OSA 共病，相互加重"
+      - "治疗原则：优先治疗 OSA（PAP/CPAP 一线）"
+      - "CBT-I 同时改善失眠并提高 PAP 依从性"
+      - "BZDs 类药物在 OSA 患者慎用/禁用（加重呼吸抑制）"
+      - "DORA/non-BZDs 相对较安全但仍需医生评估"
+    expected_protocol: {}
+    must_warn:
+      - "BZDs 在 OSA 患者可加重呼吸抑制，须医生评估后使用"
+      - "CPAP 压力调整须由睡眠中心专业人员操作"
+    consensus_refs: ["指南推荐意见第 7 条（COMISA）"]
+    must_not:
+      - "建议 COMISA 患者自行使用 BZDs"
+
+  - id: INS10
+    domain: insomnia
+    question: "孕妇失眠怎么办？能吃安眠药吗？"
+    expected_topics:
+      - "优先非药物方案：CBT-I、睡眠卫生、放松训练"
+      - "几乎所有镇静催眠药对胎儿存在潜在风险，不推荐"
+      - "必要时由妇产科+精神科/睡眠专科联合评估"
+      - "物理疗法（光照、放松训练）相对安全"
+    expected_protocol: {}
+    must_warn:
+      - "孕期用药须由妇产科医生评估，不可自行服用任何安眠药"
+    consensus_refs: ["指南推荐意见第 6 条（特殊人群：妊娠期）"]
+    must_not:
+      - "推荐孕妇使用任何具体安眠药"
+
+  - id: INS11
+    domain: insomnia
+    question: "围绝经期失眠怎么办？"
+    expected_topics:
+      - "围绝经期失眠原因：雌激素下降导致潮热、睡眠片段化"
+      - "CBT-I 一线，可同步改善焦虑情绪"
+      - "激素替代治疗（HRT）可减少潮热，改善睡眠——由妇科医生评估"
+      - "镇静抗抑郁药（低剂量）可辅助，须医生处方"
+    expected_protocol: {}
+    must_warn:
+      - "激素替代治疗需妇科医生评估风险（血栓/乳腺等）"
+      - "具体药物由医生根据情况决定"
+    consensus_refs: ["指南推荐意见第 6 条（特殊人群：围绝经期）"]
+    must_not:
+      - "建议患者自行使用激素类药物"
+
+  - id: INS12
+    domain: insomnia
+    question: "倒班工作者失眠怎么调节？"
+    expected_topics:
+      - "倒班睡眠障碍（SWSD）：节律紊乱 + 主动睡眠不足"
+      - "光照管理：夜班前强光暴露（2500-10000 Lux），睡前避光"
+      - "储备睡眠策略：夜班前提前补觉"
+      - "褪黑素（melatonin）辅助节律调整（需医生指导）"
+      - "CBT-I 技术适用；规律作息时间"
+    expected_protocol:
+      light_therapy_lux: "2500-10000 Lux"
+    must_warn:
+      - "褪黑素的剂量和服用时间须医生指导"
+    consensus_refs: ["指南推荐意见第 8 条（倒班人群）"]
+    must_not: []
+
+  - id: INS13
+    domain: insomnia
+    question: "失眠的同时有抑郁，该选哪种药？"
+    expected_topics:
+      - "失眠合并抑郁：优先选择兼具镇静作用的抗抑郁药（镇静抗抑郁药类）"
+      - "代表通用名：米氮平、曲唑酮、多塞平（低剂量）"
+      - "具体药物和剂量由精神科/神经科医生决定"
+      - "CBT 可同步改善失眠和抑郁（A 级证据）"
+      - "有自伤/自杀想法立即就医"
+    expected_protocol: {}
+    must_warn:
+      - "有自伤、轻生想法时须立即就医"
+      - "具体药物和剂量由医生根据您的情况决定，不可自行购药使用"
+    consensus_refs: ["指南推荐意见第 9 条（失眠合并精神障碍）"]
+    must_not:
+      - "推荐具体抗抑郁药的剂量"
+
+  - id: INS14
+    domain: medication
+    question: "失眠用药多久需要复查？长期用药要注意什么？"
+    expected_topics:
+      - "短期用药原则：2-4 周为宜，最长不超过 4 周"
+      - "长期间歇疗法：需医生监督，每隔一段时间评估是否继续"
+      - "定期复查：1-2 周内首次随访，之后每月评估疗效和副作用"
+      - "长期风险：依赖、耐受、认知损害（BZDs 尤甚）"
+      - "减停策略：每 1-2 周减少当前剂量 25%，配合 CBT-I"
+    expected_protocol:
+      initial_review: "2-4 周内"
+      taper_rate: "每 1-2 周减少 25%（医生制定）"
+    must_warn:
+      - "不可突然停药，须医生指导下逐步减量"
+    consensus_refs: ["指南推荐意见第 4 条（失眠药物治疗）"]
+    must_not:
+      - "建议患者自行停药或调整剂量"
+
+  - id: INS15
+    domain: comorbidity
+    question: "失眠合并 RLS（不宁腿综合征）应该先治哪个？"
+    expected_topics:
+      - "RLS 是失眠的重要诱因，应同步处理"
+      - "RLS 原因：铁缺乏（血清铁蛋白 <50 μg/L 则补铁）、多巴胺功能异常"
+      - "RLS 药物（多巴胺受体激动剂）须神经内科/睡眠专科处方"
+      - "CBT-I 可同步改善失眠成分"
+      - "RLS 治疗有效后失眠往往随之改善"
+    expected_protocol: {}
+    must_warn:
+      - "RLS 病因治疗（补铁/多巴胺药物）须医生处方，不可自行用药"
+    consensus_refs: ["指南推荐意见第 10 条（失眠合并 RLS）"]
+    must_not:
+      - "建议患者自行购买补铁制剂或多巴胺类药物"
+
+  - id: INS16
+    domain: insomnia
+    question: "儿童青少年失眠怎么办？"
+    expected_topics:
+      - "优先行为干预：规律作息、睡前习惯、减少屏幕时间"
+      - "CBT-I 适配版（认知行为疗法）对青少年有效"
+      - "成人失眠指南不适用于儿童——须儿科/儿童睡眠专科评估"
+      - "药物使用限制：安眠药几乎无儿童适应症，不推荐"
+    expected_protocol: {}
+    must_warn:
+      - "儿童用药须儿科医生评估，本指南不覆盖儿童剂量"
+    consensus_refs: ["指南推荐意见第 6 条（特殊人群：儿童青少年）"]
+    must_not:
+      - "推荐具体安眠药给儿童使用"
+
+  - id: INS17
+    domain: insomnia
+    question: "新型药地达西尼是什么？"
+    expected_topics:
+      - "地达西尼（Doxepin 低剂量）：新型 BZRAs 代表之一"
+      - "机制：选择性结合 GABA-A 受体 α1/α2/α3 亚基，影响更精准"
+      - "特点：残余效应和依赖风险低于经典 BZDs"
+      - "适应症：成人慢性失眠；须医生处方"
+    expected_protocol: {}
+    must_warn:
+      - "具体药物和剂量由医生根据您的情况决定，不可自行购药使用"
+    consensus_refs: ["指南推荐意见第 4 条（新型 BZRAs）"]
+    must_not:
+      - "给出地达西尼的具体剂量"
+
+  - id: INS18
+    domain: insomnia
+    question: "COPD 失眠患者能用 BZDs 吗？"
+    expected_topics:
+      - "COPD 合并失眠：BZDs 禁用/慎用——加重呼吸抑制，恶化低氧血症"
+      - "推荐替代方案：non-BZDs（唑吡坦、右佐匹克隆）/ DORA / 褪黑素受体激动剂"
+      - "CBT-I 是首选非药物方案"
+      - "COPD 急性加重期禁用所有镇静类药物"
+    expected_protocol: {}
+    must_warn:
+      - "COPD 患者安眠药选择须呼吸科医生评估"
+      - "BZDs 禁用于 COPD 失眠患者"
+    consensus_refs: ["指南推荐意见第 11 条（失眠合并 COPD）"]
+    must_not:
+      - "建议 COPD 患者使用 BZDs 类安眠药"

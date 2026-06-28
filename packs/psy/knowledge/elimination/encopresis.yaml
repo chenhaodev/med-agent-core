@@ -1,0 +1,136 @@
+specialty: elimination
+specialty_zh: 排泄障碍
+disease: encopresis
+disease_zh: 遗粪症
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: ENCOPRESIS_DEF
+  title: 遗粪症的核心特征
+  source_page: 404
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 反复在不恰当地方（如衣服、地板）排出粪便，可能是不自主或故意的。
+  - 事件至少每月发生1次，持续至少3个月。
+  - 儿童实际年龄至少4岁（或相应发展水平）。
+  - 行为不能完全由物质（如泻药）或其他躯体疾病解释，除非通过便秘机制。
+  must_warn: []
+- id: ENCOPRESIS_CRITERIA
+  title: 主要诊断标准
+  source_page: 403
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 反复在不恰当地方排便（标准A）。
+  - 至少每月1次，持续3个月（标准B）。
+  - 实际年龄至少4岁或心理年龄达到4岁（标准C）。
+  - 不能归因于物质或其他疾病，除非便秘导致溢出性失禁（标准D）。
+  must_warn: []
+- id: ENCOPRESIS_SUBTYPES
+  title: 遗粪症的两种亚型
+  source_page: 403
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 伴便秘和溢出性失禁：体检或病史证实便秘，粪便通常不成形，泄漏可间歇或持续。
+  - 不伴便秘和溢出性失禁：无便秘证据，粪便形状正常，污染呈间歇性，可能因对立违抗或品行障碍。
+  must_warn: []
+- id: ENCOPRESIS_ASSOCIATED
+  title: 临床相关特征
+  source_page: 404
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 患儿常感到羞愧，可能回避社交场合（如夏令营、学校）。
+  - 可能故意涂抹粪便以清理或隐藏。
+  - 故意喷射粪便常伴随对立违抗障碍或品行障碍特征。
+  - 慢性便秘患儿常同时有遗尿症状，可能出现膀胱输尿管反流和尿路感染。
+  must_warn: []
+- id: ENCOPRESIS_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 405
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 高收入国家中1%-4%的孩子受影响；一些亚洲国家报道2%-8%。
+  - 4-6岁儿童患病率最高（>4%），10-12岁降至<2%。
+  - 早期遭受虐待、忽视和低收入青少年患病率更高。
+  must_warn: []
+- id: ENCOPRESIS_COURSE
+  title: 起病与病程
+  source_page: 405
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 诊断需孩子实际年龄至少4岁（或心理年龄4岁）。
+  - 分为原发型（从未建立排便控制）和继发型（控制后再次失禁）。
+  - 起病相关因素：不充分或不一致的如厕训练、心理压力（入学、弟弟妹妹出生）。
+  - 遗粪症可持续数年，时有间歇性加重。
+  must_warn: []
+- id: ENCOPRESIS_RISK
+  title: 风险与预后因素
+  source_page: 405
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 排便疼痛可导致便秘和憋便循环，增加遗粪风险。
+  - 男性、青春期前年龄是风险因素。
+  - 焦虑、抑郁、行为障碍、心理压力（如欺凌、学业差）、低社会经济地位均增加风险。
+  must_warn: []
+- id: ENCOPRESIS_DIFF
+  title: 鉴别诊断要点
+  source_page: 406
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 只有通过便秘机制导致的大便失禁才符合遗粪症诊断。
+  - 其他躯体疾病（如慢性腹泻、脊柱裂、肛门狭窄）引起的失禁不诊断遗粪症。
+  - 需排除物质效应（如泻药）。
+  must_warn: []
+- id: ENCOPRESIS_COMORB
+  title: 常见共病
+  source_page: 406
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 遗尿症（Enuresis）在遗粪症儿童中常同时存在，尤其在不伴便秘的遗粪症亚型中。
+  - 对立违抗障碍、品行障碍可能出现于故意喷射粪便的患儿。
+  must_warn: []
+- id: ENCOPRESIS_CULTURE
+  title: 文化相关诊断考量
+  source_page: 405
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 不同饮食、热带炎热气候、心理逆境会影响便秘和遗粪发生率。
+  - 部分社会父母因宗教或文化原因不报告遗粪症（如荷兰的土耳其和摩洛哥裔）。
+  must_warn: []
+- id: ENCOPRESIS_GENDER
+  title: 性别与诊断
+  source_page: 405
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 5岁以下性别比例相等。
+  - 较大儿童中男孩更多见，全球性别比从2:1到6:1（男:女）。
+  must_warn: []
+- id: ENCOPRESIS_FUNCTIONAL
+  title: 功能影响
+  source_page: 406
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 遗粪症显著降低健康相关生活质量和家庭功能。
+  - 年龄较大儿童受影响更明显。
+  must_warn: []
+- id: ENCOPRESIS_DIAGN_MARK
+  title: 诊断标志物
+  source_page: 405
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 临床诊断基于病史和体检，一般无需特殊检查。
+  - 直肠指检发现粪块嵌塞支持伴便秘的亚型。
+  - 腹部X光或结肠传输试验可辅助区分是否伴有便秘。
+  - 肛门直肠测压有助于了解生理因素。
+  must_warn: []

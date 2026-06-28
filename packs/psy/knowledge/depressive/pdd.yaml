@@ -1,0 +1,88 @@
+specialty: depressive
+specialty_zh: 抑郁障碍
+disease: pdd
+disease_zh: 持续性抑郁障碍（恶劣心境）
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: PDD_DEFINITION
+  title: 定义与核心特征
+  source_page: 193
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 持续性抑郁障碍的核心是长期（≥2年，儿童青少年≥1年）且大部分时间感到抑郁。
+  - 这种障碍综合了DSM-IV的慢性重性抑郁障碍和恶劣心境障碍。
+- id: PDD_DIAGNOSTIC_CRITERIA_AB
+  title: 诊断标准（症状）
+  source_page: 193
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 必须持续抑郁（或儿童青少年易怒）≥2年（儿童1年），且平时比好转天数多。
+  - 同时存在至少2项：食欲差或过食、失眠或嗜睡、精力低、低自尊、注意力差、无望感。
+  - 症状从未连续2个月以上消失。
+- id: PDD_DIAGNOSTIC_CRITERIA_CH
+  title: 诊断标准（排除与病程）
+  source_page: 193
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 排除双相障碍、精神病性障碍、物质/躯体疾病所致的情况。
+  - 若同时满足重性抑郁标准，需额外诊断重性抑郁并标注类型。
+  - 症状导致显著痛苦或社交、职业等功能损害。
+- id: PDD_PREVALENCE
+  title: 患病率
+  source_page: 194
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国12月患病率：恶劣心境约0.5%，慢性重性抑郁约1.5%。
+  - 女性患病率约男性的1.5倍（恶劣心境）至2倍（慢性重性抑郁）。
+  - 高收入国家患病率可能高于中低收入国家，但任何地区均与升高自杀风险和同等残疾相关。
+- id: PDD_DEVELOPMENT_COURSE
+  title: 起病与病程
+  source_page: 194
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 通常起病早且隐匿（儿童、青少年或成年早期），呈慢性病程。
+  - 边缘型人格障碍是特别强的风险因素，两者共病提示共同机制。
+  - 早期起病（<21岁）更易合并人格障碍和物质使用障碍。
+  - 症状可能时轻时重，但完全缓解可能性低于非慢性重性抑郁。
+- id: PDD_RISK_PROGNOSTIC
+  title: 风险与预后因素
+  source_page: 195
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 预后不良因素：高神经质（负性情绪）、症状更重、整体功能差、合并焦虑或品行障碍。
+  - 童年风险因素：父母丧失或分离、童年逆境。
+  - 一级亲属患持续性抑郁障碍的比例高于非慢性重性抑郁。
+- id: PDD_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 196
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与重性抑郁区别：持续性抑郁时间更长（≥2年），症状数量较少。
+  - 与双相障碍、环性心境、精神病性障碍区别：有躁狂/轻躁狂发作史则排除。
+  - 与躯体/物质所致抑郁区别：需判断病因是否直接生理效应。
+  - 人格障碍可共病，需同时诊断。
+- id: PDD_COMORBIDITY
+  title: 常见共病
+  source_page: 194
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见共病：边缘型人格障碍、物质使用障碍、焦虑障碍、品行障碍。
+  - 早期起病（<21岁）更易合并人格障碍和物质使用障碍。
+  - 人格障碍与持续性抑郁常共病，两者均可诊断。
+- id: PDD_SUICIDE_RISK
+  title: 自杀风险与安全警示
+  source_page: 195
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 持续性抑郁障碍在各国均与升高的自杀结局风险相关。
+  must_warn:
+  - 持续性抑郁障碍与增加的自杀风险相关，若出现自杀念头务必寻求专业帮助。

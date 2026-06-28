@@ -1,0 +1,91 @@
+specialty: personality
+specialty_zh: 人格障碍
+disease: schizoid
+disease_zh: 分裂样人格障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: SCPD_CORE
+  title: 核心特征与定义
+  source_page: 742
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 一种长期模式，表现出对社交关系的普遍脱离，以及在人际场合中情感表达严重受限。
+  - 患者好像缺乏亲密欲望，对建立关系不感兴趣，也不从家庭或群体中获得满足。
+  must_warn: []
+- id: SCPD_CRITERIA_A
+  title: 主要诊断标准（A）
+  source_page: 742
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 自成年早期起，在各种情境中，满足下列7项中的至少4项：
+  - 1. 不渴望也不享受亲密关系（包括家庭）。
+  - 2. 几乎总是选择独自活动。
+  - 3. 对与他人发生性关系几乎没有兴趣。
+  - 4. 几乎没有什么活动能带来乐趣。
+  - 5. 除一级亲属外，缺少亲密朋友或知己。
+  - 6. 对他人的赞扬或批评显得无动于衷。
+  - 7. 表现出情感冷漠、疏离或平淡。
+  must_warn: []
+- id: SCPD_CRITERIA_B
+  title: 排除标准（B）
+  source_page: 742
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 症状不能仅出现在精神分裂症、伴有精神病特征的双相或抑郁障碍、其他精神病性障碍或自闭症谱系障碍的病程中。
+  - 也不能归因于其他躯体疾病（如颞叶癫痫）的生理效应。
+  - 如果诊断标准在精神分裂症之前已满足，可加注“病前状态”。
+  must_warn: []
+- id: SCPD_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 743
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 在临床环境中不常见，但在社区中估计患病率为1.3%～4.9%。
+  - 美国NCS-R亚样本中为4.9%，NESARC中为3.1%，六项流行病学研究的中位数为1.3%。
+  must_warn: []
+- id: SCPD_DEVELOPMENT
+  title: 起病与病程
+  source_page: 743
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 通常在儿童期或青少年期就显露，表现为孤僻、同伴关系差、学业不佳，容易受嘲弄。
+  - 病程持续，长期保持社交孤立和情感平淡的模式。
+  must_warn: []
+- id: SCPD_RISK
+  title: 风险与预后因素
+  source_page: 743
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 在精神分裂症或分裂型人格障碍患者的亲属中，分裂样人格障碍的患病率可能升高。
+  - 提示遗传因素可能起到一定作用。
+  must_warn: []
+- id: SCPD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 744
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与自闭症谱系障碍区分：后者有刻板行为和特殊兴趣，而分裂样人格障碍没有。
+  - 与妄想障碍、精神分裂症等精神病性障碍的区别：这些障碍有持续精神病症状（如妄想、幻觉）。
+  - 与分裂型人格障碍的区别：分裂型有认知和知觉扭曲，分裂样则无。
+  - 与偏执型人格障碍的区别：偏执型有怀疑和敌意，分裂样无。
+  - 与回避型人格障碍的区别：回避型害怕被拒绝而回避，分裂样是真正不想社交。
+  - 也要排除躯体疾病或物质使用导致的人格改变。
+  must_warn: []
+- id: SCPD_COMORBIDITY
+  title: 常见共病
+  source_page: 744
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 在压力下可能出现短暂的精神病性发作（持续数分钟到几小时）。
+  - 有时作为妄想障碍或精神分裂症的病前状态。
+  - 常共病重性抑郁障碍、广场恐怖症、强迫症，以及酒精或物质使用障碍。
+  - 人格障碍上常与分裂型、偏执型、回避型、边缘型人格障碍共病。
+  must_warn: []

@@ -1,0 +1,107 @@
+specialty: paraphilic
+specialty_zh: 性欲倒错障碍
+disease: fetishistic
+disease_zh: 恋物障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: FETISH_DEFINITION
+  title: 恋物障碍的定义
+  source_page: 797
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 恋物障碍的核心特征是持续至少6个月，通过无生命物体或特定非生殖器身体部位获得强烈性唤起，并有痛苦或功能损害。
+  - 常见恋物对象包括女性内衣、鞋袜、橡胶制品、皮革等；身体部位常见脚、脚趾、头发。
+  - 需同时满足诊断标准A（行为）和标准B（痛苦/损害）才能诊断，仅有兴趣不构成障碍。
+  must_warn: []
+- id: FETISH_CRITERIA
+  title: 诊断标准（ABC）
+  source_page: 796
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准A：至少6个月，反复通过无生命物体或特定非生殖器身体部位获得强烈性唤起，表现为幻想、冲动或行为。
+  - 标准B：这些幻想、冲动或行为导致临床显著痛苦，或社交、职业等重要功能损害。
+  - 标准C：恋物对象不包括异性装扮衣物（易装障碍）或专门设计的生殖器刺激器具（如振动器）。
+  must_warn: []
+- id: FETISH_SPECIFIERS
+  title: 指定性（类型与环境）
+  source_page: 797
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可指定恋物对象类型：身体部位、无生命物体、其他（可组合）。
+  - 环境指定：处于控制环境（如机构中机会受限）或完全缓解（至少5年无痛苦或损害）。
+  must_warn: []
+- id: FETISH_PARTIALISM
+  title: 部分主义纳入范畴
+  source_page: 797
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - DSM-5将原先归类为‘未特定性欲倒错’的部分主义（仅专注身体部位）重新纳入恋物障碍。
+  - 部分主义历史上就属于恋物症，直至DSM-III才被分离出去。
+  must_warn: []
+- id: FETISH_ASSOCIATED
+  title: 常见关联特征
+  source_page: 798
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 恋物体验常涉及多感官：拍、尝、揉、插入或闻恋物对象，且往往在自慰时使用。
+  - 部分人必须有恋物对象才能性唤起或满足，并会大量收集喜爱物品。
+  - 许多人仍能进行不含恋物对象的性行为，但偏好含恋物的体验。
+  must_warn: []
+- id: FETISH_DEVELOPMENT
+  title: 起病年龄与病程
+  source_page: 798
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 恋物性兴趣通常在青春期起病，但也可能在青春期前出现。
+  - 一旦形成，恋物障碍往往呈持续病程，冲动和行为的强度与频率会波动。
+  must_warn: []
+- id: FETISH_CULTURE
+  title: 文化因素考量
+  source_page: 798
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 诊断需考虑性行为的文化规范性，区分临床障碍与社会可接受的性偏好。
+  must_warn: []
+- id: FETISH_GENDER
+  title: 性别分布差异
+  source_page: 798
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 恋物行为在男性中报告更多，但女性中也存在；幻想上的性别差异小于实际行为。
+  - 在临床样本中，恋物障碍几乎只在男性中发现。
+  must_warn: []
+- id: FETISH_FUNCTIONAL
+  title: 功能损害表现
+  source_page: 798
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 主要功能损害体现在伴侣关系中的性功能障碍（如缺乏恋物对象时难以兴奋）。
+  - 部分患者即使处于亲密关系中，也可能偏好独自进行恋物活动。
+  must_warn: []
+- id: FETISH_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 798
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 最需鉴别的是易装障碍：若恋物对象仅限于异性装扮服装，应诊断为易装障碍。
+  - 需排除专门设计用于生殖器刺激的器具（如振动器），后者不属于恋物障碍。
+  - 恋物障碍可与虐恋行为或易装障碍等性欲倒错障碍共存。
+  must_warn: []
+- id: FETISH_COMORBIDITY
+  title: 共病其他障碍
+  source_page: 798
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 恋物障碍可与其他性欲倒错障碍共病，尤其常见于虐恋行为/兴趣和易装障碍。
+  must_warn: []

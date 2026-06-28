@@ -1,0 +1,119 @@
+specialty: bipolar
+specialty_zh: 双相及相关障碍
+disease: bipolar_i
+disease_zh: 双相I型障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: BIPOLARI_DEFINITION
+  title: 双相I型障碍核心定义
+  source_page: 143
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 双相I型障碍以反复出现躁狂、抑郁和轻躁狂发作为特征，但必须有至少一次躁狂发作才能诊断。
+  - 躁狂发作时，情绪异常高涨、夸大或易怒，伴有活动或精力持续增加，持续至少1周（或住院则不限时长）。
+  - 典型表现包括自我膨胀、睡眠需求减少、言语增多、思绪奔逸、注意分散、目标导向活动增加及冲动行为。
+  must_warn: []
+- id: MANIC_CRITERIA
+  title: 躁狂发作诊断标准
+  source_page: 140
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需要持续至少1周（或住院）的情绪异常高昂、夸大或易怒，同时活动或精力显著增加。
+  - 满足3项以上症状（若仅易怒需4项）：自尊膨胀、睡眠需求减少、言语增多或语速紧迫、思绪奔逸、易分心、目标活动增加、参与高风险活动。
+  - 症状导致社交或职业功能严重受损，或必须住院以防伤人伤己，或出现精神病性特征。
+  - 排除物质（如毒品、药物）或其他躯体疾病的直接生理效应所致。
+  must_warn:
+  - 躁狂发作时可能因判断力差、冲动行为导致自伤或伤人，严重时可出现精神病性症状和自杀行为。
+- id: HYPOMANIC_DEPRESSIVE_OVERVIEW
+  title: 轻躁狂与重性抑郁发作
+  source_page: 141
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 轻躁狂发作症状类似躁狂但较轻，持续至少4天，功能改变明显但未严重受损，无需住院。
+  - 重性抑郁发作需2周内出现至少5项症状，包括情绪低落或兴趣丧失，以及睡眠、食欲、精力等改变。
+  - 轻躁狂和抑郁发作在双相I型中常见，但并非诊断必需。
+  must_warn:
+  - 重性抑郁发作标准第9条包含反复死亡念头、自杀意念、自杀企图或具体计划，需高度警惕。
+- id: PREVALENCE
+  title: 患病率与流行病学
+  source_page: 146
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国成人12个月患病率约1.5%，男女比例接近1:1。
+  - 不同种族/民族间有差异：印第安裔较高，非裔、西班牙裔、亚裔较低。
+  - 国际研究显示12个月患病率0.0%~0.6%，高收入国家高于低收入国家。
+  must_warn: []
+- id: ONSET_COURSE
+  title: 起病年龄与病程
+  source_page: 147
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 发病高峰年龄20~30岁，平均22岁，女性略早于男性。
+  - 超过90%的首次躁狂发作患者日后会复发，约60%躁狂发作前有重性抑郁。
+  - 若一年内发作≥4次（快速循环），预后更差；约半数有主导极性（躁狂或抑郁倾向）。
+  - 首次发作极性常预示后续极性：抑郁首发者自杀风险更高。
+  must_warn: []
+- id: RISK_PROGNOSTIC_FACTORS
+  title: 风险与预后因素
+  source_page: 147
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 童年逆境（情感创伤、父母精神疾病、家庭冲突）是已知风险因素，也预示早发和预后差。
+  - 近期生活压力增加抑郁复发风险，而成就性事件（如结婚）可能诱发躁狂。
+  - 遗传因素很强，双生子研究遗传度约90%，一级亲属患病风险5%~10%。
+  - 大麻等物质使用可加重或诱发躁狂症状。
+  must_warn: []
+- id: DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 150
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 易与单相抑郁混淆：需主动排查是否有躁狂/轻躁狂史，尤其抑郁首发、多次发作、抗抑郁药诱发躁狂者。
+  - 与双相II型区别：后者无躁狂发作，仅有轻躁狂。
+  - 与焦虑障碍区别：焦虑性沉思可能误认为思绪奔逸，需评估症状是否呈发作性。
+  - 与物质/躯体疾病所致躁狂区别：需判断病因是否直接源于物质或躯体疾病。
+  - 注意与注意缺陷/多动障碍（ADHD）及破坏性心境失调障碍鉴别，尤其儿童青少年。
+  - 边缘型人格障碍与双相I型症状重叠（情绪不稳、冲动），需明确症状是否为明确发作期且超出基线。
+  must_warn: []
+- id: COMORBIDITY
+  title: 常见共病
+  source_page: 153
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 多数双相I型患者共病≥3种其他精神障碍。
+  - 最常见共病：焦虑障碍、酒精使用障碍、其他物质使用障碍、ADHD。
+  - 人格障碍（边缘型、分裂型、反社会型）也常共病。
+  - 社会文化因素影响共病模式，如禁酒地区物质使用共病率较低。
+  must_warn:
+  - 近半数双相I型患者合并酒精使用障碍，共病者自杀企图和死亡风险更高。
+- id: SUICIDE_RISK
+  title: 自杀风险与安全
+  source_page: 149
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 双相障碍自杀终身风险是普通人群的20~30倍。
+  - 约5%~6%的双相障碍患者死于自杀。
+  - 女性自杀企图更多，但男性致死性自杀更常见。
+  - 既往自杀企图史、过去一年抑郁天数比例高是自杀的高危因素。
+  must_warn:
+  - 双相I型患者自杀风险极高，既往自杀企图和抑郁严重程度增加风险，合并酒精使用障碍时风险更高。
+- id: FUNCTIONAL_CONSEQUENCES
+  title: 功能后果
+  source_page: 150
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 约30%患者工作角色功能严重受损，但很多人发作间期功能可恢复。
+  - 功能恢复滞后于症状恢复，尤其职业方面，导致社会经济地位低于同等教育水平的普通人。
+  - 认知损害（如注意力、执行功能）可持续存在，并影响工作和人际关系。
+  - 自我感知的病耻感越高，功能水平越低。
+  must_warn: []

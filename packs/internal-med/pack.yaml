@@ -1,0 +1,69 @@
+# Generated for the consolidation migration; advanced (yaml_stack) reference pack.
+id: internal-med
+name: 西氏内科学精要 家属问答 Agent
+source:
+  title: 西氏内科学精要
+  kind: textbook
+audiences:
+- patient
+- doctor
+features:
+  knowledge_injection: yaml_stack
+  page_traceable: true
+  ingest: pdf
+  deep_eval: true
+output_schema: prompts/output_schema.md
+sections_dir: prompts/sections
+system_base: prompts/system_base.md
+knowledge: knowledge
+knowledge_header: 以下是与用户问题相关的内科教材及指南内容，你的回答必须严格基于这些内容：
+routing:
+  map: knowledge/category_index.yaml
+  fallback: cardiology:general
+  llm_fallback: true
+oob:
+  templates: prompts/oob_templates.md
+  blocklist:
+  - type: surgery
+    pattern: 搭桥手术|冠状动脉搭桥|CABG|心脏手术|换瓣|瓣膜手术|心脏移植|心脏搭桥|做搭桥|要搭桥|肾移植|肝移植|器官移植|骨髓移植|造血干细胞移植|支架手术|放支架|放不放支架|要不要手术|手术指征|要做手术|做手术吗|介入治疗|冠脉介入|射频消融|导管消融|心脏消融|透析|血液透析|腹膜透析|要不要透析|透析时机|手术风险|术前评估|术后护理|内镜手术|胃镜手术|肠镜手术|起搏器植入|安装起搏器|做支架|要不要做手术
+  - type: chemo
+    pattern: 化疗方案|化疗剂量|化疗用什么药|化疗药物选择|骨髓抑制|升白细胞针|升血小板|G-CSF|紫杉醇|顺铂|卡铂|奥沙利铂|伊立替康|吉西他滨|培美曲塞|靶向治疗用什么药|靶向治疗用哪个药|免疫治疗剂量|PD-1.*剂量|PD-L1.*剂量|CTLA-4.*剂量|CAR-T|细胞免疫治疗方案|肿瘤免疫治疗方案|放疗剂量|放化疗方案|化放疗.*方案|同步放化疗.*方案|CHOP|R-CHOP|利妥昔单抗.*剂量|淋巴瘤.*方案|方案.*淋巴瘤|ABVD|BEP|FOLFOX|FOLFIRI|EC方案|AC方案
+  - type: diagnosis
+    pattern: 帮我.*诊断|帮我看.*化验单|帮我看.*报告|帮我看.*片子|是不是得了|我是不是患了|我得了什么病|是不是.*病|是不是.*癌|确诊|确认.*是什么病|判断.*是什么病|看.*化验.*结果|看.*检查.*结果|看化验单|分析化验单|解读.*报告|解读.*化验|这个化验单说明什么|我是不是癌症|判断我的病
+  - type: dosing_change
+    pattern: 自己.*加量|自行.*加量|加量.*可以吗|能不能.*加量|自己.*减量|自行.*减量|减量.*可以吗|能不能.*减量|自己.*换药|自行.*换药|换药.*可以吗|能不能.*换药|自己.*换成|想.*自己.*换成|自己.*停药|自行.*停药|停药.*可以吗|能不能.*停药|自行.*调整.*药|自己.*调整.*药量|我该.*吃多少.*药|加倍.*剂量|减半|把.*剂量.*改|改.*剂量|自己.*把.*药|把.*药.*减|把.*药.*加|自行.*加|自行.*减|自己.*加到|自己.*把.*加到|把.*从.*加到.*单位
+  - type: unrelated
+    pattern: 作文|写一篇文章|帮我写文|帮我写篇|写代码|帮我编程|帮我写程序|股票|基金|理财|投资建议|炒股|天气怎么样|天气如何|天气预报|查天气|今天.*天气|明天.*天气|菜谱|烹饪方法|怎么做菜|做菜|食谱|红烧|清蒸|怎么烹饪|怎么做.*肉|怎么煮|炖.*汤|翻译成英文|翻译成中文|请翻译|帮我翻译|推荐.*[首张支首].*音乐|推荐.*歌曲|推荐.*歌单|推荐.*播放列表|推荐.*电影|推荐.*电视剧|推荐.*影片|推荐.*影视|音乐.*推荐|歌曲.*推荐|好听的.*音乐|什么.*音乐.*好听
+output:
+  oob_exempt_pattern: 超出.*范围|不在.*覆盖|不覆盖|超出了.*范围
+  patient:
+    required_sections:
+    - 【这是什么】
+    - 【日常该怎么做】
+    - 【什么情况要就医】
+    - 【常见误区】
+    - 【依据】
+    citation_pattern: 第[0-9]+页|p\.[0-9]+|章节|指南|《
+  doctor:
+    required_sections:
+    - 【定义与流行病学】
+    - 【循证管理】
+    - 【红旗症状/转诊指征】
+    - 【证据等级汇总】
+    - 【参考】
+    citation_pattern: 第[0-9]+页|p\.[0-9]+|章节|指南|《
+model:
+  name: deepseek-v4-flash
+  patient:
+    temperature: 0.3
+    max_tokens: 3000
+  doctor:
+    temperature: 0.2
+    max_tokens: 4000
+eval:
+  gold: eval/gold.yaml
+  oob_gold: eval/oob_gold.yaml
+  judge_prompt: eval/judge_prompt.md
+  pass_threshold: 0.85
+  baseline:
+    recorded_from: med-agent-inner-all (pre-migration); fill avg/oob from its eval/results before deleting

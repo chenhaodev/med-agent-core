@@ -1,0 +1,72 @@
+specialty: med_induced
+specialty_zh: 药物所致运动障碍及其他药物不良反应
+disease: nms
+disease_zh: 神经阻滞剂恶性综合征
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: NMS_DEFINITION
+  title: 神经阻滞剂恶性综合征定义
+  source_page: 810
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 神经阻滞剂恶性综合征（NMS）是一种由抗精神病药物（如氟哌啶醇）或其他阻断多巴胺受体的药物引发的严重不良反应。
+  - 核心特征是高热（体温>38.0°C，至少两次测量）、全身肌肉僵硬（像铅管一样僵硬）、意识模糊（从呆滞到昏迷），以及自主神经功能紊乱（如心跳加快、出汗、血压波动）。
+  - 肌酸激酶（CK）水平通常升高至正常上限的4倍以上，这是诊断的重要线索。
+  must_warn: []
+- id: NMS_DIAGNOSTIC_FEATURES
+  title: 主要诊断特征（大众版）
+  source_page: 810
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 患者在出现症状前72小时内曾使用过抗精神病药物或其他多巴胺拮抗剂。
+  - 高热（口腔体温>38.0°C）且伴有大量出汗，是区别于其他药物副作用的突出标志。
+  - 全身性“铅管样”僵硬，通常对帕金森病药物无效，是核心体征之一。
+  - 意识变化（如谵妄、昏睡、昏迷）常是早期表现，患者可能看似清醒但反应迟钝。
+  - 心跳、呼吸、血压等自主神经功能显著不稳定，出现异常加快或波动。
+  must_warn: []
+- id: NMS_EPIDEMIOLOGY
+  title: 患病率与流行病学
+  source_page: 811
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 数据库研究显示，在使用抗精神病药物的人群中，NMS的发生率约为0.01%~0.02%。
+  - 香港一项基于人群的研究发现，服药者中NMS发生风险为0.11%。
+  - 并非所有使用抗精神病药的人都会出现NMS，但所有使用者理论上都有风险。
+  must_warn: []
+- id: NMS_ONSET_COURSE
+  title: 起病与病程
+  source_page: 811
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 症状通常在用药后数小时至几天内出现，大多数在用药第1周内，几乎所有病例在30天内发生。
+  - 神经症状（如意识改变）通常早于全身症状（如高热）。
+  - 一旦停药，NMS大多能自行好转，平均恢复时间为7~10天，多数1周内恢复，几乎所有在30天内。
+  - 若使用长效抗精神病药物，恢复时间可能延长。
+  - 未及时识别时，病死率可达10%~20%。
+  - 部分患者再次使用抗精神病药物后可能复发，尤其是停药后不久就重新用药者。
+  must_warn: []
+- id: NMS_RISK_PROGNOSIS
+  title: 风险与预后因素
+  source_page: 812
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 高风险因素包括：使用高效价抗精神病药（如氟哌啶醇）、注射给药、快速增加剂量、高总剂量、以及存在激动、疲劳、脱水、缺铁等状态。
+  - 约15%~20%的患者有既往NMS发作史，提示个体可能存在易感性，但遗传原因尚未明确。
+  - 非精神科用药（如止吐药甲氧氯普胺、丙氯拉嗪）也可诱发NMS。
+  - 多数患者停药后能完全康复，但严重病例可能遗留神经症状数周。
+  must_warn: []
+- id: NMS_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 812
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需要与中枢神经系统感染、炎症/自身免疫病、癫痫持续状态、大脑深部结构病变等相鉴别。
+  - 还需排除全身性疾病：如嗜铬细胞瘤、甲亢、破伤风、中暑等。
+  - 鉴别关键：NMS有明确的多巴胺拮抗剂用药史，伴有高热、僵硬、CK升高，且无其他明确病因。
+  must_warn: []

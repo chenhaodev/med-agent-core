@@ -1,0 +1,78 @@
+specialty: personality
+specialty_zh: 人格障碍
+disease: schizotypal
+disease_zh: 分裂型人格障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: STPD_DEFINITION
+  title: 核心特征与定义
+  source_page: 745
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 该障碍表现为社会及人际关系持续缺陷，伴有认知或知觉扭曲以及行为古怪。
+  - 患者对亲密关系感到极度不适且能力下降，行为脱离社会常规，显得奇特或古怪。
+  - 此模式自成年早期开始，在多种情境下存在，并非仅出现在其他精神障碍中。
+  must_warn: []
+- id: STPD_CRITERIA
+  title: 主要诊断标准
+  source_page: 745
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需符合A项中9条症状中的5条或更多，包括牵连观念（非妄想性）、古怪信念或魔法思维、不寻常的知觉体验、奇怪的思维或言语、多疑或偏执、情感不适或受限、行为外表古怪、缺乏亲密朋友、社交焦虑不因熟悉而缓解且与偏执有关。
+  - B项排除症状仅出现在精神分裂症、伴有精神病性特征的双相/抑郁障碍、其他精神病性障碍或自闭症谱系障碍期间。
+  - 若在精神分裂症发病前已符合标准，可加注‘病前’。
+  must_warn: []
+- id: STPD_PREVALENCE
+  title: 患病率
+  source_page: 746
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国全国共病调查复测中的患病率估计为3.3%，另一大型调查为3.9%。
+  - 五项流行病学研究的汇总患病率中位数为0.6%。
+  - 不同研究间差异较大，部分原因可能与文化接受度有关。
+  must_warn: []
+- id: STPD_DEVELOPMENT
+  title: 起病与病程
+  source_page: 746
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 起病于成年早期，病程相对稳定，仅少数人进展为精神分裂症或其他精神病性障碍。
+  - 儿童和青少年期可能表现为孤僻、同伴关系差、社交焦虑、学业不佳、过度敏感、奇怪想法语言及怪异幻想。
+  - 这些孩子常被视为‘奇怪’或‘古怪’，容易招致取笑。
+  must_warn: []
+- id: STPD_RISK
+  title: 风险与预后因素
+  source_page: 747
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 该障碍在家族中聚集，精神分裂症患者的一级生物学亲属患病率高于一般人群。
+  - 先证者的亲属患精神分裂症及其他精神病性障碍的风险也略有增加。
+  - 双生子研究显示遗传因素高度稳定，环境因素较短暂；精神分裂症遗传风险变异可能与之相关。
+  - 神经影像学研究发现患者某些脑区大小和功能与健康人、精神分裂症及其他人格障碍患者存在组间差异。
+  must_warn: []
+- id: STPD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 747
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与妄想障碍、精神分裂症、伴精神病性特征的双相/抑郁障碍区别：后者有持续精神病性症状，而分裂型人格障碍在精神病性症状缓解后仍存在。
+  - 与自闭症谱系障碍区别：后者更缺乏社会意识和情感互惠，且有刻板行为。
+  - 与分裂样人格障碍区别：分裂型有认知/知觉扭曲和显著古怪；与回避型人格障碍区别：分裂型缺乏对关系的渴望和持续疏离。
+  - 与边缘型人格障碍区别：分裂型的类精神病症状更持久，较少与明显情感症状同时出现，且通常不表现冲动或操纵行为。
+  must_warn: []
+- id: STPD_COMORBIDITY
+  title: 常见共病
+  source_page: 744
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可能共同出现重性抑郁障碍。
+  - 与边缘型人格障碍有高共病率，也很常见与分裂样、偏执型、回避型人格障碍同时存在。
+  - 共病时需同时诊断各人格障碍。
+  must_warn: []

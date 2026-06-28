@@ -1,0 +1,9 @@
+# Secrets / local config
+.env
+.claude/settings.local.json
+
+# Runtime LLM payload cache
+.cache/
+
+# OS cruft
+.DS_Store

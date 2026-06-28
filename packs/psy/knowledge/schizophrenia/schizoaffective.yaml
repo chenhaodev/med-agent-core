@@ -1,0 +1,92 @@
+specialty: schizophrenia
+specialty_zh: 精神分裂症谱系及其他精神病性障碍
+disease: schizoaffective
+disease_zh: 分裂情感性障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: SAD_CORE
+  title: 分裂情感性障碍核心特征
+  source_page: 123
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 一种持续的精神病性障碍，同时出现精神分裂症症状和一次重性心境发作（抑郁或躁狂）。
+  - 要诊断此病，心境症状必须占疾病活动期和残留期的大部分时间。
+  - 即使在无显著心境问题时，必须有至少2周存在妄想或幻觉。
+- id: SAD_CRITERIA
+  title: 主要诊断标准
+  source_page: 122
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准A：同时存在符合精神分裂症A标准的症状和一次重性抑郁或躁狂发作；抑郁发作必须包含情绪低落。
+  - 标准B：在疾病全程中，至少有不与心境发作同时存在的2周以上的妄想或幻觉。
+  - 标准C：符合心境发作标准的症状占疾病活动期和残留期总时长的大部分。
+  - 标准D：排除物质（如毒品、药物）或躯体疾病所致。
+  must_warn: []
+- id: SAD_SUBTYPES
+  title: 亚型及病程描述
+  source_page: 122
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 双相型：存在至少一次躁狂发作，可有抑郁发作。
+  - 抑郁型：只存在重性抑郁发作，无躁狂发作。
+  - 可伴紧张症（需附加编码F06.1）。
+  - 病程描述需满1年后使用：首次发作/多次发作，目前急性/部分/完全缓解，或持续性。
+- id: SAD_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 124
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 终生患病率约0.3%（芬兰样本），女性略高于男性（DSM-IV标准）。
+  - DSM-5标准更严格（要求心境症状占大部分病程），预计患病率更低。
+  - 患病率大约是精神分裂症的三分之一。
+- id: SAD_DEVELOPMENT
+  title: 起病与病程发展
+  source_page: 124
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 典型起病于成年早期，也可从青少年到晚年发病。
+  - 部分患者先被诊断为其他精神病性障碍，后因心境模式明显而更改诊断。
+  - 长期看，部分病例可能发展为精神分裂症或心境障碍。
+  - 预后比精神分裂症好，但比单纯心境障碍差。
+- id: SAD_RISK
+  title: 风险与预后因素
+  source_page: 125
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 一级亲属中有精神分裂症、分裂情感障碍或双相障碍者风险增加。
+  - 精神分裂症、双相障碍和重性抑郁障碍的多基因风险评分在此病中均可升高。
+  - 文化因素可能影响诊断，需注意族群偏见导致误诊。
+- id: SAD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 126
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与精神分裂症区别：此病中心境症状占疾病总病程的大部分（Criterion C）。
+  - 与抑郁/双相障碍伴精神病性特征区别：此病中至少2周无显著心境时仍存在妄想或幻觉（Criterion B）。
+  - 需排除物质/躯体疾病所致精神病性症状、谵妄、其他精神病性障碍及人格障碍。
+- id: SAD_COMORBIDITY
+  title: 常见共病
+  source_page: 126
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常共病物质使用障碍和焦虑障碍。
+  - 代谢综合征等躯体疾病高于一般人群，导致预期寿命缩短。
+- id: SAD_SUICIDE
+  title: 自杀/自伤风险与安全
+  source_page: 125
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 精神分裂症和分裂情感性障碍的终生自杀风险约为5%。
+  - 存在抑郁症状时自杀风险更高。
+  - 北美地区人群自杀风险高于欧洲、南美和印度等地。
+  must_warn:
+  - 此病自杀风险约5%，抑郁症状会增大风险，需密切关注并采取安全措施。

@@ -1,0 +1,88 @@
+specialty: med_induced
+specialty_zh: 药物所致运动障碍及其他药物不良反应
+disease: tardive_dyskinesia
+disease_zh: 迟发性运动障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: TD_DEFINITION
+  title: 核心特征与定义
+  source_page: 816
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 迟发性运动障碍是一种异常、不自主的运动障碍，主要涉及舌头、下颌、躯干或四肢。
+  - 这些运动与使用多巴胺受体阻断药（如抗精神病药、甲氧氯普胺）相关，持续至少4周。
+  - 运动性质可为舞蹈样（快速、抽动）、手足徐动样（缓慢、蜿蜒）或半节律性（刻板动作），不同于震颤。
+  must_warn: []
+- id: TD_CRITERIA
+  title: 主要诊断标准
+  source_page: 816
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 必须在服用致病药物期间或停药后4周内（长效注射剂为8周）出现症状。
+  - 用药时间至少3个月（60岁及以上者至少1个月）。
+  - 症状（异常不自主运动）持续至少4周。
+  must_warn: []
+- id: TD_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 816
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 长期服用抗精神病药者中，迟发性运动障碍的患病率为20%-30%。
+  - 年轻患者年发生率3%-5%，中老年人群患病率可达50%，年发生率25%-30%。
+  - 患病率在长期住院者中更高，女性绝经后风险可能略有增加。
+  must_warn: []
+- id: TD_ONSET_COURSE
+  title: 起病与病程
+  source_page: 817
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 任何年龄均可起病，几乎总是隐匿起病，早期症状轻微。
+  - 部分患者停药后症状随时间改善，但另一些患者可能持续存在。
+  - 老年人若继续用药，症状更易加重或泛化。
+  must_warn: []
+- id: TD_RISK_PROGNOSIS
+  title: 风险与预后因素
+  source_page: 817
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 最重要的风险因素是年龄和累积用药量。
+  - 早期出现药物性帕金森症等锥体外系副作用会增加风险。
+  - 心境障碍（尤其重性抑郁障碍）、神经系统疾病、酒精使用障碍也是风险因素。
+  - 第二代抗精神病药发生率略低于第一代，但差异不大。
+  must_warn: []
+- id: TD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 817
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与药物性帕金森症区分，因两者治疗方向相反（抗胆碱药会加重迟发性运动障碍）。
+  - 撤药性运动障碍若持续不足4周，不诊断为迟发性运动障碍。
+  - 需排除亨廷顿病、威尔森病、风湿性舞蹈症、甲状腺毒症等器质性原因。
+  - 自发性运动障碍（尤其老年人）也可出现类似症状，需结合用药史判断。
+  must_warn: []
+- id: TD_COMORBIDITY
+  title: 常见共病
+  source_page: 817
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常与心境障碍（尤其重性抑郁障碍）、神经系统疾病、酒精使用障碍共存。
+  - 这些共病也被视为迟发性运动障碍的风险因素。
+  must_warn: []
+- id: TD_SUICIDALITY
+  title: 自杀与医疗并发症风险
+  source_page: 817
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 严重病例可出现口腔颊舌溃疡、牙齿脱落、舌肥大、行走/吞咽/呼吸困难、言语不清、体重下降。
+  - 部分患者伴有抑郁情绪和自杀意念。
+  must_warn:
+  - 严重病例可能出现自杀意念，需要密切监测心理健康。
+  - 出现吞咽困难、呼吸困难等并发症时，需及时就医处理。

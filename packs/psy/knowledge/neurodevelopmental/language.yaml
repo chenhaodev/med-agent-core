@@ -1,0 +1,80 @@
+specialty: neurodevelopmental
+specialty_zh: 神经发育障碍
+disease: language
+disease_zh: 语言障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: LD_DEFINITION
+  title: 语言障碍核心特征
+  source_page: 47
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 语言障碍是指在词汇、语法、句子结构和话语方面的持续困难，影响理解和表达。
+  - 困难体现在口语、书面语或手语中，通常同时涉及接受性和表达性技能。
+  - 词汇量小、句子简短、语法错误多，话语能力不足以连贯叙述或解释事件。
+  must_warn: []
+- id: LD_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准
+  source_page: 48
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A. 持久的语言获得和使用困难，表现为词汇减少、句子结构有限、话语受损。
+  - B. 语言能力显著低于同龄人，导致沟通、社交、学业或职业功能受限。
+  - C. 症状在早期发育阶段出现。
+  - D. 困难不是由听力、其他感官障碍、运动障碍、其他医学或神经疾病导致，也不能用智力障碍或全面发育迟缓更好地解释。
+  must_warn: []
+- id: LD_PREVALENCE_EPIDEMIOLOGY
+  title: 患病率与流行病学
+  source_page: 47
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 男孩的语言障碍患病率高于女孩，早期沟通发展存在性别差异。
+  - 语言障碍常与其他神经发育障碍（如自闭症、ADHD）、精神障碍（如焦虑症）及某些医学情况（如癫痫、染色体异常）共病。
+  must_warn: []
+- id: LD_COURSE
+  title: 起病与病程
+  source_page: 48
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 语言障碍在幼儿期开始出现，但早期词汇和词组组合个体差异大。
+  - 2岁时语言启动迟是7岁结局的较好预测指标；4岁后诊断更稳定，通常持续至成年。
+  - 语言优势和缺陷的特定模式在发育过程中可能变化，但整体障碍常延续。
+  - 儿童期语言障碍患者有被同伴欺凌的风险；女性童年患该障碍后，成年遭受性侵犯的风险几乎是未患病儿童的三倍。
+  must_warn: []
+- id: LD_RISK_PROGNOSIS
+  title: 风险与预后因素
+  source_page: 49
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 环境因素包括听力或其他感官障碍；正常语言变异也可能影响。
+  - 遗传和生理因素：语言障碍高度遗传，双胞胎研究显示大量遗传成分；多个基因相互作用。
+  - 接受性语言受损者预后更差，对治疗反应较差，常伴有阅读理解困难。
+  - 双语不会导致或加重语言障碍，但双语儿童可能出现语言发育延迟或差异；两种语言都会受影响。
+  must_warn: []
+- id: LD_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 49
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与正常发育变异区分：4岁前较难，需考虑区域、社会、文化/种族语言差异（如方言）。
+  - 排除听力损伤作为主要原因；若语言缺陷超出听觉或运动障碍的预期，可同时诊断为语言障碍。
+  - 与智力障碍鉴别：智力障碍常以语言损害为首发表现，但语言障碍可发生在不同智力水平。
+  - 与自闭症谱系障碍鉴别：自闭症伴语言发育延迟，但具有社交兴趣缺失、刻板行为等语言障碍没有的特征。
+  - 与神经系统疾病相关语言障碍鉴别：如获得性失语或Landau-Kleffner综合征，需检查癫痫。
+  - 任何年龄的语言退行都应评估有无神经系统疾病。
+  must_warn: []
+- id: LD_COMORBIDITY
+  title: 常见共病
+  source_page: 47
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 语言障碍与其他神经发育障碍高度共病，包括自闭症谱系障碍、注意缺陷/多动障碍、特定学习障碍、智力障碍。
+  - 同时与精神障碍（如焦虑障碍）及某些医学情况（如癫痫、染色体异常）相关。
+  must_warn: []

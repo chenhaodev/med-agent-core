@@ -1,0 +1,107 @@
+specialty: substance
+specialty_zh: 物质相关及成瘾障碍
+disease: stimulant
+disease_zh: 兴奋剂使用障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: STIM_USE_DISORDER_DEFINITION
+  title: 兴奋剂使用障碍定义
+  source_page: 632
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 兴奋剂使用障碍是一种因反复使用苯丙胺类、可卡因或其他兴奋剂导致的临床显著损害或痛苦的模式。
+  - 兴奋剂包括苯丙胺、处方兴奋剂（如哌甲酯）和可卡因，能提高警觉、情绪和意识。
+  - 诊断需要12个月内出现至少2条标准，例如使用量超过预期、戒断或耐受等。
+  must_warn: []
+- id: STIM_USE_DISORDER_CRITERIA
+  title: 主要诊断标准（11条中至少2条）
+  source_page: 629
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准包括：使用量或时间超出计划、难以控制使用、花大量时间获取/使用/恢复、渴求、因使用导致角色失职、持续使用不顾人际问题、放弃重要活动、在危险情况下使用、明知身体/心理问题仍使用、耐受、戒断。
+  - 对遵医嘱使用兴奋剂（如治疗ADHD或嗜睡症）者，耐受和戒断标准不适用。
+  - 严重度判断：轻度（2-3条）、中度（4-5条）、重度（6条以上）。
+  must_warn: []
+- id: STIM_USE_DISORDER_REMISSION
+  title: 缓解期与受控环境
+  source_page: 630
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 早期缓解：过去曾满足全部标准，但至少3个月且不足12个月内无任何标准符合（允许渴求标准继续存在）。
+  - 持续缓解：过去曾满足全部标准，但在12个月或更长时间内无任何标准符合（允许渴求存在）。
+  - 受控环境：指限制使用兴奋剂的环境（如监狱、治疗社区、封闭病房），可进一步注明缓解状态。
+  must_warn: []
+- id: STIM_USE_DISORDER_PREVALENCE
+  title: 患病率（流行病学）
+  source_page: 634
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国12个月患病率：苯丙胺类物质使用障碍0.4%（12岁及以上），可卡因使用障碍0.4%。
+  - 男性患病率高于女性（苯丙胺类0.5% vs 0.2%；可卡因0.5% vs 0.2%）。
+  - 处方兴奋剂使用障碍患病率约0.2%，但非医疗使用更常见。
+  must_warn: []
+- id: STIM_USE_DISORDER_DEVELOPMENT
+  title: 起病与病程
+  source_page: 634
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 起病可快至1周，但并非总是快速；首次规律使用约23岁（治疗人群）。
+  - 吸食或静脉使用导致进展更快（数周至数月），鼻吸或口服进展较慢（数月数年）。
+  - 使用模式可为间歇（如周末狂欢）或每日/几乎每日，长期使用常导致快感减弱和烦躁增加。
+  must_warn: []
+- id: STIM_USE_DISORDER_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 635
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 共病双相障碍、精神分裂症、反社会人格障碍、其他物质使用障碍增加风险。
+  - 童年品行障碍、男性、B簇人格障碍、物质使用障碍家族史、离异/丧偶等是风险因素。
+  - 环境因素包括产前可卡因暴露、父母使用、社区暴力暴露、亲密伴侣暴力等。
+  must_warn: []
+- id: STIM_USE_DISORDER_DIFFERENTIAL_DX
+  title: 鉴别诊断要点
+  source_page: 638
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与PCP（苯环利定）或合成毒品（如“浴盐”）中毒区分，可依靠尿液/血浆代谢物检测。
+  - 需与兴奋剂中毒、戒断、兴奋剂所致精神障碍区分：使用障碍是行为模式，后者是急性综合征。
+  - 兴奋剂所致精神症状（如精神病、抑郁）与原发精神障碍（如精神分裂症、重性抑郁）鉴别需评估症状是否在用药前已存在。
+  must_warn: []
+- id: STIM_USE_DISORDER_COMORBIDITY
+  title: 常见共病
+  source_page: 639
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常与其他物质使用障碍共病，尤其是镇静物质（用于缓解失眠、紧张等）。
+  - 可卡因使用者常同时使用海洛因、PCP或酒精；苯丙胺使用者常使用大麻、海洛因或酒精。
+  - 共病PTSD、反社会人格障碍、ADHD和赌博障碍较常见。
+  must_warn: []
+- id: STIM_USE_DISORDER_SUICIDE_RISK
+  title: 自杀/自伤风险与安全
+  source_page: 637
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 规律或问题性苯丙胺使用与自杀死亡率增加相关。
+  - 处方兴奋剂使用障碍与自杀念头相关；可卡因使用障碍者报告自杀念头的比例高于其他物质使用障碍。
+  - 在退伍军人中，可卡因和苯丙胺使用障碍均与自杀死亡风险升高相关。
+  must_warn:
+  - 抑郁症状伴自杀念头或行为是兴奋剂使用障碍和戒断中最严重的问题之一，需紧急评估和干预。
+- id: STIM_USE_DISORDER_FUNCTIONAL_CONSEQUENCES
+  title: 功能后果与身体影响
+  source_page: 637
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 不同使用途径导致不同损伤：鼻吸可致鼻中隔穿孔、鼻窦炎；吸烟增加呼吸道问题；注射增加HIV和肝炎风险。
+  - 可导致心脏问题（心肌梗死、心律失常、猝死），对年轻人尤其危险；可卡因还与胎盘异常、早产有关。
+  - 长期使用可引起神经认知缺陷（注意力、冲动控制、记忆等），以及牙齿问题（“冰毒嘴”）。
+  must_warn: []

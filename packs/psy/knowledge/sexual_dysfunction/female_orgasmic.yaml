@@ -1,0 +1,90 @@
+specialty: sexual_dysfunction
+specialty_zh: 性功能失调
+disease: female_orgasmic
+disease_zh: 女性性高潮障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: FOD_CORE_FEATURES
+  title: 核心特征与定义
+  source_page: 486
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 指难以达到高潮或高潮感强度显著降低，发生在几乎全部（约75%-100%）性活动场合。
+  - 症状需持续至少约6个月，并引起临床显著痛苦或困扰。
+  - 需排除其他心理障碍、严重关系问题、物质/药物或躯体疾病所致的高潮困难。
+  must_warn: []
+- id: FOD_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准
+  source_page: 485
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准A：存在明显延迟、罕见或无高潮，或高潮感强度显著降低。
+  - 标准B：症状持续至少约6个月。
+  - 标准C：引起临床显著痛苦。
+  - 标准D：排除非性心理障碍、严重关系困扰、物质/药物或其他躯体疾病。
+  - 亚型：终生型/获得型；广泛型/境遇型；可标注从未经历高潮。
+  - 严重程度按痛苦程度分轻、中、重度。
+  must_warn: []
+- id: FOD_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 487
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 绝经前女性高潮问题报告患病率差异大（8%-72%），取决于年龄、文化等因素。
+  - 仅部分有高潮困难的女性同时感到痛苦。
+  - 全球约10%的女性终生从未经历高潮。
+  must_warn: []
+- id: FOD_DEVELOPMENT_COURSE
+  title: 起病与病程
+  source_page: 487
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 终生型指自性活跃以来一直存在高潮困难；获得型指正常功能后出现。
+  - 女性首次高潮可从青春期前到成年，随年龄增长经验增加。
+  - 自慰时的高潮一致性高于与伴侣的性活动。
+  must_warn: []
+- id: FOD_RISK_PROGNOSTIC
+  title: 风险与预后因素
+  source_page: 487
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 心理因素如焦虑、对怀孕的担忧可干扰高潮能力。
+  - 关系问题、躯体健康（如多发性硬化、脊髓损伤）和药物（如SSRIs）是重要影响因素。
+  - 外阴阴道萎缩（干涩、瘙痒、疼痛）与高潮困难显著相关。
+  - 遗传因素可能影响，但心理、社会文化和生理因素复杂交互。
+  must_warn: []
+- id: FOD_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 489
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 若由重性抑郁等非性心理障碍解释，则不诊断为女性性高潮障碍。
+  - 若症状始于使用物质/药物且停药缓解，应诊为物质/药物诱发性功能障碍。
+  - 若归因于多发性硬化、脊髓损伤等躯体疾病，不作此诊断。
+  - 若与严重关系困扰、伴侣暴力或重大压力相关，不作诊断。
+  - 偶尔、短暂或刺激不足引起的高潮困难不属于本障碍。
+  must_warn: []
+- id: FOD_COMORBIDITY
+  title: 常见共病
+  source_page: 487
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常与女性性兴趣/唤起障碍同时存在。
+  - 心理共病包括抑郁和焦虑。
+  must_warn: []
+- id: FOD_SUICIDE_RISK
+  title: 自杀风险与安全
+  source_page: 488
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 性唤起和满足功能障碍与女性退伍军人/士兵的自杀想法相关，调整其他因素后仍存在。
+  must_warn:
+  - 有高潮障碍的女性（尤其特殊群体）可能伴随自杀风险增加。若出现自杀念头，请立即寻求专业心理健康帮助。

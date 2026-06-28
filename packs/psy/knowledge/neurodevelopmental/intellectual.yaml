@@ -1,0 +1,97 @@
+specialty: neurodevelopmental
+specialty_zh: 神经发育障碍
+disease: intellectual
+disease_zh: 智力发育障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: IDD_DEFINITION
+  title: 智力发育障碍的定义
+  source_page: 38
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 智力发育障碍（智力残疾）是发育期起病的障碍，包括智力与适应功能缺陷。
+  - 缺陷涉及概念、社会和实践三个领域，需与同龄、同文化背景者比较。
+  - 诊断需同时满足智力功能、适应功能和发育期起病三个标准。
+  must_warn: []
+- id: IDD_CRITERIA
+  title: 主要诊断标准
+  source_page: 39
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准A：智力功能缺陷（如推理、解决问题、抽象思维、学业学习），需临床评估和个体化智力测验确认。
+  - 标准B：适应功能缺陷，导致个人独立和社会责任未达标准，需在日常生活多个领域（如沟通、社交）受限。
+  - 标准C：智力和适应缺陷必须在发育期（儿童或青少年期）起病。
+  must_warn: []
+- id: IDD_SEVERITY
+  title: 严重程度分级
+  source_page: 39
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 严重程度基于适应功能而非IQ分数，分为轻度、中度、重度和极重度。
+  - 适应功能决定所需支持水平，IQ在低端范围测量有效性下降。
+  - 各级别在概念、社会和实践领域的具体表现各异，需详细评估。
+  must_warn: []
+- id: IDD_PREVALENCE
+  title: 患病率
+  source_page: 43
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 一般人群患病率约10/1000，中收入国家约16/1000，高收入国家约9/1000。
+  - 患病率随年龄变化，青少年高于成年人。
+  - 美国不同族裔群体间患病率无显著差异。
+  must_warn: []
+- id: IDD_COURSE
+  title: 起病与病程
+  source_page: 43
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 起病于发育期，严重者2岁内可识别运动/语言延迟，轻度者通常学龄期才明显。
+  - 大多数为非进行性，但某些遗传病（如Rett综合征）可先恶化后稳定或持续加重。
+  - 病程一般终身，但严重程度可随干预改善，早期干预可能使诊断不再适用。
+  must_warn: []
+- id: IDD_RISK
+  title: 风险与预后因素
+  source_page: 44
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 产前因素：遗传综合征、代谢障碍、母体疾病、环境毒素（如酒精、铅）。
+  - 围产期因素：分娩相关事件导致的脑病。
+  - 产后因素：缺氧、脑外伤、感染、严重社会剥夺、毒物中毒（如汞）。
+  must_warn: []
+- id: IDD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 45
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与神经认知障碍鉴别：后者是认知功能的丧失，而智力发育障碍是发育期缺陷。
+  - 与沟通障碍/特定学习障碍区分：这些障碍仅限于特定领域，无整体智力和适应缺陷。
+  - 常与孤独症谱系障碍共病，需注意评估智力时孤独症社交缺陷影响测试。
+  must_warn: []
+- id: IDD_COMORBIDITY
+  title: 常见共病
+  source_page: 46
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见共病包括ADHD、抑郁/双相障碍、焦虑障碍、孤独症、刻板运动障碍、冲动控制障碍。
+  - 自我伤害行为需警惕，可能需单独诊断刻板运动障碍。
+  - 身体疾病（如肥胖、脑瘫、癫痫）在智力发育障碍中更常见。
+  must_warn: []
+- id: IDD_SUICIDE
+  title: 自杀风险与安全
+  source_page: 45
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 智力发育障碍患者存在自杀风险，尤其伴有共病精神障碍、较高智力/适应功能、近期压力时。
+  - 共病精神障碍表现可能不典型，需密切观察行为变化并及时评估。
+  - 建议在评估过程中常规筛查自杀意念，重视个体行为改变。
+  must_warn:
+  - 智力发育障碍患者可能因共病精神障碍、较高智力和适应功能、近期压力源而出现自杀风险；行为改变是重要警示信号。

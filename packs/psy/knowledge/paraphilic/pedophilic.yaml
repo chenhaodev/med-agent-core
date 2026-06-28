@@ -1,0 +1,123 @@
+specialty: paraphilic
+specialty_zh: 性欲倒错障碍
+disease: pedophilic
+disease_zh: 恋童障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: PEDO_DEFINITION
+  title: 恋童障碍定义
+  source_page: 793
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 恋童障碍是一种性欲倒错障碍，核心是对青春期前儿童（通常13岁及以下）有持续、强烈的性幻想、性冲动或行为。
+  - 诊断需满足至少6个月的反复症状，且个体已付诸行动，或因此感到显著痛苦或人际困难。
+  must_warn: []
+- id: PEDO_CRITERIA_A
+  title: 诊断标准A：核心症状
+  source_page: 793
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准A要求持续至少6个月，反复出现与青春期前儿童（通常≤13岁）性活动相关的强烈性幻想、性冲动或行为。
+  - 青春期年龄界限是近似值，因个体发育差异；若涉及12-13岁，需考虑青春期晚期持续关系例外。
+  must_warn: []
+- id: PEDO_CRITERIA_B
+  title: 诊断标准B：行为或痛苦
+  source_page: 793
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 个体必须已按照这些性冲动行事，或性冲动/幻想导致显著痛苦或人际困难。
+  - 仅观看儿童色情内容不足以满足标准B，除非伴有亲身与儿童性互动。
+  must_warn: []
+- id: PEDO_CRITERIA_C
+  title: 诊断标准C：年龄要求
+  source_page: 793
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 个体至少16岁，且比标准A中的儿童至少大5岁。
+  - 排除青春期晚期与12-13岁儿童有持续性关系者，因可能属于同龄探索。
+  must_warn: []
+- id: PEDO_SUBTYPES
+  title: 亚型与标注
+  source_page: 793
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 亚型：专一型（只对儿童有吸引力）与非专一型（也对成人有吸引力）。
+  - 标注：性吸引对象为男性/女性/两者；是否限于近亲（乱伦）。
+  must_warn: []
+- id: PEDO_DIAGNOSTIC_FEATURES
+  title: 诊断特征：否认与客观证据
+  source_page: 793
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准适用于主动坦白者与否认者。即使否认，若有客观证据（如多次儿童性接触、儿童色情使用）也可诊断。
+  - 若无主观痛苦且从未行动，则仅有恋童性兴趣而非障碍。
+  must_warn: []
+- id: PEDO_ASSOCIATED_FEATURES
+  title: 相关特征：情感认知亲和
+  source_page: 794
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 恋童障碍个体可能对儿童有情感认知亲和（emotional congruence），如更喜欢与儿童社交、感觉更相似。
+  - 这种亲和与恋童性兴趣及再犯风险相关。
+  must_warn: []
+- id: PEDO_PREVALENCE
+  title: 患病率
+  source_page: 794
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 男性中符合完全诊断标准的患病率不足3%；女性患病率尚不确定，但远低于男性。
+  must_warn: []
+- id: PEDO_DEVELOPMENT_COURSE
+  title: 发展病程
+  source_page: 795
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 成年男性通常在青春期意识到对儿童的强烈性兴趣；恋童本身可能是终身状态。
+  - 恋童障碍的病程可变，随着或未经治疗，主观痛苦、社交损害或行动倾向可波动。
+  must_warn: []
+- id: PEDO_RISK_PROGNOSTIC
+  title: 风险与预后因素
+  source_page: 795
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 反社会人格障碍是男性恋童者发展为恋童障碍的危险因素，增加付诸行动的可能性。
+  - 童年受性侵史与恋童相关，但因果关系不明确；宫内神经发育异常可能增加风险。
+  must_warn: []
+- id: PEDO_DIFFERENTIAL_DX
+  title: 鉴别诊断要点
+  source_page: 796
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与普通恋童（无行动/痛苦）区别：后者仅具有性兴趣，不符合障碍诊断。
+  - 与其他性欲倒错障碍（如露阴障碍）可能出现重叠，需判断是否共病。
+  - 反社会人格障碍个体可能因机会性性侵儿童，但若无持续的指向儿童的性兴趣，不能诊断恋童障碍。
+  must_warn: []
+- id: PEDO_DIAGNOSTIC_MARKERS
+  title: 诊断标志物与法律风险
+  source_page: 795
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 阴茎体积描记法（penile plethysmography）和观看时间评估可用于辅助诊断，但敏感性和特异性因方法而异。
+  - 美国临床医生应注意：持有儿童性刺激图像（即使用于诊断）可能违反儿童色情法律，面临刑事起诉。
+  must_warn: []
+- id: PEDO_GENDER_ISSUES
+  title: 性别相关诊断问题
+  source_page: 795
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 男性中有效的心理生理学测量（如阴茎体积描记法）在女性中缺乏研究，不适用于女性诊断。
+  - 女性恋童障碍患病率极低，诊断依据仍需临床判断。
+  must_warn: []

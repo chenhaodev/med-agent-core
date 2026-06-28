@@ -1,0 +1,299 @@
+# 各疗法具体协议（剂量 / 频率 / 时长 / 强度）
+# 来源：《阿尔茨海默病多元康复干预中国专家共识（2025）》（第 153-158 页）
+# 每条协议标注对应共识编号和来源页码，供 prompt 注入时精准引用
+
+# ───────────────────────────────────────────────
+# 神经调控
+# ───────────────────────────────────────────────
+neuromodulation:
+  consensus_ref: 6
+  source_page: 153
+
+  rTMS:
+    full_name: 重复经颅磁刺激
+    target_area: 左侧背外侧前额叶（DLPFC）或额顶回
+    standard_protocol:
+      frequency: "高频 ≥ 5 Hz（通常 ≥ 5 Hz，100%～120% 运动阈值）"
+      session_duration: "20～30 分钟/次"
+      frequency_per_week: "每周 5 次"
+      total_duration: "2～6 周（20 次以上）"
+    low_frequency_variant:
+      frequency: "低频 1 Hz（抑制性干预）"
+      note: "较少用于 AD，主要用于特定靶点抑制"
+    contraindications:
+      - 癫痫史
+      - 颅内植入金属（金属夹、起搏器、除颤仪等）
+      - 颅骨缺损处
+    notes: "20 次以上高频 rTMS 刺激左侧 DLPFC 可明显改善轻中度 AD 患者认知功能"
+
+  tDCS:
+    full_name: 经颅直流电刺激
+    standard_protocol:
+      electrode: "阳极（1.5～2 mA）刺激左侧 DLPFC 区域"
+      session_duration: "未在共识中明确"
+      frequency_per_week: "每周 5 次（参考神经调控通用方案）"
+      total_duration: "2～6 周"
+    gamma_variant:
+      type: "γ 波段 tACS（经颅交流电刺激）"
+      parameters: "40 Hz，1～1.5 mA"
+      note: "连续 15 天共 30 次，1 小时/次，可提高 MMSE 评分"
+    notes: "阳极 tDCS 同步认知训练可提升 MCI 患者短时训练成功率、长期记忆、语言流畅性和位置记忆"
+
+  HD_tDCS:
+    full_name: 高精度经颅直流电刺激
+    note: "改善 AD 患者延迟记忆方面有一定优势，适合需要精确定位的场景"
+
+# ───────────────────────────────────────────────
+# 认知疗法
+# ───────────────────────────────────────────────
+cognitive_training:
+  consensus_ref: 7
+  source_page: 154
+  full_name: 认知训练（CT）
+  preferred_form: 计算机化认知训练（CCT）
+  protocol:
+    session_duration: "30～60 分钟/次"
+    frequency_per_week: "3～5 次/周"
+    total_duration: "4～12 周"
+  domains_targeted:
+    - 复合性注意
+    - 知觉性运动
+    - 学习和记忆
+    - 语言
+    - 执行功能
+    - 社会认知
+  notes: "可与 rTMS 或阳极 tDCS 联合/同步应用以提升效果"
+
+cognitive_stimulation:
+  consensus_ref: 8
+  source_page: 154
+  full_name: 认知刺激（CS）
+  protocol:
+    format: "小组形式（集体社交活动）"
+    frequency_per_week: "每周 2 次"
+    session_duration: "每次 45 分钟"
+    total_duration: "5～7 周（可延长至 24 周）"
+  activities:
+    - 回忆往昔
+    - 讨论时事
+    - 词语联想
+    - 自然娱乐
+    - 使用物品
+  notes: "通过非特异性刺激认知功能，有娱乐性，适合社区开展"
+
+cognitive_rehabilitation:
+  consensus_ref: 9
+  source_page: 155
+  full_name: 认知康复（CR）
+  protocol:
+    format: "多在社区或家中进行（个体化）"
+    frequency_per_week: "每周 1 次"
+    session_duration: "60～90 分钟/次"
+    total_duration: "共 12 周"
+  approach: "以目标为导向，通过为 AD 患者设计个体化策略，学习相关知识并在日常生活中应用"
+
+# ───────────────────────────────────────────────
+# 生活方式 — 营养
+# ───────────────────────────────────────────────
+nutrition:
+  consensus_ref: 10
+  source_page: 155
+  key_supplements:
+    omega3:
+      components: "DHA（二十二碳六烯酸）+ EPA（二十碳五烯酸）等 ω-3 PUFAs"
+      dosage: "每日 DHA 或 EPA 补充（具体剂量参照临床医嘱）"
+      duration: "建议 2 年以上长期补充"
+      evidence: "163 例多中心双盲 RCT：2 年补充可改善语言能力和运动认知功能"
+    vitamin_e:
+      note: "大量维生素 E 补充可显著降低患 AD 的风险（荟萃分析结论）"
+    probiotics:
+      components: "双歧杆菌、乳酸菌等益生菌"
+      note: "改善肠道菌群稳态，减轻炎症反应，改善 MCI 患者认知"
+    pomegranate_oil:
+      note: "对中老年人整体认知和言语情景记忆有一定帮助"
+  dietary_patterns:
+    MIND_diet: "MIND 饮食（Mediterranean-DASH Intervention for Neurodegenerative Delay）有助于维持或改善认知功能"
+    Mediterranean_diet: "地中海饮食有助于维持或改善认知功能"
+
+# ───────────────────────────────────────────────
+# 生活方式 — 运动
+# ───────────────────────────────────────────────
+aerobic_exercise:
+  consensus_ref: 11
+  source_page: 155
+  protocol:
+    intensity: "中等强度：60%～75% 最大心率（最大心率约 = 220 - 年龄）"
+    session_duration: "每次 30～60 分钟"
+    frequency_per_week: "每周 3～5 次"
+  forms:
+    - 慢跑
+    - 快走
+    - 骑车
+    - 游泳
+    - 球类运动（乒乓球、羽毛球等）
+  special_notes:
+    - "有平衡障碍的 AD 患者需在监护下进行，或采用座椅式功率自行车等安全形式"
+  mechanism: "提高 BDNF 表达、降低炎症水平、减缓认知下降"
+
+strength_exercise:
+  consensus_ref: 12
+  source_page: 156
+  resistance_training:
+    tools: "哑铃、弹力带、等速器械或自身体重"
+    frequency_per_week: "每周 2 次以上"
+    intensity: "中等强度"
+  mind_body_exercise:
+    forms:
+      - "太极拳（改善早期痴呆老人短期认知功能和心理健康）"
+      - "八段锦"
+      - "瑜伽"
+      - "静态拉伸等平衡柔韧性训练"
+    benefits:
+      - 提高平衡协调能力
+      - 降低跌倒风险
+      - 增强身体控制能力
+      - 缓解压力，改善情绪
+
+# ───────────────────────────────────────────────
+# 人工干预
+# ───────────────────────────────────────────────
+reminiscence:
+  consensus_ref: 13
+  source_page: 156
+  full_name: 怀旧疗法（Reminiscence Therapy，也称回忆疗法）
+  protocol:
+    total_duration: "连续 8～12 周"
+    frequency_per_week: "每周 1～2 次"
+    session_duration: "每次 30～60 分钟"
+  participants: "鼓励家属、亲友及护理人员参与"
+  approach: "通过引导患者回忆过去的事件、感受和想法，激活长期记忆，促进思维活动和情感表达"
+  stage_specific:
+    mild_moderate: "减轻抑郁情绪、改善认知功能、改善 ADL"
+    moderate_severe: "增加社会参与度，改善生活质量"
+
+vr_immersive:
+  consensus_ref: 14
+  source_page: 156
+  full_name: 沉浸式技术（VR / AR / MR）
+  vr_protocol:
+    target_stage: "早期 AD（轻度）"
+    approach: "通过模拟熟悉的生活场景来训练患者的即刻记忆和延迟记忆"
+  ar_mr_protocol:
+    target_stage: "中重度 AD"
+    approach: "创建沉浸式环境，吸引患者注意，激发大脑活动，增加与外界互动"
+  notes: "基于 VR 的认知训练对 MCI 和 AD 患者 ADL 尤其 IADL 有明显改善作用"
+
+# ───────────────────────────────────────────────
+# 艺术疗法
+# ───────────────────────────────────────────────
+music_therapy:
+  consensus_ref: 15
+  source_page: 156
+  active_intervention:
+    forms:
+      - 唱歌
+      - 乐器演奏
+      - 音乐创作
+      - 音乐问答
+      - 记忆音乐旋律与歌词
+    target_stage: "轻度、中度 AD"
+    format: "小组形式（3～5 人）"
+    frequency_per_week: "每周 1～3 次"
+    session_duration: "每次 20 分钟～2 小时"
+  passive_intervention:
+    forms:
+      - 听适合个人喜好和情绪状态的音乐
+      - 听有放松和催眠效果的音乐
+    target_stage: "重度 AD"
+    daily_duration: "每天 0.5～1 小时"
+
+dance_therapy:
+  consensus_ref: 16
+  source_page: 157
+  protocol:
+    intensity: "低至中强度（< 6 METs）为主"
+    frequency_per_week: "每周 1～2 次"
+    session_duration: "每次 60 分钟"
+    total_duration: "3～6 个月（条件允许者可延长至 12 个月）"
+  stage_specific:
+    mild: "学习与难度适合的编排舞蹈或选择熟悉的舞蹈"
+    moderate: "音乐伴奏下即兴舞蹈或跟随音乐进行简单身体动作的节奏舞蹈"
+    severe: "舒缓的被动肢体活动或身体摇动"
+
+art_therapy:
+  consensus_ref: 17
+  source_page: 157
+  protocol:
+    total_duration: "连续 8 周"
+    frequency_per_week: "每周 2 次"
+    session_duration: "每次 30～60 分钟"
+  stage_specific:
+    mild_moderate: "开展创造性美术活动（绘画、雕塑等）"
+    severe: "以着色、毛毡材料剪割等简单美术活动为主"
+
+# ───────────────────────────────────────────────
+# 自然疗法
+# ───────────────────────────────────────────────
+horticultural_therapy:
+  consensus_ref: 18
+  source_page: 157
+  protocol:
+    short_term: "6 周～3 个月"
+    long_term: "6 个月～1 年"
+    frequency_per_week: "每周 1～2 次"
+    session_duration: "每次 1～2 小时"
+  stage_specific:
+    mild_moderate: "种植（播种、浇水、施肥、修剪等）和园艺手工活动（制作花环、装饰花盆等）"
+    severe: "参观体验活动（观赏植物、闻花香、触摸植物等）"
+
+animal_assisted:
+  consensus_ref: 19
+  source_page: 157
+  protocol:
+    total_duration: "连续 12 周"
+    frequency_per_week: "每周 1～2 次"
+    session_duration: "每次 30～90 分钟"
+  stage_specific:
+    mild_moderate: "与活体动物进行情感、行为和认知功能相关的日常互动（抚摸、喂食、回忆往事等）"
+    severe: "与机械动物或动物玩具互动（抱腰、仰手、投球、宠腿）"
+  screening_required:
+    - 排除对特定动物恐惧或厌恶者
+    - 排除对皮毛过敏者
+
+# ───────────────────────────────────────────────
+# 感官刺激疗法
+# ───────────────────────────────────────────────
+sensory_stimulation:
+  consensus_ref: 20
+  source_page: 158
+  multi_sensory_protocol:
+    frequency_per_week: "每周 2 次"
+    session_duration: "每次 30～60 分钟"
+    total_duration: "4～8 周"
+  light_therapy:
+    type: "个性化昼夜节律光照疗法"
+    indication: "改善睡眠质量、缓解抑郁情绪和躁动行为"
+  gamma_40hz:
+    parameters: "40 Hz γ 刺激"
+    forms: "视觉、听觉、触觉刺激及经颅无创刺激多种形式"
+    indication: "改善轻中度 AD 睡眠，提高 ADL"
+
+aromatherapy:
+  consensus_ref: 21
+  source_page: 158
+  protocol:
+    frequency_per_week: "每周 5 次"
+    session_duration: "每次 15 分钟"
+    total_duration: "持续 4 周"
+  administration_routes:
+    - 吸嗅
+    - 涂抹
+    - 沐浴
+    - 按摩
+    - 热敷
+    - 熏蒸
+  key_oils:
+    lavender: "薰衣草精油 → 良好的镇静催眠作用"
+    rosemary: "迷迭香香精油 → 增强记忆力、抗老等作用"
+    bergamot: "佛手柑精油 → 可减轻压力和焦虑情绪"
+  indication: "减轻 BPSD、改善激越行为和睡眠障碍，提高患者的生活质量"

@@ -1,0 +1,94 @@
+specialty: disruptive
+specialty_zh: 破坏性、冲动控制及品行障碍
+disease: ied
+disease_zh: 间歇性暴怒障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: IED_DEFINITION
+  title: 核心特征与定义
+  source_page: 528
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 反复爆发的冲动性攻击行为，与触发因素严重不成比例
+  - 爆发通常快速，持续不到30分钟，常由小事引发
+  - 核心是冲动控制失败，攻击非预谋，也不为获取实际利益
+  must_warn: []
+- id: IED_CRITERIA
+  title: 主要诊断标准
+  source_page: 527
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准A1：平均每周2次言语或非破坏性身体攻击，持续3个月
+  - 标准A2：12个月内3次涉及财产破坏或动物/人受伤的爆发
+  - 标准B-F：反应过度、非预谋、导致痛苦或功能受损、年龄≥6岁、排除其他障碍或物质/医疗原因
+  must_warn: []
+- id: IED_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 529
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国一年患病率约2.6%，终生患病率4.0%
+  - 年轻人（<35-40岁）和高中以下学历人群更常见
+  - 某些族裔（如非裔、加勒比黑人青少年）发病率更高
+  must_warn: []
+- id: IED_COURSE
+  title: 起病与病程
+  source_page: 529
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 通常在儿童晚期或青少年期首发，40岁后首次发病很少见
+  - 病程往往是慢性、持续多年的，但可能有阶段性波动
+  must_warn: []
+- id: IED_RISK
+  title: 风险与预后因素
+  source_page: 529
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 20岁前经历身体或情感创伤增加患病风险
+  - 长期与家人分离或流离失所也是危险因素
+  - 一级亲属患病风险升高，遗传因素有显著影响
+  must_warn: []
+- id: IED_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 530
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与破坏性心境失调障碍区别：后者在爆发间歇期有持续负面情绪
+  - 与反社会/边缘型人格障碍区别：后者攻击性整体较低且模式不同
+  - 排除物质中毒/戒断、其他躯体疾病（如脑损伤）导致的攻击
+  must_warn: []
+- id: IED_COMORBIDITY
+  title: 常见共病
+  source_page: 528
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常合并抑郁症、焦虑障碍和物质使用障碍
+  - 这些共病通常比间歇性暴怒障碍起病更晚
+  must_warn: []
+- id: IED_SUICIDE
+  title: 自杀风险与安全警示
+  source_page: 529
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与创伤后应激障碍共病时，终生自杀尝试率高达41%
+  - 在有自杀意念的士兵中，该障碍是少数与自杀尝试独立相关的疾病之一
+  must_warn:
+  - 共病创伤后应激障碍的患者自杀风险显著升高，需进行安全评估和危机干预
+- id: IED_CONSEQUENCES
+  title: 功能后果
+  source_page: 530
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 社交：失去朋友、家人、婚姻不稳定
+  - 职业：降职、失业；经济：破坏财物造成损失
+  - 法律：因攻击行为面临民事诉讼或刑事指控
+  must_warn: []

@@ -1,0 +1,111 @@
+specialty: disruptive
+specialty_zh: 破坏性、冲动控制及品行障碍
+disease: conduct
+disease_zh: 品行障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: CONDUCT_CORE
+  title: 品行障碍的核心特征
+  source_page: 531
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 反复、持续侵犯他人基本权利或社会规范的行为模式。
+  - 行为分四类：攻击人/动物、破坏财产、欺骗偷窃、严重违反规则。
+  - 诊断需过去12个月至少3项行为，且至少1项在近6个月存在。
+  - 行为导致社交、学业或职业功能显著损害。
+  - 18岁及以上需排除反社会人格障碍。
+  must_warn: []
+- id: CONDUCT_CRITERIA
+  title: 主要诊断标准
+  source_page: 531
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准A：15条行为中至少3条在12个月内出现，且至少1条在近6个月内。
+  - 攻击行为：常欺凌/威胁/恐吓、引发打斗、使用武器、对人/动物残忍、抢劫、强迫性行为。
+  - 破坏财产：故意纵火或故意破坏他人财产。
+  - 欺骗或偷窃：入室盗窃、常撒谎骗利、偷窃非小额物品。
+  - 严重违反规则：13岁前常在外过夜、至少两次离家出走、常逃学。
+  - 标准B和C：行为引起显著功能损害；18岁以上者需排除反社会人格障碍。
+  must_warn: []
+- id: CONDUCT_SUBTYPES
+  title: 亚型与限定词
+  source_page: 531
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 童年期起病型：10岁前出现症状，预后较差，易持续至成人。
+  - 青少年起病型：10岁后出现症状，常与同伴共现问题行为，社交功能相对较好。
+  - 未特发起病型：无法确定首个症状年龄。
+  - 有限亲社会情绪限定词：持续≥12个月，缺乏内疚/同理心、不关心表现、情感浅薄。
+  - 严重程度分轻、中、重度，重度涉及强迫性行为、使用武器等重大损害。
+  must_warn: []
+- id: CONDUCT_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 534
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国和高收入国家一年患病率约2%-10%，中位数4%。
+  - 美国终生患病率男性12.0%，女性7.1%。
+  - 患病率从童年到青少年上升，青少年起病型常与歧视等应激源相关。
+  - 仅有少数有损害的患儿接受治疗。
+  must_warn: []
+- id: CONDUCT_COURSE
+  title: 起病与病程
+  source_page: 535
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 最早可始于学龄前，但症状显著期多在童年中期至青少中期。
+  - 对立违抗障碍常是童年期起病型的先驱。
+  - 多数个体成年后症状缓解，但童年期起病型预后更差，易发展为反社会人格障碍。
+  - 症状随年龄变化：早期较轻（撒谎、偷窃），后期更严重（抢劫、强奸）。
+  must_warn: []
+- id: CONDUCT_RISK
+  title: 风险与预后因素
+  source_page: 535
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 气质风险：难控制的婴儿气质、较低智商（尤其言语智商）。
+  - 家庭风险：父母忽视/虐待、不一致管教、缺乏监督、机构养育、父母犯罪或精神疾病。
+  - 社区风险：同伴排斥、结交不良同伴、社区不利、接触暴力。
+  - 遗传风险：有患品行障碍的亲属，或父母患严重成瘾、心境障碍或精神分裂症。
+  - 生理标志（非诊断）：静息心率慢、自主神经恐惧反应降低。
+  - 持续因素：童年起病型、有限亲社会情绪、共病ADHD和物质滥用。
+  must_warn: []
+- id: CONDUCT_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 536
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 对立违抗障碍：无攻击人/动物、破坏财产、欺骗模式，且含情绪失调。
+  - ADHD：冲动行为不直接违反社会规范，两者可共病。
+  - 抑郁/双相障碍：问题行为只发生在情绪紊乱期，品行障碍在无情绪紊乱时也持续。
+  - 间歇性爆发障碍：仅有冲动性攻击，非预谋，且无非攻击症状。
+  - 适应障碍：行为问题与明确应激源相关，应激停止后6个月内缓解。
+  must_warn: []
+- id: CONDUCT_COMORBID
+  title: 常见共病
+  source_page: 537
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见共病：ADHD、对立违抗障碍、特定学习障碍、焦虑障碍、抑郁或双相障碍、物质相关障碍。
+  - 共病ADHD和ODD预示更差结局。
+  - 反社会人格障碍特征常满足品行障碍诊断标准。
+  must_warn: []
+- id: CONDUCT_SUICIDE
+  title: 自杀/自伤风险
+  source_page: 536
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 品行障碍患者自杀念头、自杀企图和自杀率高于预期。
+  - 台湾10年研究：即使排除共病心境、焦虑和物质使用障碍，风险仍增高。
+  must_warn:
+  - 品行障碍患者自杀风险增高，必须常规筛查自杀意念和自伤行为。
+  - 即使无其他共病，本症本身也可增加自杀风险，应制定安全计划。

@@ -1,0 +1,90 @@
+specialty: substance
+specialty_zh: 物质相关及成瘾障碍
+disease: tobacco
+disease_zh: 烟草使用障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: TUD_DEFINITION
+  title: 定义与核心特征
+  source_page: 645
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 烟草使用障碍指使用烟草（包括香烟、电子烟、咀嚼烟草等）导致临床显著损害或困扰的成瘾性疾病。
+  - 诊断需12个月内出现11条标准中至少2条，包括使用失控、渴求、耐受、戒断。
+  - 耐受表现为最初效果消失，戒断症状促使患者继续使用以避免不适。
+- id: TUD_CRITERIA
+  title: 诊断标准
+  source_page: 645
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 11条标准：使用量超出预期、无法减少、花费大量时间、渴求、忽略责任、明知社交问题仍用、放弃活动、危险情境下使用、明知身心问题仍用、耐受、戒断。
+  - 符合2-3条为轻度，4-5条中度，6条及以上重度。
+  - 缓解期：早期3-11个月无其他标准（渴求可例外）；持续12个月或以上无标准。
+- id: TUD_PREVALENCE
+  title: 患病率
+  source_page: 648
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国成人12个月患病率约20%（2012-2013），每日吸烟者中约50%符合诊断。
+  - 男性高于女性；美洲原住民最高（29.6%），亚裔最低（11.2%）。
+  - 全球每日吸烟标化患病率男性均高于女性，性别比从东亚16.9:1到大洋洲1.2:1。
+- id: TUD_COURSE
+  title: 起病与病程
+  source_page: 648
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 约20%美国高中生曾尝试吸烟，5%过去30天吸过，经常吸的青少年多数成每日吸烟者。
+  - 21岁后开始吸烟少见；渴求等早期症状出现后通常需数年才符合全部标准。
+  - 非每日吸烟自1990年代末变普遍，尤其18-34岁、黑人、西班牙裔、大学学历者。
+- id: TUD_RISK
+  title: 风险与预后因素
+  source_page: 648
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 外向人格、儿童 ADHD 或品行障碍增加吸烟启动风险。
+  - 成人抑郁、双相、焦虑、精神病、物质使用障碍者风险更高。
+  - 低收入低教育更易启动且难戒；遗传贡献约50%易感性。
+- id: TUD_COMORBIDITY
+  title: 常见共病
+  source_page: 649
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 医学共病：心血管病、慢阻肺、癌症、围产期问题（低出生体重、流产）。
+  - 精神共病：酒精/物质使用障碍、抑郁、双相、焦虑、人格障碍、ADHD。
+  - 有精神障碍者烟草使用障碍风险是无障碍者的3倍。
+- id: TUD_SUICIDE
+  title: 自杀风险关联
+  source_page: 649
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 过去一年吸烟者自杀念头和行为风险增加2-3倍，越早开始吸烟风险越高。
+  - VA数据显示烟草使用障碍与自杀风险增加相关（调整混杂后仍成立）。
+  - 芬兰双胞胎研究显示烟草使用与自杀呈剂量反应，非同卵双胞胎中风险高6倍。
+  must_warn:
+  - 吸烟显著增加自杀念头和行为风险，尤其开始年龄越早风险越高。
+  - 烟草使用障碍患者需常规评估自杀风险。
+- id: TW_CRITERIA
+  title: 烟草戒断诊断标准
+  source_page: 650
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 每日使用至少数周，停止或减量后24小时内出现4项及以上症状：易怒/愤怒、焦虑、注意力难集中、食欲增加、坐立不安、情绪低落、失眠。
+  - 症状导致临床显著痛苦或功能损害，非其他医学或精神障碍解释。
+  - 戒断仅出现于中度或重度烟草使用障碍患者。
+- id: TW_DIFFERENTIAL
+  title: 戒断的鉴别诊断
+  source_page: 651
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 症状与其他物质戒断（酒精、镇静剂、兴奋剂等）、咖啡因中毒、焦虑/抑郁/双相/睡眠障碍重叠。
+  - 入住无烟病房或自愿戒烟可能诱发类似其他障碍的症状。
+  - 使用尼古丁后症状减轻可确认诊断。

@@ -1,0 +1,68 @@
+#!/usr/bin/env bash
+# med-agent — one dispatcher for the consolidated engine.
+# Every fork's bin/ collapses into `med-agent <cmd> --pack <name|dir>`.
+#
+# Commands:
+#   ask          --pack P [--mode M] [--domain D] [--debug] "问题"   end-to-end answer
+#   route        --pack P "问题"                                      print routed domains
+#   oob          --pack P [--mode M] "问题"                           print in_scope / out_of_scope:<type>
+#   validate     --pack P                                            load + validate manifest (prints JSON)
+#   list-packs                                                       list all pack ids
+#   list-domains --pack P                                            list a pack's routable domains
+#   eval         --pack P [--limit N] [--id X] [--mode M]            graded eval vs eval/gold.yaml
+#   eval-oob     --pack P                                            deterministic OOB eval
+#   crisis-check --pack P                                            fail-closed crisis gate (safety-critical packs)
+#
+# --pack accepts a pack name (resolved to packs/<name>) or a directory path.
+set -euo pipefail
+
+CORE_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+ENGINE="$CORE_ROOT/engine"
+
+resolve_pack() {
+  local p="$1"
+  if [[ -d "$p" && -f "$p/pack.yaml" ]]; then echo "$p"; return; fi
+  if [[ -f "$CORE_ROOT/packs/$p/pack.yaml" ]]; then echo "$CORE_ROOT/packs/$p"; return; fi
+  echo "med-agent: pack not found: $p" >&2; exit 2
+}
+
+# Extract --pack from args, leave the rest intact.
+PACK_ARG=""
+ARGS=()
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --pack) PACK_ARG="$2"; shift 2 ;;
+    *) ARGS+=("$1"); shift ;;
+  esac
+done
+set -- "${ARGS[@]}"
+
+CMD="${1:-}"; shift || true
+
+need_pack() {
+  [[ -z "$PACK_ARG" ]] && { echo "med-agent $CMD: --pack required" >&2; exit 2; }
+  resolve_pack "$PACK_ARG"
+}
+
+case "$CMD" in
+  ask)          PACK=$(need_pack); exec "$ENGINE/ask.sh" --pack "$PACK" "$@" ;;
+  route)        PACK=$(need_pack); exec "$ENGINE/router.sh" --pack "$PACK" "$@" ;;
+  oob)          PACK=$(need_pack); exec "$ENGINE/oob_check.sh" --pack "$PACK" "$@" ;;
+  validate)     PACK=$(need_pack); exec python3 "$ENGINE/load_pack.py" "$PACK/pack.yaml" "$@" ;;
+  eval)         PACK=$(need_pack); exec python3 "$ENGINE/eval.py" "$PACK" "$@" ;;
+  eval-oob)     PACK=$(need_pack); exec python3 "$ENGINE/eval_oob.py" "$PACK" "$@" ;;
+  crisis-check) PACK=$(need_pack); exec python3 "$ENGINE/crisis_check.py" "$PACK" "$@" ;;
+  list-packs)
+    for d in "$CORE_ROOT"/packs/*/pack.yaml; do
+      [[ -f "$d" ]] && python3 "$ENGINE/load_pack.py" "$d" --field id
+    done
+    ;;
+  list-domains)
+    PACK=$(need_pack)
+    exec python3 "$ENGINE/list_domains.py" "$PACK/pack.yaml"
+    ;;
+  ""|-h|--help|help)
+    sed -n '2,20p' "${BASH_SOURCE[0]}" | sed 's/^# \{0,1\}//'
+    ;;
+  *) echo "med-agent: unknown command '$CMD' (try --help)" >&2; exit 2 ;;
+esac

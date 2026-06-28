@@ -1,0 +1,75 @@
+specialty: paraphilic
+specialty_zh: 性欲倒错障碍
+disease: exhibitionistic
+disease_zh: 露阴障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: EXHIBITIONISTIC_DISORDER_DEFINITION
+  title: 露阴障碍定义
+  source_page: 784
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 露阴障碍是一种性欲倒错障碍，核心特征是在至少6个月内反复出现向毫无戒备的人暴露生殖器的强烈性唤起，表现为幻想、冲动或行为。
+  - 诊断需满足：个体已对非同意者实施该行为，或冲动/幻想导致临床显著的痛苦或社交、职业等功能损害。
+  - 即使个体否认有暴露冲动，若反复暴露行为已造成他人伤害，也可基于客观证据作出诊断。
+  must_warn: []
+- id: EXHIBITIONISTIC_DISORDER_CRITERIA
+  title: 诊断标准
+  source_page: 783
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准A：至少6个月内，反复出现向不防备的人暴露生殖器的强烈性唤起（幻想、冲动或行为）。
+  - 标准B：个体已对非同意者实施该冲动，或者冲动/幻想引起痛苦或社交、职业等功能损害。
+  - 亚型根据非同意者的年龄/成熟度分为：暴露给青春期前儿童、暴露给身体成熟个体、或两者兼有。
+  must_warn: []
+- id: EXHIBITIONISTIC_DISORDER_SUBTYPES_SPECIFIERS
+  title: 亚型与病程标注
+  source_page: 783
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 亚型基于个体偏好暴露给哪类非同意者：青春期前儿童、身体成熟个体或两者。这有助于发现可能共病的恋童障碍。
+  - 标注“在受控环境中”：适用于住院或限制暴露机会的个体。
+  - 标注“完全缓解”：在不受控环境中至少5年未对非同意者实施冲动，且无痛苦或功能损害。
+  must_warn: []
+- id: EXHIBITIONISTIC_DISORDER_PREVALENCE
+  title: 患病率
+  source_page: 784
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 符合露阴障碍全部标准的人群患病率未知，但女性罕见。一次露阴行为在女性中发生率约为男性的半数。
+  - 加拿大魁北克调查显示，露阴行为终生患病率30.9%（男性32.6%，女性29.4%），但强烈渴望和持续行为的发生率很低（分别为4.8%和0.8%）。
+  - 瑞典研究估计普通人群露阴障碍终生患病率男性4.1%，女性2.1%。
+  must_warn: []
+- id: EXHIBITIONISTIC_DISORDER_COURSE
+  title: 起病与病程
+  source_page: 785
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 成年男性通常报告在青春期（比正常性兴趣稍晚）首次意识到对暴露生殖器的兴趣。
+  - 冲动往往在青少年期或成年早期出现，但随时间推移的持续性所知甚少。
+  - 随着年龄增长，露阴性偏好和行为可能减退；痛苦或功能损害的程度可随时间变化。
+  must_warn: []
+- id: EXHIBITIONISTIC_DISORDER_RISK
+  title: 风险与预后因素
+  source_page: 785
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 露阴是露阴障碍的必要前提，因此露阴的风险因素也会增加露阴障碍的风险。
+  - 反社会史、反社会人格障碍、酒精滥用和恋童性偏好可能增加露阴犯罪者的性再犯风险。
+  - 童年性虐待、情绪虐待以及性专注/性欲亢进被认为是露阴的环境风险因素，但因果关系尚不确定。
+  must_warn: []
+- id: EXHIBITIONISTIC_DISORDER_DIFFERENTIAL
+  title: 鉴别诊断
+  source_page: 785
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与以下疾病引起的露阴行为鉴别：躁狂发作、重性神经认知障碍、智力发育障碍、物质中毒、精神分裂症等。若露阴仅出现于这些疾病背景下，则不诊断露阴障碍。
+  - 青少年品行障碍和成年反社会人格障碍也有违规行为，但通常缺乏对暴露生殖器的特定性兴趣。
+  must_warn: []

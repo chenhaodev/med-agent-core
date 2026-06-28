@@ -1,0 +1,101 @@
+specialty: depressive
+specialty_zh: 抑郁障碍
+disease: mdd
+disease_zh: 重性抑郁障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: MDD_DEFINITION
+  title: 什么是重性抑郁障碍
+  source_page: 185
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 核心是至少一次重性抑郁发作，无躁狂或轻躁狂史。
+  - 发作期至少持续2周，必须有抑郁心境或兴趣丧失之一。
+  - 同时存在至少4项其他症状，如食欲、睡眠、精力、自责等改变。
+  - 症状需引起临床显著痛苦或功能损害。
+  must_warn: []
+- id: MDD_CRITERIA
+  title: 主要诊断标准
+  source_page: 183
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A标准：2周内同时存在5项及以上症状，至少1项是抑郁心境或兴趣丧失。
+  - 症状包括：抑郁/易怒心境、兴趣愉悦减退、体重/食欲变化、失眠/嗜睡、精神运动改变、疲劳、无价值感/内疚、注意/决策困难、死亡/自杀念头。
+  - B标准：症状引起社交、职业或其他领域显著痛苦或功能损害。
+  - C标准：非物质或躯体疾病直接生理效应所致。
+  - D/E标准：排除其他精神病性障碍和躁狂/轻躁狂史。
+  must_warn: []
+- id: MDD_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 188
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国12月患病率约7%，女性约为男性2倍。
+  - 18-29岁人群患病率是60岁以上的3倍。
+  - 全球不同地区患病率差异可达8-9倍。
+  - 2005-2015年美国患病率上升，青少年增幅更大。
+  must_warn: []
+- id: MDD_DEVELOPMENT
+  title: 起病与病程
+  source_page: 188
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可起病于任何年龄，青春期后风险明显增加，20多岁为高峰。
+  - 40%患者在3个月内恢复，80%在1年内恢复。
+  - 病程多变：有人很少缓解，有人多年间无或仅轻微症状。
+  - 复发风险随时间降低，但残留症状是复发强预测因素。
+  must_warn: []
+- id: MDD_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 189
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 神经质（负面情绪）是明确的发病风险因素。
+  - 不良童年经历（尤其多种、多样）是强风险因素。
+  - 女性因性虐待等社会因素风险更高。
+  - 一级亲属风险是普通人群的2-4倍；遗传度约40%。
+  - 其他精神障碍（焦虑、物质使用等）和慢性疾病增加风险。
+  must_warn: []
+- id: MDD_SUICIDE_RISK
+  title: 自杀/自伤风险与安全
+  source_page: 190
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 重性抑郁障碍患者自杀风险是普通人群的17倍。
+  - 自杀行为在抑郁发作期间随时可能发生。
+  - 主要风险因素：既往自杀尝试/威胁、独居、社会孤立、绝望感等。
+  - 女性尝试自杀更多，但男性自杀成功率高。
+  - 共病（如边缘型人格、物质滥用）增加未来自杀行为风险。
+  must_warn:
+  - 患者随时可能出现自杀念头或行为，尤其既往有自杀尝试史者。
+  - 若出现自杀想法或计划，必须立即寻求专业帮助或拨打危机热线。
+- id: MDD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 191
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需排除双相障碍：若有躁狂/轻躁狂史，应诊断双相而非重性抑郁。
+  - 物质/药物所致抑郁：情绪障碍直接由物质引起则不能诊断重性抑郁。
+  - 持续性抑郁障碍（恶劣心境）：抑郁心境多于无，持续≥2年。
+  - 经前烦躁障碍：症状与月经周期紧密相关。
+  - 适应障碍：未达重性抑郁发作的全部标准。
+  - 丧亲之痛：核心情感是空虚和失落，而非持续抑郁和快感缺失。
+  - 悲伤情绪：若未达严重程度、持续时间和功能损害，不诊断为重性抑郁发作。
+  must_warn: []
+- id: MDD_COMORBIDITY
+  title: 常见共病
+  source_page: 193
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常与物质相关障碍、惊恐障碍、广泛性焦虑障碍、创伤后应激障碍共病。
+  - 也常与强迫症、神经性厌食/贪食、边缘型人格障碍共病。
+  - 女性更易共病焦虑障碍和贪食症；男性更易共病酒精/物质滥用。
+  must_warn: []

@@ -1,0 +1,72 @@
+specialty: personality
+specialty_zh: 人格障碍
+disease: paranoid
+disease_zh: 偏执型人格障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: PPD_DEFINITION
+  title: 核心特征与定义
+  source_page: 738
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 偏执型人格障碍的核心是普遍不信任和怀疑他人，认为其动机是恶意的。
+  - 这种模式开始于成年早期，并在多种情境中持续表现。
+- id: PPD_CRITERIA
+  title: 诊断标准
+  source_page: 738
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 无根据地怀疑他人会利用、伤害或欺骗自己。
+  - 经常毫无理由地怀疑朋友或伴侣的忠诚和可信度。
+  - 不愿信任他人，害怕信息被恶意使用。
+  - 把善意的言语或事件曲解为贬低或威胁。
+  - 长期记仇，不原谅受到的侮辱、伤害或轻视。
+  - 感到自己的名声或声誉被攻击，并迅速愤怒反击。
+  - 无根据地反复怀疑配偶或性伴侣不忠。
+  - 需排除精神分裂症、伴精神病性特征的双相或抑郁障碍等。
+- id: PPD_PREVALENCE
+  title: 患病率
+  source_page: 739
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 流行病学研究中位患病率约为3.2%。
+  - 在法医环境中患病率可高达23%。
+- id: PPD_DEVELOPMENT
+  title: 发展与病程
+  source_page: 739
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可能在儿童青少年期表现为孤独、社交焦虑、学业差。
+  - 青少年发病常与童年受虐、外向症状、欺凌他人有关。
+- id: PPD_RISK
+  title: 风险与预后因素
+  source_page: 740
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 社会压力（如社会不平等、种族歧视）与不信任感增加有关。
+  - 童年创伤是明确的危险因素。
+  - 有精神分裂症亲属的个体患病风险增加。
+- id: PPD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 740
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与精神分裂症、妄想障碍等伴精神病性症状的障碍区分，人格障碍需先于精神病性症状出现。
+  - 分裂型人格障碍也有怀疑，但还有奇特思维或知觉。
+  - 分裂样人格障碍通常没有突出的猜疑。
+  - 边缘型和表演型人格障碍有愤怒反应，但缺乏普遍怀疑。
+  - 回避型人格障碍也怕信任，但主要是怕丢脸或不够好。
+- id: PPD_COMORBIDITY
+  title: 常见共病
+  source_page: 741
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可与其他类型的人格障碍共存（如分裂型、回避型等）。
+  - 若同时满足多个障碍标准，均可诊断。

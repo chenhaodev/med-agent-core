@@ -1,0 +1,84 @@
+specialty: anxiety
+specialty_zh: 焦虑障碍
+disease: separation
+disease_zh: 分离焦虑障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: SEP_DEFINITION
+  title: 核心特征
+  source_page: 218
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 分离焦虑障碍的核心是对离家或与依恋对象分离的过度恐惧或焦虑，超出该年龄发育应有的水平。
+  - 患者常反复担心依恋对象遭遇不测，或自身遭遇意外导致无法团聚。
+- id: SEP_CRITERIA
+  title: 诊断标准
+  source_page: 217
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 必须满足至少3项以下症状：分离时极度痛苦、持续担心依恋对象、担心自身遇意外、拒绝离家、害怕独处、拒绝外出睡、做分离噩梦、分离前身体不适。
+  - 儿童青少年持续≥4周，成人≥6个月。
+  - 症状引起显著痛苦或功能损害。
+  - 不是其他精神障碍（如自闭症、精神病、广场恐怖症等）所致。
+- id: SEP_PREVALENCE
+  title: 患病率
+  source_page: 219
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 儿童6-12月患病率约4%，学龄女童高于男童。
+  - 美国青少年12月患病率1.6%，成人0.9%-1.9%。
+  - 全球成人平均12月患病率1.0%，女性（1.3%）高于男性（0.8%）。
+- id: SEP_COURSE
+  title: 起病与病程
+  source_page: 219
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可始于学龄前，任何儿童青少年时期均可发病。
+  - 成人患者中位发病年龄：高收入国家青少年后期，低收入国家25岁左右。
+  - 病程常波动，有加重和缓解期；多数儿童长大后不再有障碍，但部分可持续至成年。
+  - 年龄越小表现越以行为回避为主，年龄越大出现更多担忧言语表达。
+- id: SEP_RISK
+  title: 风险与预后因素
+  source_page: 220
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 生活压力事件常诱发，尤其经历丧失（亲人/宠物死亡、患病、转学、离婚、搬家、灾害等）。
+  - 童年被欺凌是风险因素。
+  - 父母过度保护和控制可能相关。
+  - 遗传因素：6岁双胞胎研究中遗传度约73%，女性更高。
+- id: SEP_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 221
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与广泛性焦虑障碍区别：焦虑主要围绕分离主题而非其他担忧。
+  - 与惊恐障碍区别：惊恐发作仅在预期或实际分离时出现。
+  - 与广场恐怖症区别：害怕离开安全场所而非被困。
+  - 与社交焦虑障碍区别：学校回避因怕被评价而非分离。
+  - 与创伤后应激障碍区别：核心症状是回避创伤记忆而非分离。
+  - 与疾病焦虑障碍区别：担忧他人健康而非自身疾病。
+- id: SEP_FUNCTIONAL
+  title: 功能影响
+  source_page: 220
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 患者常限制独立活动：儿童拒绝上学、独自睡觉；青少年拒绝离家上学；成人不敢单独旅行或工作。
+  - 成人可能调整工作以维持与依恋对象的联系（如反复打电话/发短信）。
+  - 症状导致生活多方面功能受限，带来挫折感。
+- id: SEP_SUICIDE
+  title: 自杀风险
+  source_page: 220
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 儿童青少年分离焦虑障碍可能与自杀风险增加有关，但此关联也存在于其他共病性高的焦虑障碍。
+  - 童年被欺凌是成年早期自杀念头的风险因素。
+  must_warn:
+  - 儿童青少年分离焦虑障碍患者可能面临较高的自杀风险，需密切关注并寻求专业评估。

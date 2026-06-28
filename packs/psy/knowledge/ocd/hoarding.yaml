@@ -1,0 +1,103 @@
+specialty: ocd
+specialty_zh: 强迫及相关障碍
+disease: hoarding
+disease_zh: 囤积障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: HOARDING_DEFINITION
+  title: 囤积障碍核心特征
+  source_page: 278
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 持续难以丢弃物品，无论实际价值。
+  - 因感知需要保存物品，丢弃时感到痛苦。
+  - 物品堆积杂乱，严重影响生活区域的正常用途。
+  must_warn: []
+- id: HOARDING_CRITERIA
+  title: 诊断标准（A-F）
+  source_page: 278
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A. 持续难以丢弃物品，不论其实际价值。
+  - B. 因感知需要保存，丢弃时感到痛苦。
+  - C. 物品堆积堵塞生活区域，使其无法正常使用。
+  - D. 引起临床显著痛苦或社会、职业等功能损害。
+  - E. 排除由其他医学状况（如脑损伤）直接导致。
+  - F. 排除由其他精神障碍（如强迫症、抑郁症）症状解释。
+  must_warn: []
+- id: HOARDING_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 279
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 社区调查估计美国/欧洲点患病率1.5%–6%。
+  - 高收入国家荟萃分析患病率2.5%，无性别差异。
+  - 老年人（>65岁）患病率约为年轻人（30–40岁）的3倍。
+  must_warn: []
+- id: HOARDING_COURSE
+  title: 起病与病程
+  source_page: 280
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 症状常于15–19岁首次出现。
+  - 25岁左右开始干扰日常功能，35岁左右造成显著损害。
+  - 病程多为慢性，严重程度随年龄增长逐渐加重。
+  must_warn: []
+- id: HOARDING_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 280
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 优柔寡断是突出特征，也见于一级亲属。
+  - 压力性和创伤性生活事件可能诱发或加重症状。
+  - 囤积行为有家族聚集性；双生子研究显示约50%变异归因于遗传。
+  must_warn: []
+- id: HOARDING_DIFFERENTIAL_DX
+  title: 鉴别诊断要点
+  source_page: 281
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 排除其他医学状况（如脑损伤、Prader-Willi综合征）。
+  - 与神经发育障碍（如自闭症）区分。
+  - 排除精神分裂症等精神病性障碍。
+  - 排除重性抑郁发作中的疲劳/动力不足。
+  - 与强迫症区分：OCD囤积常由特定强迫观念驱动，不愉悦。
+  - 排除神经认知障碍（如额颞叶变性、阿尔茨海默病）。
+  must_warn: []
+- id: HOARDING_SAFETY
+  title: 安全风险与功能损害
+  source_page: 280
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 杂乱妨碍行走、做饭、清洁、个人卫生等基本活动。
+  - 严重时增加火灾、跌倒（尤其老年人）、卫生不良等健康风险。
+  - 导致职业损害、身体健康差和社会服务利用高。
+  - 家人关系紧张，常与邻居和当局冲突，部分面临驱逐。
+  must_warn:
+  - 严重囤积可导致火灾、跌倒（尤其老年人）、卫生不良等健康风险，需注意环境安全。
+- id: HOARDING_SPECIFIERS
+  title: 亚型与洞察力分级
+  source_page: 278
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 约80%–90%患者伴有过度获取（最常见为过度购买）。
+  - 洞察力分三级：良好/一般、差、缺乏/妄想信念。
+  must_warn: []
+- id: HOARDING_ASSOCIATED_FEATURES
+  title: 相关行为特征
+  source_page: 279
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见特征包括优柔寡断、完美主义、回避、拖延、计划组织困难。
+  - 部分患者生活在不卫生环境。
+  - 动物囤积是特殊形式，常伴更差的卫生条件和洞察力。
+  must_warn: []

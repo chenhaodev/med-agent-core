@@ -1,0 +1,73 @@
+specialty: paraphilic
+specialty_zh: 性欲倒错障碍
+disease: frotteuristic
+disease_zh: 摩擦障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: FROTTEURISTIC_DISORDER_DEFINITION
+  title: 摩擦障碍的核心特征
+  source_page: 786
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 摩擦障碍是一种性欲倒错障碍，核心特征是通过触碰或摩擦未经同意的人来获得反复而强烈的性唤起。
+  - 这种性唤起表现为性幻想、性冲动或实际行为，且持续时间至少6个月。
+  must_warn: []
+- id: FROTTEURISTIC_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准
+  source_page: 786
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准A：至少6个月内，反复出现强烈性唤起（源于触碰/摩擦未经同意者），表现为幻想、冲动或行为。
+  - 标准B：个体已对这些性冲动付诸行动，或者性冲动/幻想导致临床上显著的痛苦或社交、职业等功能损害。
+  - 指定语：若处于受控环境（如监禁）可注明；若5年无行动且无痛苦/损害则可注明“完全缓解”。
+  must_warn: []
+- id: FROTTEURISTIC_DIAGNOSTIC_FEATURES
+  title: 诊断特征说明
+  source_page: 787
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 即使个体坚决否认有性唤起，只要有反复摩擦行为且造成他人伤害，也可根据客观证据诊断。
+  - 若个体主动报告性兴趣但无痛苦或损害，也未行动，则诊断为“摩擦性兴趣”而非障碍。
+  - 反复摩擦同一人或多人均可满足“反复”要求，但多人更支持诊断可靠性。
+  must_warn: []
+- id: FROTTEURISTIC_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 787
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 普通人群中约30%的成年男性报告有过摩擦行为，但真正符合障碍诊断的比例远低（约0.7%报告持续行为）。
+  - 在因性欲倒错或性冲动就诊的男性门诊患者中，约10%–14%符合摩擦障碍诊断。女性患病率可能更低。
+  must_warn: []
+- id: FROTTEURISTIC_DEVELOPMENT_COURSE
+  title: 起病与病程
+  source_page: 787
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 成年男性通常在青春期后期或成年早期首次意识到对偷偷触碰他人的性兴趣。
+  - 儿童和青少年也可能有摩擦行为，但需与无性动机的品行问题区分，诊断无最低年龄限制。
+  - 病程可变，可能随年龄增长而减轻，主观痛苦（如内疚、孤独）或功能损害也可能随时间改变。
+  must_warn: []
+- id: FROTTEURISTIC_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 787
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 非性方面的反社会行为、性先占/性冲动可能是非特异性风险因素，因果联系尚不确定。
+  - 摩擦行为本身是障碍的必要前提，因此任何增加摩擦行为风险的因素也增加障碍风险。
+  must_warn: []
+- id: FROTTEURISTIC_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 787
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与躁狂发作、神经认知障碍、智力残疾、物质中毒、精神分裂症等导致的性脱抑制行为区分：若摩擦行为只在这些情况下出现则不诊断摩擦障碍。
+  - 与无性动机的品行障碍或反社会人格障碍区分：摩擦障碍的性唤起是关键。
+  - 若个体仅有摩擦行为但无痛苦或功能损害，也不符合障碍诊断。
+  must_warn: []

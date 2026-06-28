@@ -1,0 +1,83 @@
+specialty: dissociative
+specialty_zh: 分离障碍
+disease: depersonalization
+disease_zh: 人格解体/现实解体障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: DEPDER_CORE_FEATURES
+  title: 核心特征：人格解体与现实解体
+  source_page: 344
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 人格解体：感觉自我不真实、脱离或从外部观察自己的思想、情感、身体，如情感麻木、时间扭曲。
+  - 现实解体：感觉周围环境不真实、像梦境、隔着玻璃墙，视觉上可模糊或变形。
+  - 患者能保持现实检验能力，知道这些感觉并非真实。
+  - 症状持续或反复出现，导致明显痛苦或功能损害。
+  must_warn: []
+- id: DEPDER_DIAGNOSTIC_CRITERIA
+  title: 诊断标准（A-E）
+  source_page: 344
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A. 持续或反复体验人格解体、现实解体或两者同时存在。
+  - B. 体验期间现实检验能力完好（不认为感觉真实存在）。
+  - C. 症状引起临床显著痛苦或社交、职业等重要功能损害。
+  - D. 排除物质（如毒品、药物）或躯体疾病（如癫痫）的直接生理效应。
+  - E. 无法被其他精神障碍（如精神分裂症、惊恐障碍、抑郁症等）更好解释。
+  must_warn: []
+- id: DEPDER_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 345
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 短暂的人格解体/现实解体症状在普通人群很常见，约半数成人一生中至少经历过一次。
+  - 完全符合障碍诊断的比例明显更低，英国1个月患病率约1%–2%。
+  - 12个月患病率数据尚无精确估计。
+  must_warn: []
+- id: DEPDER_COURSE
+  title: 起病与病程
+  source_page: 345
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 平均发病年龄16岁，可在儿童期开始；不到20%在20岁后首发，仅5%在25岁后。
+  - 起病可极快或逐渐；病程常持续，约1/3为发作性，1/3持续不断，另1/3由发作转为持续。
+  - 症状强度可波动，应激、情绪恶化、过度刺激、睡眠不足等可诱发加重。
+  - 40岁后首次发病极罕见，需排查潜在躯体疾病（如脑损伤、癫痫）。
+  must_warn: []
+- id: DEPDER_RISK_PROGNOSTIC
+  title: 风险与预后因素
+  source_page: 345
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 气质因素：回避伤害、不成熟防御机制（如理想化/贬低、投射、行动化）。
+  - 童年人际创伤（尤其是情感虐待和忽视）与本病明确相关，但不如其他分离障碍严重。
+  - 常见近端诱因：严重压力（人际、经济、工作）、抑郁、焦虑（尤其是惊恐发作）、非法药物使用（大麻、致幻剂、氯胺酮等）。
+  must_warn: []
+- id: DEPDER_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 346
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与抑郁症鉴别：持久缺乏情感和现实感，但抑郁症的这类症状不伴随典型人格解体症状群。
+  - 与惊恐障碍鉴别：若人格解体/现实解体仅发生在惊恐发作时，则不单独诊断。
+  - 与精神障碍鉴别：患者现实检验能力完好，不会坚信幻觉或妄想为真。
+  - 与物质诱发鉴别：若症状由药物或毒品引起且在停用后不消失，可诊断。
+  - 与创伤性脑损伤鉴别：症状是否紧随脑损伤出现。
+  must_warn: []
+- id: DEPDER_COMORBIDITY
+  title: 常见共病
+  source_page: 347
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 终生共病率高：单相抑郁障碍和任何焦虑障碍（尤其是惊恐障碍）。
+  - 与创伤后应激障碍的共病率较低。
+  - 常见共病人格障碍：回避型、边缘型、强迫型。
+  - 物质使用障碍（大麻、致幻剂等）也可能共病。
+  must_warn: []

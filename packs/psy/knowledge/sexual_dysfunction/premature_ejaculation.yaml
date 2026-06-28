@@ -1,0 +1,76 @@
+specialty: sexual_dysfunction
+specialty_zh: 性功能失调
+disease: premature_ejaculation
+disease_zh: 早泄
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: PE_DEFINITION_CRITERIA
+  title: 早泄的定义与诊断标准
+  source_page: 502
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 早泄（Premature Ejaculation）指在阴道性交中，射精持续或反复在插入后约1分钟内发生，且早于个人意愿。
+  - 该模式必须持续至少6个月，并几乎每次（约75%-100%）性活动时出现，导致临床显著痛苦。
+  - 诊断需排除非性精神障碍、严重关系困扰、物质/药物或其他躯体疾病所致。
+  - 亚型包括：终身型（从首次性活动起）或获得型（正常后出现）；广泛型或情境型。
+  - 严重度分级：轻度（30秒-1分钟）、中度（15-30秒）、重度（性活动前或开始后15秒内）。
+  must_warn: []
+- id: PE_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 503
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 全球报告患病率为8%-30%，若严格定义为插入后约1分钟内，仅1%-3%男性符合。
+  - 患病率可能随年龄增加，如美国50-59岁男性中高达55%担心射精过快。
+  - 不同国家地区报告率差异较大，与文化认知和担忧程度相关。
+  must_warn: []
+- id: PE_COURSE
+  title: 起病与病程特点
+  source_page: 503
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 终身型早泄始于首次性活动并持续，部分男性初期过快但后来自行控制，持续超6个月才诊断。
+  - 获得型早泄在正常射精潜伏期后出现，典型发病在40岁后，了解较少。
+  - 终身型相对稳定，获得型可能与其他疾病（如甲状腺疾病）相关。
+  must_warn: []
+- id: PE_RISK
+  title: 风险与预后因素
+  source_page: 503
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 焦虑障碍（尤其社交焦虑障碍）男性中早泄更常见，终身型有中等遗传贡献。
+  - 获得型与甲状腺疾病、前列腺炎、药物戒断相关，可能与基因多态性有关。
+  - 个体脆弱因素包括性虐待史、情绪压力等，同伴和关系因素也影响评估。
+  must_warn: []
+- id: PE_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 504
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 若射精问题完全由物质使用（如毒品、药物）引起，则不诊断为早泄，需排除此类原因。
+  must_warn: []
+- id: PE_COMORBIDITY
+  title: 常见共病
+  source_page: 503
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 早泄常合并抑郁、焦虑障碍（特别是社交焦虑），这些因素在评估时需考虑。
+  - 可能与勃起功能障碍、男性性欲减退障碍等其他性功能障碍共病（但原文未在早泄章节明确列出）。
+  must_warn: []
+- id: PE_SUICIDE
+  title: 自杀风险与安全警示
+  source_page: 504
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 合并抑郁的早泄男性在接受治疗时，自杀想法或行为发生率升高。
+  - 虽然患者常将自杀症状归因于早泄，但抑郁是重要促成因素。
+  must_warn:
+  - 在患有早泄合并抑郁的男性中，观察到自杀想法或行为的风险升高。
+  - 虽然患者将自杀症状归因于早泄，但抑郁很可能是促成因素。

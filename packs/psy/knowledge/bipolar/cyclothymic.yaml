@@ -1,0 +1,64 @@
+specialty: bipolar
+specialty_zh: 双相及相关障碍
+disease: cyclothymic
+disease_zh: 环性心境障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: CYC_DEFINITION
+  title: 核心特征是什么
+  source_page: 174
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 慢性波动心境障碍，反复出现轻躁狂和抑郁症状，但两类症状的数量、严重度或持续时间均未达完整发作标准。
+  - 症状持续至少2年（儿童青少年1年），从未完全无症状超过2个月。
+  - 从未出现重性抑郁、躁狂或轻躁狂发作，否则诊断应改为其他障碍。
+- id: CYC_DIAG_CRITERIA
+  title: 主要诊断标准
+  source_page: 173
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 至少2年（儿童青少年1年）内，多次出现轻躁狂症状和抑郁症状，但均未达到各自发作的诊断标准。
+  - 症状在至少一半时间内存在，且从未连续2个月无症状。
+  - 症状不能由分裂情感障碍、精神分裂症等其他精神障碍更好解释。
+  - 症状不是物质、药物或其他医学状况的直接生理效应。
+  - 症状导致临床上显著痛苦，或社交、职业等重要功能损害。
+- id: CYC_EPIDEMIOLOGY
+  title: 患病率
+  source_page: 175
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国和欧洲终身患病率约0.4%–2.5%。
+  - 在情绪障碍专科诊所中约占3%–5%。
+  - 男女患病率大致相等，但女性更积极寻求治疗。
+- id: CYC_ONSET_COURSE
+  title: 起病与病程
+  source_page: 176
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 通常起病于青少年或成年早期，多数在10岁前已出现情绪症状。
+  - 起病隐匿，病程持续呈波动性，常被视为其他双相障碍的“气质前驱”。
+  - 15%-50%的个体后续发展为双相I型或双相II型障碍，儿童青少年转化风险更高。
+  - 晚年首次发作者需仔细排除其他医学状况所致的心境障碍（如多发性硬化）。
+- id: CYC_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 176
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 一级亲属中重性抑郁、双相I型或双相II型障碍的患病率高于一般人群。
+  - 物质相关障碍在一级亲属中也可能更常见。
+  - 双相I型障碍的一级亲属中环性心境障碍的患病率高于普通人群。
+- id: CYC_DIFF_DIAG
+  title: 鉴别诊断要点
+  source_page: 177
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与物质/药物所致心境障碍鉴别：停用兴奋剂等物质后症状通常消失。
+  - 与其他医学状况（如甲亢）所致鉴别：依靠病史、体格检查和实验室发现。
+  - 与双相I型或双相II型快速循环型鉴别：后者存在完整的抑郁、躁狂或轻躁狂发作。
+  - 与边缘型人格障碍鉴别：边缘型情绪不稳定主要在人际关系领域，且伴有冲动行为；环性心境障碍的情绪波动需有轻躁狂症状背景。

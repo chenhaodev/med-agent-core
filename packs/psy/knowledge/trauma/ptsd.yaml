@@ -1,0 +1,133 @@
+specialty: trauma
+specialty_zh: 创伤及应激相关障碍
+disease: ptsd
+disease_zh: 创伤后应激障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: PTSD_DEFINITION
+  title: 什么是创伤后应激障碍
+  source_page: 305
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - PTSD是在经历或目睹死亡、重伤或性暴力等创伤事件后出现的特征性症状。
+  - 症状可表现为恐惧性重复体验、情绪麻木、负面认知、警觉增高或冲动行为。
+  - 部分患者可出现分离症状（如感觉不真实或灵魂出窍）。
+  - PTSD可发生于任何年龄，起病常在创伤后3个月内。
+  must_warn: []
+- id: PTSD_CRITERIA_6
+  title: 诊断标准（6岁以上）
+  source_page: 301
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 必须经历或目睹死亡、重伤或性暴力等创伤事件（直接经历、亲眼目睹、获悉亲友遭遇、工作间接暴露）。
+  - 至少出现1种侵入症状（如反复痛苦记忆、噩梦、闪回、心理或生理应激反应）。
+  - 持续回避与创伤相关的人、地点、思想或感觉。
+  - 出现2种以上认知和情绪负性改变（如失忆、自责、疏离、兴趣减退、无法快乐）。
+  - 出现2种以上警觉与反应性改变（如易怒、鲁莽、过度警觉、惊跳反应、注意力不集中、睡眠障碍）。
+  - 症状持续超过1个月，且导致显著功能损害，非由物质或其他疾病引起。
+  must_warn: []
+- id: PTSD_CRITERIA_CHILD
+  title: 诊断标准（6岁及以下）
+  source_page: 303
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 直接经历或目睹（尤其是主要照护者）或获悉父母/照护者遭遇创伤事件。
+  - 至少1种侵入症状（可能表现为噩梦、游戏中重演、闪回）。
+  - 至少1种回避或认知情绪负性改变（如回避活动/人、负面情绪增多、兴趣减退、社交退缩）。
+  - 至少2种警觉改变症状（如易怒、过度警觉、惊跳、注意力不集中、睡眠差）。
+  - 症状持续超过1个月，影响亲子关系、同伴关系或学校行为，非由物质或其他疾病引起。
+  must_warn: []
+- id: PTSD_PREVALENCE
+  title: 患病率
+  source_page: 308
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国成人DSM-5终身患病率约6.1%-8.3%，12个月患病率约4.7%。
+  - 全球世界心理健康调查中DSM-4终身患病率总体约3.9%，各国差异大。
+  - 冲突地区功能性损害PTSD时点患病率约11%。
+  - 退伍军人、警察、消防员等高暴露职业人群患病率更高。
+  - 性侵害、军事战斗和拘禁幸存者中PTSD率可达1/3至一半以上。
+  must_warn: []
+- id: PTSD_COURSE
+  title: 起病与病程
+  source_page: 309
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 任何年龄均可发病，症状通常在创伤后3个月内出现，但可能有明显延迟。
+  - 约一半成年人在3个月内完全康复，但有些症状可持续超过12个月甚至50年。
+  - 症状可因创伤提醒、生活压力或新创伤而复发和加重。
+  - 儿童表现因年龄而异：幼儿可能通过游戏重演，学龄儿童回避新活动。
+  must_warn: []
+- id: PTSD_RISK
+  title: 风险与预后因素
+  source_page: 310
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 创伤前因素：儿童期情绪问题、既往精神障碍、神经质人格、低社会经济地位、经历先前创伤。
+  - 创伤中因素：创伤严重程度、感知生命威胁、人际暴力（尤其由照护者发起）、分离反应。
+  - 创伤后因素：负面评价、不良应对、急性应激障碍、后续生活压力、缺乏社会支持。
+  - 社会支持是保护因素，可缓解创伤后果。
+  - 遗传和表观遗传因素也影响PTSD易感性。
+  must_warn: []
+- id: PTSD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 312
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与适应障碍区分：PTSD要求创伤事件符合A标准，且症状模式更典型。
+  - 与急性应激障碍区分：病程3天-1个月为急性应激障碍，超过1个月为PTSD。
+  - 与焦虑障碍区分：PTSD的回避和警觉症状直接关联创伤事件。
+  - 与抑郁症区分：抑郁症可能无创伤事件，且缺乏PTSD的侵入和回避症状。
+  - 与ADHD区分：PTSD注意力问题发生在创伤后，而非儿童期起病。
+  must_warn: []
+- id: PTSD_COMORBIDITY
+  title: 常见共病
+  source_page: 315
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - PTSD患者更常符合其他精神障碍诊断，如抑郁、双相、焦虑和物质使用障碍。
+  - 共病率较高，可能导致更严重的功能损害和治疗复杂性。
+  must_warn: []
+- id: PTSD_SUICIDE
+  title: 自杀风险与安全警示
+  source_page: 312
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 童年虐待或性创伤等创伤事件增加平民和退伍军人的自杀风险。
+  - PTSD与自杀想法、自杀尝试和自杀死亡均相关。
+  - PTSD独立于情绪障碍增加从自杀想法过渡到计划或尝试的可能性。
+  - 青少年PTSD患者即使控制共病，仍然有显著的自杀风险。
+  must_warn:
+  - PTSD患者自杀风险显著升高，需高度警惕。
+  - 如有自杀想法或行为应立即寻求专业帮助或拨打紧急电话。
+  - 青少年PTSD患者尤其需要关注自杀风险。
+- id: PTSD_GENDER
+  title: 性别差异
+  source_page: 312
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 女性终身PTSD患病率（8.0%-11.0%）高于男性（4.1%-5.4%）。
+  - 女性更易暴露于儿童性虐待、性侵犯等人际暴力，这是PTSD高风险因素。
+  - 性别差异部分源于创伤类型差异，但也涉及情绪认知加工和生殖激素影响。
+  must_warn: []
+- id: PTSD_CULTURE
+  title: 文化相关因素
+  source_page: 311
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 不同文化群体的创伤暴露水平和PTSD风险存在差异。
+  - 症状表现在文化间有差异：非西方文化中回避症状较少，躯体症状（如头晕、发热）更常见。
+  - 文化概念如因果报应、面子、命运会影响创伤意义和症状表达。
+  - 跨文化研究显示噩梦、闪回、痛苦记忆及努力回避记忆是PTSD的共同表现。
+  must_warn: []

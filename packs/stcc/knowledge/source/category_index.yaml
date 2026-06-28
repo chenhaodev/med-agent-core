@@ -1,0 +1,173 @@
+# category_index.yaml — 18 个路由类别与 STCC 文件的映射
+# 每个 category 对应 knowledge/triage_protocols/{category}.yaml
+# Phase 2 逐步填充各类别的文件列表
+
+categories:
+  abdominal_pain:
+    zh: 腹痛
+    protocol_file: knowledge/triage_protocols/abdominal_pain.yaml
+    stcc_files:
+      - STCC/Abdominal_Pain_Adult.md
+      - STCC/Abdominal_Pain_Child.md
+      # Abdominal_Swelling 等待 Phase 2 补充
+
+  fever:
+    zh: 发热
+    protocol_file: knowledge/triage_protocols/fever.yaml
+    stcc_files:
+      - STCC/Fever_Adult.md
+      - STCC/Fever_Child.md
+
+  chest_and_heart:
+    zh: 胸痛/心脏
+    protocol_file: knowledge/triage_protocols/chest_and_heart.yaml
+    stcc_files:
+      - STCC/Chest_Pain.md
+      - STCC/Chest_Trauma.md
+      - STCC/Congestive_Heart_Failure.md
+      - STCC/Heart_Rate_Problems.md
+
+  respiratory:
+    zh: 呼吸问题
+    protocol_file: knowledge/triage_protocols/respiratory.yaml
+    stcc_files:
+      - STCC/Breathing_Problems.md
+      - STCC/Cough.md
+      - STCC/Asthma.md
+      - STCC/Wheezing.md
+      # COPD 等待 Phase 2 补充
+
+  head_and_neuro:
+    zh: 头部/神经
+    protocol_file: knowledge/triage_protocols/head_and_neuro.yaml
+    stcc_files:
+      - STCC/Head_Injury.md
+      - STCC/Headache.md
+      - STCC/Altered_Mental_Status_AMS.md
+      - STCC/Seizure.md
+      # Stroke_Suspected, Numbness 等待 Phase 2 补充
+
+  injury_trauma:
+    zh: 损伤/创伤
+    protocol_file: knowledge/triage_protocols/injury_trauma.yaml
+    stcc_files:
+      - STCC/Burns_Thermal.md
+      - STCC/Burns_Chemical.md
+      - STCC/Laceration.md
+      - STCC/Puncture_Wound.md
+      - STCC/Extremity_Injury.md
+      # 更多创伤文件 Phase 2 补充
+
+  infection_illness:
+    zh: 感染/传染病
+    protocol_file: knowledge/triage_protocols/infection_illness.yaml
+    stcc_files:
+      - STCC/Influenza.md
+      - STCC/Chickenpox.md
+      - STCC/COVID-19.md
+      # 更多传染病 Phase 2 补充
+
+  gastrointestinal:
+    zh: 胃肠道
+    protocol_file: knowledge/triage_protocols/gastrointestinal.yaml
+    stcc_files:
+      - STCC/Diarrhea_Adult.md
+      - STCC/Diarrhea_Child.md
+      - STCC/Vomiting_Adult.md
+      - STCC/Vomiting_Child.md
+      - STCC/Constipation.md
+      - STCC/Indigestion.md
+
+  urinary_genital:
+    zh: 泌尿/生殖
+    protocol_file: knowledge/triage_protocols/urinary_genital.yaml
+    stcc_files:
+      - STCC/Urination_Painful.md
+      - STCC/Urination_Difficult.md
+      - STCC/Vaginal_Bleeding.md
+      # 更多泌尿生殖 Phase 2 补充
+
+  skin_rash_wound:
+    zh: 皮肤/皮疹/伤口
+    protocol_file: knowledge/triage_protocols/skin_rash_wound.yaml
+    stcc_files:
+      - STCC/Rash_Adult.md
+      - STCC/Rash_Child.md
+      - STCC/Wound_Care_Sutures.md
+      - STCC/Hives.md
+      # 更多皮肤 Phase 2 补充
+
+  mental_health:
+    zh: 心理健康
+    protocol_file: knowledge/triage_protocols/mental_health.yaml
+    stcc_files:
+      - STCC/Depression.md
+      - STCC/Anxiety.md
+      - STCC/Suicide_Attempt_Threat.md
+
+  allergic_reaction:
+    zh: 过敏反应
+    protocol_file: knowledge/triage_protocols/allergic_reaction.yaml
+    stcc_files:
+      - STCC/Allergic_Reaction.md
+      - STCC/Food_Allergy_Known_or_Suspected.md
+      - STCC/Immunization_Reactions.md
+
+  ear_eye_nose:
+    zh: 耳/眼/鼻
+    protocol_file: knowledge/triage_protocols/ear_eye_nose.yaml
+    stcc_files:
+      - STCC/Earache_Drainage.md
+      - STCC/Eye_Problems.md
+      - STCC/Nosebleed.md
+      # 更多 ENT Phase 2 补充
+
+  pain_muscle_joint:
+    zh: 肌肉/关节/疼痛
+    protocol_file: knowledge/triage_protocols/pain_muscle_joint.yaml
+    stcc_files:
+      - STCC/Back_Pain.md
+      - STCC/Neck_Pain.md
+      - STCC/Joint_Pain.md
+      - STCC/Knee_Pain.md
+      # 更多骨骼肌肉 Phase 2 补充
+
+  pediatric_specific:
+    zh: 儿科专项
+    protocol_file: knowledge/triage_protocols/pediatric_specific.yaml
+    stcc_files:
+      - STCC/Newborn_Problems.md
+      - STCC/Crying_Excessive_Infants.md
+      - STCC/Croup.md
+      - STCC/Febrile_Seizure.md
+      # 更多儿科 Phase 2 补充
+
+  toxin_exposure:
+    zh: 中毒/暴露
+    protocol_file: knowledge/triage_protocols/toxin_exposure.yaml
+    stcc_files:
+      - STCC/Food_Poisoning_Suspected.md
+      - STCC/Poisoning_Suspected.md
+      - STCC/Overdose.md
+      - STCC/Foreign_Body_Swallowing.md
+      # 更多中毒 Phase 2 补充
+
+  environmental_condition:
+    zh: 环境/季节
+    protocol_file: knowledge/triage_protocols/environmental_condition.yaml
+    stcc_files:
+      - STCC/Heat_Exposure_Problems.md
+      - STCC/Cold_Exposure_Problems.md
+      - STCC/Bee_Stings.md
+      - STCC/Bites_Animal.md
+      - STCC/Bites_Snake.md
+
+  pregnancy:
+    zh: 妊娠
+    protocol_file: knowledge/triage_protocols/pregnancy.yaml
+    stcc_files:
+      - STCC/Pregnancy_Suspected_Labor.md
+      - STCC/Pregnancy_Vaginal_Bleeding.md
+      - STCC/Pregnancy_Fetal_Movement_Problems.md
+      - STCC/Pregnancy_Hypertension.md
+      # 更多妊娠 Phase 2 补充

@@ -1,0 +1,237 @@
+# 危险因素 / 严重度分级 / 量化阈值
+# 来源：同 consensus.yaml（两份 PDF 原文）
+
+# ─── OSA 严重度分级 ──────────────────────────────────────
+
+osa_severity:
+  source: "推荐意见第 3 条《成人阻塞性睡眠呼吸暂停诊断和外科治疗指南（2024）》"
+  source_page: 724
+  primary_metric: AHI（呼吸暂停低通气指数，次/h）
+  classification:
+    - level: 轻度
+      ahi_range: "5～15 次/h"
+      typical_symptoms: "轻度日间嗜睡，轻微打鼾"
+      first_line_treatment: "MAD 或减重 + 生活方式干预；CPAP 可选"
+    - level: 中度
+      ahi_range: "15～30 次/h"
+      typical_symptoms: "明显日间嗜睡，习惯性打鼾，可能有夜间憋醒"
+      first_line_treatment: "CPAP 首选；MAD 或手术（解剖异常者）"
+    - level: 重度
+      ahi_range: "≥30 次/h"
+      typical_symptoms: "严重日间嗜睡（ESS 通常≥16），频繁夜间憋醒，血氧显著下降"
+      first_line_treatment: "CPAP 首选；解剖异常者可考虑手术（MMA/HNS 等）"
+  supplementary_metrics:
+    odi:
+      name: 氧减指数（ODI）
+      note: "比 AHI 更简便，中重度 OSA 诊断准确性较高，可作为 AHI 的筛查替代"
+    lsao2:
+      name: 最低血氧饱和度（LSaO2）
+      note: "辅助依据；治疗有效标准：LSaO2>85% 且日增加值≥3%"
+    sashb:
+      name: 睡眠呼吸暂停特异性缺氧负荷（SASHB）
+      note: "可量化 OSA 严重程度，是预测心血管事件的重要指标"
+    rem_ahi:
+      name: 快动眼期呼吸暂停低通气指数（REM-AHI）
+      note: "OSA 在 REM 睡眠期间可能加重（REM-OSA），与 CVD 风险密切相关"
+
+osa_surgical_success_criteria:
+  source_page: 735
+  primary:
+    standard: "AHI<20 次/h 且降低幅度≥50%"
+    evidence: "A；强推荐"
+  secondary:
+    standard: "LSaO2>85% 且日增加值≥3%"
+    evidence: "C；弱推荐"
+
+# ─── OSA 危险因素 ────────────────────────────────────────
+
+osa_risk_factors:
+  source: "推荐意见第 1 条《成人阻塞性睡眠呼吸暂停诊断和外科治疗指南（2024）》"
+  source_page: 718
+
+  anthropometric:
+    - factor: 体质量指数（BMI）
+      low_risk: "<25 kg/m²"
+      moderate_risk: "25～30 kg/m²"
+      high_risk: "≥30 kg/m²（肥胖主要危险因素）"
+      note: "BMI 每增加 10%，AHI 升高 32%；减重 10% AHI 降低 26%"
+    - factor: 颈围
+      note: "较粗颈围与 OSA 严重程度相关；OSA 患者颈围显著高于非 OSA 患者"
+    - factor: 腰围
+      note: "腹部脂肪堆积降低呼吸末肺容积，从而减少由肺和气管引起的咽侧向张力，使 AHI 增加"
+    - factor: 腰臀比（WHR）
+      note: "用于反映中心性肥胖程度，OSA 患者显著高于非 OSA 患者"
+
+  anatomical:
+    - factor: 颌面畸形
+      note: "OSA 患者下颌骨到上颌骨的矢状关系和下颌骨的垂直旋转等颌面结构指标发生显著改变"
+    - factor: 咽腔狭窄
+      note: "软腭与舌的增大会影响气道；Mallampati 分级用于评估"
+    - factor: 扁桃体肥大
+      note: "扁桃体 II 级以上肥大是 UPPP 手术指征之一"
+
+  comorbidities:
+    - factor: 2型糖尿病（T2DM）
+      note: "T2DM 患者 OSA 患病率 54.50%；T2DM 患者 AHI 每增加 5 次/h，T2DM 发生风险增加 8%"
+    - factor: 甲状腺功能减退
+      note: "OSA 患者甲状腺功能减退患病率为 6%（GPS），甲状腺功能减退是 OSA 的危险因素"
+    - factor: 心血管疾病（CVD）
+      note: "BQ 有利于筛查心血管风险高危患者发生 OSA 的风险（B；强推荐）"
+    - factor: 心房颤动（AF）
+      note: "III 型 PM 可准确识别 AF 患者中的 OSA（B；强推荐）"
+    - factor: 慢性心力衰竭（CHF）
+      note: "CHF 患者中 OSA 患病率为 16.60%；III 型 PM 可用于筛查 CHF 中的 OSA（C；弱推荐）"
+
+  lifestyle:
+    - factor: 饮酒
+      risk: "酒精作为镇静药物会增加上气道塌陷风险（证据等级 D；弱推荐戒酒）"
+    - factor: 吸烟
+      risk: "吸烟是 OSA 危险因素（证据等级 B；强推荐戒烟）"
+    - factor: 过度疲劳
+      risk: "避免过度疲劳（证据等级 B；弱推荐）"
+    - factor: 镇静安眠类药物
+      risk: "慎用（证据等级 D；弱推荐）"
+
+# ─── 老年睡眠生理变化 ────────────────────────────────────
+
+elderly_sleep_physiology:
+  source: "《社区老年人睡眠健康与康复管理中国专家共识（2025年版）》第 3 节"
+  source_page: 3610
+
+  sleep_duration:
+    change: "健康成人年龄每增加 10 岁，总睡眠时长减少 10.1 分钟"
+    note: "总睡眠时长随年龄下降在中青年人群中较明显，进入 60 岁后趋于稳定"
+    key_point: "老年人睡眠时间减少属正常生理变化，不等于失眠"
+
+  sleep_pattern:
+    - "睡眠时相前移（更早就寝、更早觉醒）"
+    - "启动和维持睡眠的能力降低"
+    - "夜间睡眠时间缩短"
+    - "日间小睡频率增加"
+    - "夜间觉醒次数增多及觉醒时间延长"
+
+  sleep_structure:
+    - "入睡潜伏期延长"
+    - "睡眠效率下降"
+    - "SWS（慢波睡眠）和 REM 睡眠比例减少"
+    - "N1 和 N2 睡眠比例增多"
+    - "睡眠唤醒阈值降低"
+    - "多次觉醒导致睡眠碎片化"
+
+  circadian_changes:
+    - "昼夜节律稳定性下降"
+    - "睡眠-觉醒周期相位提前"
+    - "昼夜节律调控的生理过程波动幅度减小"
+    - "适应相位变化的能力降低（如经跨时区旅行或轮班工作后，需要更多时间才能恢复稳定节律状态）"
+
+  hormonal_changes:
+    cortisol: "老年人易发生夜间皮质醇水平升高及节律相位提前，导致 SWS 减少和夜间频繁觉醒"
+    melatonin: "通常在入睡后分泌增加，但老年人的夜间褪黑素水平显著低于年轻人"
+    prolactin: "老年人催乳素分泌减少，影响睡眠碎片化（可能减少其在夜间的分泌）"
+    thyroid: "老年人总分泌量减少，但其夜间节律基本不变"
+    sex_hormones:
+      male: "男性睾酮水平自 30 岁后持续下降，老年男性可能失去其昼夜节律，且睡眠碎片化也会进一步抑制睾酮分泌"
+      female: "女性更年期后雌激素和孕酮减少，可能导致入睡困难与睡眠维持障碍；雌激素和孕酮减少还可能增加绝经后女性睡眠呼吸障碍的发病风险"
+
+# ─── 老年睡眠评估参考范围（表1）─────────────────────────
+
+elderly_sleep_quality_criteria:
+  source: "《社区老年人睡眠健康与康复管理中国专家共识（2025年版）》表 1"
+  source_page: 3611
+  population: "老年期（≥65 岁）"
+
+  continuity_indicators:
+    sleep_latency:
+      good: "≤30 分钟"
+      borderline: "31～60 分钟"
+      poor: ">60 分钟"
+    night_awakenings:
+      good: "0～2 次"
+      borderline: "3 次"
+      poor: "≥4 次"
+    waso:
+      good: "≤30 分钟"
+      borderline: ">30 分钟"
+    sleep_efficiency:
+      good: "≥75%"
+      borderline: "65%～74%"
+      poor: "<65%"
+
+  structure_indicators:
+    rem_percentage:
+      good: "≤40%"
+      borderline: "31～40%"
+      poor: ">40%"
+    n1_percentage:
+      good: "≤25%"
+      poor: ">25%"
+    n2_percentage:
+      good: "≤80%"
+      poor: ">80%"
+
+  nap_indicators:
+    daily_nap_count:
+      good: "0～3 次"
+      poor: "≥4 次"
+    nap_duration:
+      good: "≤100 分钟"
+      poor: ">100 分钟"
+
+# ─── PDF3：慢性失眠诊断标准（A-F 项）──────────────────────────
+
+chronic_insomnia_criteria:
+  source: "推荐意见第 INS-1 条《中国成人失眠诊断与治疗指南（2023版）》"
+  source_page: 561
+  diagnostic_standard: "ICSD-3（国际睡眠障碍分类第三版）"
+
+  criteria:
+    A:
+      description: "患者报告，或患者父母、照护者观察到以下1条或多条"
+      items:
+        - "睡眠起始困难（入睡困难）"
+        - "睡眠维持困难（频繁觉醒或醒后再入睡困难）"
+        - "比期望的起床时间早醒"
+        - "在适当的时间点不愿上床"
+        - "没有父母或照护者干预难以入睡"
+    B:
+      description: "患者报告或患者父母、照护者观察到以下与夜间睡眠困难相关的1条或多条"
+      items:
+        - "疲劳/精力减退"
+        - "注意力/专注力/记忆力损害"
+        - "社交、家务、职业或学业能力损害"
+        - "情绪紊乱/易激惹"
+        - "日间嗜睡"
+        - "行为问题（如多动、冲动、攻击性）"
+        - "动力/精力/主动性下降"
+        - "易发错误/事故倾向"
+        - "对睡眠质量不满意或有睡眠相关的关注/担忧"
+    C: "单纯的睡眠机会不当（没有足够时间用于睡眠）或睡眠环境不当（环境不安全、黑暗、安静和舒适）不能解释所报告的睡眠/觉醒主诉"
+    D: "每周至少出现3次睡眠紊乱和相关日间症状"
+    E: "睡眠紊乱和相关日间症状至少已存在3个月（慢性失眠标准）"
+    F: "睡眠/觉醒困难不能由其他睡眠障碍更好地解释"
+
+  subtypes:
+    chronic_insomnia:
+      criteria: "满足全部 A-F 项 + ≥3 次/周 + ≥3 个月"
+    short_term_insomnia:
+      criteria: "满足 A-C+F 项，但持续时间不足 3 个月"
+    other_insomnia:
+      criteria: "有睡眠起始困难和维持困难的失眠症状但不符合慢性或短期失眠标准"
+
+  key_symptoms:
+    sleep_onset_difficulty: "成人入睡潜伏期超过 30 min"
+    sleep_maintenance_difficulty: "整夜觉醒次数≥2 次"
+    total_sleep_time: "通常少于 6.5 h（随年龄增长有所变化）"
+
+  three_p_model:
+    description: "失眠的 3P 模型（Spielman 等提出）"
+    predisposing_factors:
+      name: "易感因素（Predisposing）"
+      examples: ["遗传因素", "性格特征（神经质/完美主义）", "焦虑特质"]
+    precipitating_factors:
+      name: "诱发因素（Precipitating）"
+      examples: ["负性生活事件（丧失/离婚/工作压力）", "急性疾病", "环境变化"]
+    perpetuating_factors:
+      name: "维持因素（Perpetuating）"
+      examples: ["认知偏差（过度担忧睡眠）", "睡前焦虑", "在床上娱乐/工作", "卧床时间过长", "作息时间不规律", "运动过少"]
+    clinical_use: "3P 模型是选择 CBT-I 具体干预技术的核心框架：针对不同维持因素选择刺激控制/睡眠限制/认知重构等具体技术"

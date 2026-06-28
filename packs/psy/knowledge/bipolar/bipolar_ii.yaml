@@ -1,0 +1,83 @@
+specialty: bipolar
+specialty_zh: 双相及相关障碍
+disease: bipolar_ii
+disease_zh: 双相II型障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: BIPOLARII_DEFINITION
+  title: 双相II型障碍定义
+  source_page: 160
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 核心是反复出现重性抑郁发作和轻躁狂发作，从未有过躁狂发作。
+  - 轻躁狂不导致显著功能损害或需住院，但抑郁发作更频繁、持久且致残。
+  - 双相II型不是较轻形式，其病程更慢性，抑郁相占主导。
+- id: DIAGNOSTIC_CRITERIA
+  title: 双相II型诊断标准
+  source_page: 158
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 至少一次轻躁狂发作（持续≥4天，情绪高涨/易怒+精力增加，伴3个以上特定症状）。
+  - 至少一次重性抑郁发作（2周内≥5个症状，含抑郁情绪或兴趣丧失）。
+  - 从未有过躁狂发作，且症状不能由物质、躯体疾病或其他精神障碍更好解释。
+  - 抑郁或情绪波动导致显著痛苦或社交、职业等重要功能损害。
+- id: PREVALENCE
+  title: 患病率
+  source_page: 164
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国12个月患病率约0.8%，国际约0.3%。
+  - 儿童青少年患病率难以确定，但DSM-IV双相障碍总患病率社区样本中约1.8%。
+- id: ONSET_COURSE
+  title: 起病与病程
+  source_page: 164
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 平均发病年龄20多岁，常以抑郁起病，诊断常延迟10年以上。
+  - 高度复发，首次发作后一年内复发率超50%，随年龄增长发作间隔缩短。
+  - 约5%-15%最终发展为双相I型（出现躁狂）。
+  - 儿童青少年起病可能预示更严重的终身病程。
+- id: RISK_PROGNOSIS
+  title: 风险与预后因素
+  source_page: 166
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 家族史（尤其双相II型亲属）是最强风险因素。
+  - 快速循环（一年≥4次发作）提示预后较差。
+  - 年轻、抑郁较轻、教育程度高、病程短、已婚者功能恢复更可能。
+- id: DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 169
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与重性抑郁障碍关键区别：必须有过完整轻躁狂发作。
+  - 需排除双相I型（有躁狂）、环性心境、精神分裂症、物质/躯体所致。
+  - 与ADHD、边缘性人格障碍区分：症状须呈发作性且超出基线。
+- id: COMORBIDITY
+  title: 常见共病
+  source_page: 172
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 约75%伴焦虑障碍（社交焦虑、特定恐惧、广泛性焦虑最常）。
+  - 物质使用障碍常见：酒精使用障碍42%，大麻使用障碍20%。
+  - 约14%有终生进食障碍，以暴食障碍最常见。
+- id: SUICIDE_RISK
+  title: 自杀风险与安全
+  source_page: 168
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 约三分之一患者有自杀企图史。
+  - 自杀风险与双相I型相似，均显著高于一般人群。
+  - 抑郁发作持续时间与自杀风险正相关。
+  - 一级亲属自杀风险是双相I型亲属的6.5倍。
+  must_warn:
+  - 双相II型患者自杀风险高，约1/3曾有自杀企图，必须警惕自杀意念和行为。
+  - 抑郁发作期间风险增加，需密切监测及安全评估。

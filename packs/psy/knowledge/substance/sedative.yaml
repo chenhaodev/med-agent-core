@@ -1,0 +1,86 @@
+specialty: substance
+specialty_zh: 物质相关及成瘾障碍
+disease: sedative
+disease_zh: 镇静催眠抗焦虑药使用障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: SHAS_U_DEFINITION
+  title: 核心定义与物质范围
+  source_page: 622
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 镇静催眠抗焦虑药包括苯二氮䓬类、Z药、巴比妥类等，是大脑抑制剂。
+  - 使用障碍表现为问题性用药模式，导致显著损害或痛苦。
+  - 处方药和非处方药均可导致使用障碍，但非苯二氮䓬类抗焦虑药（如丁螺环酮）不在此列。
+  must_warn: []
+- id: SHAS_U_CRITERIA
+  title: 主要诊断标准
+  source_page: 620
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 12个月内出现至少2项：用量/时间超预期、渴望、控制失败、花费大量时间获取/使用/恢复、因使用失职、明知社交问题仍用、放弃重要活动、危险情境使用、明知身心问题仍用、耐受、戒断。
+  - 耐受指需显著增加剂量或同剂量效果减弱（医疗监督下不计入诊断）。
+  - 戒断指出现典型戒断综合征或为缓解戒断而使用（医疗监督下不计入诊断）。
+  must_warn: []
+- id: SHAS_U_PREVALENCE
+  title: 患病率
+  source_page: 623
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国12个月患病率约0.3%（青少年及成人），随年龄增长而降低。
+  - 18-29岁最高（0.5%），65岁以上最低（0.04%）。
+  - 不同种族群体间使用和滥用率有差异，非拉丁裔白人苯二氮䓬类使用更常见。
+  must_warn: []
+- id: SHAS_U_COURSE
+  title: 起病与病程
+  source_page: 623
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 通常在青少年或20多岁起病，常见于有其他物质使用障碍者。
+  - 两种常见过程：从社交间歇使用发展为每日使用和高耐受；或从合法处方开始，逐渐增加剂量和频率。
+  - 耐受可达高水平，戒断可能包括惊厥和戒断谵妄。
+  must_warn: []
+- id: SHAS_U_RISK
+  title: 风险与预后因素
+  source_page: 624
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 气质因素：冲动性和寻求新奇是易感特质，可能遗传。
+  - 环境因素：药物可得性（自身或亲友处方）以及历史处方模式是关键。
+  - 遗传因素：双生子研究显示遗传在成年后起更大作用，早期使用增加障碍风险。
+  must_warn: []
+- id: SHAS_U_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 626
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与中毒、戒断、物质所致精神障碍区分：使用障碍是问题性使用模式，后者是使用后综合征。
+  - 与酒精使用障碍区分：通过临床史和肝损伤等证据。
+  - 与仅遵医嘱用药区分：即使有耐受/戒断，若未达到其他标准则不诊断为障碍。
+  must_warn: []
+- id: SHAS_U_COMORBIDITY
+  title: 常见共病
+  source_page: 626
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常合并其他物质使用障碍（如酒精、烟草、非法药物）。
+  - 反社会人格障碍（尤其非法获取药物时）、抑郁、双相、焦虑障碍。
+  - 共病增加从使用进展为障碍的风险，并降低缓解概率。
+  must_warn: []
+- id: SHAS_U_SUICIDE
+  title: 自杀与过量风险
+  source_page: 623
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 强烈的或反复的中毒可能导致严重抑郁（虽短暂）进而自杀尝试。
+  - 过量（尤其与其他中枢抑制剂如酒精或阿片类混合）可致死，滥用巴比妥类等更危险。
+  must_warn:
+  - 使用镇静催眠抗焦虑药可能导致严重抑郁和自杀风险，尤其在反复中毒后；一次性过量（尤其混合酒精或阿片）可致命。

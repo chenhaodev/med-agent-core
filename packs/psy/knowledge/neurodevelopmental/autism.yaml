@@ -1,0 +1,105 @@
+specialty: neurodevelopmental
+specialty_zh: 神经发育障碍
+disease: autism
+disease_zh: 孤独症谱系障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: ASD_DEFINITION
+  title: 核心特征与定义
+  source_page: 60
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 核心特征是持续的社交沟通与互动障碍，以及限制性、重复的行为模式。
+  - 症状在早期发育阶段出现，导致社交、职业或其他重要功能损害。
+  - 个体表现差异很大，构成一个谱系，从需要极少支持到需要极大支持。
+  - 包括以往诊断的自闭症、阿斯伯格综合征、童年瓦解性障碍等。
+  must_warn: []
+- id: ASD_CRITERIA_AB
+  title: 主要诊断标准（A与B）
+  source_page: 56
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准A：持续社交沟通缺陷，包括社交情感互惠不足、非言语交流异常、建立和理解关系困难。
+  - 标准B：至少满足两项限制性重复行为：刻板动作或言语、坚持同一性、高度受限的兴趣、感觉反应异常。
+  - 症状需在过去或现在存在，示例非穷尽。
+  must_warn: []
+- id: ASD_CRITERIA_CDE
+  title: 诊断时间与排除条件
+  source_page: 57
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准C：症状必须在早期发育阶段出现，但可能后来才完全显现。
+  - 标准D：症状导致社交、职业或当前其他重要功能方面的显著损害。
+  - 标准E：不能用智力障碍或全面发育迟缓更好解释，两者可共病。
+  - 注明当前严重程度：需要支持、大量支持或极大支持。
+  must_warn: []
+- id: ASD_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 63
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国患病率约1%-2%，全球中位数约0.62%。
+  - 男性与女性比例约3:1，女孩可能被低估。
+  - 不同种族间患病率有差异，可能受误诊或延迟诊断影响。
+  must_warn: []
+- id: ASD_COURSE
+  title: 起病与病程
+  source_page: 63
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 行为特征在儿童早期出现，通常12-24个月被识别。
+  - 部分病例在2岁前有社交和语言技能丧失，这是典型模式。
+  - 孤独症谱系障碍不是退行性疾病，多数人在后期有发展，但青少年期少数恶化。
+  - 成年前功能改善，但许多人仍需要支持，社交脆弱且易焦虑抑郁。
+  must_warn: []
+- id: ASD_RISK_PROGNOSIS
+  title: 风险与预后因素
+  source_page: 64
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 遗传因素重要：遗传率约80%，15%病例与已知基因突变有关。
+  - 环境风险包括高龄父母、极早产、宫内暴露于丙戊酸等。
+  - 预后关键因素：是否伴有智力障碍和语言障碍（5岁时有功能性语言是良好迹象）。
+  - 共病癫痫与更重智力障碍和更低语言能力相关。
+  must_warn: []
+- id: ASD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 66
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与ADHD区别：ADHD缺乏限制性重复行为和特殊兴趣。
+  - 与智力障碍区别：ASD的社交障碍超出智力水平预期，智力障碍则无此差距。
+  - 与语言障碍区别：语言障碍通常无异常非言语交流和重复行为。
+  - 与选择性缄默症区别：选择性缄默症在安全环境能正常交流，无重复行为。
+  must_warn: []
+- id: ASD_COMORBIDITY
+  title: 常见共病
+  source_page: 68
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 约70%有至少一种共患精神障碍，40%有两种或更多。
+  - 常见共病：焦虑障碍、抑郁、注意缺陷/多动障碍（ADHD）。
+  - 智力障碍和语言障碍频繁伴随发生，学习困难也常见。
+  - 医学共病包括癫痫和便秘，饮食问题如回避性/限制性摄食障碍也常见。
+  must_warn: []
+- id: ASD_SUICIDE_SELFHARM
+  title: 自杀与自伤风险
+  source_page: 65
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 孤独症谱系障碍患者自杀死亡风险高于一般人群。
+  - 社交沟通受损的儿童至16岁时自我伤害和自杀意念风险更高。
+  - 青少年和青年自杀尝试风险增加，甚至调整人口因素和共病后仍显著。
+  - 自伤行为如撞头、咬手腕常见，需要仔细评估。
+  must_warn:
+  - 孤独症谱系障碍患者自杀死亡风险升高，社交沟通受损儿童的自伤和自杀意念风险更高。
+  - 青少年和成年早期自杀尝试风险增加，死亡原因中溺水是儿童意外死亡的首要原因。

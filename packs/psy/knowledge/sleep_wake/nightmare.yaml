@@ -1,0 +1,87 @@
+specialty: sleep_wake
+specialty_zh: 睡眠-觉醒障碍
+disease: nightmare
+disease_zh: 梦魇障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: NIGHTMARE_DEFINITION
+  title: 梦魇障碍定义
+  source_page: 457
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 反复出现长而令人痛苦的梦，通常涉及威胁生存、安全或身体完整的主题，梦境常发生在后半夜。
+  - 醒来后迅速恢复清醒，能清楚回忆噩梦细节，焦虑、恐惧等情绪可持续到清醒后。
+  - 痛苦或功能损害达到临床显著程度，且非由物质或其他精神障碍解释。
+  must_warn: []
+- id: DIAGNOSTIC_CRITERIA
+  title: 诊断标准与分型
+  source_page: 457
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 必含5条标准：反复痛苦噩梦（A）、醒来后迅速恢复清醒（B）、有临床显著痛苦/损害（C）、非物质所致（D）、非其他障碍解释（E）。
+  - 病程分型：急性（≤1个月）、亚急性（1-6个月）、持续性（≥6个月）。
+  - 严重度按频率：轻度（<1次/周）、中度（≥1次/周但非每晚）、重度（每晚都发生）。
+  must_warn: []
+- id: PREVALENCE
+  title: 患病率
+  source_page: 459
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 儿童患病率约1%-5%，学龄前儿童经常发生占1.3%-3.9%，5-15岁儿童为5.2%。
+  - 成人每月至少1次噩梦的患病率约6%，每周噩梦约2%-6%，频繁噩梦约1%-5%。
+  - 约20%的频繁噩梦儿童伴有失眠。
+  must_warn: []
+- id: DEVELOPMENT_COURSE
+  title: 起病与病程
+  source_page: 459
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 噩梦通常在3-6岁开始出现，在青少年晚期或成年早期达到高峰和严重程度。
+  - 部分儿童噩梦不自行缓解，少数频繁噩梦可持续到成年，甚至成为终身性问题。
+  - 特殊内容可能随年龄变化，但基本特征在不同年龄段相同。
+  must_warn: []
+- id: RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 459
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 环境因素：低收入、情绪紊乱、失眠、睡眠呼吸障碍、使用抗抑郁药或频繁大量饮酒。
+  - 睡眠剥夺/碎片化、不规律作息可增加REM睡眠异常风险，诱发噩梦。
+  - 遗传因素：双胞胎研究显示遗传倾向，与夜间言语等行为共现。
+  - 父母安抚行为（如噩梦后安抚孩子）可起保护作用，减少慢性化。
+  must_warn: []
+- id: DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 460
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与睡惊症区别：噩梦后半夜REM睡眠发生、能清晰回忆、轻微自主神经唤醒；睡惊症前三分之一NREM睡眠、无清晰梦境、严重自主唤醒、定向障碍。
+  - 与REM睡眠行为障碍区别：后者有复杂运动/梦演绎行为、可能致伤，常见于中老年男性。
+  - 与PTSD/急性应激障碍区别：如噩梦内容与创伤直接相关且独立需临床关注，则可额外诊断梦魇障碍。
+  must_warn: []
+- id: COMORBIDITY
+  title: 常见共病
+  source_page: 461
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 躯体疾病共病：冠心病、癌症、帕金森病、疼痛，以及血液透析或药物戒断等治疗相关。
+  - 精神障碍共病：PTSD、急性应激障碍、失眠障碍、REM睡眠行为障碍、精神病性障碍、情绪障碍、焦虑障碍等。
+  - 共病诊断应使用相应类别标注（如“伴REM睡眠行为障碍”），仅在独立需临床关注时加诊。
+  must_warn: []
+- id: SUICIDE_RISK
+  title: 自杀风险与安全警示
+  source_page: 459
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 频繁噩梦者自杀想法或行为的风险显著升高，这种关联独立于性别和已存在的精神疾病。
+  - 临床评估时应常规询问噩梦患者的自杀意念，特别是频繁或严重噩梦患者。
+  must_warn:
+  - 频繁噩梦患者自杀风险显著增加，即使考虑到性别和已有精神疾病仍如此。临床须评估自杀意念并采取必要安全措施。

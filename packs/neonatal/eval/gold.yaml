@@ -1,0 +1,660 @@
+# 新生儿疾病诊疗顾问金标 Eval 集
+# 共 40 题，覆盖 4 个领域，面向基层临床医生和新生儿家长视角
+# 字段说明：
+#   question        — 自然语言提问（医生或家长语气）
+#   expected_domain — 路由应分到的领域
+#   expected_topics — 回答中必须覆盖的核心概念（LLM judge 检查）
+#   expected_protocol — 具体数字/参数（必须命中，空对象{}表示无要求）
+#   must_warn       — 必须出现的安全警告/红旗信号
+#   consensus_refs  — 必须引用的共识条目编号（至少一个）
+#   must_not        — 回答中绝对不能出现的内容
+
+questions:
+
+  # ════════════════════════════════════════════
+  # 新生儿呕吐（V01-V10，共10题）
+  # ════════════════════════════════════════════
+
+  - id: VO01
+    question: "宝宝出生5天，喝完奶就从嘴角溢出来，这正常吗？"
+    expected_domain: [vomiting]
+    expected_topics:
+      - 生理性溢乳与病理性呕吐的区别
+      - 新生儿胃容量小、食管括约肌发育不完善
+      - 生理性溢乳约6个月自行消失
+      - 注意体位护理
+      - 病理性呕吐的识别要点
+    expected_protocol: {}
+    must_warn:
+      - 出现胆汁样/咖啡样呕吐物需就医
+      - 量大频繁或喷射性需就医
+    consensus_refs: [V01]
+    must_not:
+      - 直接诊断为胃食管反流
+      - 推荐止吐药
+
+  - id: VO02
+    question: "新生儿吐出来的东西是黄绿色的，需要紧急处理吗？"
+    expected_domain: [vomiting]
+    expected_topics:
+      - 黄绿色呕吐物是胆汁样，属于病理性外科呕吐红旗信号
+      - 提示可能存在肠梗阻等外科疾病
+      - 立即停止喂养
+      - 立即转诊至上级医院
+    expected_protocol: {}
+    must_warn:
+      - 胆汁样呕吐需立即就医
+      - 禁止继续喂食
+    consensus_refs: [V07, V08]
+    must_not:
+      - 建议在家观察
+      - 建议先用止吐药处理
+
+  - id: VO03
+    question: "新生儿生后3周，反复喷射性呕吐，每次喂奶后都吐，怀疑幽门狭窄，需要什么检查？"
+    expected_domain: [vomiting]
+    expected_topics:
+      - 喷射性呕吐提示幽门梗阻
+      - 腹部超声首选（无辐射、简便）
+      - 腹部X线立位片可排除梗阻
+      - 上腹部橄榄状肿块是幽门肥厚体征
+    expected_protocol:
+      preferred_imaging: 腹部超声
+    must_warn:
+      - 外科疾病确诊需转诊上级医院手术
+    consensus_refs: [V09, V10]
+    must_not:
+      - 推荐胃肠造影作为首选（高度腹胀/疑穿孔时禁用）
+
+  - id: VO04
+    question: "新生儿轻度胃食管反流，需要用药吗？"
+    expected_domain: [vomiting]
+    expected_topics:
+      - 轻度GER首选非药物治疗
+      - 体位疗法：头高30-45度，右侧卧位
+      - 分次少量喂养
+      - 重症才考虑药物治疗
+    expected_protocol:
+      head_elevation: "30~45度"
+      position: 右侧卧位
+    must_warn:
+      - 药物治疗需就医，不可自行给予
+      - 呼吸暂停或体重不增为重症标准
+    consensus_refs: [V12]
+    must_not:
+      - 直接推荐H2受体拮抗剂或质子泵抑制剂
+
+  - id: VO05
+    question: "新生儿外科性呕吐在转诊前需要做什么紧急处理？"
+    expected_domain: [vomiting]
+    expected_topics:
+      - 禁食
+      - 胃肠减压
+      - 抗感染
+      - 补液纠酸
+      - 立即联系上级医院转诊
+    expected_protocol:
+      gastric_tube_size: "5~8 Fr"
+    must_warn:
+      - 需转诊至有新生儿外科的三级医院
+      - 早期识别转诊可降低并发症
+    consensus_refs: [V16]
+    must_not:
+      - 建议保守观察代替转诊
+
+  - id: VO06
+    question: "新生儿呕吐时护理要注意什么？"
+    expected_domain: [vomiting]
+    expected_topics:
+      - 右侧卧位，头部抬高30-45度
+      - 少量多次喂养
+      - 喂奶后竖抱拍背排气
+      - 密切观察呕吐颜色性质量
+      - 记录出入量
+    expected_protocol:
+      head_elevation: "30~45度"
+      position: 右侧卧位
+    must_warn:
+      - 避免误吸导致窒息
+    consensus_refs: [V18]
+    must_not: []
+
+  - id: VO07
+    question: "新生儿呕吐，内科性还是外科性，怎么区分？"
+    expected_domain: [vomiting]
+    expected_topics:
+      - 内科性：呕吐物为奶汁/咖啡样，无胆汁/粪便
+      - 外科性：呕吐物含胆汁（绿色）或粪便样
+      - 喷射性呕吐提示外科（幽门梗阻）
+      - 腹部体征（膨隆/压痛/肿块）提示外科
+      - 发病时间：7天内重点考虑食管闭锁、胃食管反流；7天后考虑幽门狭窄、NEC
+    expected_protocol: {}
+    must_warn:
+      - 胆汁样/粪便样呕吐必须排除外科急腹症
+    consensus_refs: [V05, V06, V07]
+    must_not: []
+
+  - id: VO08
+    question: "新生儿呕吐的辅助检查有哪些，优先选哪个？"
+    expected_domain: [vomiting]
+    expected_topics:
+      - 腹部超声首选（无辐射、可检测肠道蠕动血运）
+      - 腹部立位平片（快速评估梗阻/穿孔）
+      - 胃肠造影（了解结构功能，禁忌症要注意）
+      - 血常规、CRP、电解质、血气分析
+    expected_protocol:
+      first_imaging: 腹部超声
+    must_warn:
+      - 高度腹胀/穿孔/血便时禁用胃肠造影
+    consensus_refs: [V09, V10, V11]
+    must_not: []
+
+  - id: VO09
+    question: "新生儿呕吐什么情况下需要转诊？"
+    expected_domain: [vomiting]
+    expected_topics:
+      - 基层无法确诊
+      - 外科性呕吐
+      - 急腹症征象
+      - 代谢危象（先天性遗传代谢病、严重电解质紊乱）
+      - 生命体征不稳定
+      - 怀疑神经系统疾病
+    expected_protocol: {}
+    must_warn:
+      - 需通过危重新生儿转运系统转诊
+    consensus_refs: [V20, V21]
+    must_not: []
+
+  - id: VO10
+    question: "新生儿败血症引起的呕吐，抗生素怎么选？"
+    expected_domain: [vomiting, sepsis]
+    expected_topics:
+      - 感染性病因引起的呕吐需针对性抗感染治疗
+      - 参考败血症共识的抗菌药物选择
+      - 在血培养标本留取后立即开始经验性治疗
+    expected_protocol: {}
+    must_warn:
+      - 具体抗生素种类和剂量需主诊医生决定
+    consensus_refs: [V12, S12]
+    must_not:
+      - 推荐具体抗生素名称和剂量
+
+  # ════════════════════════════════════════════
+  # 新生儿泌尿系感染（U01-U09，共9题）
+  # ════════════════════════════════════════════
+
+  - id: UT01
+    question: "哪些新生儿容易得泌尿系感染？"
+    expected_domain: [uti]
+    expected_topics:
+      - 男婴（0-6月龄发病率5.3%）
+      - 泌尿系畸形
+      - 早产儿（免疫低下、长时间住院）
+      - 侵入性操作（导尿管等）
+      - 长时间住院
+    expected_protocol: {}
+    must_warn: []
+    consensus_refs: [U01]
+    must_not: []
+
+  - id: UT02
+    question: "新生儿尿路感染有什么症状？怎么发现？"
+    expected_domain: [uti]
+    expected_topics:
+      - 临床表现以全身症状为主，缺乏特异性
+      - 发热（可能是唯一症状）
+      - 体重不增、黄疸、嗜睡、呕吐、喂养困难
+      - 早产儿可出现呼吸暂停和发绀
+      - 无其他原因发热要排查UTI
+      - 需要排除并发脑膜炎
+    expected_protocol: {}
+    must_warn:
+      - 无原因发热需排查UTI
+    consensus_refs: [U02]
+    must_not: []
+
+  - id: UT03
+    question: "新生儿尿培养怎么采集才不会污染？"
+    expected_domain: [uti]
+    expected_topics:
+      - 集尿袋（尿常规用，污染率50~60%）
+      - 清洁中段尿（尿常规，污染率26%）
+      - 导尿法（尿培养首选，污染率10%）
+      - 耻骨上膀胱穿刺（金标准，污染率1%）
+      - 给予抗感染前必须先留取标本
+    expected_protocol:
+      catheter_contamination: "约10%"
+    must_warn:
+      - 抗感染治疗前必须先留取尿培养标本
+    consensus_refs: [U06, U07]
+    must_not:
+      - 建议用集尿袋做尿培养
+
+  - id: UT04
+    question: "新生儿尿培养大肠埃希菌菌落计数10^4 CFU/mL，算感染吗？"
+    expected_domain: [uti]
+    expected_topics:
+      - 导尿标本：>10^5 CFU/mL确诊，10^4~10^5可疑
+      - <10^4多为污染
+      - 耻骨上穿刺标本：任何菌落计数均提示感染
+      - 10^4是可疑，需结合临床表现判断
+    expected_protocol:
+      catheter_infection_threshold: ">10^5 CFU/mL"
+      catheter_suspected_threshold: "10^4~10^5 CFU/mL"
+    must_warn:
+      - 可疑结果需结合临床和尿常规综合判断
+    consensus_refs: [U04, U09]
+    must_not:
+      - 直接判断10^4为感染并给予治疗
+
+  - id: UT05
+    question: "新生儿尿路感染抗生素要用多久？能不能改成口服？"
+    expected_domain: [uti]
+    expected_topics:
+      - 疗程10~14天
+      - 全程静脉用药
+      - 临床症状消失+尿常规正常+尿培养转阴才能停药
+      - 合并泌尿系畸形或耐药菌需延长
+    expected_protocol:
+      duration: "10~14天"
+      route: 全程静脉
+    must_warn:
+      - 不可中途改为口服（全程静脉）
+      - 未完成疗程增加肾瘢痕风险
+    consensus_refs: [U12]
+    must_not:
+      - 推荐口服抗生素代替静脉治疗
+      - 推荐少于10天
+
+  - id: UT06
+    question: "新生儿UTI需要做肾脏超声吗？什么时候做？"
+    expected_domain: [uti]
+    expected_topics:
+      - 首次UTI需进行肾脏和膀胱超声
+      - 发热性UTI要在24h内完成
+      - 评估肾脏大小/集合系统扩张/结构异常
+    expected_protocol:
+      timing: "发热性UTI 24h内"
+    must_warn:
+      - 超声异常需进一步排泄性膀胱尿路造影排除膀胱输尿管反流
+    consensus_refs: [U05]
+    must_not: []
+
+  - id: UT07
+    question: "早产儿怀疑晚发型败血症，需要同时查尿培养吗？"
+    expected_domain: [uti, sepsis]
+    expected_topics:
+      - 早产儿UTI是晚发型败血症的常见原因
+      - 怀疑早产儿晚发型败血症时，同时进行尿培养
+      - 避免漏诊UTI
+      - 早产儿UTI多为医院获得性感染
+    expected_protocol: {}
+    must_warn: []
+    consensus_refs: [U13]
+    must_not: []
+
+  - id: UT08
+    question: "新生儿UTI治好后怎么随访？"
+    expected_domain: [uti]
+    expected_topics:
+      - 出院后1周、4周随访
+      - 之后每月随访至6月龄
+      - 随访内容：尿常规、尿培养、血常规、CRP、生长发育
+      - 必要时复查泌尿系超声
+      - 合并泌尿系畸形随访时间延长
+    expected_protocol:
+      first_followup: 出院后1周
+    must_warn:
+      - 肾瘢痕风险与每次复发相关，不可自行停止随访
+    consensus_refs: [U16]
+    must_not: []
+
+  - id: UT09
+    question: "新生儿UTI什么情况需要转诊到上级医院？"
+    expected_domain: [uti]
+    expected_topics:
+      - 重症感染（反复呕吐、脱水、体温>39℃）
+      - 复发性UTI
+      - 明确泌尿系畸形
+      - 抗菌药物治疗效果不佳
+    expected_protocol:
+      transfer_fever: ">39℃"
+    must_warn: []
+    consensus_refs: [U17]
+    must_not: []
+
+  # ════════════════════════════════════════════
+  # 新生儿败血症（S01-S12，共12题）
+  # ════════════════════════════════════════════
+
+  - id: SE01
+    question: "什么情况下要高度怀疑新生儿早发型败血症（EOS）？"
+    expected_domain: [sepsis]
+    expected_topics:
+      - EOS定义：发病日龄≤3天
+      - 高危因素：羊膜腔内感染、胎膜早破≥18h
+      - 胎龄<35周合并：羊膜腔内感染/PROM/宫颈机能不全/不明原因自发性早产
+      - 生后立即进行全面体格检查和临床评估
+    expected_protocol: {}
+    must_warn:
+      - 存在高危因素应立即评估并考虑经验性治疗
+    consensus_refs: [S01]
+    must_not: []
+
+  - id: SE02
+    question: "新生儿败血症有哪些临床表现？"
+    expected_domain: [sepsis]
+    expected_topics:
+      - 临床表现无特异性，涉及多个脏器
+      - 呼吸：呼吸暂停、呼吸窘迫、发绀
+      - 循环：休克征象、心率异常
+      - 皮肤：花纹、苍灰、瘀斑
+      - 神经系统：惊厥、反应差、激惹
+      - 消化系统：拒奶、腹胀、呕吐
+      - 体温异常（≥38°C或<36°C）
+    expected_protocol: {}
+    must_warn:
+      - 休克/CPR需要/有创通气为立即用抗生素的高危指征
+    consensus_refs: [S03, S04]
+    must_not: []
+
+  - id: SE03
+    question: "新生儿早发型和晚发型败血症如何区分？"
+    expected_domain: [sepsis]
+    expected_topics:
+      - EOS：发病日龄≤3天
+      - LOS：发病日龄>3天
+      - EOS高危因素：羊膜腔内感染、PROM
+      - LOS高危因素：早产、有创操作、不合理使用抗菌药物
+      - EOS病原：GBS、大肠埃希菌等
+      - LOS病原：与院内感染相关
+    expected_protocol: {}
+    must_warn: []
+    consensus_refs: [S01, S02]
+    must_not: []
+
+  - id: SE04
+    question: "新生儿CRP升高但没有临床症状，需要用抗生素吗？"
+    expected_domain: [sepsis]
+    expected_topics:
+      - 单一非特异性检查异常，不作为EOS抗菌药物使用依据
+      - 无临床症状不能单凭CRP启动治疗
+      - 需要间隔18~24h复查
+      - 两次阴性阴性预测价值高，可指导停用
+    expected_protocol:
+      review_interval: "18~24h"
+    must_warn:
+      - 密切监测临床表现，出现任何异常立即评估
+    consensus_refs: [S05]
+    must_not:
+      - 直接建议根据单次CRP启动抗生素
+
+  - id: SE05
+    question: "新生儿血培养要抽多少血？"
+    expected_domain: [sepsis]
+    expected_topics:
+      - 每次抽血量不低于1 mL
+      - EOS血培养阳性率仅约4%
+      - 血培养是金标准，但灵敏度低
+    expected_protocol:
+      minimum_volume: "≥1 mL"
+    must_warn:
+      - 血量不足会进一步降低灵敏度
+    consensus_refs: [S06]
+    must_not: []
+
+  - id: SE06
+    question: "新生儿败血症什么时候需要做腰椎穿刺？"
+    expected_domain: [sepsis]
+    expected_topics:
+      - 腰穿适应证（满足任意1项）
+      - 血培养阳性
+      - 有临床表现且非特异性检查≥2项阳性
+      - 抗感染治疗效果不佳
+      - 神经系统症状高度怀疑颅内感染
+      - 仅有实验室异常无临床表现不需要常规腰穿
+    expected_protocol: {}
+    must_warn:
+      - 胎龄<34周患儿需待生理状态稳定后再考虑腰穿
+    consensus_refs: [S07]
+    must_not: []
+
+  - id: SE07
+    question: "新生儿早发型败血症（EOS）经验性抗生素怎么选？"
+    expected_domain: [sepsis]
+    expected_topics:
+      - 一线：氨苄西林（或青霉素）+ 第三代头孢菌素
+      - 根据本地病原分布和药敏结果选择具体种类
+      - 病情严重+耐药风险高：可选更广谱方案
+      - 留取血培养后立即开始
+    expected_protocol:
+      first_line: "氨苄西林（或青霉素）+第三代头孢菌素"
+    must_warn:
+      - 具体药物种类和剂量由主诊医生决定
+    consensus_refs: [S12]
+    must_not:
+      - 推荐具体抗生素剂量
+      - 推荐氨基糖苷类（国内限制使用）
+
+  - id: SE08
+    question: "社区获得性晚发型败血症经验性抗生素怎么选？"
+    expected_domain: [sepsis]
+    expected_topics:
+      - 无明确局部感染灶时，单用第三代头孢菌素
+      - 社区LOS病情严重程度低于EOS和院内LOS
+      - 预后相对较好
+    expected_protocol:
+      community_los: "第三代头孢菌素单用"
+    must_warn:
+      - 具体药物剂量由主诊医生根据体重和肾功能决定
+    consensus_refs: [S13]
+    must_not:
+      - 推荐具体剂量
+
+  - id: SE09
+    question: "血培养阳性大肠埃希菌，氨苄西林耐药，抗生素怎么调整？"
+    expected_domain: [sepsis]
+    expected_topics:
+      - 根据药敏试验结果调整
+      - 氨苄西林耐药可选头孢类（头孢噻肟等）
+      - 尽量选窄谱敏感药物
+      - 能单用不联用
+    expected_protocol: {}
+    must_warn:
+      - 具体方案需主诊医生根据药敏结果决定
+    consensus_refs: [S15]
+    must_not:
+      - 推荐具体剂量
+      - 在无药敏依据情况下升级至碳青霉烯类
+
+  - id: SE10
+    question: "新生儿败血症抗生素要用多久？"
+    expected_domain: [sepsis]
+    expected_topics:
+      - 确诊败血症：7~14天
+      - 血培养阴性+快速恢复：可短至7天（甚至5天）
+      - 合并脑膜炎G+菌：14~21天（GBS至少21天）
+      - 合并脑膜炎G-菌：至少21天
+      - 48~72h内复查评估
+    expected_protocol:
+      general_duration: "7~14天"
+    must_warn:
+      - 血培养阳性者24~48h后复查血培养确认是否转阴
+    consensus_refs: [S10, S11]
+    must_not:
+      - 推荐少于5天
+      - 说明疗程不需要主诊医生判断
+
+  - id: SE11
+    question: "新生儿败血症合并脑膜炎，非院内感染，经验性怎么治疗？"
+    expected_domain: [sepsis]
+    expected_topics:
+      - 非院内感染脑膜炎：第三代头孢菌素（头孢噻肟）+大剂量氨苄西林或青霉素
+      - 大肠埃希菌对第三代头孢耐药率高地区：美罗培南替代
+      - 治疗48~72h后复查CSF培养
+    expected_protocol:
+      non_nosocomial_meningitis: "头孢噻肟+大剂量氨苄西林"
+    must_warn:
+      - 具体剂量需主诊医生决定
+      - CSF培养阳性者48~72h后复查
+    consensus_refs: [S16]
+    must_not:
+      - 推荐具体剂量
+      - 建议万古霉素+美罗培南作为非院内感染的一线方案
+
+  - id: SE12
+    question: "新生儿败血症什么情况下需要转诊到上级医院？"
+    expected_domain: [sepsis]
+    expected_topics:
+      - 血培养/CSF培养治疗3天后持续阳性
+      - 感染性休克（低血压/四肢厥冷/毛细血管充盈延长）
+      - 需要≥2种血管活性药物
+      - 1个或多个脏器功能衰竭
+    expected_protocol: {}
+    must_warn:
+      - 需评估转运风险后及时转诊
+    consensus_refs: [S18]
+    must_not: []
+
+  # ════════════════════════════════════════════
+  # 新生儿感染性肺炎（P01-P09，共9题）
+  # ════════════════════════════════════════════
+
+  - id: PN01
+    question: "早发型和晚发型新生儿感染性肺炎的危险因素各是什么？"
+    expected_domain: [pneumonia]
+    expected_topics:
+      - 早发型：早产、低出生体重、母亲绒毛膜羊膜炎、胎膜早破、母亲GBS定植、母亲产时发热
+      - 晚发型：早产、长时间机械通气、使用胃酸阻滞剂、气道畸形、住院时间长
+    expected_protocol: {}
+    must_warn: []
+    consensus_refs: [P03, P04]
+    must_not: []
+
+  - id: PN02
+    question: "新生儿感染性肺炎有哪些临床表现？"
+    expected_domain: [pneumonia]
+    expected_topics:
+      - 临床表现不典型
+      - 体温不稳定、呼吸暂停、嗜睡
+      - 早发型：出生时/出生后不久呼吸窘迫
+      - 晚发型：呼吸急促、喂养困难、黄疸、进乳呛咳、脓性分泌物
+      - 肺部听诊可有啰音
+    expected_protocol: {}
+    must_warn:
+      - 依赖呼吸机者出现脓性分泌物提示肺炎加重
+    consensus_refs: [P05]
+    must_not: []
+
+  - id: PN03
+    question: "新生儿感染性肺炎用什么影像学检查？需要做CT吗？"
+    expected_domain: [pneumonia]
+    expected_topics:
+      - 胸部X线是主要诊断方法
+      - 肺部超声有良好灵敏度和特异度
+      - CT不常规用于新生儿肺炎
+      - CT仅在临床与常规影像学不一致或怀疑气道畸形时考虑
+    expected_protocol: {}
+    must_warn: []
+    consensus_refs: [P10]
+    must_not:
+      - 推荐CT作为常规检查
+
+  - id: PN04
+    question: "新生儿早发型感染性肺炎经验性抗生素怎么选？"
+    expected_domain: [pneumonia]
+    expected_topics:
+      - 早发型参考败血症抗生素方案
+      - 一线：氨苄西林（或青霉素）+ 第三代头孢菌素
+      - 明确病原后根据药敏调整
+    expected_protocol:
+      early_onset: "氨苄西林（或青霉素）+第三代头孢菌素"
+    must_warn:
+      - 具体剂量需主诊医生决定
+    consensus_refs: [P13]
+    must_not:
+      - 推荐具体剂量
+
+  - id: PN05
+    question: "新生儿感染性肺炎，培养是沙眼衣原体阳性，怎么治疗？"
+    expected_domain: [pneumonia]
+    expected_topics:
+      - 不典型病原体首选大环内酯类
+      - 首选红霉素
+      - 红霉素耐药者用阿奇霉素
+      - 沙眼衣原体肺炎常在生后2周后发病
+    expected_protocol:
+      first_line: 红霉素
+      alternative: 阿奇霉素（红霉素耐药时）
+    must_warn:
+      - 具体剂量和疗程需主诊医生决定
+    consensus_refs: [P15]
+    must_not:
+      - 推荐β-内酰胺类治疗衣原体肺炎
+      - 推荐具体剂量
+
+  - id: PN06
+    question: "新生儿肺炎什么时候需要上有创呼吸机？"
+    expected_domain: [pneumonia]
+    expected_topics:
+      - 出现低氧血症和呼吸衰竭给予呼吸支持
+      - nCPAP压力>6 cmH2O
+      - FiO2>30%
+      - 仍SpO2<93%时考虑有创呼吸支持
+    expected_protocol:
+      ncpap_escalation_pressure: ">6 cmH2O"
+      ncpap_escalation_fio2: ">30%"
+      spo2_threshold: "<93%"
+    must_warn:
+      - 有创通气模式需根据病情个体化选择
+    consensus_refs: [P16]
+    must_not:
+      - 建议直接跳过nCPAP进行有创通气
+
+  - id: PN07
+    question: "新生儿肺炎氧疗怎么选择，先用什么？"
+    expected_domain: [pneumonia]
+    expected_topics:
+      - 基层可用鼻导管、头罩、面罩、暖箱内供氧
+      - 有条件用经鼻高流量氧疗（HFNC）
+      - nCPAP首选无创模式
+      - HFNC：初始FiO2 30~40%，流量3~8 L/min
+    expected_protocol:
+      hfnc_initial_fio2: "30~40%"
+      hfnc_initial_flow: "3~8 L/min"
+    must_warn:
+      - 防止低氧和高氧损伤，需监测SpO2和血气
+    consensus_refs: [P16, P17]
+    must_not: []
+
+  - id: PN08
+    question: "新生儿感染性肺炎和呼吸窘迫综合征（NRDS）怎么区分？"
+    expected_domain: [pneumonia]
+    expected_topics:
+      - 感染性肺炎：有高危感染因素、病原学阳性/炎症指标升高
+      - NRDS：多见于早产儿、PS治疗有效、无感染高危因素
+      - 胸片表现不同（NRDS：毛玻璃样改变+气管充气征）
+      - 病原学和炎症指标有助于鉴别
+    expected_protocol: {}
+    must_warn: []
+    consensus_refs: [P12]
+    must_not: []
+
+  - id: PN09
+    question: "新生儿肺炎什么情况需要转诊？"
+    expected_domain: [pneumonia]
+    expected_topics:
+      - 呼吸频率>70次/分
+      - SpO2≤92%（海平面）或<90%（高原）
+      - 发绀、呼吸困难
+      - 多肺叶受累或单肺叶≥2/3受累
+      - 胸腔积液
+      - 肺外并发症（脓毒性休克/DIC）
+      - 生命体征不稳定
+    expected_protocol:
+      rr_threshold: ">70次/分"
+      spo2_threshold: "≤92%（海平面）"
+    must_warn:
+      - 需结合实际情况评估转运风险
+    consensus_refs: [P18]
+    must_not: []

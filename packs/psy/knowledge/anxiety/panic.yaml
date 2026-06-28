@@ -1,0 +1,97 @@
+specialty: anxiety
+specialty_zh: 焦虑障碍
+disease: panic
+disease_zh: 惊恐障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: PANIC_DEFINITION
+  title: 惊恐障碍的核心特征
+  source_page: 236
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 核心是反复出现不预期的惊恐发作，即突然涌上的强烈恐惧或极度不适，几分钟内达高峰
+  - 发作后至少一个月持续担心再次发作或因此改变行为（如回避场景）
+  - 需排除物质（毒品、药物）或其他躯体疾病（如甲亢）导致的类似发作
+  must_warn: []
+- id: PANIC_CRITERIA
+  title: 诊断标准概述
+  source_page: 235
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 必须有过至少一次不预期的惊恐发作，发作时出现4 种及以上症状（如心悸、出汗、发抖、窒息感、胸痛、恶心、头晕、怕失控等）
+  - 发作后持续担忧再次发作或担心发作后果（如心脏病、发疯），或出现回避行为
+  - 症状不能由物质或躯体疾病直接引起，也不仅在其他焦虑障碍的特定诱因下出现
+  must_warn: []
+- id: PANIC_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 237
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国及欧洲成人12 个月患病率约2%–3%；全球终生患病率约1.7%
+  - 女性约为男性的2 倍，性别差异在青少年期即出现
+  - 14 岁以下患病率低（<0.4%），成人期达高峰，老年后降至1.2%以下
+  must_warn: []
+- id: PANIC_COURSE
+  title: 起病与病程特点
+  source_page: 238
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国中位发病年龄20–24 岁，全球平均34.7 岁；55 岁后首发罕见
+  - 未经治疗常呈慢性波动病程，约1/4 在2 年随访内复发，仅少数完全康复
+  - 病程常因共病其他焦虑、抑郁或物质使用障碍而复杂化
+  must_warn: []
+- id: PANIC_RISK
+  title: 风险与预后因素
+  source_page: 239
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 气质因素：高神经质、焦虑敏感性（认为焦虑症状有害）、行为抑制、伤害回避
+  - 环境因素：首次发作前数月常有压力事件（人际冲突、疾病或丧亲）、创伤史、父母过度保护
+  - 吸烟是惊恐发作和惊恐障碍的危险因素；经济资源匮乏者症状更重
+  must_warn: []
+- id: PANIC_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 241
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 排除躯体疾病：甲亢、嗜铬细胞瘤、心律失常、癫痫等，45 岁后首发或出现不典型症状更需警惕
+  - 排除物质所致：兴奋剂（可卡因、咖啡因）或酒精/镇静剂戒断可诱发，需评估是否早于物质使用
+  - 与其他焦虑障碍区别：若惊恐发作只在特定触发情景下出现（如社交、恐惧物体），则不单独诊断为惊恐障碍
+  must_warn: []
+- id: PANIC_COMORBIDITY
+  title: 常见共病情况
+  source_page: 242
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 约80% 的惊恐障碍患者一生中合并其他精神障碍，最常见的是其他焦虑障碍（尤其广场恐惧）、重性抑郁、双相障碍
+  - 抑郁症可先于或晚于惊恐障碍出现，约1/3 病例抑郁先发
+  - 常合并躯体疾病如哮喘、慢性阻塞性肺病、肠易激综合征，也易合并物质使用障碍（常为自我治疗焦虑）
+  must_warn: []
+- id: PANIC_SUICIDE
+  title: 自杀/自伤风险与安全
+  source_page: 240
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 过去12 月内的惊恐发作或惊恐障碍诊断与较高的自杀想法和自杀行为相关
+  - 约25% 的初级保健中惊恐障碍患者报告自杀想法
+  - 认知症状（如现实解体）与自杀想法有关，躯体症状（如头晕、恶心）与自杀行为有关
+  must_warn:
+  - 惊恐障碍患者有升高的自杀风险，临床评估时应主动询问自杀想法/计划，尤其是出现现实解体感时
+- id: PANIC_ATTACK_FEATURES
+  title: 惊恐发作的特征
+  source_page: 243
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 惊恐发作是突然涌上的强烈恐惧或不适，几分钟内达高峰，伴至少4 种身体或认知症状
+  - 分为不预期（无诱因，如放松或睡眠中）和预期性（有明确触发情景）；不预期是诊断惊恐障碍的必要条件
+  - 夜间惊恐发作（从睡眠中惊醒）在约1/4–1/3 患者中出现，常与白天发作并存，提示病情更重
+  must_warn: []

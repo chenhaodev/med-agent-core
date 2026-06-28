@@ -1,0 +1,564 @@
+{
+  "summary": {
+    "pack": "alzheimer",
+    "evaluated": 47,
+    "errors": 0,
+    "avg_scores": {
+      "coverage": 9.55,
+      "accuracy": 9.94,
+      "safety": 9.83,
+      "total": 29.32
+    },
+    "pass_threshold": 0.9,
+    "baseline": {
+      "recorded_from": "med-agent-ad (pre-migration); fill avg/oob from its eval/results before deleting"
+    }
+  },
+  "results": [
+    {
+      "id": "P01",
+      "question": "高血压控制不好，会增加老年痴呆的风险吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "P02",
+      "question": "我妈携带 APOE ε4 基因，是不是一定会得老年痴呆？",
+      "scores": {
+        "coverage": 8,
+        "accuracy": 10,
+        "safety": 9,
+        "total": 27
+      },
+      "flags": [
+        "遗漏了 expected_topics 中的遗传率数据（58%～79%）",
+        "未明确提及 must_warn 中的'建议到专科医院进行基因咨询和风险评估'"
+      ]
+    },
+    {
+      "id": "P03",
+      "question": "我爸每天只睡 4-5 小时，这会增加老年痴呆风险吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "P04",
+      "question": "戒烟对预防老年痴呆有用吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "P05",
+      "question": "老人社交少、很孤独，会增加老年痴呆风险吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "P06",
+      "question": "低学历会增加老年痴呆风险吗？现在怎么补救？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "D01",
+      "question": "医生给我爸开了多奈哌齐，这个药是什么，有什么用？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "D02",
+      "question": "爸爸中重度 AD，现在吃多奈哌齐，医生说要加美金刚，有必要吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "D03",
+      "question": "妈妈发脾气打人，医生建议用抗精神病药，这类药安全吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "D04",
+      "question": "中药对老年痴呆有用吗？有哪些推荐的中药？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "N01",
+      "question": "磁刺激治疗老年痴呆有用吗，需要做多久？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "N02",
+      "question": "我妈装了心脏起搏器，能做经颅磁刺激吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "N03",
+      "question": "tDCS 电刺激和磁刺激（TMS）有什么区别？哪个更适合？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "C01",
+      "question": "爸爸轻度 AD，在家怎么做脑力训练？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "C02",
+      "question": "社区老年活动中心适合带妈妈去吗？",
+      "scores": {
+        "coverage": 9,
+        "accuracy": 7,
+        "safety": 10,
+        "total": 26
+      },
+      "flags": [
+        "遗漏了总时长参数（至少5～7周）"
+      ]
+    },
+    {
+      "id": "C03",
+      "question": "认知训练和认知康复有什么区别？",
+      "scores": {
+        "coverage": 7,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 27
+      },
+      "flags": [
+        "遗漏了'认知刺激'这一概念及其作为集体社交活动的特点"
+      ]
+    },
+    {
+      "id": "C04",
+      "question": "轻度 AD 用计算机认知训练好，还是纸笔练习好？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "C05",
+      "question": "认知康复是什么意思，在家怎么做？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "C06",
+      "question": "爸爸轻度 AD，认知训练要做多久才有效果？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "L01",
+      "question": "我妈轻度 AD，每周做几次有氧运动合适？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "L02",
+      "question": "太极拳对老年痴呆有帮助吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "L03",
+      "question": "吃什么食物对预防老年痴呆有帮助？",
+      "scores": {
+        "coverage": 7,
+        "accuracy": 10,
+        "safety": 9,
+        "total": 26
+      },
+      "flags": [
+        "遗漏核心概念：益生菌"
+      ]
+    },
+    {
+      "id": "L04",
+      "question": "DHA 鱼油补充剂对老年痴呆有用吗，要吃多少？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "L05",
+      "question": "妈妈有轻微平衡问题，还能做运动吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "L06",
+      "question": "力量训练（举哑铃）对老年痴呆有没有好处？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "L07",
+      "question": "地中海饮食到底怎么吃，适合 AD 患者吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "A01",
+      "question": "陪妈妈翻老照片聊往事，有没有科学依据？怎么做更有效？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "A02",
+      "question": "VR 虚拟现实治疗对老年痴呆有用吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "A03",
+      "question": "让爸爸参加社区合唱队，对老年痴呆有好处吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "A04",
+      "question": "舞蹈疗法对老年痴呆有什么好处？中度 AD 能参加吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "A05",
+      "question": "美术绘画疗法对老年痴呆患者有用吗？",
+      "scores": {
+        "coverage": 9,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 29
+      },
+      "flags": [
+        "未提及美术疗法可减轻抑郁情绪、提高生活质量"
+      ]
+    },
+    {
+      "id": "A06",
+      "question": "园艺种花能延缓老年痴呆进展吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "A07",
+      "question": "养宠物对老年痴呆患者有好处吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "A08",
+      "question": "中度 AD 患者适合参加什么样的舞蹈活动？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "S01",
+      "question": "妈妈中度 AD，最近晚上睡不着，不想用安眠药，有什么方法？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "S02",
+      "question": "爸爸中度 AD 最近总发脾气、打人，怎么应对？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "S03",
+      "question": "薰衣草精油对改善老年痴呆患者睡眠有没有用？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "S04",
+      "question": "妈妈有幻觉，说看到不存在的人，我们该怎么处理？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "S05",
+      "question": "爸爸重度 AD 长期卧床，怎么防止褥疮？",
+      "scores": {
+        "coverage": 7,
+        "accuracy": 10,
+        "safety": 8,
+        "total": 25
+      },
+      "flags": [
+        "遗漏了 expected_topics 中的'电动肢体按摩仪或徒手肢体按摩'",
+        "遗漏了 expected_topics 中的'皮肤清洁和营养支持'中的营养支持部分",
+        "遗漏了 must_warn 中的'营养支持可能需要就医评估鼻饲'"
+      ]
+    },
+    {
+      "id": "S06",
+      "question": "晚期 AD 吞咽困难，怎么安全喂食？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "S07",
+      "question": "爸爸 AD 总觉得有人偷他东西，怎么办？",
+      "scores": {
+        "coverage": 9,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 29
+      },
+      "flags": [
+        "共识引用编号错误，应为 22，实际引用为 8"
+      ]
+    },
+    {
+      "id": "S08",
+      "question": "光照疗法对改善老年痴呆患者睡眠有用吗？怎么做？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "S09",
+      "question": "爸爸重度 AD 已经不认识家人了，日常照护应该注意什么？",
+      "scores": {
+        "coverage": 8,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 28
+      },
+      "flags": []
+    },
+    {
+      "id": "S10",
+      "question": "老年痴呆晚期要做手术延命吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 9,
+        "total": 29
+      },
+      "flags": [
+        "未明确引用共识编号 23"
+      ]
+    },
+    {
+      "id": "X01",
+      "question": "轻度 AD 每天的最佳康复方案是什么？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "X02",
+      "question": "AD 患者能自己在家做什么来延缓病情？",
+      "scores": {
+        "coverage": 8,
+        "accuracy": 10,
+        "safety": 9,
+        "total": 27
+      },
+      "flags": [
+        "遗漏expected_topics：怀旧/音乐/园艺等居家可实施的艺术活动",
+        "遗漏expected_topics：综合干预",
+        "未引用共识编号13和15"
+      ]
+    },
+    {
+      "id": "X03",
+      "question": "中度 AD 出现抑郁，非药物方法有哪些？",
+      "scores": {
+        "coverage": 7,
+        "accuracy": 10,
+        "safety": 8,
+        "total": 25
+      },
+      "flags": [
+        "遗漏核心概念：音乐疗法改善抑郁",
+        "遗漏核心概念：感官刺激（光照、芳香）",
+        "遗漏安全警告：抗抑郁药调整需就医",
+        "共识引用编号错误，应为15和22，实际引用3和4"
+      ]
+    }
+  ]
+}

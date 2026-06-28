@@ -1,0 +1,88 @@
+specialty: neurocognitive
+specialty_zh: 神经认知障碍
+disease: ncd_lewy
+disease_zh: 路易体神经认知障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: LBD_CORE_FEATURES
+  title: 核心定义与临床特征
+  source_page: 687
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 路易体神经认知障碍（NCDLB）是一种进行性认知障碍，早期影响注意力、执行功能和视空间能力。
+  - 核心特征：波动性认知（注意力/警觉性显著起伏）、反复出现的复杂逼真视幻觉、自发性帕金森症。
+  - 提示性特征：快速眼动（REM）睡眠行为障碍、对抗精神病药严重敏感。
+  must_warn: []
+- id: LBD_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准
+  source_page: 687
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 诊断需先符合重度或轻度神经认知障碍标准。
+  - 起病隐袭、渐进发展。
+  - 很可能的NCDLB：具备两个核心特征，或一个提示性加至少一个核心特征；可能的NCDLB：仅一个核心特征，或一个及以上提示性特征。
+  - 排除脑血管病、其他神经退行性疾病、物质或精神障碍所致。
+  must_warn: []
+- id: LBD_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 690
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 老年人群患病率约0%–1.2%，占所有痴呆病例的4.2%（社区）至7.5%（临床）。
+  - 65岁以上男性发病率约为女性的3倍。
+  - 病理学研究显示20%–35%的痴呆病例尸体检查发现路易体。
+  must_warn: []
+- id: LBD_COURSE
+  title: 起病与病程
+  source_page: 690
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 隐袭起病，缓慢进展，典型发病年龄50–89岁，中位在70多岁。
+  - 病情可能出现短暂平台期，但最终进展至严重痴呆并死亡。
+  - 平均生存期从认知下降起算为5.5–7.7年。
+  - 常有急性谵妄发作（由疾病或手术诱发）作为前驱。
+  must_warn: []
+- id: LBD_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 691
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 有家族聚集现象，但多数患者无家族史。
+  - 遗传风险因素与阿尔茨海默病和帕金森病同等重要。
+  - 目前已知多个风险基因，但具体机制仍在研究中。
+  must_warn: []
+- id: LBD_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 692
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 主要与帕金森病所致神经认知障碍鉴别：若帕金森病诊断≥1年才出现重度认知下降，则为帕金森病所致；反之则考虑NCDLB。
+  - 认知症状先于或同时出现帕金森症时，临床医生需根据时间顺序判断。
+  - 需排除阿尔茨海默病、谵妄、脑血管病等其他原因。
+  must_warn: []
+- id: LBD_COMORBIDITIES
+  title: 常见共病与功能影响
+  source_page: 689
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见自主神经功能障碍：体位性低血压、便秘、尿失禁。
+  - 睡眠问题（嗜睡、REM睡眠行为障碍）、精神症状（幻觉、抑郁、焦虑、淡漠）。
+  - 反复跌倒、晕厥、短暂无反应常见；功能受损比阿尔茨海默病更重。
+  must_warn: []
+- id: LBD_NEUROLEPTIC_SENSITIVITY
+  title: 严重药物敏感风险
+  source_page: 689
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 高达50%的路易体认知障碍患者对抗精神病药出现严重不良反应（如帕金森症加重、意识障碍等）。
+  - 用药需极度谨慎，准确诊断对安全治疗至关重要。
+  - 严重抗精神病药敏感性也是该病的提示性诊断特征之一。
+  must_warn: []

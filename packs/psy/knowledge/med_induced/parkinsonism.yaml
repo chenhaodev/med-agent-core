@@ -1,0 +1,90 @@
+specialty: med_induced
+specialty_zh: 药物所致运动障碍及其他药物不良反应
+disease: parkinsonism
+disease_zh: 药物所致帕金森综合征
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: MIP_DEFINITION
+  title: 药物所致帕金森综合征定义
+  source_page: 808
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 药物所致帕金森综合征（MIP）是药物引起的帕金森症状，最常见于抗精神病药等阻断多巴胺D2受体的药物。
+  - MIP是继帕金森病后第二常见的帕金森综合征，严重影响患者生活。
+- id: MIP_SYMPTOMS
+  title: 主要症状表现
+  source_page: 809
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 核心症状：肌肉强直（铅管样或齿轮样）、运动迟缓（行动缓慢、表情减少）、静止性震颤（搓丸样）。
+  - 步态异常：小碎步、弯腰驼背、上肢摆动减少；其他包括小字症、语音低弱、自主活动减少。
+  - 症状常双侧对称出现，但不对称也不少见，不能单凭此排除MIP。
+- id: MIP_DIAGNOSIS
+  title: 诊断要点
+  source_page: 808
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 任何新发帕金森症状都应详细询问用药史，建立症状与用药（或剂量变动）的明确时间关系。
+  - 典型时间：抗精神病药通常开始后2–4周出现帕金森症状，多数在3个月内。
+  - 需排除帕金森病、精神症状（如紧张症、精神分裂症阴性症状）、其他药物反应或神经系统疾病。
+- id: MIP_CAUSING_DRUGS
+  title: 常见致病药物
+  source_page: 808
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 主要药物：抗精神病药（如氟哌啶醇、氟奋乃静、利培酮）、止吐药（甲氧氯普胺等）、多巴胺耗竭剂（利血平、丁苯那嗪）。
+  - 其他：钙通道阻滞剂（氟桂利嗪、桂利嗪）、部分抗抑郁药、锂盐、抗癫痫药、化疗药、免疫抑制剂。
+  - 毒物如MPTP、有机磷农药、锰、甲醇等也可引起MIP。
+- id: MIP_EPIDEMIOLOGY
+  title: 患病率与流行病学
+  source_page: 808
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 估计至少50%长期服用典型抗精神病药的门诊患者，在治疗过程中会出现帕金森症状。
+  - 实际报告率受缺乏统一诊断标准和误诊为帕金森病等因素影响，较轻病例常被漏诊。
+- id: MIP_ONSET_COURSE
+  title: 起病与病程
+  source_page: 808
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 起病时间不一：通常在开始用药或加量后数周内出现，部分可在数月后隐匿起病。
+  - 抗精神病药相关MIP多在2–4周内发病，钙通道阻滞剂还可在约1年后出现第二个发病高峰。
+- id: MIP_RISK_FACTORS
+  title: 风险因素
+  source_page: 809
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 风险因素包括：女性、高龄、认知障碍、并存神经系统疾病、HIV感染、帕金森病家族史、严重精神疾病。
+  - 儿童也可出现MIP；同时服用抗胆碱能药物可降低风险。
+- id: MIP_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 809
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与帕金森病鉴别：帕金森病常单侧起病、不对称，伴嗅觉减退、REM睡眠行为障碍等，MIP多双侧对称起病。
+  - 与精神疾病症状鉴别：紧张症、精神分裂症阴性症状、抑郁症精神运动迟缓等不伴典型帕金森体征。
+  - 排除其他药物反应（如迟发性运动障碍）、脑血管病、肝豆状核变性等。
+- id: MIP_COMPLICATIONS
+  title: 并发症与危害
+  source_page: 809
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - MIP显著增加步态障碍、跌倒和入住养老院的风险，老年人尤其严重。
+  - 严重时可导致医疗并发症：关节挛缩、褥疮、肺栓塞、吸入性肺炎、髋部骨折等。
+- id: MIP_COMORBIDITY
+  title: 常见共病
+  source_page: 809
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - MIP常伴有抑郁症状，或使精神分裂症阴性症状（如情感平淡、意志缺乏）加重。
+  - 还可出现吞咽困难、姿势不稳、认知损害等，需综合评估。

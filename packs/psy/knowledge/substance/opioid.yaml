@@ -1,0 +1,87 @@
+specialty: substance
+specialty_zh: 物质相关及成瘾障碍
+disease: opioid
+disease_zh: 阿片类使用障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: OUD_DEFINITION
+  title: 阿片类使用障碍定义
+  source_page: 613
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 核心特征是有问题的阿片使用模式，导致显著痛苦或功能损害，症状包括失控、社交损害、冒险使用和药理学适应。
+  - 症状包括：使用量或时间超预期、戒断失败、大量时间花在药物相关活动、渴求、因使用忽视责任、持续使用不顾人际问题、放弃重要活动、危险情境使用、明知问题仍用、耐受、戒断。
+  must_warn: []
+- id: OUD_CRITERIA
+  title: 诊断标准（11项中≥2项）
+  source_page: 610
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 在12个月内出现至少2项症状即可诊断：使用失控、渴求、社交损害、冒险使用、耐受或戒断等。
+  - 耐受和戒断在规范医疗使用下不计入诊断标准。
+  - 严重程度分级：轻度2-3项，中度4-5项，重度6项以上。
+  must_warn: []
+- id: OUD_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 614
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国成人非医疗处方阿片使用率4.1%-4.7%，海洛因0.3%-0.4%。
+  - 处方阿片使用障碍患病率0.6%-0.9%，海洛因使用障碍0.1%-0.3%。
+  - 男性高于女性，年轻成人高于年长者，低收入低教育者更高。全球患病率约0.14%-0.46%。
+  must_warn: []
+- id: OUD_COURSE
+  title: 起病与病程
+  source_page: 615
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可始于任何年龄，最常见于青少年晚期至20岁出头。
+  - 长期使用障碍可持续多年，少数人可长期戒断（如越战士兵90%以上戒断）。
+  - 从初次使用到发展成障碍，处方阿片比海洛因间隔更长。
+  must_warn: []
+- id: OUD_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 615
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 高度关联外化特质：寻求新奇、冲动性、去抑制。
+  - 家庭、同伴和社会环境因素增加风险。
+  - 遗传因素起重要作用；同伴因素与基因-环境选择相关。
+  must_warn: []
+- id: OUD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 618
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与阿片类中毒、戒断及阿片所致精神障碍区别：后者为使用后急性综合征，而使用障碍是慢性模式。
+  - 与酒精/镇静剂中毒区别：阿片中毒有瞳孔缩小，酒精/镇静剂无。
+  - 与独立抑郁障碍区别：需判断抑郁症状是否由阿片使用引发。
+  must_warn: []
+- id: OUD_COMORBIDITY
+  title: 常见共病
+  source_page: 619
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见合并其他物质使用障碍：烟草、酒精、大麻、兴奋剂、苯二氮卓类。
+  - 常伴抑郁障碍、双相I型、创伤后应激障碍、反社会/边缘/分裂型人格障碍。
+  - 童年品行障碍是重要风险因素。
+  must_warn: []
+- id: OUD_SUICIDE_RISK
+  title: 自杀风险与安全警示
+  source_page: 616
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 阿片类使用障碍显著增加自杀企图和自杀死亡风险，部分风险因素重叠。
+  - 反复中毒或戒断可导致严重抑郁，进而引发自杀。
+  - 非致命性过量与自杀企图不同，需仔细区分。
+  must_warn:
+  - 注意：阿片类使用障碍与自杀风险升高密切相关，若出现自杀意念或行为须立即寻求专业帮助。
+  - 反复阿片中毒或戒断可能引发严重抑郁，增加自杀风险。非故意过量与自杀企图易混淆。

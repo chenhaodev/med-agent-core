@@ -1,0 +1,86 @@
+specialty: depressive
+specialty_zh: 抑郁障碍
+disease: pmdd
+disease_zh: 经前期烦躁障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: PMDD_CORE
+  title: 核心特征
+  source_page: 198
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 经前期烦躁障碍（PMDD）的核心是情绪不稳、易怒、抑郁、焦虑等情感症状，在月经前一周出现，月经开始后几天内缓解，月经后一周内消失。
+  - 症状可伴行为改变（如回避社交）和躯体症状（如乳房胀痛、腹胀）。
+  - 症状严重程度与重性抑郁发作相当，并引起显著的社交或职业功能损害。
+  - 诊断需要连续两个月经周期的前瞻性每日症状评定来确认。
+  must_warn: []
+- id: PMDD_DIAGNOSIS
+  title: 诊断标准
+  source_page: 198
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 在大多数月经周期中，经前最后一周至少出现5个症状，症状在经期开始后几天开始改善，经后一周基本消失。
+  - 必须至少包含一项核心情绪/焦虑症状：显著情绪波动、明显易怒或愤怒、显著抑郁或绝望、明显焦虑或紧张。
+  - 此外至少出现一项附加症状，使总数达5项：兴趣下降、注意力困难、嗜睡/易疲劳、食欲改变、失眠或嗜睡、失控感、躯体症状。
+  - 症状引起显著痛苦或损害工作、学习、社交或人际关系，且并非其他精神障碍（如抑郁、惊恐）的恶化，也非物质或躯体疾病所致。
+  must_warn: []
+- id: PMDD_PREVALENCE
+  title: 患病率
+  source_page: 198
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 社区12个月患病率约1.3%-5.8%，严格的前瞻性评定显示美国为1.3%（无共病且有功能损害）。
+  - 回顾性报告往往高于前瞻性评定，但后者可能低估最严重病例。
+  - 青少年女性中的患病率可能高于成年女性。
+  must_warn: []
+- id: PMDD_COURSE
+  title: 起病与病程
+  source_page: 199
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可在初潮后任何年龄起病，40个月随访中新发率为2.5%。
+  - 症状随月经周期反复出现，绝经后停止，但激素替代治疗可能重新诱发症状。
+  must_warn: []
+- id: PMDD_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 199
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 环境因素包括压力、人际创伤史、季节变化以及关于女性性别角色的社会文化因素。
+  - 症状的遗传度估计在30%至80%之间，但尚不确定是症状本身可遗传，还是与其他可遗传特质相关。
+  must_warn: []
+- id: PMDD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 200
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 经前期综合征（PMS）不要求至少5个症状或情感症状，通常比PMDD轻，患病率约20%。
+  - 痛经（经期疼痛）症状在月经开始后出现，而PMDD症状主要在经前出现。
+  - 双相障碍、重性抑郁等心境障碍的症状不遵循经前期模式，需通过前瞻性每日评定区分。
+  - 使用激素治疗（如避孕药）引起的症状需排除，以及甲状腺功能减退、贫血等躯体疾病。
+  must_warn: []
+- id: PMDD_COMORBIDITY
+  title: 常见共病
+  source_page: 200
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 既往最常见的共病是重性抑郁发作；抑郁、双相、焦虑、物质使用障碍等可能在经前期加重。
+  - 若症状在经后期没有完全缓解，则不应诊断为PMDD，而应考虑经前期加重。
+  - 其他共病包括偏头痛、哮喘、癫痫、贪食症等。
+  must_warn: []
+- id: PMDD_SUICIDE_RISK
+  title: 自杀风险
+  source_page: 199
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 经前期被认为是一个自杀风险期，患有PMDD的女性在此期间可能自杀念头增加。
+  must_warn:
+  - 经前期被认为是自杀风险期，若出现自杀念头或自伤行为，应立即联系心理危机热线或就医。

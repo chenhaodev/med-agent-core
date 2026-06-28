@@ -1,0 +1,214 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://med-agent-core/schema/pack.schema.json",
+  "title": "med-agent pack manifest",
+  "description": "Contract every packs/<domain>/pack.yaml must satisfy. The engine reads only this manifest plus the files it points at; domain authors never touch engine/. Extends PLAN §1 with knowledge_injection (reconciles lite sections-only vs advanced yaml-stack), typed oob blocklist (replaces each fork's hardcoded oob_check.sh), output (replaces hardcoded postprocess section/citation checks) and model (replaces hardcoded build_prompt params).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "source", "audiences", "features", "output_schema", "sections_dir", "routing", "oob", "output", "model", "eval"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_-]*$",
+      "description": "Domain slug; must equal the pack directory name."
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "source": {
+      "type": "object",
+      "description": "Provenance metadata for the knowledge base.",
+      "additionalProperties": true,
+      "required": ["title", "kind"],
+      "properties": {
+        "title": { "type": "string" },
+        "kind": { "enum": ["consensus", "textbook", "protocol", "guideline"] }
+      }
+    },
+    "audiences": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "enum": ["patient", "doctor"] },
+      "uniqueItems": true
+    },
+    "features": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Engine capability switches. Lite packs leave all defaults (everything off / sections-only).",
+      "properties": {
+        "knowledge_injection": {
+          "enum": ["sections_only", "yaml_stack"],
+          "default": "sections_only",
+          "description": "sections_only (lite ad/neo/sleep/stcc): runtime injects only sections_dir/<domain>.md. yaml_stack (advanced inner-all/psy): runtime additionally stacks per-disease knowledge/<sp>/<disease>.yaml + guidelines + safety_floor."
+        },
+        "page_traceable": {
+          "type": "boolean",
+          "default": false,
+          "description": "true (textbook packs) enables folio_map / audit_pages and page-citation verification."
+        },
+        "ingest": {
+          "enum": ["manual", "pdf", "markdown"],
+          "default": "manual",
+          "description": "manual: cards authored by hand. pdf: engine/tools/ingest.py. markdown: engine/tools/extract_yaml.py + build_sections.py (stcc)."
+        },
+        "deep_eval": {
+          "type": "boolean",
+          "default": false,
+          "description": "true enables eval_deep / verify_claims (claim-level FActScore-style verification + reroll)."
+        }
+      }
+    },
+    "output_schema": {
+      "type": "string",
+      "description": "Path (relative to pack root) to the segment-format definition, e.g. prompts/output_schema.md. Per-audience variants resolved as output_schema.md / output_schema_doctor.md."
+    },
+    "sections_dir": {
+      "type": "string",
+      "description": "Directory (relative to pack root) of per-category knowledge section prompts."
+    },
+    "system_base": {
+      "type": "string",
+      "default": "prompts/system_base.md",
+      "description": "System prompt path; _doctor variant resolved by suffix when audiences includes doctor."
+    },
+    "knowledge": {
+      "type": "string",
+      "description": "Knowledge directory (yaml_stack) OR provenance-only source dir (sections_only). Required when knowledge_injection=yaml_stack."
+    },
+    "knowledge_header": {
+      "type": "string",
+      "default": "以下是与用户问题相关的知识片段，你的回答必须严格基于这些内容：",
+      "description": "Lead-in line printed before injected knowledge in the system prompt. Lite forks vary the wording (共识 vs 教材及指南); captured here for prompt parity."
+    },
+    "knowledge_section_title": {
+      "type": "string",
+      "default": "# 当前问题相关知识片段",
+      "description": "Markdown heading above the injected knowledge block. Most forks use the default; stcc uses '# 当前问题相关分诊知识片段'."
+    },
+    "routing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["map"],
+      "properties": {
+        "map": {
+          "type": "string",
+          "description": "Path to category_index.yaml: keyword-pattern -> domain tag table (replaces hardcoded router.sh)."
+        },
+        "fallback": {
+          "type": "string",
+          "description": "Default domain tag when no keyword matches and no LLM fallback (e.g. cardiology:general)."
+        },
+        "llm_fallback": {
+          "type": "boolean",
+          "default": false,
+          "description": "true allows zero-shot LLM classification when keyword routing misses."
+        }
+      }
+    },
+    "oob": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["templates", "blocklist"],
+      "properties": {
+        "templates": { "type": "string", "description": "Path to oob_templates.md (rejection copy keyed by gate type). _doctor variant resolved by suffix." },
+        "blocklist": {
+          "type": "array",
+          "description": "Ordered, first-match-wins interception rules; replaces each fork's hardcoded oob_check.sh. Each rule emits out_of_scope:<type> when its pattern matches AND its optional unless guard does not.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "pattern"],
+            "properties": {
+              "type": { "type": "string", "description": "OOB category tag; must match a `## <type>` header in oob.templates." },
+              "pattern": { "type": "string", "description": "grep -E alternation; if it matches the question this rule fires." },
+              "unless": { "type": "string", "description": "Optional guard; if it also matches, the rule is skipped (question stays in_scope). Captures 'comorbidity is in-scope' exclusions." },
+              "unless_all": {
+                "type": "array",
+                "items": { "type": "string" },
+                "description": "Optional AND-guard; the rule is skipped only when EVERY pattern here matches (e.g. neo's 'NEC + infection → in-scope')."
+              }
+            }
+          }
+        }
+      }
+    },
+    "output": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Deterministic postprocess contract (replaces hardcoded postprocess.sh). Keyed by audience plus a shared oob_exempt_pattern.",
+      "required": ["patient"],
+      "properties": {
+        "oob_exempt_pattern": {
+          "type": "string",
+          "description": "If a response matches this, the citation requirement is waived (it is an OOB refusal)."
+        },
+        "patient": { "$ref": "#/definitions/audienceOutput" },
+        "doctor": { "$ref": "#/definitions/audienceOutput" }
+      }
+    },
+    "model": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "LLM call parameters (replaces hardcoded build_prompt.sh values).",
+      "required": ["name", "patient"],
+      "properties": {
+        "name": { "type": "string", "description": "Model id, e.g. deepseek-chat or deepseek-v4-flash. Overridable via DEEPSEEK_MODEL env." },
+        "patient": { "$ref": "#/definitions/modelParams" },
+        "doctor": { "$ref": "#/definitions/modelParams" }
+      }
+    },
+    "eval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["gold", "pass_threshold"],
+      "properties": {
+        "gold": { "type": "string" },
+        "oob_gold": { "type": "string" },
+        "crisis_gold": { "type": "string", "description": "Path to an adversarial crisis_gold.yaml (crisis:/in_scope: lists). Triggers the fail-closed crisis gate (engine/crisis_check.py); for safety-critical packs (psy)." },
+        "judge_prompt": { "type": "string", "description": "Path to judge_prompt.md (LLM-as-judge system prompt)." },
+        "pass_threshold": { "type": "number", "minimum": 0, "maximum": 1 },
+        "baseline": {
+          "type": "object",
+          "description": "Frozen pre-migration scores from the source repo, for the §5 parity gate.",
+          "additionalProperties": true,
+          "properties": {
+            "avg_score": { "type": "number" },
+            "max_score": { "type": "number" },
+            "oob_precision": { "type": "number" },
+            "recorded_from": { "type": "string", "description": "source repo path + git commit the baseline was captured at" }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "audienceOutput": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required_sections"],
+      "properties": {
+        "required_sections": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1,
+          "description": "Substrings every well-formed answer must contain (grep -F)."
+        },
+        "citation_pattern": {
+          "type": "string",
+          "description": "grep -E pattern a non-OOB answer must contain (the citation/source marker). Omit to skip the citation check."
+        },
+        "citation_requires": {
+          "type": "string",
+          "description": "Optional gate: the citation_pattern is only required when the response also matches this (e.g. stcc requires the 120/急诊 hotline only for A/B-grade triage). Omit → citation always required."
+        }
+      }
+    },
+    "modelParams": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["temperature", "max_tokens"],
+      "properties": {
+        "temperature": { "type": "number", "minimum": 0, "maximum": 2 },
+        "max_tokens": { "type": "integer", "minimum": 1 }
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+specialty: personality
+specialty_zh: 人格障碍
+disease: dependent
+disease_zh: 依赖型人格障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: DPD_CORE_FEATURES
+  title: 核心特征与定义
+  source_page: 768
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 依赖型人格障碍的核心是过度需要被照顾，导致顺从、依附行为和害怕分离。
+  - 患者认为自己无他人帮助就无法正常生活，因而采取依附行为以获取照顾。
+  - 该模式始于成年早期，并存在于多种情境中。
+- id: DPD_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准
+  source_page: 768
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 满足以下8条中的5条或以上即可诊断：
+  - 1. 做日常决定时过度需要他人的建议和保证。
+  - 2. 需要他人为自己生活大多数重大领域承担责任。
+  - 3. 因害怕失去支持或赞同而难以表达不同意见。
+  - 4. 难以自主启动项目或做事（因缺乏自信，非缺乏动力）。
+  - 5. 过度努力获得他人的培育和支持，甚至自愿做不愉快的事。
+  - 6. 独处时感到不舒服或无助，因夸大担心自己无法照顾自己。
+  - 7. 亲密关系结束时，急切寻求另一段关系以获取照顾。
+  - 8. 不切实际地担心被抛弃而需自己照顾自己。
+- id: DPD_PREVALENCE
+  title: 患病率
+  source_page: 770
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 依赖型人格障碍的患病率较低：美国全国共病调查复测约为0.6%，流行病学调查约为0.5%。
+  - 六项流行病学研究（四项在美国）的中位患病率为0.4%。
+- id: DPD_ONSET_COURSE
+  title: 起病与病程
+  source_page: 770
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 此障碍起始于成年早期，但诊断在儿童和青少年中需极其谨慎，因为依赖行为在该阶段可能符合发展常规。
+  - 患者常缺乏独立生活技能，由于长期依赖他人处理问题，导致依赖持续。
+- id: DPD_RISK_PROGNOSIS
+  title: 风险与预后因素
+  source_page: 771
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 文化因素：依赖行为在不同年龄和社会文化群体中适当性差异很大，诊断需考虑文化标准。
+  - 性别因素：临床上和社区中女性诊断率高于男性。
+  - 个体常表现为悲观、自我怀疑，贬低自己的能力，职业功能可能受损，尤其在需要独立主动时。
+- id: DPD_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 771
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与分离焦虑障碍的区别：依赖型患者是害怕自己无法照顾自己，而非担心与依附对象分离。
+  - 与边缘型人格障碍的区别：依赖型患者被抛弃时表现为屈从和寻求新关系，而非情绪空虚和愤怒。
+  - 与表演型人格障碍的区别：依赖型患者是自我贬低和顺从，而表演型是活跃要求注意。
+  - 与回避型人格障碍的区别：依赖型患者是寻求保持关系，而回避型是因害怕被拒而退缩。
+- id: DPD_COMORBIDITY
+  title: 常见共病
+  source_page: 771
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 依赖型人格障碍可与其他精神障碍（如抑郁障碍、惊恐障碍、广场恐怖症）共病。
+  - 也可与其他类型的人格障碍或人格特质共存。
+  - 若同时满足多种人格障碍标准，可全部诊断。

@@ -1,0 +1,243 @@
+# 新生儿疾病诊疗协议 — 具体数字参数
+# 每条对应一个具体操作/药物/阈值，source_page 可反向映射至 PDF 原文
+
+protocols:
+
+  # ─── 新生儿呕吐 ─────────────────────────────────────────
+  vomiting_positioning:
+    disease: vomiting
+    name: 呕吐体位护理
+    source_page: 5
+    details:
+      position: 右侧卧位，头高脚低
+      head_elevation: 30°~45°
+      rationale: 避免呕吐物吸入引起窒息或吸入性肺炎
+      feeding_posture: 喂奶后竖抱轻拍背部排气，减少翻动
+
+  vomiting_gastric_decompression:
+    disease: vomiting
+    name: 胃肠减压操作
+    source_page: 5
+    details:
+      gastric_tube_size: 5~8 Fr（适合新生儿）
+      syringe_volume: 10~20 mL
+      tube_length_measurement: 鼻尖→耳垂→剑突的距离
+      insertion_route: 鼻腔或口腔
+      confirmation: 回抽胃液或听气过水声
+      recording: 记录胃内容物性质和量
+
+  # ─── 新生儿泌尿系感染 ───────────────────────────────────
+  uti_urine_collection:
+    disease: uti
+    name: 尿液标本留取方法对比
+    source_page: 3
+    methods:
+      adhesive_bag:
+        contamination_rate: "50%~60%"
+        use: 尿常规筛查
+        note: 阴性有助于排除UTI
+      clean_catch:
+        contamination_rate: "约26%"
+        use: 尿常规筛查
+        note: 哺乳后30 min留取
+      catheterization:
+        contamination_rate: "约10%"
+        use: 尿培养首选
+        note: 前3 mL尿液丢弃
+      suprapubic_aspiration:
+        contamination_rate: "1%"
+        use: 金标准（有条件单位）
+        note: 超声引导评估膀胱充盈度
+
+  uti_culture_criteria:
+    disease: uti
+    name: 尿培养判读标准
+    source_page: 2
+    thresholds:
+      catheter_specimen:
+        infection: ">10^5 CFU/mL"
+        suspected: "10^4~10^5 CFU/mL"
+        contamination: "<10^4 CFU/mL"
+      suprapubic_aspiration:
+        infection: 任何菌落计数均提示感染
+    urinalysis_threshold:
+      centrifuged: "白细胞>10个/高倍视野"
+      uncentrifuged: "白细胞>5个/高倍视野"
+
+  uti_antibiotic_course:
+    disease: uti
+    name: UTI抗菌药物疗程
+    source_page: 4
+    details:
+      duration: "10~14天"
+      route: 全程静脉用药
+      reassessment_at_48h: 评估治疗效果（临床症状+尿检指标）
+      culture_clearance: 尿液通常24~48 h无菌，WBC 3~4 d消失，90%病例24~48 h体温正常
+      discharge_criteria:
+        - 临床表现消失
+        - 尿常规正常
+        - 尿培养转阴
+      followup:
+        schedule: 出院后1周、4周，以后每月至6月龄
+        items: 尿常规、尿培养、血常规、CRP、生长发育、必要时泌尿系超声
+
+  uti_empiric_antibiotics:
+    disease: uti
+    name: UTI经验性抗菌药物选择
+    source_page: 4
+    term_infant:
+      first_line: 第三代头孢菌素+氨苄西林
+      resistant_gram_negative: 碳青霉烯类
+      resistant_gram_positive: 万古霉素或替考拉宁
+    preterm_infant:
+      first_line: 第三代头孢菌素+万古霉素（或替考拉宁）
+      note: 参照本地病原药敏，优先窄谱
+      escalation: 高度怀疑多重耐药革兰氏阴性菌→碳青霉烯类（颅内感染选美罗培南）
+
+  # ─── 新生儿败血症 ────────────────────────────────────────
+  sepsis_lab_thresholds:
+    disease: sepsis
+    name: 非特异性感染指标异常标准
+    source_page: 3
+    thresholds:
+      WBC:
+        - "生后6h至3d内：≥25×10^9/L"
+        - "生后3d后：≥20×10^9/L"
+        - "任何日龄：<5×10^9/L"
+        - "任何日龄中性粒细胞绝对值：<1×10^9/L"
+      IT_ratio:
+        - "出生至日龄72h：I/T≥0.16"
+        - "生后72h后：I/T≥0.12"
+      PLT:
+        - "≤100×10^9/L为异常"
+      CRP:
+        - "生后6h内：≥3 mg/L"
+        - "生后6~24h：≥5 mg/L"
+        - "生后24h后：≥10 mg/L"
+      PCT:
+        - 生后72h内可出现生理性升高，参考值考虑生后时龄
+        - 感染后4~6h开始升高，12h达峰值
+
+  sepsis_blood_culture:
+    disease: sepsis
+    name: 血培养操作要求
+    source_page: 3
+    details:
+      minimum_volume: 每次≥1 mL
+      eos_positive_rate: 约4%（灵敏度低）
+      reassessment: 血培养阳性者，治疗24~48h后再次血培养确认是否转阴
+
+  sepsis_csf_normal_values:
+    disease: sepsis
+    name: 正常新生儿脑脊液参考值
+    source_page: 3
+    term_infant:
+      WBC: "<20个/mm^3"
+      protein: "<1.7 g/L"
+      glucose: ">400 mg/L（或CSF糖/血糖比值>40%）"
+    preterm_infant:
+      note: 受胎龄、日龄影响更大，需结合临床综合判断
+
+  sepsis_antibiotic_duration:
+    disease: sepsis
+    name: 败血症抗菌药物疗程
+    source_page: 4
+    details:
+      general_course: "7~14天"
+      blood_culture_negative_rapid_recovery: "可短至7天（研究支持5天）"
+      dose_adjustment_timing: 应用48~72h内评估是否停药
+      decision_timing: 1h内完成给药（疑似LOS时）
+
+  sepsis_empiric_antibiotics:
+    disease: sepsis
+    name: 败血症经验性抗菌药物方案
+    source_page: 5
+    EOS:
+      first_line: 氨苄西林（或青霉素）+第三代头孢菌素
+      severe_with_resistance_risk: 氨苄西林舒巴坦+头孢吡肟或美罗培南
+    LOS_community:
+      first_line: 第三代头孢菌素（单用）
+    LOS_nosocomial:
+      principle: 参照本地流行病学，联合窄谱抗菌药物
+      resistant_gram_positive: 万古霉素或替考拉宁
+      abdominal_infection_NEC: 哌拉西林他唑巴坦（怀疑颅内感染时不选）
+      MDR_gram_negative: 碳青霉烯类（亚胺培南或美罗培南）
+
+  sepsis_meningitis_antibiotics:
+    disease: sepsis
+    name: 合并脑膜炎抗菌药物方案
+    source_page: 7
+    non_nosocomial:
+      first_line: 第三代头孢菌素（头孢噻肟）+大剂量氨苄西林或青霉素
+      ecoli_resistant_to_cephalosporin: 美罗培南替代头孢
+    nosocomial:
+      first_line: 万古霉素+美罗培南
+    duration:
+      gram_positive: "14~21天（GBS至少21天）"
+      gram_negative: "至少21天，或CSF正常后再14天"
+    followup:
+      csf_recheck: 抗感染治疗48~72h后复查CSF培养
+
+  # ─── 新生儿感染性肺炎 ────────────────────────────────────
+  pneumonia_oxygen_therapy:
+    disease: pneumonia
+    name: 肺炎氧疗与呼吸支持阈值
+    source_page: 6
+    HFNC:
+      initial_FiO2: "30%~40%"
+      initial_flow: "3~8 L/min"
+      note: 根据临床反应调整
+    nCPAP:
+      escalation_to_intubation: "nCPAP压力>6 cmH2O + FiO2>30% 仍SpO2<93%→有创呼吸支持"
+    critical_transfer_thresholds:
+      HR: "<80次/min或>180次/min"
+      BP_systolic: "<40 mmHg或>100 mmHg"
+      RR: "<20次/min或>100次/min"
+      SpO2: "≤92%（海平面）或<90%（高原）"
+
+  pneumonia_antibiotic_duration:
+    disease: pneumonia
+    name: 肺炎抗菌药物疗程
+    source_page: 5
+    details:
+      culture_negative_initial: 经验性IV至少48~72h，持续临床评估
+      high_suspicion_pneumonia: "7~10天（研究显示5天安全）"
+      clinical_improvement_48h: "4天与7天疗效安全性相当"
+      stop_criteria: 检查不支持肺炎或确定其他病因→停用抗生素
+
+  pneumonia_empiric_antibiotics:
+    disease: pneumonia
+    name: 肺炎经验性抗感染方案
+    source_page: 5
+    early_onset_bacterial:
+      first_line: 氨苄西林（或青霉素）+第三代头孢菌素
+    late_onset_nosocomial:
+      first_line: 万古霉素（或替考拉宁）+第三代头孢菌素
+      escalation: MDR菌→美罗培南
+    pathogen_specific:
+      GBS: 氨苄西林或青霉素
+      ecoli_ampicillin_sensitive: 氨苄西林
+      ecoli_ampicillin_resistant: 头孢类（头孢噻肟/头孢他啶/头孢吡肟）
+      MDR_gram_negative: 美罗培南
+      MSSA: 萘夫西林或头孢唑林
+      MRSA: 万古霉素或克林霉素或利奈唑胺
+      chlamydia_ureaplasma: 红霉素（首选）或阿奇霉素（耐药时）
+      HSV: 阿昔洛韦
+      CMV: 更昔洛韦或缬更昔洛韦
+      influenza: 奥司他韦
+
+  pneumonia_severity_criteria:
+    disease: pneumonia
+    name: 重症肺炎判断标准（任一即为重症）
+    source_page: 6
+    criteria:
+      - 一般情况差
+      - 拒食或脱水征
+      - 意识障碍
+      - 呼吸频率明显增快（>70次/min）
+      - 发绀
+      - 呼吸困难
+      - SpO2≤92%（海平面）或<90%（高原）
+      - 多肺叶或单肺叶≥2/3受累
+      - 胸腔积液
+      - 肺外并发症

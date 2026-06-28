@@ -1,0 +1,87 @@
+specialty: neurocognitive
+specialty_zh: 神经认知障碍
+disease: ncd_vascular
+disease_zh: 血管性神经认知障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: VASC_NCD_DEFINITION
+  title: 核心定义
+  source_page: 695
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 血管性神经认知障碍（NCD）是由脑血管疾病（如大血管卒中或微血管病变）导致的认知缺陷。
+  - 病因包括脑灌注不足、缺氧、氧化应激和炎症，造成脑实质性损伤。
+  - 临床表现多样，取决于血管病变的类型、范围和位置，可呈局灶、多灶或弥漫性损害。
+  must_warn: []
+- id: VASC_NCD_CRITERIA
+  title: 主要诊断标准
+  source_page: 694
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需首先符合重度或轻度神经认知障碍（NCD）的诊断标准（标准A）。
+  - 认知缺陷的发生与一次或多次脑血管事件时间相关，或在复杂注意力（含处理速度）及额叶执行功能上显著衰退（标准B）。
+  - 必须有病史、体格检查和/或神经影像学证据表明存在足以解释认知缺陷的脑血管疾病（标准C）。
+  - 根据神经影像支持、事件时间关联或遗传证据（如CADASIL）分为“很可能是血管性”或“可能是血管性”。
+  must_warn: []
+- id: VASC_NCD_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 697
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 血管性NCD是仅次于阿尔茨海默病的第二常见NCD原因。
+  - 美国71–79岁人群患病率约0.98%，80–89岁约4.09%，90岁以上约6.19%。
+  - 卒中后3个月内20%–30%的患者被诊断为痴呆；非拉丁裔白人相比，非洲裔、墨西哥裔和南亚裔美国人患病率更高。
+  must_warn: []
+- id: VASC_NCD_COURSE
+  title: 起病与病程
+  source_page: 698
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可发生于任何年龄，但65岁后患病率呈指数增长。
+  - 病程多样：急性起病后部分改善、阶梯式恶化、进行性衰退，伴不同时长的波动和平台期。
+  - 单纯皮层下型病程缓慢进展，易与阿尔茨海默病混淆；非洲裔美国人卒中后5年内进展为NCD的风险几乎是白人的两倍。
+  must_warn: []
+- id: VASC_NCD_RISK
+  title: 风险与预后因素
+  source_page: 698
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 主要危险因素与脑血管病一致：高血压、糖尿病、吸烟、肥胖、高胆固醇、高同型半胱氨酸、房颤等。
+  - 脑淀粉样血管病导致脑出血也是重要风险因素；遗传因素如CADASIL（伴皮质下梗死和白质脑病的常染色体显性遗传性脑动脉病）罕见但风险高。
+  - 保护性因素包括教育、体育锻炼和脑力活动，通过神经可塑性影响预后。
+  must_warn: []
+- id: VASC_NCD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 699
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与阿尔茨海默病区别：后者早期以记忆缺陷为主且进行性加重，缺乏对应局灶性脑影像病灶。
+  - 与路易体NCD区别：后者核心特征包括认知波动、视幻觉和自发性帕金森综合征。
+  - 抑郁症也可能导致认知症状，但通常与情绪症状密切相关，且无脑血管事件史。
+  must_warn: []
+- id: VASC_NCD_COMORBIDITY
+  title: 常见共病与混合病理
+  source_page: 693
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 脑血管病理常与阿尔茨海默病、TDP-43相关病理和路易体病理共存，尤其在高龄人群中。
+  - 多种病理共存会加速认知衰退并缩短生存时间。
+  - 血管性NCD常伴情绪不稳、抑郁、情感淡漠和人格改变，称为“血管性抑郁”。
+  must_warn: []
+- id: VASC_NCD_FEATURES
+  title: 临床特征
+  source_page: 695
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 神经检查常发现卒中或短暂性脑缺血发作史，以及脑梗死体征（如轻偏瘫、假性延髓麻痹、视野缺损）。
+  - 认知缺陷主要影响复杂注意力（信息处理速度）和执行功能，也可损害记忆、语言等。
+  - 亚型包括：卒中后NCD、皮层下缺血性血管NCD、多梗死（皮层）NCD和皮层-皮层下血管NCD。
+  must_warn: []

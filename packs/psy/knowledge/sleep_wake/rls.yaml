@@ -1,0 +1,70 @@
+specialty: sleep_wake
+specialty_zh: 睡眠-觉醒障碍
+disease: rls
+disease_zh: 不宁腿综合征
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: RLS_DEFINITION
+  title: 不宁腿综合征定义
+  source_page: 465
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 不宁腿综合征（RLS）是一种感觉运动神经性睡眠障碍，特征为想移动腿或手臂的强烈冲动，常伴蠕动、爬行、刺痛等不适感。
+  - 症状在休息时出现或加重，运动后部分或完全缓解，傍晚或夜间更严重。
+- id: RLS_CRITERIA
+  title: 主要诊断标准
+  source_page: 465
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 必须具备想移动腿的冲动，同时满足：休息时开始或加重、运动可缓解、傍晚或夜间比白天严重。
+  - 症状每周至少3次，持续至少3个月。
+  - 症状导致显著痛苦或社交、职业、教育等重要功能损害。
+  - 症状不是由其他医学状况（如关节炎、腿水肿）或行为（如习惯性跺脚）解释，也不是药物或物质（如静坐不能）引起。
+- id: RLS_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 466
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国与欧洲人群，每周至少3次且中重度痛苦的RLS患病率约1.6%。
+  - 导致显著功能损害或伴抑郁焦虑的RLS，在西方与韩国人群约2%-3%。
+  - 女性患病率约为男性2倍，患病率随年龄增加，亚洲人群（如日本、韩国）较低。
+- id: RLS_COURSE
+  title: 起病与病程
+  source_page: 466
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 典型起病在20-30岁；约40%成年患者症状在20岁前出现，20%在10岁前。
+  - 患病率随年龄增长至60岁左右稳定或略降；家族性RLS发病更早、进展更慢。
+  - 早发型（<45岁）缓慢进展，晚发型（≥45岁）快速进展且加剧因素常见。
+  - 儿童诊断需孩子自述“腿必须动”，而非家长描述；需比较白天与夜晚相同坐卧时长。
+- id: RLS_RISK
+  title: 风险与预后因素
+  source_page: 467
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 易感因素：女性、高龄、遗传易感变异（如MEIS1基因）、铁缺乏；铁缺乏等诱因常可逆转。
+  - 病理生理涉及中枢多巴胺能和阿片能系统失调及铁代谢紊乱。
+  - 某些抗抑郁药（如5-羟色胺再摄取抑制剂）可能诱发或加重RLS。
+- id: RLS_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 468
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与腿抽筋、位置不适、关节炎、肌痛、周围神经病变、神经根病、习惯性跺脚等鉴别。
+  - 夜间加重和周期性肢体运动（PLMS）更常见于RLS，而非药物性静坐不能或周围神经病变。
+  - 若诊断不确定，可检查PLMS、家族史或多巴胺能药物治疗反应帮助鉴别。
+- id: RLS_COMORBIDITY
+  title: 常见共病
+  source_page: 468
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - RLS共患抑郁症、广泛性焦虑障碍、惊恐障碍、创伤后应激障碍风险升高。
+  - 主要医学共病包括心血管疾病；还可能共患高血压、偏头痛、帕金森病、糖尿病等。
+  - 铁缺乏、妊娠、慢性肾衰竭常伴随RLS，基础疾病改善后RLS可显著缓解。

@@ -1,0 +1,116 @@
+specialty: neurodevelopmental
+specialty_zh: 神经发育障碍
+disease: adhd
+disease_zh: 注意缺陷/多动障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: ADHD_CORE_DEFINITION
+  title: ADHD的核心特征
+  source_page: 70
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 注意缺陷/多动障碍（ADHD）是一种持续的注意力不集中和/或多动-冲动模式，干扰功能或发展。
+  - 注意力不集中表现为走神、无法完成任务、忽视细节、组织困难，并非因叛逆或理解不足。
+  - 多动表现为不恰当的过度活动（如坐立不安、不停跑动），在成人中可能只是极度烦躁。
+  - 冲动指不经思考的仓促行动（如冲到马路中间），可能伤害自己，并影响社交（如打断他人）。
+  must_warn: []
+- id: ADHD_DIAGNOSTIC_CRITERIA
+  title: ADHD诊断标准总览
+  source_page: 68
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 至少6个月持续存在6项以上（17岁以上至少5项）注意力不集中或多动-冲动症状。
+  - 注意力不集中症状包括：粗心错误、难持续注意、看似不听话、不遵循指令、组织困难、逃避脑力任务、常丢东西、易分心、健忘。
+  - 多动冲动症状包括：坐立不安、擅自离座、不当跑跳、难安静玩耍、像被马达驱动、话多、抢答、难等待、打断他人。
+  - 症状必须在12岁前出现，且存在于两个及以上场合（如家、学校、工作）。
+  - 必须明确损害社交、学业或职业功能，且不能用其他精神障碍（如精神病、心境障碍）更好解释。
+  - 临床分型：混合型（A1和A2都符合）、注意不集中为主（仅A1符合）、多动冲动为主（仅A2符合）。
+  - 严重度分轻（症状刚达标，损害轻微）、中、重（大量或严重症状，显著损害）。
+  must_warn: []
+- id: ADHD_PREVALENCE
+  title: ADHD患病率
+  source_page: 72
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 全球儿童ADHD患病率约7.2%，但各国差异大（0.1%–10.2%）。
+  - 特殊人群（如寄养儿童、矫正机构中）患病率更高。
+  - 成人ADHD患病率约2.5%（跨国荟萃分析结果）。
+  must_warn: []
+- id: ADHD_COURSE
+  title: ADHD起病与病程
+  source_page: 72
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 多数在学龄期（小学）被识别，但父母可能在幼儿期就观察到过度活动。
+  - 学前阶段以多动为主，小学后注意力不集中更突出，青少年多动减少但注意力和冲动持续。
+  - 相当比例（约一半）儿童ADHD持续到成年，成年后多动可能变为烦躁不安和冲动问题。
+  - 部分儿童在青春期会出现对立行为或品行问题，使病程恶化。
+  must_warn: []
+- id: ADHD_RISK_FACTORS
+  title: ADHD风险与预后因素
+  source_page: 73
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 遗传因素很重要：遗传度约74%，多个基因共同作用，非单一基因导致。
+  - 环境风险：极低出生体重、早产、产前吸烟与ADHD风险升高相关。
+  - 其他可能相关因素：神经毒素（如铅）、宫内感染或酒精暴露，但因果关系未明确。
+  - 个体气质：行为抑制差、负性情绪、新奇寻求倾向可增加风险，但缺乏特异性。
+  - 家庭互动模式在早期不会直接导致ADHD，但可影响病程或引发对立行为。
+  must_warn: []
+- id: ADHD_DIFFERENTIAL
+  title: ADHD鉴别诊断
+  source_page: 74
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与对立违抗障碍区分：后者因反抗而拒绝任务，而非因注意力困难。
+  - 需与间歇爆发障碍区分：后者有严重攻击他人行为，ADHD无此特征。
+  - 注意区分其他神经发育障碍：如抽动障碍的重复动作、自闭症的社交回避。
+  - 焦虑障碍的注意力困难源于担忧，而ADHD因寻找新奇刺激而分心。
+  - 双相障碍的活动增多是发作性的，伴情绪高涨；而ADHD症状持续。
+  - 物质使用障碍、人格障碍（如边缘型）也可有类似表现，需依靠起病年龄和长期模式区分。
+  must_warn: []
+- id: ADHD_COMORBIDITY
+  title: ADHD常见共病
+  source_page: 76
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 约一半混合型ADHD儿童共病对立违抗障碍，注意不集中为主者约1/4。
+  - 约1/4儿童/青少年共病品行障碍，成人可发展为反社会人格。
+  - 破坏性心境失调障碍：多数患者也符合ADHD标准，反之则较少。
+  - 焦虑、抑郁、强迫、间歇爆发障碍高于一般人群但发生率不高。
+  - 成人ADHD中物质使用障碍和某些人格障碍（如反社会）更常见。
+  - 常与其他神经发育障碍共病：学习障碍、自闭症、智力障碍、语言障碍、抽动障碍等。
+  - 睡眠障碍（失眠、睡眠呼吸暂停、不安腿综合征）常见，加重日间注意力困难。
+  - ADHD患者更易患有过敏、自身免疫性疾病和癫痫。
+  must_warn: []
+- id: ADHD_FUNCTIONAL
+  title: ADHD功能影响
+  source_page: 73
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 导致学业和职业表现差、教育水平低、工作稳定性差，失业率高。
+  - 同伴关系受损：被排斥、忽视或嘲笑，自尊心低。
+  - 意外伤害风险高：儿童和成人更多创伤和事故，驾驶违规和车祸更频繁。
+  - 总体死亡率升高，主要归因于事故和伤害。
+  - 易发展为物质滥用和犯罪行为，尤其在共病品行障碍时。
+  - 家庭关系紧张，常有冲突和负面互动。
+  must_warn: []
+- id: ADHD_SUICIDE
+  title: ADHD自杀与自伤风险
+  source_page: 73
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - ADHD是儿童自杀意念和行为的风险因素。
+  - 成人ADHD伴有心境、品行或物质使用障碍时，自杀企图风险升高。
+  - ADHD人群的自杀意念更常见，且可预测自杀意念的持续（如在美军士兵中）。
+  must_warn:
+  - ADHD增加儿童及成人（尤其共病其他障碍）的自杀意念和行为风险，需密切监测和评估。

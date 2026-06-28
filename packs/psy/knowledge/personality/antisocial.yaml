@@ -1,0 +1,75 @@
+specialty: personality
+specialty_zh: 人格障碍
+disease: antisocial
+disease_zh: 反社会型人格障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: ASPD_DEFINITION
+  title: 核心定义与特征
+  source_page: 748
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 反社会型人格障碍的核心是长期漠视并侵犯他人权利，始于童年或青春期早期并持续至成年。
+  - 常被称为精神病态（psychopathy）、社会病态（sociopathy）或非社交型人格障碍。
+  - 欺骗和操纵是该障碍的中心特征，诊断需结合临床评估和旁系信息。
+- id: ASPD_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准
+  source_page: 748
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需年满18岁，且15岁前有过品行障碍的证据。
+  - 自15岁起，表现出对他人权利的广泛漠视和侵犯，符合以下7项中至少3项：不遵守法律、欺骗、冲动、易怒攻击、罔顾安全、一贯不负责任、缺乏悔意。
+  - 反社会行为不能仅出现在精神分裂症或双相障碍发作期间。
+- id: ASPD_PREVALENCE
+  title: 患病率
+  source_page: 750
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国全国共病调查复制版（NCS-R）估计患病率为0.6%，全国酒精及相关流行病学调查（NESARC）为3.6%。
+  - 七项流行病学研究中位数患病率为3.6%。
+  - 在严重酒精使用障碍男性样本及监狱等法医场所中，患病率最高（超过70%）。
+- id: ASPD_COURSE
+  title: 起病与病程
+  source_page: 750
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 反社会型人格障碍呈慢性病程，但随年龄增长（通常在40岁后）可能减轻或缓解，犯罪行为改善明显。
+  - 按定义，在18岁之前不能诊断该障碍（诊断需先有15岁前品行障碍）。
+- id: ASPD_RISK_PROGNOSTIC
+  title: 风险与预后因素
+  source_page: 751
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 童年被虐待或被忽视、养育方式不稳定或异常、以及纪律不一致，可能增加品行障碍发展为反社会型人格障碍的可能性。
+  - 该障碍患者的一级生物学亲属比普通人群更易患病，男性亲属更多出现反社会型和物质使用障碍，女性更多出现躯体化障碍。
+- id: ASPD_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 752
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与物质使用障碍导致的成人反社会行为区分：若反社会行为在童年已存在并持续，则可同时诊断。
+  - 若反社会行为仅出现在精神分裂症或双相障碍发作期间，则不诊断为反社会型人格障碍。
+  - 与自恋型人格障碍：后者缺乏冲动、攻击和欺骗；与表演型、边缘型相比，反社会型更多以谋取利益为目的，而非情感需求；需与单纯犯罪行为（无相关人格特征）区分。
+- id: ASPD_COMORBIDITY
+  title: 常见共病
+  source_page: 752
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常伴有烦躁（紧张、无法忍受无聊、抑郁情绪），以及焦虑障碍、抑郁障碍、物质使用障碍。
+  - 与躯体化障碍（DSM-5中改为躯体症状障碍）有家族共病风险。
+- id: ASPD_SUICIDE_RISK
+  title: 自杀/自伤风险与安全
+  source_page: 750
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 反社会型人格障碍患者比普通人群更易因自然原因和自杀而过早死亡。
+  must_warn:
+  - 反社会型人格障碍患者的自杀风险高于普通人群，临床评估需警惕并采取安全措施。

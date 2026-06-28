@@ -1,0 +1,125 @@
+specialty: neurocognitive
+specialty_zh: 神经认知障碍
+disease: delirium
+disease_zh: 谵妄
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: CORE_FEATURES
+  title: 谵妄的核心特征
+  source_page: 676
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 谵妄是一种急性意识障碍，核心是注意力受损和环境意识降低。
+  - 伴随记忆、定向、语言、视空间或感知等方面的认知改变，且不能用已有的神经认知障碍更好解释。
+  - 症状在数小时至数天内出现，且严重程度在一天内常有波动。
+  must_warn: []
+- id: DIAGNOSTIC_CRITERIA
+  title: 诊断标准
+  source_page: 672
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A. 注意力障碍（指向、聚焦、维持、转移能力下降）伴环境意识降低。
+  - B. 短时间发生（数小时至数天），从基线变化，一天内波动。
+  - C. 额外的认知障碍（记忆、定向、语言、视空间或感知）。
+  - D. 不能由其他已有或进展中的神经认知障碍解释，且不在昏迷时发生。
+  - E. 病史、体检或实验室证据表明是其他疾病、物质中毒/戒断、药物或毒素的直接生理后果。
+  must_warn: []
+- id: SUBTYPES
+  title: 亚型分类
+  source_page: 673
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 按病程分急性（数小时至数天）和持续性（数周至数月）。
+  - 按活动水平分高活动型（躁动、情绪不稳）、低活动型（迟钝、嗜睡）和混合型。
+  - 按病因分物质中毒性、物质戒断性、药物诱发、其他医疗条件所致及多病因性谵妄。
+  must_warn: []
+- id: PREVALENCE
+  title: 患病率
+  source_page: 677
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 社区总体患病率低（1%-2%），但住院老年患者中很高（入院时18%-35%，住院期间29%-64%）。
+  - 术后老年人中11%-51%，ICU中高达81%，临终患者中高达88%。
+  - 养老院或急症后护理机构中20%-22%。
+  must_warn: []
+- id: DEVELOPMENT_COURSE
+  title: 起病与病程
+  source_page: 677
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 大多数患者可完全恢复，尤其是非老年人；但可能进展为昏迷、癫痫或死亡，尤其未治疗时。
+  - 谵妄可能伴随长期认知下降或主要神经认知障碍，尤其在已有认知损害者中。
+  - 住院谵妄患者1年内死亡率高达38%-41%，尤其合并恶性肿瘤等严重疾病时。
+  must_warn: []
+- id: RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 678
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 危险因素包括高龄、功能损害、已有认知障碍、感觉障碍、疾病严重度、感染、抑郁、中风史、酒精滥用史。
+  - 主要和轻度神经认知障碍增加风险并复杂化病程。
+  - 男性是风险因素，且谵妄表现有性别差异。
+  must_warn: []
+- id: SEX_GENDER_ISSUES
+  title: 性别差异
+  source_page: 678
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 男性更多表现为运动激动和情感不稳，女性更多表现出低活动型谵妄。
+  - 男性是谵妄的风险因素，但性别因素可与其他风险因素相互作用。
+  must_warn: []
+- id: DIAGNOSTIC_MARKERS
+  title: 诊断标志物
+  source_page: 678
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 脑电图常显示普遍不规则θ慢波，偶有快活动（如酒精戒断谵妄）。
+  - 脑电图不能可靠检测慢波（缺乏基线对照时），除非异常显著。
+  must_warn: []
+- id: FUNCTIONAL_CONSEQUENCES
+  title: 功能后果
+  source_page: 679
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 谵妄本身与功能下降和入住机构风险增加相关。
+  - 65岁及以上住院患者谵妄后不良结局风险高，包括死亡、入住机构和痴呆。
+  must_warn: []
+- id: DIFFERENTIAL_MAJOR_NCD
+  title: 与主要NCD的鉴别
+  source_page: 679
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 谵妄需与主要神经认知障碍（如阿尔茨海默病）区分，依据起病急缓、短暂病程和波动性。
+  - 谵妄常叠加于已有NCD之上，此时应优先处理谵妄。
+  - 已有的NCD可能使谵妄诊断更困难。
+  must_warn: []
+- id: DIFFERENTIAL_OTHER
+  title: 与其他障碍的鉴别
+  source_page: 679
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 谵妄需与短暂精神病性障碍、精神分裂症、躁狂或抑郁伴精神病性特征等区分，因有幻觉、妄想、激越。
+  - 与急性应激障碍区分，谵妄伴有恐惧、焦虑和分离症状。
+  - 与诈病和做作性障碍区分，谵妄有明确医学病因而后者缺乏。
+  must_warn: []
+- id: COMORBIDITY
+  title: 常见共病
+  source_page: 676
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 谵妄常发生于已有神经认知障碍（NCD）的背景下，包括轻度NCD和主要NCD。
+  - 已有NCD增加谵妄风险，谵妄也可能导致或加速认知下降。
+  - 当谵妄和主要NCD共病时，应优先处理谵妄。
+  must_warn: []

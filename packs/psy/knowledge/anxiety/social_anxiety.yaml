@@ -1,0 +1,89 @@
+specialty: anxiety
+specialty_zh: 焦虑障碍
+disease: social_anxiety
+disease_zh: 社交焦虑障碍（社交恐惧症）
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: SAD_DEFINITION
+  title: 核心特征
+  source_page: 230
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 社交焦虑障碍的核心是对社交情境的强烈恐惧或焦虑，担心被他人审视和负面评价。
+  - 个体害怕自己的行为或焦虑症状（如脸红、颤抖）会导致羞辱、拒绝或冒犯他人。
+  - 儿童必须发生在同伴环境中，不仅仅是与成人互动。
+  must_warn: []
+- id: SAD_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准
+  source_page: 230
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 对一种或多种社交情境有显著恐惧或焦虑，担心被负面评价。
+  - 几乎总是引发恐惧，导致回避或忍受极度痛苦，持续至少6个月。
+  - 恐惧与实际情况不成比例，不是由物质或其他精神障碍所致。
+  - （仅表演型）恐惧仅限于公开演讲或表演。
+  must_warn: []
+- id: SAD_PREVALENCE
+  title: 患病率
+  source_page: 232
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国12个月患病率约7%，世界其他地区约0.5%-2.0%，欧洲中位数2.3%。
+  - 女性患病率高于男性，男女比约1.5-2.2。
+  - 青少年患病率约为成人一半，65岁后降低。
+  must_warn: []
+- id: SAD_DEVELOPMENT_COURSE
+  title: 起病与病程
+  source_page: 232
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 中位发病年龄13岁，75%在8-15岁之间发病。
+  - 常始于儿童期的社交抑制或害羞，可由应激或羞辱事件诱发。
+  - 病程多样，部分个体症状可随婚姻等生活变化减轻，临床患者长期持续。
+  must_warn: []
+- id: SAD_RISK_PROGNOSTIC_FACTORS
+  title: 风险与预后因素
+  source_page: 233
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 气质因素包括行为抑制、害怕负面评价、低外向性高神经质。
+  - 环境因素如同伴欺负、儿童虐待和逆境增加风险。
+  - 遗传因素重要，一级亲属患病风险高2-6倍。
+  must_warn: []
+- id: SAD_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断
+  source_page: 234
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与正常害羞不同，当造成显著功能损害且符合诊断标准时才诊断。
+  - 广场恐怖害怕因难以逃脱而焦虑，社交焦虑害怕负面评价。
+  - 广泛性焦虑担心关系质量，社交焦虑担心具体社交表现。
+  - 区分其他障碍如惊恐障碍（社交情境诱发）、躯体变形障碍（外貌担忧）等。
+  must_warn: []
+- id: SAD_COMORBIDITY
+  title: 常见共病
+  source_page: 235
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常共病其他焦虑障碍、重性抑郁障碍、物质使用障碍。
+  - 共病躯体变形障碍、回避型人格障碍（尤其广泛型）。
+  - 社交焦虑障碍通常先于其他共病出现。
+  must_warn: []
+- id: SAD_SUICIDE_RISK
+  title: 自杀风险与安全
+  source_page: 233
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国研究显示，拉丁裔青少年社交焦虑障碍增加主动自杀想法和尝试风险。
+  - 此风险独立于重性抑郁和家庭收入。
+  - 需警惕社交焦虑障碍患者的自杀风险。
+  must_warn:
+  - 在拉丁裔青少年中，社交焦虑障碍增加主动自杀想法和自杀尝试的风险，即便在没有抑郁症或低收入的情况下。临床评估应关注自杀安全。

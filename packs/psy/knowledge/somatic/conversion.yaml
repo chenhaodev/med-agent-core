@@ -1,0 +1,117 @@
+specialty: somatic
+specialty_zh: 躯体症状及相关障碍
+disease: conversion
+disease_zh: 转换障碍（功能性神经症状障碍）
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: CONV_DEFINITION
+  title: 转换障碍的核心定义
+  source_page: 361
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 以自主运动或感觉功能症状为特征，症状与已知神经疾病不符，不是故意假装。
+  - 症状包括无力、异常运动、感觉改变、发作性反应丧失等。
+  must_warn: []
+- id: CONV_CRITERIA
+  title: 主要诊断标准要点
+  source_page: 361
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A. 有至少一种自主运动或感觉功能改变的症状。
+  - B. 临床检查证明症状与已知神经或躯体疾病不兼容。
+  - C. 症状不能被其他疾病更好地解释。
+  - D. 症状导致显著痛苦或社交、职业等功能损害，或需要医学评估。
+  must_warn: []
+- id: CONV_SYMPTOM_TYPES
+  title: 症状类型与表现
+  source_page: 362
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 运动症状：无力或瘫痪、异常运动（震颤、肌张力障碍）、步态异常。
+  - 感觉症状：皮肤感觉减退或消失、视力或听力障碍。
+  - 发作样症状：类似癫痫或晕厥的发作，可伴或不伴肢体运动。
+  - 其他：吞咽困难、言语障碍、喉部异物感、复视等。
+  must_warn: []
+- id: CONV_PREVALENCE
+  title: 患病率与发生率
+  source_page: 363
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 短暂功能性神经症状常见，确切患病率未知。
+  - 持续功能性症状年发生率估计为4-12/10万。
+  - 神经科门诊中约5%-15%的患者符合诊断。
+  must_warn: []
+- id: CONV_COURSE
+  title: 起病与病程特点
+  source_page: 363
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可发生于任何年龄，非癫痫发作高峰在20-29岁，运动症状高峰在30-39岁。
+  - 症状可为短暂或持续，儿童预后可能好于青少年和成人。
+  - 病程受适应不良人格、共病躯体疾病、获得残疾补助等因素影响。
+  must_warn: []
+- id: CONV_RISK_PROGNOSIS
+  title: 风险与预后因素
+  source_page: 363
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 风险因素：适应不良人格（尤其情绪不稳定）、童年虐待、应激事件、并存神经疾病。
+  - 积极预后因素：症状持续时间短、患者接受诊断。
+  - 消极预后因素：适应不良人格、共病躯体疾病、领取残疾津贴。
+  must_warn: []
+- id: CONV_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 364
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 首要与已知神经疾病鉴别，后者通常能更好解释症状。
+  - 与躯体症状障碍的区别：后者不要求症状与疾病不兼容。
+  - 与做作性障碍/诈病区别：转换障碍症状是真实的、非故意伪造。
+  - 与分离障碍、躯体变形障碍等鉴别。
+  must_warn: []
+- id: CONV_COMORBID
+  title: 常见共病障碍
+  source_page: 362
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常共病其他功能性躯体症状（如疼痛、疲劳）和分离症状。
+  - 可同时罹患分离障碍（人格解体、现实解体、分离性遗忘）。
+  - 约五分之一功能性非癫痫发作患者同时患有癫痫。
+  must_warn: []
+- id: CONV_SUICIDE_RISK
+  title: 自杀念头与行为风险
+  source_page: 364
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 队列研究显示转换障碍患者自杀念头和尝试显著较高。
+  - 神经科门诊的功能性症状患者自杀念头高于已知神经疾病患者。
+  - 有自杀尝试史的患者更常伴有酒精高风险使用、童年虐待和分离症状严重。
+  must_warn:
+  - 评估所有转换障碍患者的自杀风险，尤其有酒精滥用、童年虐待或严重分离症状者。
+  - 出现自杀念头或行为时需立即寻求精神卫生专业人员帮助。
+- id: CONV_GENDER
+  title: 性别与相关差异
+  source_page: 364
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 女性患病率是男性的2-3倍（多数症状类型）。
+  - 男性患者认知损害和无力症状更常见，女性过去性创伤和身体创伤更多。
+  must_warn: []
+- id: CONV_FUNCTIONAL_IMPACT
+  title: 功能损害与后果
+  source_page: 364
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可能导致显著的身体残疾，残疾程度与相似已知疾病相当。
+  must_warn: []

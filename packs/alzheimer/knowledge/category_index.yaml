@@ -1,0 +1,31 @@
+# category_index.yaml — keyword → domain routing table for the alzheimer pack.
+# Extracted verbatim from med-agent-ad/bin/router.sh (KEYWORDS_* tables) so the
+# generic engine/router.sh can drive routing from data instead of hardcoded bash.
+# Engine semantics (must match old router.sh): test each domain's `patterns` as a
+# grep -E alternation against the question; keep matched domains in list order,
+# cap at 2; if none match use `fallback` (or llm_fallback when enabled).
+# `desc` feeds the zero-shot LLM-fallback classifier prompt (parity with old router).
+fallback: cognitive
+max_domains: 2
+domains:
+  - domain: prevention
+    desc: 预防/危险因素
+    patterns: "预防|风险|危险因素|高血压|糖尿病|血压|血脂|LDL|胆固醇|听力|助听器|视力|白内障|抑郁|脑外伤|同型半胱氨酸|APOE|遗传|家族|教育程度|睡眠时间|吸烟|戒烟|饮酒|肥胖|BMI|社交|孤立|空气污染|PM2\\.5|降低风险|风险分级"
+  - domain: pharma
+    desc: 药物治疗
+    patterns: "药物|用药|吃药|开药|处方|副作用|不良反应|停药|换药|剂量|减量|加量|多奈哌齐|卡巴拉汀|美金刚|甘露特钠|GV-971|乙酰胆碱|胆碱酯酶|NMDA|Lecanemab|Donanemab|仑卡奈|多纳奈|中药|针灸|茯蓉益智|天智颗粒|天麻钩藤|补阳还五|黄连解毒|益智四项|智三针|中医|中成药|西药"
+  - domain: neuromodulation
+    desc: 无创神经调控
+    patterns: "磁刺激|rTMS|TMS|tDCS|tACS|经颅|神经调控|电刺激|磁疗|DLPFC|前额叶|运动阈值|Hz|频率刺激|无创|高频|低频|伽马|γ波"
+  - domain: cognitive
+    desc: 认知疗法
+    patterns: "认知训练|脑力训练|记忆训练|认知刺激|认知康复|计算机化|CCT|App训练|记忆游戏|数字训练|词语联想|词语接龙|脑力游戏|注意力训练|执行功能|认知功能训练|认知评估|MMSE|MoCA|认知活动|益智"
+  - domain: lifestyle
+    desc: 生活方式/运动/营养
+    patterns: "有氧运动|有氧|运动|快走|慢跑|游泳|骑车|跑步|球类|太极拳|太极|八段锦|瑜伽|力量训练|哑铃|弹力带|深蹲|力量运动|心身运动|锻炼|健身|体力活动|心率|营养|饮食|DHA|EPA|鱼油|ω-3|omega-3|维生素E|益生菌|地中海|MIND饮食|石榴|膳食|食物|吃什么|补充剂"
+  - domain: art_nature
+    desc: 艺术/自然/怀旧/VR
+    patterns: "音乐|唱歌|乐器|歌曲|舞蹈|跳舞|探戈|广场舞|美术|绘画|画画|着色|雕塑|手工|园艺|种植|植物|花园|浇水|动物|宠物|狗|猫|辅助动物|怀旧|回忆|老照片|相册|往事|回忆疗法|VR|虚拟现实|AR|增强现实|沉浸式"
+  - domain: sensory_care
+    desc: 感官/照护/BPSD
+    patterns: "芳香|精油|薰衣草|迷迭香|佛手柑|香薰|感官刺激|光照疗法|光疗|多感官|BPSD|发脾气|打人|攻击|激越|躁动|幻觉|妄想|游走|不认识人|晚期|重度|卧床|吞咽|呛咳|误吸|压疮|翻身|鼻饲|照护|护理|安宁|临终|睡不着|失眠|夜间游走|拒绝护理|精神症状"

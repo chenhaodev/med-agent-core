@@ -1,0 +1,104 @@
+specialty: schizophrenia
+specialty_zh: 精神分裂症谱系及其他精神病性障碍
+disease: delusional
+disease_zh: 妄想障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: DELUSIONAL_DISORDER_DEFINITION
+  title: 妄想的定义与核心特征
+  source_page: 105
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 妄想是一种错误且固定的信念，持续至少1个月。
+  - 除妄想本身的影响外，日常生活功能损伤较小，行为不怪异。
+  - 若有幻觉，必须与妄想主题相关且不突出。
+  must_warn: []
+- id: DELUSIONAL_DISORDER_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准
+  source_page: 105
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 至少一种妄想持续≥1个月（准则A）。
+  - 从未满足精神分裂症的准则A（即无其他典型精神病症状）（准则B）。
+  - 妄想外功能无明显缺陷，行为不怪异（准则C）。
+  - 若同时有躁狂或抑郁发作，其总时长远短于妄想期（准则D）。
+  - 妄想不是由物质、其他疾病或其他精神障碍（如躯体变形障碍、强迫症）引起（准则E）。
+  must_warn: []
+- id: SUBTYPES
+  title: 常见妄想类型
+  source_page: 105
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 情爱型：坚信他人（通常地位更高）爱上自己。
+  - 夸大型：坚信自己有不被认可的巨大才能、洞察或重要发现。
+  - 嫉妒型：坚信伴侣不忠，常收集“证据”并质问对方。
+  - 被害型：坚信被阴谋陷害、跟踪、下毒、骚扰等，可能采取法律或暴力行动。
+  - 躯体型：深信身体有异味、寄生虫感染或器官功能异常。
+  - 还有混合型和未特定型。
+  must_warn:
+  - 被害型或嫉妒型妄想者可能因愤怒而采取暴力行为。
+- id: SPECIFIERS_AND_COURSE
+  title: 病程标注与严重度
+  source_page: 106
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 病程需持续1年以上才能使用病程标注。
+  - 标注包括：首次发作（完全缓解/部分缓解/急性期）、多次发作（同上）、持续型（多数时间满足症状标准）。
+  - 严重度用0-4分量化精神病核心症状（妄想、幻觉、言语紊乱、行为异常、阴性症状）过去7天最重程度。
+  must_warn: []
+- id: PREVALENCE_AND_EPIDEMIOLOGY
+  title: 患病率与流行病学
+  source_page: 107
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 终生患病率约0.2%（芬兰样本），最常见被害型。
+  - 嫉妒型男性略多于女性，但整体发病率无显著性别差异。
+  - 内容在不同文化中有差异，评估时需考虑文化背景。
+  must_warn: []
+- id: DEVELOPMENT_AND_COURSE
+  title: 起病与病程发展
+  source_page: 107
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 整体功能优于精神分裂症，诊断相对稳定。
+  - 病程1-3个月的患者约1/3后来确诊为精神分裂症；超过6-12个月则诊断改变概率很低。
+  - 可在青年发病，但也常见于老年人。
+  must_warn: []
+- id: RISK_AND_PROGNOSIS
+  title: 风险与预后因素
+  source_page: 107
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与精神分裂症和分裂型人格障碍有显著家族遗传关联。
+  - 男性症状更重、功能预后更差。
+  - 妄想本身可导致婚姻、工作、社交问题，并引发愤怒、诉讼或暴力行为。
+  must_warn:
+  - 被害型、嫉妒型或情爱型妄想者可能出现暴力行为，需注意风险评估。
+- id: DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 108
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 若强迫症或躯体变形障碍患者完全坚信自己的信念是真实的，应诊断为该障碍伴缺乏自知力/妄想信念，而非妄想障碍。
+  - 与精神分裂症的区别：妄想障碍无精神分裂症的其他典型症状，且妄想更系统、坚信度更高、涉及更多生活领域。
+  - 与物质/药物所致精神病可凭时间关系（用药-发病-停药-缓解）区分。
+  - 若妄想仅在抑郁或躁狂发作时出现，应诊断为伴精神病性特征的抑郁或双相障碍。
+  must_warn: []
+- id: COMORBIDITY
+  title: 常见共病情况
+  source_page: 107
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 部分患者有明显抑郁症状，但认知损害和躁狂罕见。
+  - 可同时存在其他精神障碍，但原文献未列出具体共病率。
+  - 注意与物质使用障碍、躯体疾病所致精神病的鉴别。
+  must_warn: []

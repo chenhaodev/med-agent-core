@@ -1,0 +1,92 @@
+specialty: elimination
+specialty_zh: 排泄障碍
+disease: enuresis
+disease_zh: 遗尿症
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: ENURESIS_DEFINITION
+  title: 遗尿症核心定义
+  source_page: 400
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 遗尿症是指反复在不恰当的地方（如床上或衣服上）排尿，可以是不自主的，也可以是故意的。
+  - 诊断需达到一定频率：至少每周2次、持续3个月，或造成明显的社交、学业等功能损害。
+  - 患病儿童至少5岁（或相当的心理发育水平），且不是由药物或疾病直接引起。
+  must_warn: []
+- id: ENURESIS_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准
+  source_page: 400
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 反复在床上或衣物中排尿（不自主或故意）。
+  - 频率至少每周2次，持续至少3个月，或已引起明显痛苦或社交/学业等功能受损。
+  - 年龄至少5岁（或发育上达到同等水平）。
+  - 不是利尿剂、抗精神病药等物质，或糖尿病、脊柱裂等疾病导致的。
+  must_warn: []
+- id: ENURESIS_SUBTYPES
+  title: 亚型分类
+  source_page: 400
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 夜间型（仅有夜间睡眠时尿床）：最常见，也称单症状遗尿。
+  - 日间型（清醒时排尿）：又称尿失禁，可细分急迫性尿失禁和延迟排尿型。
+  - 夜间兼日间型：两者都有，也称非单症状遗尿。
+  must_warn: []
+- id: ENURESIS_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 401
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 5岁儿童夜间遗尿率约5%~10%，10岁约3%~5%，15岁以上约1%。
+  - 日间尿失禁在7岁儿童中约3.2%~9.0%，随年龄增长下降。
+  - 男孩和受社会压迫群体（如非裔美国儿童）患病率可能更高。
+  - 学习障碍或注意缺陷/多动障碍（ADHD）患者中遗尿症更常见。
+  must_warn: []
+- id: ENURESIS_DEVELOPMENT_AND_COURSE
+  title: 起病与病程
+  source_page: 401
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 原发性遗尿：从未建立膀胱控制，始于5岁。
+  - 继发性遗尿：已能控制小便后再次出现尿床，多在5~8岁之间发生，但也可在任何年龄出现。
+  - 5岁后自然缓解率每年5%~10%，大多数儿童到青春期能控制，约1%持续到成年。
+  - 日间遗尿多见于9岁前，之后罕见。
+  must_warn: []
+- id: ENURESIS_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 401
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 膀胱功能障碍的易感因素包括发育迟缓和神经精神问题。
+  - 如厕训练延迟和心理社会压力与膀胱功能障碍有关。
+  - 夜间遗尿与夜间产尿量、膀胱容量和觉醒能力的失衡有关，涉及中枢神经系统信号处理异常。
+  - 遗传性明显：母亲有遗尿史，孩子风险增加约3.6倍；父亲有尿失禁史，风险增加10.1倍。
+  - 遗尿儿童睡眠质量通常不佳，但觉醒阈值高。
+  must_warn: []
+- id: ENURESIS_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 402
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需排除神经源性膀胱、后尿道瓣膜、输尿管异位等结构异常。
+  - 需排除未治疗的糖尿病（多尿）或急性尿路感染。
+  - 抗精神病药、利尿剂等药物也可能引起尿失禁，若用药前无遗尿，则不应单独诊断遗尿症。
+  - 若其他疾病已治愈但遗尿仍存在，仍可诊断遗尿症。
+  must_warn: []
+- id: ENURESIS_COMORBIDITY
+  title: 常见共病
+  source_page: 401
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 遗尿症在注意缺陷/多动障碍（ADHD）和学习障碍的青少年中患病率更高。
+  - 持续到儿童后期的遗尿常伴有认知和行为问题等其他心理健康障碍。
+  - 日间尿失禁与共病精神健康问题（包括认知和行为问题）密切相关。
+  must_warn: []

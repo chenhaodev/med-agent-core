@@ -1,0 +1,82 @@
+specialty: feeding_eating
+specialty_zh: 喂食及进食障碍
+disease: arfid
+disease_zh: 回避/限制性摄食障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: ARFID_DEFINITION
+  title: 回避/限制性摄食障碍定义
+  source_page: 377
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 主要特征是回避或限制食物摄入，导致体重显著下降、营养缺乏、依赖肠内喂养或口服营养补充，或明显干扰心理社会功能。
+  - 回避可源于对食物感官特征（如颜色、气味、质地）的极度敏感，或对进食不良后果（如窒息、呕吐）的恐惧，或单纯缺乏进食兴趣。
+  must_warn: []
+- id: ARFID_CRITERIA
+  title: 主要诊断标准（简化）
+  source_page: 376
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 满足以下至少一项：①体重显著下降或儿童生长停滞；②明显营养缺乏；③依赖管饲或营养补充剂；④心理社会功能严重受损。
+  - 排除食物缺乏、文化习俗（如宗教斋戒）引起；且不能归于神经性厌食症或贪食症（对体重体型的过度担忧）。
+  - 症状不能由其他医学疾病或精神障碍直接解释；若共存，则进食问题的严重程度需超出常规并须额外关注。
+  must_warn: []
+- id: ARFID_PREVALENCE
+  title: 患病率/流行病学
+  source_page: 378
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 流行病学资料有限：澳大利亚一项研究显示15岁及以上人群中患病率为0.3%。
+  - 在儿童和青少年中比成人更常见，但具体患病率尚未充分确定。
+  must_warn: []
+- id: ARFID_COURSE
+  title: 起病与病程
+  source_page: 378
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 因缺乏进食兴趣或摄入不足导致的回避/限制多始于婴儿期或儿童早期，可持续至成年。
+  - 基于感官特征（如挑剔食物）的回避通常在第一十年出现，也可能持续到成年。
+  - 基于不良后果（如窒息、创伤）的回避可在任何年龄出现；长期结果文献稀少。
+  must_warn: []
+- id: ARFID_RISK_PROGNOSTIC
+  title: 风险与预后因素
+  source_page: 378
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 气质因素：焦虑障碍、自闭症谱系障碍、强迫症、注意缺陷/多动障碍可增加回避/限制性进食行为风险。
+  - 环境因素：家庭焦虑、母亲有进食障碍（孩子问题发生率更高）。
+  - 生理因素：胃肠疾病史（如胃食管反流、呕吐）与其他医学问题有关。
+  must_warn: []
+- id: ARFID_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 380
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与神经性厌食症区别：ARFID没有对体重增加的恐惧或体型感知扭曲。
+  - 与特定恐惧症区别：若进食问题成为临床主要关注点，应诊断ARFID而非恐惧症（如怕窒息）。
+  - 与社会焦虑障碍、强迫症、抑郁症、精神病性障碍等区分：仅当进食问题超出原发病常规并需单独干预时才同时诊断ARFID。
+  must_warn: []
+- id: ARFID_COMORBID
+  title: 常见共病
+  source_page: 378
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常共病焦虑障碍、自闭症谱系障碍、强迫症和注意缺陷/多动障碍。
+  - 母亲有进食障碍的家庭环境、以及儿童虐待或忽视也可能与ARFID有关。
+  must_warn: []
+- id: ARFID_FUNCTIONAL
+  title: 功能影响
+  source_page: 379
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可导致身体发育受损、心理社会困难，严重干扰家庭功能（如进餐时高度紧张、限制家庭食材）。
+  - 在婴幼儿中，营养不良可能危及生命并影响发育和学习潜能。
+  must_warn: []

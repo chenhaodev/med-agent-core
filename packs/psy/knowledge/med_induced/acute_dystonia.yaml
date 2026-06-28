@@ -1,0 +1,65 @@
+specialty: med_induced
+specialty_zh: 药物所致运动障碍及其他药物不良反应
+disease: acute_dystonia
+disease_zh: 药物所致急性肌张力障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: ACUTE_DYSTONIA_DEFINITION
+  title: 核心定义
+  source_page: 812
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 药物所致急性肌张力障碍是一种药物不良反应，表现为使用已知可引起该反应的药物后出现持续性肌肉异常收缩（肌张力增高）和不自主姿势。
+  - 任何阻断多巴胺D2受体的药物都可能诱发，最常见的是抗精神病药、止吐药和促动力药。
+  must_warn: []
+- id: ACUTE_DYSTONIA_SYMPTOMS
+  title: 主要症状表现
+  source_page: 813
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 症状轻重不一，可局灶、节段或全身，最常累及头颈部肌肉。
+  - 常见表现：口下颌肌张力障碍（伸舌、呲牙等）、眼肌危象（眼球强迫上翻/侧转）、眼睑痉挛、颈部肌张力障碍（歪头/转头）、肢体肌张力障碍、Pisa综合征（躯干侧弯）、角弓反张。
+  - 急性喉肌张力障碍可致气道阻塞，表现为喉部紧束感、喘鸣、呼吸困难，属急症。
+  must_warn:
+  - 急性喉肌张力障碍可危及生命，出现呼吸困难、喘鸣时需立即就医。
+- id: ACUTE_DYSTONIA_DIAGNOSIS
+  title: 诊断要点
+  source_page: 813
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 至少50%的患者在开始使用或快速增加药物剂量后24–48小时内出现症状，约90%在5天内出现。
+  - 症状不能用精神障碍（如紧张症）或原发性神经系统疾病及其他躯体疾病解释，也不是迟发性运动障碍。
+  must_warn: []
+- id: ACUTE_DYSTONIA_RISK
+  title: 风险因素
+  source_page: 813
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 儿童和40岁以下成人风险更高，男性多于女性。
+  - 既往对抗精神病药或其他D2受体阻断药发生过急性肌张力障碍反应。
+  - 使用高效价典型抗精神病药（如氟哌啶醇）增加风险。
+  must_warn: []
+- id: ACUTE_DYSTONIA_DIFFERENTIAL
+  title: 鉴别诊断
+  source_page: 813
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与原发性神经系统疾病导致的肌张力障碍区分，后者在用药前即存在或用药不变时进展。
+  - 特发性局灶/节段性肌张力障碍通常持续数天至数周，与用药无关，可能有家族史。
+  - 还需与迟发性肌张力障碍（长期用药后出现）鉴别。
+  must_warn: []
+- id: ACUTE_DYSTONIA_IMPACT
+  title: 情绪与影响
+  source_page: 813
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 急性肌张力障碍常伴随恐惧、焦虑，因患者无法控制动作，可能出现呼吸、说话、吞咽困难。
+  - 部分患者感到疼痛或痉挛，若不知此反应可能性，会加重痛苦，增加后续不依从治疗的风险。
+  - 有精神病的患者可能被误判为精神病症状，导致错误地增加致病药物剂量。
+  must_warn: []

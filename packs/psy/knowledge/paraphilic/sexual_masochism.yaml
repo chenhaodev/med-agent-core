@@ -1,0 +1,86 @@
+specialty: paraphilic
+specialty_zh: 性欲倒错障碍
+disease: sexual_masochism
+disease_zh: 性受虐障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: SEXMAS_CORE
+  title: 核心特征
+  source_page: 788
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 性受虐障碍的核心是对被羞辱、殴打、捆绑等受苦行为有反复而强烈的性唤起，表现为幻想、冲动或行为。
+  - 与性施虐障碍常合并出现，并可能涉及BDSM（捆绑-支配-施虐-受虐）实践。
+  - 如果个体对此类性兴趣没有痛苦或功能损害，则为性受虐偏好而非障碍。
+  must_warn: []
+- id: SEXMAS_CRITERIA
+  title: 诊断标准
+  source_page: 788
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 准则A：至少6个月内，反复且强烈地从被羞辱、殴打、捆绑等受苦行为中产生性唤起，表现为幻想、冲动或行为。
+  - 准则B：这些幻想、冲动或行为引起临床显著的痛苦，或导致社交、职业等重要功能损害。
+  - 标注：若涉及限制呼吸的窒息性癖（asphyxiophilia），需特别注明；另有“在控制环境中”和“完全缓解”等标注。
+  must_warn: []
+- id: SEXMAS_PREVALENCE
+  title: 患病率
+  source_page: 789
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 完全符合性受虐障碍诊断标准的群体患病率未知。
+  - 澳大利亚研究显示，过去12个月内2.2%男性和1.3%女性参与过BDSM行为，但不一定达到障碍标准。
+  must_warn: []
+- id: SEXMAS_COURSE
+  title: 起病与病程
+  source_page: 789
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 社区中报告的平均起病年龄为19.3岁，但也可能在青春期甚至童年就出现受虐幻想。
+  - 病程的持续性了解很少；主观痛苦或功能损害可能随时间变化。
+  - 与一般性偏好相似，年龄增长可能与受虐偏好和行为强度下降有关。
+  must_warn: []
+- id: SEXMAS_RISKS
+  title: 风险与预后因素
+  source_page: 789
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 相关特征包括大量使用受虐色情材料；对疼痛可能低敏感，但这一发现是否适用于障碍尚不确定。
+  - 常假设有童年性虐待史，但证据不足，不能确认因果关系。
+  - 参与窒息性癖或其他自慰危险行为时有意外死亡风险，这是重要的安全隐患。
+  must_warn:
+  - 参与窒息性癖等自慰危险行为可能导致意外死亡。
+- id: SEXMAS_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 790
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 关键区分：若受虐幻想、冲动或行为未引起临床显著痛苦或功能损害，则不诊断为障碍。
+  - 需与自愿、非痛苦的BDSM活动区分，后者不伴有功能障碍或困扰。
+  - 宗教或文化仪式中的自我伤害行为（如钩悬、自鞭）若为集体接受且不用于性唤起，则不应归为性受虐。
+  must_warn: []
+- id: SEXMAS_COMORBIDITY
+  title: 常见共病
+  source_page: 790
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常与其他性欲倒错障碍共病，特别是异装症（transvestic fetishism）。
+  - 小样本研究提示性受虐障碍可能与边缘型人格障碍有关联。
+  - 共病数据主要来自治疗中的个体，在普通人群中可能有所不同。
+  must_warn: []
+- id: SEXMAS_SUICIDE
+  title: 自杀与自伤风险
+  source_page: 789
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与自杀意念或行为的直接关联未知，但一项BDSM参与者的研究发现与耻辱感相关的羞愧和内疚与自杀意念相关。
+  - 在窒息性癖或自慰行为中因意外导致死亡，是严重安全隐患。
+  must_warn:
+  - BDSM参与者中，与耻辱感相关的羞愧和内疚与自杀意念有关联；窒息性癖可致意外死亡。

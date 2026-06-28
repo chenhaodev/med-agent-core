@@ -1,0 +1,87 @@
+specialty: sleep_wake
+specialty_zh: 睡眠-觉醒障碍
+disease: osa
+disease_zh: 阻塞性睡眠呼吸暂停低通气
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: OSAH_DEFINITION
+  title: 核心特征与定义
+  source_page: 430
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 睡眠中反复发生上气道（咽部）阻塞，导致呼吸暂停（气流完全停止）或低通气（气流减少），每次持续至少10秒。
+  - 典型症状包括响亮的打鼾和白天过度嗜睡，常伴有夜间喘息、窒息感或呼吸中断。
+  - 多数患者未被诊断，需注意打鼾合并呼吸暂停等线索。
+  must_warn: []
+- id: OSAH_DIAGNOSTIC_CRITERIA
+  title: 诊断标准与严重度分级
+  source_page: 429
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 诊断需多导睡眠监测（PSG）或家庭睡眠测试：每小时≥5次阻塞性呼吸事件，并伴有夜间呼吸紊乱症状（打鼾、喘息、呼吸暂停）或白天嗜睡/疲劳；或每小时≥15次事件（无论有无症状）。
+  - 严重程度分级：轻度AHI<15；中度AHI 15-30；重度AHI>30。
+  - 儿童诊断标准不同：每小时≥1次阻塞性事件或阻塞性低通气，并伴有打鼾或气流受限证据。
+  must_warn: []
+- id: OSAH_PREVALENCE
+  title: 患病率
+  source_page: 431
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 非常常见，男性多于女性（比例2:1~4:1）。美国约13%男性、6%女性每小时≥15次事件；14%男、5%女有≥5次事件+嗜睡症状。
+  - 儿童患病率1%-4%，无性别差异；肥胖儿童比例更高。
+  - 非洲裔美国人患病率高于非拉丁裔白人，与肥胖及健康社会决定因素差异有关。
+  must_warn: []
+- id: OSAH_DEVELOPMENT_COURSE
+  title: 起病与病程
+  source_page: 432
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 隐匿起病，缓慢进展，病程持续。通常40-60岁出现明显症状，但可发生于任何年龄。
+  - 年龄分布呈多个高峰：3-8岁（扁桃体肥大）、青少年（肥胖）、中年（肥胖+绝经）。
+  - 体重增加会加重症状，体重减轻（尤其减重术后）可能自发缓解。AHI平均每年增加约2次/小时。
+  must_warn: []
+- id: OSAH_RISK_PROGNOSTIC
+  title: 风险与预后因素
+  source_page: 432
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 主要风险：肥胖（尤其中心性肥胖）和男性性别。
+  - 其他风险：下颌后缩或小颌、睡眠呼吸暂停家族史、遗传综合征（如唐氏综合征）、扁桃体肥大（儿童）、绝经、内分泌疾病（如肢端肥大症）。
+  - 遗传因素显著，一级亲属患病风险约为普通人的2倍；镇静类药物可能加重症状。
+  must_warn: []
+- id: OSAH_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 434
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与单纯性打鼾（无明显呼吸事件或昼间症状）区分；确诊依赖于多导睡眠监测。
+  - 可与发作性睡病（无猝倒、幻觉、睡眠瘫痪，但有响亮打鼾）、中枢性睡眠呼吸暂停（呼吸努力消失）、失眠障碍、夜间惊恐发作、夜间哮喘、儿童ADHD等混淆。
+  - PSG或家庭睡眠测试可明确区分，有时多种睡眠障碍可共存。
+  must_warn: []
+- id: OSAH_COMORBIDITY
+  title: 常见共病
+  source_page: 435
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与系统性高血压、冠心病、心力衰竭、卒中、糖尿病及死亡率增加显著相关，中重度患者风险升高30%-300%。
+  - 约1/3转诊患者报告抑郁症状，其中10%达到中重度抑郁程度；治疗OSA可降低心血管疾病的病死率。
+  - 还可能与肺心病、心律失常（房颤等）、认知功能下降等相关。
+  must_warn: []
+- id: OSAH_FUNCTIONAL_SAFETY
+  title: 功能后果与安全警示
+  source_page: 433
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 超过50%的中重度患者有显著白天嗜睡，导致职业事故风险增加2倍，机动车碰撞风险最高增加7倍。
+  - 生活质量（尤其活力维度）显著下降，影响身体健康及社交功能。
+  - 临床医生应了解州政府对商业驾驶员的报告要求。
+  must_warn:
+  - 中重度阻塞性睡眠呼吸暂停低通气导致白天嗜睡，显著增加职业事故和机动车碰撞风险，需评估驾驶安全并遵守当地报告法规。

@@ -1,0 +1,100 @@
+specialty: somatic
+specialty_zh: 躯体症状及相关障碍
+disease: somatic_symptom
+disease_zh: 躯体症状障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: SSD_FEATURES
+  title: 躯体症状障碍核心特征
+  source_page: 352
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 至少一个躯体症状导致显著痛苦或干扰日常生活。
+  - 对症状或健康有过度的想法、焦虑或耗费过多精力。
+  - 症状不一定有医学解释，但患者的痛苦是真实的。
+  - 可共病其他躯体疾病，诊断不互斥。
+  - 患者常高度担忧疾病，反复就医却难以缓解。
+  must_warn: []
+- id: SSD_CRITERIA
+  title: 诊断标准（DSM-5）
+  source_page: 352
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准A：一个或多个令人痛苦或打乱日常生活的躯体症状。
+  - 标准B：至少以下一项过度表现——对症状严重性的持续夸大想法、持续高健康焦虑、投入过多时间和精力。
+  - 标准C：有症状状态持续（通常超过6个月）。
+  - 可标注以疼痛为主、持续型（严重且超6个月），以及轻度/中度/重度。
+  must_warn: []
+- id: SSD_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 353
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 普通成人患病率约4%–6%。
+  - 基层医疗患者中一年患病率约10%–20%。
+  - 在精神心身或功能障碍专科中可高达40%–60%。
+  - 女性比男性更常报告躯体症状，患病率可能更高。
+  must_warn: []
+- id: SSD_COURSE
+  title: 起病与病程
+  source_page: 354
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 病程通常为慢性波动，受症状数量、年龄、损害程度和共病影响。
+  - 儿童以反复腹痛、头痛、疲劳、恶心为常见。
+  - 老年人疼痛最为常见，多部位疼痛多见。
+  - 65岁后患病率可能下降，但易被低估。
+  - 发病年龄不影响未经治疗的病程长度。
+  must_warn: []
+- id: SSD_RISK
+  title: 风险与预后因素
+  source_page: 354
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 消极情感（神经质）是独立风险因素。
+  - 低教育、低社会经济地位、近期应激事件增加风险。
+  - 儿童期性虐待等早期逆境是成人患病风险因素。
+  - 共病焦虑或抑郁会加重症状和功能损害。
+  - 认知因素如对疼痛敏感化、过度关注躯体感觉也影响病程。
+  must_warn: []
+- id: SSD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 356
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 惊恐障碍：症状发作呈急性，而本障碍焦虑更持续。
+  - 广泛性焦虑障碍：担心多个方面，不限于健康。
+  - 抑郁障碍：必须有抑郁情绪或兴趣减退。
+  - 疾病焦虑障碍：担心健康但几乎无躯体症状。
+  - 功能性神经症状障碍：表现为功能丧失（如瘫痪），而非痛苦。
+  must_warn: []
+- id: SSD_COMORBID
+  title: 常见共病
+  source_page: 357
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 焦虑和抑郁障碍最常见，各占约50%病例。
+  - 创伤后应激障碍和强迫症也可共病。
+  - 男性患者中可能与性功能障碍相关。
+  - 共病躯体疾病时功能障碍更严重。
+  - 躯体化会恶化原发躯体疾病和治疗结局。
+  must_warn: []
+- id: SSD_SUICIDE
+  title: 自杀风险与安全
+  source_page: 356
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 躯体症状障碍与自杀想法和自杀尝试相关。
+  - 部分风险可由共病的抑郁障碍解释。
+  - 对疾病的歪曲认知和症状严重度也与自杀意念独立相关。
+  must_warn:
+  - 躯体症状障碍患者自杀风险增高，需警惕抑郁共病及自杀迹象。
+  - 若有自杀意念或行为，应立即寻求精神科急诊帮助。

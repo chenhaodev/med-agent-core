@@ -1,0 +1,89 @@
+specialty: disruptive
+specialty_zh: 破坏性、冲动控制及品行障碍
+disease: kleptomania
+disease_zh: 偷窃癖
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: KLEP_DEFINITION
+  title: 核心特征与定义
+  source_page: 540
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 偷窃癖的核心特征是反复无法抵抗偷窃冲动，偷窃的物品既非个人所需也无经济价值。
+  - 偷窃前会有逐渐增强的紧张感，偷窃时感到愉快、满足或解脱。
+  - 偷窃不是出于愤怒、报复、妄想或幻觉，也不能用品行障碍、躁狂发作或反社会人格障碍解释。
+  must_warn: []
+- id: KLEP_CRITERIA
+  title: DSM-5诊断标准
+  source_page: 540
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 必须满足A到E共5条标准：反复偷窃无用之物、偷窃前紧张、偷窃时满足、非复仇或精神病性、非其他障碍解释。
+  - 物品通常价值不高，患者往往买得起，偷来后常常丢弃或藏匿。
+  - 患者通常不预谋盗窃，且单独行动，但会避免在极易被捕时行窃。
+  must_warn: []
+- id: KLEP_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 541
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 在美国和加拿大，因商店行窃被捕者中有4%-24%患有偷窃癖。
+  - 普通人群患病率很低，约0.3%-0.6%，女性患者约是男性的3倍。
+  must_warn: []
+- id: KLEP_DEVELOPMENT
+  title: 起病与病程
+  source_page: 541
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常在青少年期起病，但也可见于童年、成年及罕见的老年期。
+  - 病程有三种典型模式：零星发作（短暂偷窃期后长期缓解）、间歇发作（偷窃期与缓解期交替）、慢性波动。
+  - 即使多次被判有罪，偷窃行为仍可能持续多年。
+  must_warn: []
+- id: KLEP_RISK
+  title: 风险与预后因素
+  source_page: 541
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 偷窃癖患者的一级亲属中出现酒精使用障碍的比率高于一般人群。
+  must_warn: []
+- id: KLEP_SUICIDE
+  title: 自杀尝试风险
+  source_page: 541
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 偷窃癖与自杀尝试风险增加有关，需高度警惕。
+  must_warn:
+  - 偷窃癖患者自杀尝试风险增加，若出现自伤念头或行为应立即寻求专业帮助。
+- id: KLEP_FUNCTIONAL
+  title: 功能影响
+  source_page: 541
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 偷窃癖可导致法律纠纷、家庭矛盾、职业发展受阻以及个人生活困难。
+  must_warn: []
+- id: KLEP_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 541
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与普通偷窃（以获取经济价值或实用为目的）、诈病（为逃避法律惩罚）区别。
+  - 与反社会人格障碍、品行障碍的区别在于后者有广泛的反社会行为模式。
+  - 排除躁狂发作、精神病性障碍（如妄想或幻觉驱使）或重度神经认知障碍导致的偷窃。
+  must_warn: []
+- id: KLEP_COMORBID
+  title: 常见共病
+  source_page: 541
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常与强迫性购物、抑郁和双相障碍、焦虑障碍、进食障碍（尤其贪食症）共病。
+  - 也常合并物质使用障碍（尤其是酒精使用障碍）、人格障碍及其他冲动控制障碍。
+  must_warn: []

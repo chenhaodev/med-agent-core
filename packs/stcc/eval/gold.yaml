@@ -1,0 +1,1541 @@
+# gold.yaml — STCC 分诊助手 in-scope 金标评估集（114 题）
+# 覆盖 18 类别 × A/B/C/D 各严重等级
+#
+# 字段说明：
+#   id:               题目 ID
+#   question:         自然语言提问（模拟来电者描述）
+#   expected_severity: A / B / C / D
+#   expected_category: router 应路由到的主类别
+#   expected_must_ask: 模型应追问的关键问题（list，可为空）
+#   must_warn:        必须包含的安全警示（list，支持 / 表示 OR）
+#   source_files:     参考的 STCC 文件（list）
+#   must_not:         回答中绝对不能出现的内容（list）
+
+questions:
+  # ─── A 级（立即呼救 / 拨打120）──────────────────────────
+
+  - id: A_CH01
+    question: "胸口持续疼痛半小时，放射到左臂，冒冷汗，呼吸有点困难"
+    expected_severity: A
+    expected_category: chest_and_heart
+    expected_must_ask: []
+    must_warn:
+      - "120/急诊"
+      - "立即"
+    source_files:
+      - STCC/Chest_Pain.md
+    must_not:
+      - "回家休息"
+      - "观察一下"
+      - "明天再看"
+
+  - id: A_RE01
+    question: "我呼吸非常困难，嘴唇有点发紫，坐起来才能喘气"
+    expected_severity: A
+    expected_category: respiratory
+    expected_must_ask: []
+    must_warn:
+      - "120/急诊"
+      - "立即"
+    source_files:
+      - STCC/Breathing_Problems.md
+    must_not:
+      - "居家观察"
+      - "等等看"
+
+  - id: A_TK01
+    question: "我孩子刚喝了大约一口农药，现在在哭，我很慌"
+    expected_severity: A
+    expected_category: toxin_exposure
+    expected_must_ask: []
+    must_warn:
+      - "120/急诊"
+      - "立即"
+    source_files:
+      - STCC/Poisoning_Suspected.md
+    must_not:
+      - "催吐"
+      - "居家观察"
+      - "等等看"
+
+  - id: A_NE01
+    question: "突然出现有生以来最剧烈的头痛，像头要炸开一样，刚才发生的"
+    expected_severity: A
+    expected_category: head_and_neuro
+    expected_must_ask: []
+    must_warn:
+      - "120/急诊"
+      - "立即"
+    source_files:
+      - STCC/Headache.md
+    must_not:
+      - "居家观察"
+      - "服用止痛药观察"
+
+  - id: A_AL01
+    question: "吃了花生后喉咙越来越紧，感觉快喘不上气，嘴唇也肿了"
+    expected_severity: A
+    expected_category: allergic_reaction
+    expected_must_ask: []
+    must_warn:
+      - "120/急诊"
+      - "立即"
+    source_files:
+      - STCC/Allergic_Reaction.md
+    must_not:
+      - "观察一下"
+      - "居家处理"
+
+  - id: A_HT01
+    question: "室外工作了4小时，现在头晕、皮肤很热但完全没有出汗，意识有点模糊"
+    expected_severity: A
+    expected_category: environmental_condition
+    expected_must_ask: []
+    must_warn:
+      - "120/急诊"
+      - "立即"
+    source_files:
+      - STCC/Heat_Exposure_Problems.md
+    must_not:
+      - "喝水休息就好"
+      - "明天就诊"
+
+  # ─── B 级（立即急诊）────────────────────────────────────
+
+  - id: B_FV01
+    question: "小孩3岁，发烧40.2度，刚才抽搐了大约1分钟，现在停了，孩子在哭"
+    expected_severity: B
+    expected_category: fever
+    expected_must_ask: []
+    must_warn:
+      - "急诊/120"
+      - "立即"
+    source_files:
+      - STCC/Fever_Child.md
+    must_not:
+      - "在家观察"
+      - "不需要就医"
+
+  - id: B_AB01
+    question: "我肚子右下方痛了两个小时，按压时更疼，体温38.5度，有点恶心"
+    expected_severity: B
+    expected_category: abdominal_pain
+    expected_must_ask:
+      - "疼痛是否持续加剧"
+    must_warn:
+      - "急诊/就医"
+      - "立即"
+    source_files:
+      - STCC/Abdominal_Pain_Adult.md
+    must_not:
+      - "诊断为阑尾炎"
+      - "明天再看"
+
+  - id: B_RE01
+    question: "我儿子8岁，哮喘发作，已经用了吸入药但没有改善，还在喘"
+    expected_severity: B
+    expected_category: respiratory
+    expected_must_ask: []
+    must_warn:
+      - "急诊"
+      - "立即"
+    source_files:
+      - STCC/Asthma.md
+    must_not:
+      - "继续在家等待"
+      - "再用一次吸入药等等"
+
+  - id: B_MH01
+    question: "我朋友说他很想死，已经找好了方法，我现在在他旁边，很害怕"
+    expected_severity: B
+    expected_category: mental_health
+    expected_must_ask: []
+    must_warn:
+      - "120/急诊/危机热线"
+      - "不要独自离开"
+    source_files:
+      - STCC/Suicide_Attempt_Threat.md
+    must_not:
+      - "让他自己冷静"
+      - "明天找心理医生"
+
+  - id: B_NE01
+    question: "我头部撞到了墙，撞完后意识模糊了几秒，现在头很痛，已经呕吐一次"
+    expected_severity: B
+    expected_category: head_and_neuro
+    expected_must_ask: []
+    must_warn:
+      - "急诊"
+      - "立即"
+    source_files:
+      - STCC/Head_Injury.md
+    must_not:
+      - "在家休息就好"
+      - "睡一觉没事的"
+
+  - id: B_PR01
+    question: "我怀孕38周，刚开始有规律宫缩，每5分钟一次，每次持续约1分钟"
+    expected_severity: B
+    expected_category: pregnancy
+    expected_must_ask:
+      - "是否有破水"
+    must_warn:
+      - "立即前往医院/产科"
+    source_files:
+      - STCC/Pregnancy_Suspected_Labor.md
+    must_not:
+      - "等宫缩更频繁再去"
+      - "明天再检查"
+
+  - id: B_PK01
+    question: "我的婴儿才2个月，刚测体温38.5度，精神不好，不怎么喝奶"
+    expected_severity: B
+    expected_category: fever
+    expected_must_ask: []
+    must_warn:
+      - "急诊/儿科"
+      - "立即"
+    source_files:
+      - STCC/Fever_Child.md
+    must_not:
+      - "在家观察"
+      - "等天亮再说"
+
+  # ─── C 级（当天就医）────────────────────────────────────
+
+  - id: C_FV01
+    question: "我发烧38.8度，已经3天了，咳嗽，有黄痰，之前吃退烧药有点效果"
+    expected_severity: C
+    expected_category: fever
+    expected_must_ask: []
+    must_warn:
+      - "当天就医/联系医生"
+    source_files:
+      - STCC/Fever_Adult.md
+    must_not:
+      - "立即急诊"
+      - "继续在家等"
+
+  - id: C_GI01
+    question: "我今天呕吐了3次，腹泻2次，喝水就吐，没有发烧，头有点晕"
+    expected_severity: C
+    expected_category: gastrointestinal
+    expected_must_ask:
+      - "上次排尿时间"
+    must_warn:
+      - "当天就医"
+      - "脱水"
+    source_files:
+      - STCC/Vomiting_Adult.md
+    must_not:
+      - "立即急诊"
+
+  - id: C_UG01
+    question: "排尿时有灼热感，频繁想上厕所，小便量很少，没有发烧，已经三天了"
+    expected_severity: C
+    expected_category: urinary_genital
+    expected_must_ask:
+      - "是否有腰背痛"
+    must_warn:
+      - "当天就医"
+    source_files:
+      - STCC/Urination_Painful.md
+    must_not:
+      - "立即急诊"
+      - "可以自行康复"
+
+  - id: C_SK01
+    question: "我用了新的药物后身上出现了很多红疹，有点痒，昨天开始的，没有呼吸问题"
+    expected_severity: C
+    expected_category: skin_rash_wound
+    expected_must_ask:
+      - "什么药物"
+    must_warn:
+      - "当天就医"
+      - "如出现呼吸困难立即急诊"
+    source_files:
+      - STCC/Rash_Adult.md
+    must_not:
+      - "继续服药"
+      - "立即急诊（无呼吸困难时）"
+
+  - id: D_NE01
+    question: "我头部磕到了桌角，头痛，没有晕倒，意识清醒，2小时前发生的"
+    expected_severity: D
+    expected_category: head_and_neuro
+    expected_must_ask:
+      - "头痛是否在加重"
+    must_warn:
+      - "若出现呕吐、意识模糊或头痛加剧立即急诊"
+    source_files:
+      - STCC/Head_Injury.md
+    must_not:
+      - "完全没问题无需任何关注"
+      - "立即急诊（无危险信号时）"
+
+  - id: C_IT01
+    question: "我手背被开水烫到，出现了水泡，大概有手掌大小"
+    expected_severity: C
+    expected_category: injury_trauma
+    expected_must_ask: []
+    must_warn:
+      - "当天就医"
+      - "不要刺破水泡"
+    source_files:
+      - STCC/Burns_Thermal.md
+    must_not:
+      - "涂牙膏"
+      - "立即急诊（无感染时）"
+
+  - id: C_EN01
+    question: "我右耳痛了两天，有点流脓，听力感觉比平时差"
+    expected_severity: C
+    expected_category: ear_eye_nose
+    expected_must_ask: []
+    must_warn:
+      - "当天就医"
+    source_files:
+      - STCC/Earache_Drainage.md
+    must_not:
+      - "用棉签掏耳"
+      - "立即急诊"
+
+  - id: C_PM01
+    question: "我腰痛向臀部和右腿放射，腿有点麻木，搬重物后开始的，昨天"
+    expected_severity: C
+    expected_category: pain_muscle_joint
+    expected_must_ask: []
+    must_warn:
+      - "当天就医"
+      - "若大小便控制困难立即急诊"
+    source_files:
+      - STCC/Back_Pain.md
+    must_not:
+      - "立即急诊（无大小便异常时）"
+
+  - id: C_IN01
+    question: "我发烧39度，咳嗽，感觉全身无力，已经5天了，之前以为是普通感冒"
+    expected_severity: C
+    expected_category: infection_illness
+    expected_must_ask: []
+    must_warn:
+      - "当天就医"
+    source_files:
+      - STCC/Influenza.md
+    must_not:
+      - "继续在家等"
+
+  - id: C_EN02
+    question: "我眼睛突然一侧视物模糊，持续了20分钟，没有眼痛，今天下午"
+    expected_severity: B
+    expected_category: ear_eye_nose
+    expected_must_ask:
+      - "是否有头痛"
+      - "单眼还是双眼"
+    must_warn:
+      - "立即急诊/当天就医"
+      - "TIA/卒中信号"
+    source_files:
+      - STCC/Eye_Problems.md
+    must_not:
+      - "休息就好"
+      - "不用就医"
+
+  - id: C_VB01
+    question: "我不在孕期，阴道出血量比平时月经多，已经持续两天，有轻微腹痛"
+    expected_severity: B
+    expected_category: urinary_genital
+    expected_must_ask:
+      - "是否可能怀孕/是否头晕"
+    must_warn:
+      - "急诊/立即就医"
+    source_files:
+      - STCC/Vaginal_Bleeding.md
+    must_not:
+      - "居家观察等等"
+
+  - id: C_PK01
+    question: "我家宝宝出生15天，今天哭闹超过3小时，肚子看起来有点硬，不喝奶"
+    expected_severity: B
+    expected_category: pediatric_specific
+    expected_must_ask:
+      - "最后一次排便时间"
+      - "大便颜色"
+    must_warn:
+      - "立即就医/儿科急诊"
+    source_files:
+      - STCC/Newborn_Problems.md
+    must_not:
+      - "继续观察"
+      - "等明天再看"
+
+  # ─── D 级（居家观察）────────────────────────────────────
+
+  - id: D_FV01
+    question: "我发烧38度，精神还不错，昨天刚开始，有点流鼻涕，没有咳嗽"
+    expected_severity: D
+    expected_category: fever
+    expected_must_ask: []
+    must_warn:
+      - "若体温升至40度或持续超过3天需就医"
+    source_files:
+      - STCC/Fever_Adult.md
+    must_not:
+      - "立即急诊"
+      - "立即就医"
+
+  - id: D_GI01
+    question: "我昨天吃了东西不舒服，轻微腹泻两次，没有发烧，精神还好"
+    expected_severity: D
+    expected_category: gastrointestinal
+    expected_must_ask: []
+    must_warn:
+      - "如症状加重需就医"
+    source_files:
+      - STCC/Diarrhea_Adult.md
+    must_not:
+      - "立即急诊"
+      - "拨打120"
+
+  - id: D_GI02
+    question: "饭后经常胃部不适，有点胀气，没有疼痛，也没有发烧"
+    expected_severity: D
+    expected_category: gastrointestinal
+    expected_must_ask: []
+    must_warn:
+      - "若出现剧烈疼痛或黑便需就医"
+    source_files:
+      - STCC/Indigestion.md
+    must_not:
+      - "立即急诊"
+
+  - id: D_SK01
+    question: "我脚踝轻微扭了一下，有点肿，但可以走路，没有剧烈疼痛"
+    expected_severity: D
+    expected_category: injury_trauma
+    expected_must_ask: []
+    must_warn:
+      - "若疼痛加重或无法受力需就医"
+    source_files:
+      - STCC/Extremity_Injury.md
+    must_not:
+      - "立即急诊"
+
+  - id: D_PM01
+    question: "搬重物后腰痛，弯腰有点困难，但腿没有麻木感，今天刚发生"
+    expected_severity: D
+    expected_category: pain_muscle_joint
+    expected_must_ask: []
+    must_warn:
+      - "若出现腿麻或大小便异常立即就医"
+    source_files:
+      - STCC/Back_Pain.md
+    must_not:
+      - "立即急诊"
+
+  - id: D_IN01
+    question: "普通感冒症状，低烧37.8度，流清鼻涕，轻微咽喉不适，昨天开始"
+    expected_severity: D
+    expected_category: infection_illness
+    expected_must_ask: []
+    must_warn:
+      - "若发烧超过39度或持续超过5天需就医"
+    source_files:
+      - STCC/Common_Cold_Symptoms.md
+    must_not:
+      - "立即急诊"
+      - "立即就医"
+
+  - id: D_EN01
+    question: "鼻塞流清鼻涕，已经3天了，没有发烧，精神正常"
+    expected_severity: D
+    expected_category: ear_eye_nose
+    expected_must_ask: []
+    must_warn:
+      - "若发烧或症状超过10天无改善需就医"
+    source_files:
+      - STCC/Sinus_Problems.md
+    must_not:
+      - "立即就医"
+
+  - id: D_AL01
+    question: "身上出现了一些小荨麻疹，有点痒，没有呼吸困难，知道可能是昨天换了洗漱用品"
+    expected_severity: D
+    expected_category: allergic_reaction
+    expected_must_ask: []
+    must_warn:
+      - "若出现呼吸困难或喉咙肿胀立即急诊"
+    source_files:
+      - STCC/Allergic_Reaction.md
+    must_not:
+      - "立即急诊（无呼吸困难时）"
+
+  - id: D_PK01
+    question: "我5岁孩子低烧37.8度，精神挺好，还在玩，昨天刚开始"
+    expected_severity: D
+    expected_category: fever
+    expected_must_ask: []
+    must_warn:
+      - "若体温升至40度或出现精神变差需就医"
+    source_files:
+      - STCC/Fever_Child.md
+    must_not:
+      - "立即急诊"
+
+  - id: D_IT01
+    question: "手指上有一道小割伤，约1厘米，血已经止住了，不是很深"
+    expected_severity: D
+    expected_category: injury_trauma
+    expected_must_ask: []
+    must_warn:
+      - "若伤口感染红肿或无法止血需就医"
+    source_files:
+      - STCC/Laceration.md
+    must_not:
+      - "立即急诊"
+
+  - id: D_EC01
+    question: "在海边晒了一下午，背部皮肤有些发红，有点痛，没有水泡"
+    expected_severity: D
+    expected_category: environmental_condition
+    expected_must_ask: []
+    must_warn:
+      - "若出现大水泡或发烧需就医"
+    source_files:
+      - STCC/Bee_Stings.md
+    must_not:
+      - "立即急诊"
+
+  - id: D_MH01
+    question: "最近压力大，睡眠不好，情绪有点低落，但没有自伤想法，想咨询一下"
+    expected_severity: D
+    expected_category: mental_health
+    expected_must_ask: []
+    must_warn:
+      - "建议寻求心理咨询"
+      - "若出现自伤想法立即求助"
+    source_files:
+      - STCC/Depression.md
+    must_not:
+      - "立即急诊"
+
+  - id: D_PR01
+    question: "怀孕28周，今天感觉胎动比平时少一些，但还是有，没有腹痛和出血"
+    expected_severity: C
+    expected_category: pregnancy
+    expected_must_ask:
+      - "数胎动：1小时内是否有至少10次"
+    must_warn:
+      - "当天联系医生/产检"
+      - "若1小时内胎动少于10次需立即就医"
+    source_files:
+      - STCC/Pregnancy_Fetal_Movement_Problems.md
+    must_not:
+      - "完全没问题，不用管"
+
+  - id: D_UG01
+    question: "我轻微尿频，但没有疼痛，没有发烧，喝水多了之后才这样的"
+    expected_severity: D
+    expected_category: urinary_genital
+    expected_must_ask: []
+    must_warn:
+      - "若出现排尿疼痛或血尿需就医"
+    source_files:
+      - STCC/Urination_Painful.md
+    must_not:
+      - "立即就医"
+
+  - id: D_IN02
+    question: "蜜蜂蜇了我手背，有点红肿疼痛，没有呼吸困难，没有过敏史"
+    expected_severity: D
+    expected_category: environmental_condition
+    expected_must_ask: []
+    must_warn:
+      - "若出现呼吸困难或喉咙肿胀立即急诊"
+    source_files:
+      - STCC/Bee_Stings.md
+    must_not:
+      - "立即急诊（无过敏反应时）"
+
+  # ─── 新增：边缘案例（老年人 / 免疫缺陷 / 多症状并发）────────
+
+  - id: A_EL01
+    question: "我75岁，突然一侧脸麻、手臂无力，说话含糊，刚才发生的，现在还是这样"
+    expected_severity: A
+    expected_category: head_and_neuro
+    expected_must_ask: []
+    must_warn:
+      - "120/立即"
+      - "卒中/中风"
+    source_files:
+      - STCC/Stroke_Suspected.md
+    must_not:
+      - "等等看"
+      - "明天再去"
+
+  - id: A_IC01
+    question: "我正在化疗，今天发烧38.8度，全身发冷，感觉很虚弱"
+    expected_severity: A
+    expected_category: fever
+    expected_must_ask: []
+    must_warn:
+      - "120/急诊/立即"
+      - "免疫抑制/化疗"
+    source_files:
+      - STCC/Fever_Adult.md
+    must_not:
+      - "在家观察"
+      - "明天再看"
+
+  - id: B_EL01
+    question: "我老父亲82岁，昨晚跌倒，髋部很痛，不敢动，无法站立，但意识清醒"
+    expected_severity: B
+    expected_category: injury_trauma
+    expected_must_ask:
+      - "跌倒时是否意识清醒"
+    must_warn:
+      - "急诊/立即就医"
+      - "骨折"
+    source_files:
+      - STCC/Falls.md
+    must_not:
+      - "在家观察等明天"
+
+  - id: B_DM01
+    question: "我糖尿病，刚才测血糖2.1，很头晕，手在发抖，吃了糖果没有好转"
+    expected_severity: B
+    expected_category: head_and_neuro
+    expected_must_ask: []
+    must_warn:
+      - "急诊/立即就医"
+      - "低血糖"
+    source_files:
+      - STCC/Diabetes_Problems.md
+    must_not:
+      - "继续在家等"
+
+  - id: B_PD01
+    question: "3岁孩子误吞了一枚硬币，现在喉咙有异物感，呼吸稍微有点困难"
+    expected_severity: B
+    expected_category: toxin_exposure
+    expected_must_ask: []
+    must_warn:
+      - "急诊/立即就医"
+    source_files:
+      - STCC/Foreign_Body_Swallowing_of.md
+    must_not:
+      - "等硬币自然排出"
+      - "在家观察"
+
+  # ─── 新增：新 category 覆盖 ────────────────────────────────
+
+  - id: B_ST01
+    question: "血压突然升到210/120，剧烈头痛，视物有点模糊，60岁"
+    expected_severity: B
+    expected_category: chest_and_heart
+    expected_must_ask: []
+    must_warn:
+      - "急诊/立即就医"
+      - "高血压急症"
+    source_files:
+      - STCC/Hypertension.md
+    must_not:
+      - "吃降压药休息观察"
+      - "明天再看"
+
+  - id: C_RT01
+    question: "喉咙痛3天，发烧38.5度，扁桃体有白色分泌物，没有咳嗽"
+    expected_severity: C
+    expected_category: ear_eye_nose
+    expected_must_ask: []
+    must_warn:
+      - "当天就医"
+    source_files:
+      - STCC/Sore_Throat.md
+    must_not:
+      - "立即急诊"
+      - "不用就医"
+
+  - id: C_EY01
+    question: "眼睛突然充血发红，有黄色分泌物，早上眼皮都粘住了，已经两天"
+    expected_severity: C
+    expected_category: ear_eye_nose
+    expected_must_ask: []
+    must_warn:
+      - "当天就医"
+      - "不要揉眼"
+    source_files:
+      - STCC/Pinkeye.md
+    must_not:
+      - "立即急诊"
+
+  - id: C_NS01
+    question: "我鼻血流了15分钟，捏鼻子止血后又流了，头往后仰也没有完全止住"
+    expected_severity: C
+    expected_category: ear_eye_nose
+    expected_must_ask: []
+    must_warn:
+      - "当天就医"
+      - "不要头后仰（血会流入喉咙）"
+    source_files:
+      - STCC/Nosebleed.md
+    must_not:
+      - "头往后仰"
+      - "立即急诊（无大量出血时）"
+
+  - id: C_SK02
+    question: "我脚上有一个伤口，缝合后第3天，伤口周围开始发红，有点渗液，有点痛"
+    expected_severity: C
+    expected_category: injury_trauma
+    expected_must_ask: []
+    must_warn:
+      - "当天就医"
+      - "感染"
+    source_files:
+      - STCC/Wound_Healing_and_Infection.md
+    must_not:
+      - "不用管它"
+      - "立即急诊"
+
+  - id: C_CR01
+    question: "我1岁半的孩子昨晚突然声音嘶哑、咳嗽像狗吠，今天好一点但还有"
+    expected_severity: C
+    expected_category: pediatric_specific
+    expected_must_ask:
+      - "呼吸是否困难"
+    must_warn:
+      - "当天就医"
+      - "若呼吸困难立即急诊"
+    source_files:
+      - STCC/Croup.md
+    must_not:
+      - "不用就医"
+
+  - id: C_SN01
+    question: "我被蛇咬了手指，不确定是不是毒蛇，有点肿，发生在1小时前"
+    expected_severity: C
+    expected_category: environmental_condition
+    expected_must_ask:
+      - "蛇的颜色/特征"
+    must_warn:
+      - "立即就医/急诊"
+      - "不要切开伤口"
+    source_files:
+      - STCC/Bites_Snake.md
+    must_not:
+      - "切开伤口吸毒液"
+      - "等等看"
+
+  - id: D_ST01
+    question: "喉咙有点不舒服，轻微痒，没有发烧，声音稍微有点哑，昨天开始"
+    expected_severity: D
+    expected_category: ear_eye_nose
+    expected_must_ask: []
+    must_warn:
+      - "若发烧或吞咽困难需就医"
+    source_files:
+      - STCC/Sore_Throat.md
+    must_not:
+      - "立即就医"
+
+  - id: D_NS01
+    question: "我鼻血流了约2分钟，捏鼻子后已经止住了，没有其他症状"
+    expected_severity: D
+    expected_category: ear_eye_nose
+    expected_must_ask: []
+    must_warn:
+      - "若持续超过15分钟或再次出血需就医"
+    source_files:
+      - STCC/Nosebleed.md
+    must_not:
+      - "立即急诊"
+
+  - id: D_CS01
+    question: "普通感冒，流鼻涕，喉咙稍微痒，没有发烧，精神好，孩子6岁，昨天开始"
+    expected_severity: D
+    expected_category: infection_illness
+    expected_must_ask: []
+    must_warn:
+      - "若发烧或症状超过7天需就医"
+    source_files:
+      - STCC/Common_Cold_Symptoms.md
+    must_not:
+      - "立即就医"
+
+  - id: D_BT01
+    question: "被蚊子咬了，痒，有点红肿，局部约1cm，没有发烧"
+    expected_severity: D
+    expected_category: environmental_condition
+    expected_must_ask: []
+    must_warn:
+      - "若红肿扩散或发烧需就医"
+    source_files:
+      - STCC/Bites_Insect.md
+    must_not:
+      - "立即就医"
+      - "立即急诊"
+
+  - id: D_SL01
+    question: "最近3周晚上很难入睡，睡不着，白天精神差，无自伤想法"
+    expected_severity: D
+    expected_category: mental_health
+    expected_must_ask: []
+    must_warn:
+      - "若持续超过4周或出现自伤想法需寻求专业帮助"
+    source_files:
+      - STCC/Insomnia.md
+    must_not:
+      - "立即急诊"
+
+  - id: D_HB01
+    question: "饭后经常有烧心感，特别是躺下时更明显，已经2周了，没有吞咽困难"
+    expected_severity: D
+    expected_category: gastrointestinal
+    expected_must_ask: []
+    must_warn:
+      - "若出现吞咽困难或黑便需就医"
+    source_files:
+      - STCC/Heartburn.md
+    must_not:
+      - "立即急诊"
+      - "立即就医"
+
+  - id: D_AR01
+    question: "手指关节有点疼痛，早上起来稍微僵硬，活动后好转，已经几个月了"
+    expected_severity: D
+    expected_category: pain_muscle_joint
+    expected_must_ask: []
+    must_warn:
+      - "建议预约医生评估关节问题"
+    source_files:
+      - STCC/Arthritis_Problems.md
+    must_not:
+      - "立即急诊"
+      - "立即就医"
+
+  # ─── 扩充：补全 category 覆盖 + 边缘案例 ──────────────────
+
+  # == abdominal_pain (补4题) ==
+  - id: A_AB01
+    question: "我腹部突然剧烈疼痛，像刀割一样，同时大汗淋漓，站不起来，发生了5分钟"
+    expected_severity: A
+    expected_category: abdominal_pain
+    expected_must_ask: []
+    must_warn:
+      - "120/立即"
+    source_files:
+      - STCC/Abdominal_Pain_Adult.md
+    must_not:
+      - "在家观察"
+
+  - id: B_AB02
+    question: "我右上腹痛得很厉害，开始吃了东西后痛，现在持续了3小时，恶心，没有发烧"
+    expected_severity: B
+    expected_category: abdominal_pain
+    expected_must_ask:
+      - "疼痛是否放射到右肩背部"
+    must_warn:
+      - "急诊/立即就医"
+    source_files:
+      - STCC/Abdominal_Pain_Adult.md
+    must_not:
+      - "居家观察"
+
+  - id: C_AB01
+    question: "腹痛断断续续一天了，不是很剧烈，吃了东西后稍微好一点，没有发烧，大便正常"
+    expected_severity: C
+    expected_category: abdominal_pain
+    expected_must_ask:
+      - "疼痛位置和性质"
+    must_warn:
+      - "当天就医"
+    source_files:
+      - STCC/Abdominal_Pain_Adult.md
+    must_not:
+      - "立即急诊"
+
+  - id: D_AB01
+    question: "饭后上腹部有点撑，有点不舒服，嗳气，没有疼痛，没有发烧，精神好"
+    expected_severity: D
+    expected_category: abdominal_pain
+    expected_must_ask: []
+    must_warn:
+      - "若出现剧烈疼痛、呕血或黑便需立即就医"
+    source_files:
+      - STCC/Indigestion.md
+    must_not:
+      - "立即就医"
+
+  # == respiratory (补4题) ==
+  - id: A_RS01
+    question: "我孩子4岁，突然喘不过气，嘴唇开始变蓝，之前没有过敏史"
+    expected_severity: A
+    expected_category: respiratory
+    expected_must_ask: []
+    must_warn:
+      - "120/立即"
+    source_files:
+      - STCC/Breathing_Problems.md
+    must_not:
+      - "等等看"
+
+  - id: B_RS01
+    question: "我有慢阻肺，今天喘得比平时厉害很多，用了吸入药没什么改善，说话费力"
+    expected_severity: B
+    expected_category: respiratory
+    expected_must_ask: []
+    must_warn:
+      - "急诊/立即就医"
+    source_files:
+      - STCC/Chronic_Obstructive_Pulmonary_Disease_COPD.md
+    must_not:
+      - "在家继续等"
+
+  - id: C_RS01
+    question: "我咳嗽两周了，最近加重，有点喘，没有发烧，有点黄痰"
+    expected_severity: C
+    expected_category: respiratory
+    expected_must_ask:
+      - "是否有哮喘或慢肺病史"
+    must_warn:
+      - "当天就医"
+    source_files:
+      - STCC/Cough.md
+    must_not:
+      - "立即急诊"
+
+  - id: D_RS01
+    question: "轻微干咳两天，没有发烧，没有痰，精神好，不影响睡眠"
+    expected_severity: D
+    expected_category: respiratory
+    expected_must_ask: []
+    must_warn:
+      - "若发烧或咳嗽持续超过2周需就医"
+    source_files:
+      - STCC/Cough.md
+    must_not:
+      - "立即就医"
+
+  # == chest_and_heart (补3题) ==
+  - id: A_CH02
+    question: "我妈突然晕倒，叫她没有反应，呼吸听不到，请问怎么办"
+    expected_severity: A
+    expected_category: chest_and_heart
+    expected_must_ask: []
+    must_warn:
+      - "120/立即/心肺复苏"
+    source_files:
+      - STCC/Chest_Pain.md
+    must_not:
+      - "等等看"
+      - "喂水"
+
+  - id: C_CH01
+    question: "我有时心跳会突然加快，持续几秒钟，今天发作了一次，现在已经恢复，没有胸痛"
+    expected_severity: C
+    expected_category: chest_and_heart
+    expected_must_ask:
+      - "持续多久"
+      - "是否有头晕"
+    must_warn:
+      - "当天就医"
+    source_files:
+      - STCC/Heart_Rate_Problems.md
+    must_not:
+      - "立即急诊（无持续症状时）"
+
+  - id: D_CH01
+    question: "我偶尔感觉心跳略快，几秒钟就过去了，已经发生好几次了，没有胸痛头晕，精神好"
+    expected_severity: D
+    expected_category: chest_and_heart
+    expected_must_ask: []
+    must_warn:
+      - "建议预约医生检查心律"
+      - "若胸痛或头晕立即就医"
+    source_files:
+      - STCC/Heart_Rate_Problems.md
+    must_not:
+      - "立即急诊"
+
+  # == allergic_reaction (补3题) ==
+  - id: B_AL01
+    question: "吃了虾后出现全身荨麻疹，嘴唇有点肿，有点喘，心跳加快，发生了10分钟"
+    expected_severity: B
+    expected_category: allergic_reaction
+    expected_must_ask: []
+    must_warn:
+      - "急诊/立即就医"
+    source_files:
+      - STCC/Allergic_Reaction.md
+    must_not:
+      - "在家等等"
+
+  - id: C_AL01
+    question: "对花粉过敏，今天接触后眼睛红痒，流鼻涕，皮肤轻微荨麻疹，呼吸正常"
+    expected_severity: C
+    expected_category: allergic_reaction
+    expected_must_ask: []
+    must_warn:
+      - "若出现呼吸困难立即急诊"
+    source_files:
+      - STCC/Hay_Fever_Problems.md
+    must_not:
+      - "立即急诊（呼吸正常时）"
+
+  - id: D_AL02
+    question: "春天花粉季节，每年都有轻微鼻痒、打喷嚏，今年也一样，没有呼吸问题"
+    expected_severity: D
+    expected_category: allergic_reaction
+    expected_must_ask: []
+    must_warn:
+      - "若症状加重或出现呼吸困难需就医"
+    source_files:
+      - STCC/Hay_Fever_Problems.md
+    must_not:
+      - "立即就医"
+
+  # == gastrointestinal (补4题) ==
+  - id: B_GI01
+    question: "我呕吐了鲜红色的血，大约一口，发生了两次，现在头晕"
+    expected_severity: B
+    expected_category: gastrointestinal
+    expected_must_ask: []
+    must_warn:
+      - "急诊/立即就医/120"
+    source_files:
+      - STCC/Vomiting_Adult.md
+    must_not:
+      - "在家观察"
+
+  - id: C_GI02
+    question: "大便里有少量鲜血，贴着粪便表面，可能是痔疮，没有腹痛，已经3天了"
+    expected_severity: C
+    expected_category: gastrointestinal
+    expected_must_ask:
+      - "大便颜色是鲜红还是暗红或黑色"
+    must_warn:
+      - "当天就医"
+      - "若大便变黑立即急诊"
+    source_files:
+      - STCC/Rectal_Bleeding.md
+    must_not:
+      - "立即急诊（少量鲜血时）"
+
+  - id: D_GI03
+    question: "3天没有大便，有点腹胀，没有疼痛，精神好，平时喝水少"
+    expected_severity: D
+    expected_category: gastrointestinal
+    expected_must_ask: []
+    must_warn:
+      - "若腹痛加剧或超过1周无大便需就医"
+    source_files:
+      - STCC/Constipation.md
+    must_not:
+      - "立即就医"
+
+  - id: D_GI04
+    question: "饭后经常打嗝、嗳气，没有腹痛，没有反酸，已经1周了"
+    expected_severity: D
+    expected_category: gastrointestinal
+    expected_must_ask: []
+    must_warn:
+      - "若出现吞咽困难或体重减轻需就医"
+    source_files:
+      - STCC/GasBelching.md
+    must_not:
+      - "立即就医"
+
+  # == urinary_genital (补3题) ==
+  - id: B_UR01
+    question: "我老公突然无法排尿，下腹部很胀很痛，已经8小时没有排过尿了"
+    expected_severity: B
+    expected_category: urinary_genital
+    expected_must_ask: []
+    must_warn:
+      - "急诊/立即就医"
+      - "尿潴留"
+    source_files:
+      - STCC/Urination_Difficult.md
+    must_not:
+      - "在家等等"
+
+  - id: C_UR01
+    question: "我尿液颜色变成了粉红色，像血一样，没有疼痛，没有发烧，今天发现的"
+    expected_severity: C
+    expected_category: urinary_genital
+    expected_must_ask:
+      - "近期有无外伤"
+    must_warn:
+      - "当天就医"
+    source_files:
+      - STCC/Urine_Abnormal_Color.md
+    must_not:
+      - "立即急诊（无痛时）"
+
+  - id: D_UR01
+    question: "我尿液颜色比平时深，像浓茶色，昨天喝水少，今天多喝了水已经稍微好一点"
+    expected_severity: D
+    expected_category: urinary_genital
+    expected_must_ask: []
+    must_warn:
+      - "若颜色持续或出现血尿需就医"
+    source_files:
+      - STCC/Urine_Abnormal_Color.md
+    must_not:
+      - "立即就医"
+
+  # == mental_health (补3题) ==
+  - id: A_MH01
+    question: "我朋友刚刚吃了很多安眠药，大约20多片，现在很迷糊，我在旁边"
+    expected_severity: A
+    expected_category: mental_health
+    expected_must_ask: []
+    must_warn:
+      - "120/立即"
+      - "不要让其独处"
+    source_files:
+      - STCC/Overdose.md
+    must_not:
+      - "让他睡一觉"
+      - "等等看"
+
+  - id: C_MH01
+    question: "我最近两周情绪非常低落，对什么都没兴趣，睡眠不好，没有自伤想法，想寻求帮助"
+    expected_severity: C
+    expected_category: mental_health
+    expected_must_ask:
+      - "是否有自伤或轻生想法"
+    must_warn:
+      - "当天预约心理/精神科"
+      - "若出现自伤想法立即联系危机热线"
+    source_files:
+      - STCC/Depression.md
+    must_not:
+      - "立即急诊（无自伤想法时）"
+
+  - id: D_MH02
+    question: "考试前容易紧张焦虑，心跳加快，手心出汗，考完就好，没有影响日常生活"
+    expected_severity: D
+    expected_category: mental_health
+    expected_must_ask: []
+    must_warn:
+      - "若焦虑严重影响生活建议寻求心理咨询"
+    source_files:
+      - STCC/Anxiety.md
+    must_not:
+      - "立即就医"
+      - "立即急诊"
+
+  # == pain_muscle_joint (补4题) ==
+  - id: B_PM01
+    question: "我膝盖突然无法承重，完全不能走路，刚才打球时扭伤了，非常肿"
+    expected_severity: B
+    expected_category: pain_muscle_joint
+    expected_must_ask: []
+    must_warn:
+      - "立即就医/急诊"
+      - "骨折/韧带撕裂"
+    source_files:
+      - STCC/Knee_PainSwellingInjury.md
+    must_not:
+      - "在家休息等等"
+
+  - id: C_PM02
+    question: "颈部疼痛，活动受限，昨天睡觉后开始的，转头困难，没有手臂麻木"
+    expected_severity: C
+    expected_category: pain_muscle_joint
+    expected_must_ask: []
+    must_warn:
+      - "当天就医"
+      - "若手臂麻木需立即就医"
+    source_files:
+      - STCC/Neck_Pain.md
+    must_not:
+      - "立即急诊"
+
+  - id: D_PM02
+    question: "肩膀酸痛，长时间用电脑后出现，休息后稍好，没有手臂麻木，已经两天"
+    expected_severity: D
+    expected_category: pain_muscle_joint
+    expected_must_ask: []
+    must_warn:
+      - "若出现手臂麻木或疼痛加剧需就医"
+    source_files:
+      - STCC/Shoulder_PainInjury.md
+    must_not:
+      - "立即就医"
+
+  - id: D_PM03
+    question: "小腿肌肉夜间抽筋痛醒，持续1分钟后缓解，已经发生3次，白天正常"
+    expected_severity: D
+    expected_category: pain_muscle_joint
+    expected_must_ask: []
+    must_warn:
+      - "若小腿明显红肿热痛需就医排除血栓"
+    source_files:
+      - STCC/Muscle_Cramps.md
+    must_not:
+      - "立即就医"
+
+  # == pregnancy (补4题) ==
+  - id: A_PR01
+    question: "我怀孕30周，突然大量阴道出血，量比月经多很多，没有痛，头很晕"
+    expected_severity: A
+    expected_category: pregnancy
+    expected_must_ask: []
+    must_warn:
+      - "120/立即"
+      - "前置胎盘"
+    source_files:
+      - STCC/Pregnancy_Vaginal_Bleeding.md
+    must_not:
+      - "等等看"
+      - "在家休息"
+
+  - id: B_PR02
+    question: "我怀孕36周，今天血压测了155/100，头很痛，视物有点模糊，手脚有点肿"
+    expected_severity: B
+    expected_category: pregnancy
+    expected_must_ask: []
+    must_warn:
+      - "急诊/立即就医"
+      - "子痫前期"
+    source_files:
+      - STCC/Pregnancy_Hypertension.md
+    must_not:
+      - "回家休息"
+
+  - id: C_PR01
+    question: "我怀孕22周，今天发烧38.3度，有点咳嗽，没有腹痛和出血，胎动正常"
+    expected_severity: C
+    expected_category: pregnancy
+    expected_must_ask:
+      - "体温多少"
+    must_warn:
+      - "当天就医"
+      - "孕期发烧不建议在家等"
+    source_files:
+      - STCC/Pregnancy_Cold_Symptoms.md
+    must_not:
+      - "立即急诊（体温不太高时）"
+
+  - id: D_PR02
+    question: "怀孕12周，早上恶心，有时呕吐1-2次，吃了点东西好一些，精神还好"
+    expected_severity: D
+    expected_category: pregnancy
+    expected_must_ask: []
+    must_warn:
+      - "若无法进食或呕吐超过5次/天需就医"
+    source_files:
+      - STCC/Pregnancy_Nausea_and_Vomiting.md
+    must_not:
+      - "立即就医"
+
+  # == pediatric_specific (补4题) ==
+  - id: B_PK02
+    question: "我2岁孩子发烧40.5度，用了退烧药2小时后只退到39.5度，孩子很烦躁，不喝水"
+    expected_severity: B
+    expected_category: fever
+    expected_must_ask: []
+    must_warn:
+      - "急诊/立即就医"
+      - "脱水/高热不退"
+    source_files:
+      - STCC/Fever_Child.md
+    must_not:
+      - "继续在家等"
+
+  - id: C_PK02
+    question: "我的孩子3岁，感冒2天后今天哭闹，说耳朵痛，有点发烧37.8度，拉耳朵"
+    expected_severity: C
+    expected_category: ear_eye_nose
+    expected_must_ask: []
+    must_warn:
+      - "当天就医"
+    source_files:
+      - STCC/Earache_Drainage.md
+    must_not:
+      - "立即急诊"
+
+  - id: C_PK03
+    question: "我1岁半孩子昨晚突然犬吠样咳嗽声音嘶哑，影响了睡眠，今天稍好但还有咳嗽"
+    expected_severity: C
+    expected_category: pediatric_specific
+    expected_must_ask:
+      - "呼吸是否困难"
+      - "是否有吸气时鸡鸣样声音"
+    must_warn:
+      - "当天就医"
+      - "若呼吸困难或嘴唇变蓝立即急诊"
+    source_files:
+      - STCC/Croup.md
+    must_not:
+      - "不用就医"
+
+  - id: D_PK02
+    question: "我的4个月宝宝轻微流清鼻涕，没有发烧，精神好，吃奶正常"
+    expected_severity: D
+    expected_category: pediatric_specific
+    expected_must_ask: []
+    must_warn:
+      - "若发烧或拒奶需就医"
+    source_files:
+      - STCC/Common_Cold_Symptoms.md
+    must_not:
+      - "立即就医"
+
+  # == toxin_exposure (补3题) ==
+  - id: B_TK01
+    question: "我妈妈误吃了过量安眠药，大约10片，现在意识还清醒，很困，发生30分钟前"
+    expected_severity: B
+    expected_category: toxin_exposure
+    expected_must_ask: []
+    must_warn:
+      - "急诊/立即就医"
+      - "不要催吐"
+    source_files:
+      - STCC/Overdose.md
+    must_not:
+      - "让她睡觉观察"
+
+  - id: C_TK01
+    question: "我孩子可能喝了一小口漂白水，量很少，现在没有症状，嘴里有点异味"
+    expected_severity: C
+    expected_category: toxin_exposure
+    expected_must_ask:
+      - "大约喝了多少"
+      - "有无口腔灼烧感"
+    must_warn:
+      - "当天就医评估"
+      - "不要催吐"
+    source_files:
+      - STCC/Poisoning_Suspected.md
+    must_not:
+      - "催吐"
+      - "在家等等"
+
+  - id: D_TK01
+    question: "我不小心吸入了一点点油漆味，出门透气后已经没有不适，没有头晕头痛"
+    expected_severity: D
+    expected_category: toxin_exposure
+    expected_must_ask: []
+    must_warn:
+      - "若出现头晕、呼吸困难或头痛需就医"
+    source_files:
+      - STCC/Poisoning_Suspected.md
+    must_not:
+      - "立即急诊"
+
+  # == injury_trauma (补4题) ==
+  - id: A_IT01
+    question: "我的手臂被割伤，血流不止，用毛巾压住了但还是往外涌，量很大"
+    expected_severity: A
+    expected_category: injury_trauma
+    expected_must_ask: []
+    must_warn:
+      - "120/立即"
+      - "持续加压止血"
+    source_files:
+      - STCC/Bleeding_Severe.md
+    must_not:
+      - "自行等待"
+
+  - id: B_IT01
+    question: "我从自行车上摔下来，背部着地，现在背痛，两腿感觉有点麻，发生10分钟前"
+    expected_severity: B
+    expected_category: injury_trauma
+    expected_must_ask: []
+    must_warn:
+      - "急诊/立即就医"
+      - "不要随意移动"
+      - "脊椎损伤"
+    source_files:
+      - STCC/BackNeck_Injury.md
+    must_not:
+      - "自行走动"
+      - "等等看"
+
+  - id: C_IT02
+    question: "我手被狗咬了，皮肤破了，出血不多，狗不知道是否打过疫苗，1小时前"
+    expected_severity: C
+    expected_category: injury_trauma
+    expected_must_ask:
+      - "狗是野狗还是家养"
+    must_warn:
+      - "当天就医"
+      - "破伤风/狂犬病评估"
+    source_files:
+      - STCC/Bites_AnimalHuman.md
+    must_not:
+      - "不用就医"
+
+  - id: D_IT02
+    question: "膝盖轻微擦伤，皮肤表面破损，血已经止住了，面积约2cm，昨天摔跤"
+    expected_severity: D
+    expected_category: injury_trauma
+    expected_must_ask: []
+    must_warn:
+      - "若红肿加重或发热需就医"
+    source_files:
+      - STCC/Abrasions.md
+    must_not:
+      - "立即就医"
+
+  # == infection_illness (补3题) ==
+  - id: B_IN01
+    question: "孩子5岁，发烧40度，出现脖子僵硬，头往后仰，对光线敏感，半小时前开始"
+    expected_severity: B
+    expected_category: head_and_neuro
+    expected_must_ask: []
+    must_warn:
+      - "120/急诊/立即"
+      - "脑膜炎"
+    source_files:
+      - STCC/Fever_Child.md
+    must_not:
+      - "等等观察"
+      - "在家退烧"
+
+  - id: C_IN02
+    question: "我发烧38.5度，咳嗽有黄绿色浓痰，已经4天了，之前以为是感冒，现在没有好转"
+    expected_severity: C
+    expected_category: infection_illness
+    expected_must_ask: []
+    must_warn:
+      - "当天就医"
+    source_files:
+      - STCC/Common_Cold_Symptoms.md
+    must_not:
+      - "继续等待"
+
+  - id: D_IN03
+    question: "我接触了得水痘的同事，我自己小时候得过水痘，目前无任何症状"
+    expected_severity: D
+    expected_category: infection_illness
+    expected_must_ask: []
+    must_warn:
+      - "若出现皮疹发烧需就医"
+    source_files:
+      - STCC/Chickenpox.md
+    must_not:
+      - "立即就医"
+      - "立即急诊"
+
+  # == head_and_neuro (补2题) ==
+  - id: C_HN01
+    question: "我血糖一直偏高，今天测了15.8，头有点晕，口很渴，没有意识模糊，精神还行"
+    expected_severity: C
+    expected_category: head_and_neuro
+    expected_must_ask:
+      - "是否有恶心呕吐"
+    must_warn:
+      - "当天就医"
+    source_files:
+      - STCC/Diabetes_Problems.md
+    must_not:
+      - "立即急诊（意识清醒时）"
+
+  - id: D_HN01
+    question: "最近几天工作压力大，有时头痛，程度轻微，休息后缓解，没有其他症状"
+    expected_severity: D
+    expected_category: head_and_neuro
+    expected_must_ask: []
+    must_warn:
+      - "若头痛突然加剧或出现视物模糊需就医"
+    source_files:
+      - STCC/Headache.md
+    must_not:
+      - "立即就医"
+
+  # == skin_rash_wound (补3题) ==
+  - id: B_SK01
+    question: "全身突然大面积起荨麻疹，1小时内蔓延到脸部，有点喘，嘴唇轻微肿"
+    expected_severity: B
+    expected_category: allergic_reaction
+    expected_must_ask: []
+    must_warn:
+      - "急诊/立即就医"
+      - "过敏性休克风险"
+    source_files:
+      - STCC/Hives.md
+    must_not:
+      - "在家等等"
+
+  - id: C_SK03
+    question: "右腿膝盖下方皮肤红肿热痛，有一个小伤口，伤口周围红肿越来越大，开始2天了"
+    expected_severity: C
+    expected_category: skin_rash_wound
+    expected_must_ask: []
+    must_warn:
+      - "当天就医"
+      - "蜂窝织炎"
+    source_files:
+      - STCC/Wound_Healing_and_Infection.md
+    must_not:
+      - "不用管"
+      - "立即急诊（发热不高时）"
+
+  - id: D_SK02
+    question: "身上有几个小红疹，有点痒，最近换了新洗衣粉，两天了，范围没有扩大"
+    expected_severity: D
+    expected_category: skin_rash_wound
+    expected_must_ask: []
+    must_warn:
+      - "若皮疹扩散或出现呼吸困难立即就医"
+    source_files:
+      - STCC/Rash_Adult.md
+    must_not:
+      - "立即就医"
+
+  # == environmental_condition (补2题) ==
+  - id: B_EV01
+    question: "被陌生犬咬伤，伤口较深，大量出血，不知道狗的疫苗情况，5分钟前发生"
+    expected_severity: B
+    expected_category: environmental_condition
+    expected_must_ask: []
+    must_warn:
+      - "立即就医/急诊"
+      - "狂犬病预防"
+      - "止血"
+    source_files:
+      - STCC/Bites_AnimalHuman.md
+    must_not:
+      - "等等观察"
+
+  - id: D_EV01
+    question: "冬天手指有点冻疮，轻微红肿痒，回到室内后已经暖和，没有水疱"
+    expected_severity: D
+    expected_category: environmental_condition
+    expected_must_ask: []
+    must_warn:
+      - "若出现水疱或皮肤颜色变白/黑需就医"
+    source_files:
+      - STCC/Cold_Exposure_Problems.md
+    must_not:
+      - "立即就医"
+
+  # == ear_eye_nose (补2题) ==
+  - id: B_EN01
+    question: "眼睛被化学清洁剂溅入，一直在用水冲洗，眼睛剧烈疼痛，视物模糊，10分钟前"
+    expected_severity: B
+    expected_category: ear_eye_nose
+    expected_must_ask: []
+    must_warn:
+      - "急诊/立即就医"
+      - "继续用清水冲洗至少15分钟"
+    source_files:
+      - STCC/Eye_Injury.md
+    must_not:
+      - "等等看"
+
+  - id: D_EN02
+    question: "耳朵里有轻微嗡嗡声，偶尔出现，安静时明显，听力没有下降，没有耳痛"
+    expected_severity: D
+    expected_category: ear_eye_nose
+    expected_must_ask: []
+    must_warn:
+      - "若耳鸣持续或听力下降需就医"
+    source_files:
+      - STCC/Ear_Ringing.md
+    must_not:
+      - "立即就医"

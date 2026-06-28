@@ -1,0 +1,125 @@
+specialty: anxiety
+specialty_zh: 焦虑障碍
+disease: specific_phobia
+disease_zh: 特定恐惧症
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: SPECIFIC_PHOBIA_CORE_FEATURES
+  title: 核心特征
+  source_page: 225
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 对特定物体或情境（如飞行、高处、动物、注射、见血）产生显著恐惧或焦虑。
+  - 恐惧几乎每次接触都立即出现，主动回避或忍受时极度痛苦。
+  - 程度与实际危险和社文化背景不符，持续至少6个月。
+  - 常见多种恐惧并存，平均每人恐惧3种物体或情境。
+  must_warn: []
+- id: SPECIFIC_PHOBIA_CRITERIA
+  title: 诊断标准（A-G）
+  source_page: 224
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A. 对特定对象/情境的显著恐惧或焦虑（儿童可哭闹、发脾气、僵住或依偎）。
+  - B. 恐惧刺激几乎总立即引发恐惧或焦虑。
+  - C. 主动回避或忍受时也极度恐惧。
+  - D. 恐惧与实际危险及社文化背景不符。
+  - E. 持续至少6个月（与常见短暂恐惧区分）。
+  - F. 导致临床显著痛苦或社交、职业等功能损害。
+  - G. 不能更好解释为其他障碍（如广场恐惧、PTSD等）。
+  must_warn: []
+- id: SPECIFIC_PHOBIA_SUBTYPES
+  title: 5种亚型与编码
+  source_page: 225
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 动物型（如蜘蛛、狗）：F40.218。
+  - 自然环境型（如高处、暴风雨、水）：F40.228。
+  - 血液-注射-损伤型（如针头、医疗）：F40.23x（细分血液、注射、医疗、损伤）。
+  - 情境型（如飞机、电梯、封闭场所）：F40.248。
+  - 其他型（如哽噎/呕吐、儿童巨响/装扮角色）：F40.298。
+  - 可同时存在多个亚型，需分别编码。
+  must_warn: []
+- id: SPECIFIC_PHOBIA_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 226
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国12月患病率约8%-12%，欧洲约6%，亚非拉约2%-4%。
+  - 儿童平均5%，青少年（13-17岁）约16%，老年人约3%-5%。
+  - 女性显著多于男性，性别比约2:1。
+  must_warn: []
+- id: SPECIFIC_PHOBIA_ONSET_COURSE
+  title: 起病与病程特征
+  source_page: 227
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 通常儿童期起病，中位年龄7-11岁，平均约10岁。
+  - 可因创伤事件、观察他人创伤、意外惊恐或信息传递（如媒体报道）触发。
+  - 多数患者无法回忆具体原因。
+  - 儿童期恐惧可能波动，持续至成年后不易自行缓解。
+  - 老年人常见自然环境恐惧和跌倒恐惧，常合并躯体疾病。
+  must_warn: []
+- id: SPECIFIC_PHOBIA_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 228
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 气质风险：负性情感（神经质）和行为抑制。
+  - 环境风险：父母过度保护、丧失与分离、身体或性虐待、与恐惧对象的负面经历。
+  - 遗传风险：一级亲属有同类恐惧时风险增加。
+  - 动物恐惧遗传度约32%，血液-注射-损伤约33%，情境约25%。
+  must_warn: []
+- id: SPECIFIC_PHOBIA_DIFFERENTIAL_DIAG
+  title: 鉴别诊断要点
+  source_page: 228
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与广场恐惧：怕1种情境为特定恐惧，怕2种以上可能为广场恐惧。
+  - 与社交焦虑：因担心负面评价而恐惧则为社交焦虑。
+  - 与分离焦虑：因害怕与依恋对象分离则为分离焦虑。
+  - 与惊恐：若仅恐惧对象时惊恐为特定恐惧；若还有非预期惊恐为惊恐障碍。
+  - 与强迫：若恐惧由强迫思维引起（如怕血因污染想法）则为强迫障碍。
+  - 与PTSD：若符合PTSD全部标准则为PTSD。
+  - 与进食障碍：若回避仅限于食物相关线索，考虑厌食症或贪食症。
+  - 与精神病：若恐惧源于妄想，考虑精神分裂症等。
+  must_warn: []
+- id: SPECIFIC_PHOBIA_COMORBIDITY
+  title: 常见共病
+  source_page: 229
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 最常见共病为其他焦虑障碍，尤其是社交焦虑障碍、分离焦虑障碍及其他特定恐惧症。
+  - 临床设置中常共病选择性缄默症和孤独症谱系障碍。
+  - 少数儿童出现对立行为（仅在需要说话的场合）。
+  must_warn: []
+- id: SPECIFIC_PHOBIA_SUICIDE_RISK
+  title: 自杀风险与安全警示
+  source_page: 228
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国全国调查显示特定恐惧症与自杀想法和自杀企图相关。
+  - 特定恐惧症与自杀意念向尝试的转变有关。
+  - 德国10年前瞻研究发现14-24岁人群中30%的首次自杀企图可归因于特定恐惧症。
+  must_warn:
+  - 特定恐惧症与自杀想法和自杀企图密切相关，特别是青少年和年轻成人，临床评估中必须常规筛查自杀风险。
+  - 若出现自杀意念或行为，应立即寻求专业帮助。
+- id: SPECIFIC_PHOBIA_FUNCTIONAL_CONSEQUENCES
+  title: 功能后果
+  source_page: 228
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 造成与其他焦虑障碍类似的社交、职业功能损害，生活质量下降。
+  - 恐惧对象越多，损害越严重。
+  - 血液-注射-损伤型常回避医疗；呕吐恐惧减少进食。
+  - 老年人跌倒恐惧导致活动减少、依赖家庭支持。
+  must_warn: []

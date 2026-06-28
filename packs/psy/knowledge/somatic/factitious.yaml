@@ -1,0 +1,87 @@
+specialty: somatic
+specialty_zh: 躯体症状及相关障碍
+disease: factitious
+disease_zh: 做作性障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: FACTITIOUS_DISORDER_CORE
+  title: 核心特征：伪造症状与欺骗
+  source_page: 368
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 本质是故意伪造或诱导身体/心理症状，伴随明确欺骗。
+  - 个体即使没有外部奖励也进行欺骗行为。
+  - 伪造方式包括夸大、虚构、模拟和诱导疾病或伤害。
+  must_warn: []
+- id: FACTITIOUS_DISORDER_DIAGNOSTIC_CRITERIA_SELF
+  title: 对自身诊断标准（4项）
+  source_page: 367
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A. 伪造身体/心理症状或诱导损伤，伴有欺骗。
+  - B. 个体将自己呈现为患病、受损或受伤。
+  - C. 即使没有外部奖励也明显欺骗。
+  - D. 不能用其他精神障碍（如妄想障碍）解释。
+  must_warn: []
+- id: FACTITIOUS_DISORDER_DIAGNOSTIC_CRITERIA_OTHER
+  title: 对他人诊断标准（代偿性）
+  source_page: 367
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A. 伪造他人症状或诱导损伤，伴有欺骗。
+  - B. 将受害者呈现为患病/受损。
+  - C. 无明显外部奖励仍欺骗。
+  - D. 不能用其他精神障碍解释。注意：诊断施加者而非受害者。
+  must_warn: []
+- id: FACTITIOUS_DISORDER_PREVALENCE
+  title: 患病率：约1%（住院会诊）
+  source_page: 369
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 总体患病率未知，因欺骗和诊断记录不足。
+  - 美国综合医院精神科会诊中发现约1%符合标准。
+  - 三甲医院比初级医疗更常见。
+  must_warn: []
+- id: FACTITIOUS_DISORDER_DEVELOPMENT_COURSE
+  title: 起病与病程：早发性间歇性
+  source_page: 369
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 通常早成年期起病，常在自身或子女住院后。
+  - 病程多为间歇性发作，单次或持续性少见。
+  - 反复发作可成为终生模式，不断更换医疗接触。
+  must_warn: []
+- id: FACTITIOUS_DISORDER_SEX_GENDER
+  title: 性别差异：女性占2/3
+  source_page: 369
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 汇总分析显示约2/3患者为女性，1/3为男性。
+  - 但总体患病率未知，此数据可能受报告偏倚影响。
+  must_warn: []
+- id: FACTITIOUS_DISORDER_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 369
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与装病区别：装病有外部利益（钱/时间），做作性无。
+  - 与躯体症状障碍区别：后者无故意欺骗。
+  - 与其他精神障碍所致自伤（如边缘型）区别：做作性必含欺骗。
+  must_warn: []
+- id: FACTITIOUS_DISORDER_COMORBIDITY
+  title: 常见共病：真实疾病常并存
+  source_page: 370
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 做作性障碍可共存真实医疗或精神疾病，不互斥。
+  - 伪造症状可能叠加在真实疾病上，如糖尿病患者操控血糖。
+  - 需区分假性怀孕（假妊娠），属于其他分类。
+  must_warn: []

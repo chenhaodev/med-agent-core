@@ -1,0 +1,73 @@
+specialty: paraphilic
+specialty_zh: 性欲倒错障碍
+disease: transvestic
+disease_zh: 易装障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: TV_DEFINITION
+  title: 易装障碍核心定义
+  source_page: 799
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 易装障碍的核心是反复通过异性装扮获得强烈性兴奋，并因此感到痛苦或损害社会功能。
+  - 并非所有穿异性服装的人都符合诊断，只有那些同时伴有性兴奋和功能损害的人才算。
+  must_warn: []
+- id: TV_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准
+  source_page: 799
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A标准：至少6个月内，反复出现通过异性装扮引起的强烈性兴奋，表现为幻想、冲动或行为。
+  - B标准：这些幻想、冲动或行为导致明显的痛苦，或损害社交、职业等重要功能。
+  - 亚型：伴恋物症（对布料、材料等性唤起）或伴自体恋女情结（幻想自己是女性而兴奋）。
+  - 注明：在受控环境（如监狱）或完全缓解（无功能损害至少5年）需特殊标注。
+  must_warn: []
+- id: TV_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 800
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 易装障碍的患病率未知，但男性明显多于女性。
+  - 瑞典研究显示，不到3%的男性报告曾因穿女装而性兴奋，且多次发生者比例更低。
+  must_warn: []
+- id: TV_DEVELOPMENT_COURSE
+  title: 起病与病程
+  source_page: 800
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 男性童年可能对某件女性衣物特别着迷，青春期后易装直接引起勃起甚至首次射精。
+  - 随着年龄增长，性兴奋减弱，但易装的欲望可能保持不变或增强，甚至转为舒适感。
+  - 病程可连续或间歇，恋爱初期可能暂时放弃，但易复发；少数人逐渐发展为性别烦躁。
+  must_warn: []
+- id: TV_RISK_PROGNOSIS
+  title: 风险与预后因素
+  source_page: 800
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 伴自体恋女情结（幻想自己是女性）增加日后出现性别烦躁的风险。
+  - 伴恋物症（对布料等性唤起）则降低性别烦躁的风险。
+  - 中老年男性易装者更可能以性别烦躁而非易装障碍就诊，易装行为常干扰异性恋关系。
+  must_warn: []
+- id: TV_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 801
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与恋物障碍的鉴别：易装者穿女装时是否有自认为是女性的想法，若只对衣物本身兴奋且不幻想身为女性，则考虑恋物障碍。
+  - 与性别烦躁的鉴别：易装障碍患者没有与自身性别不符的感受，通常也没有童年跨性别行为；同时符合两者诊断可共诊。
+  must_warn: []
+- id: TV_COMORBIDITY
+  title: 常见共病
+  source_page: 801
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 易装障碍常与其他性欲倒错（恋物癖、受虐癖）同时存在。
+  - 一种特别危险的受虐行为——自勒性窒息（autoerotic asphyxia），其致命案例中相当一部分与易装有关联。
+  must_warn: []

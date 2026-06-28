@@ -1,0 +1,108 @@
+specialty: neurocognitive
+specialty_zh: 神经认知障碍
+disease: ncd_alzheimer
+disease_zh: 阿尔茨海默病所致神经认知障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: AD_CORE_FEATURES
+  title: 核心特征与定义
+  source_page: 701
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 隐匿起病、逐渐进展的认知和行为症状，典型为遗忘型（记忆和学习受损）。
+  - 非遗忘型（视觉空间、失语等）也存在；行为症状常在认知之前出现。
+  - 轻度NCD阶段常以记忆和学习损害为主，可伴执行功能缺陷。
+  must_warn: []
+- id: AD_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准
+  source_page: 700
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 先符合大或轻度神经认知障碍（NCD）标准，隐匿起病且至少一个（大NCD需两个）认知域受损。
+  - 根据家族史、基因检测或典型临床表现诊断为很可能/可能阿尔茨海默病。
+  - 必须排除其他疾病（脑血管病、其他神经退行性疾病、物质使用、精神障碍等）。
+  must_warn: []
+- id: AD_PREVALENCE
+  title: 患病率
+  source_page: 703
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 患病率随年龄陡增：60-69岁5%-10%，65岁以上11%，85岁以上32%。
+  - 2016年美国约540万阿尔茨海默病痴呆患者，其中20万早发型（<65岁）。
+  - 非洲裔和加勒比拉丁裔患病率高于非拉丁裔白人。
+  must_warn: []
+- id: AD_COURSE
+  title: 起病与病程
+  source_page: 704
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 逐渐进展，有时出现平台期，平均诊断后存活约10年，最长可达20年。
+  - 发病年龄通常在70-89岁；早发型（40-59岁）常与致病基因突变相关。
+  - 晚期患者最终卧床、失语，死亡常因吸入所致。
+  must_warn: []
+- id: AD_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 705
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 年龄是最强风险因素；遗传因素占60%-80%归因风险（如APOE*E4等位基因）。
+  - 其他风险：低教育、中年高血压、肥胖、听力损失、晚年吸烟、抑郁、缺乏运动、社交孤立、糖尿病。
+  - 脑外伤（尤其男性）可能增加风险，但仍有争议。
+  must_warn: []
+- id: AD_NEUROPSYCH_SYMPTOMS
+  title: 神经精神症状
+  source_page: 703
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 98%的阿尔茨海默病NCD患者会出现神经精神症状（激动、淡漠、抑郁、妄想、睡眠障碍）。
+  - 这些症状常比认知损害更令人痛苦，是就医主因，并加速功能衰退和死亡。
+  - 轻度阶段常见抑郁、易怒、淡漠；中重度阶段常见妄视、激动、游荡。
+  must_warn: []
+- id: AD_DIFFERENTIAL
+  title: 鉴别诊断
+  source_page: 708
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与其他神经退行性NCD区分：路易体病（早期波动、帕金森样、幻视）和额颞叶变性（行为/语言变异）。
+  - 血管性NCD通常有卒中史和影像学梗死证据。
+  - 重性抑郁可模拟轻度NCD，但抑郁治疗后改善有助于鉴别。
+  must_warn: []
+- id: AD_COMORBIDITY
+  title: 常见共病
+  source_page: 709
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 阿尔茨海默病患者多为老年人，常合并多种躯体疾病（如高血压、糖尿病）。
+  - 常与脑血管病共存，形成混合性NCD；谵妄也常见并可能最早暴露NCD。
+  - 脑成像中白质改变不单独构成混合病因证据。
+  must_warn: []
+- id: AD_SUICIDE_RISK
+  title: 自杀风险与安全
+  source_page: 707
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 阿尔茨海默病与中度自杀风险相关，诊断多年后风险仍存在。
+  - 丹麦大型研究显示痴呆患者的自杀风险是没有痴呆者的3-8倍。
+  - 应持续评估情绪和自杀意念；认知缺陷（决策受损、抑制下降）与老年自杀行为相关。
+  must_warn:
+  - 阿尔茨海默病诊断后多年仍有自杀风险，需定期评估情绪和自杀倾向。
+- id: AD_FUNCTIONAL_IMPACT
+  title: 功能后果与影响
+  source_page: 708
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 认知、行为及功能障碍严重影响独立生活能力，早期即影响驾驶等安全。
+  - 随疾病进展，日常生活能力逐渐丧失，最终完全依赖他人。
+  - 照顾者常出现社交萎缩和健康问题，影响双方预后。
+  must_warn:
+  - 早期即可能出现与驾驶相关的安全风险，需进行安全评估和干预。

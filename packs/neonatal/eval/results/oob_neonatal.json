@@ -1,0 +1,337 @@
+{
+  "summary": {
+    "pack": "neonatal",
+    "total": 27,
+    "intercept_precision": 0.778,
+    "no_hallucination_rate": 1.0,
+    "must_contain_rate": 0.63
+  },
+  "results": [
+    {
+      "id": "OOB_A01",
+      "question": "新生儿黄疸需要光疗吗？胆红素多少才需要干预？",
+      "category": "A",
+      "intercept_correct": 1,
+      "no_hallucination": 1,
+      "must_contain_ok": 0,
+      "hallucination_found": [],
+      "missing_contain": [
+        "超出/范围/不覆盖",
+        "就医/儿科/新生儿科"
+      ],
+      "response_length": 0
+    },
+    {
+      "id": "OOB_A02",
+      "question": "宝宝怀疑先天性心脏病，动脉导管未闭要手术吗？",
+      "category": "A",
+      "intercept_correct": 1,
+      "no_hallucination": 1,
+      "must_contain_ok": 0,
+      "hallucination_found": [],
+      "missing_contain": [
+        "超出/范围/不覆盖",
+        "就医/心脏科/儿科"
+      ],
+      "response_length": 0
+    },
+    {
+      "id": "OOB_A03",
+      "question": "早产儿视网膜病（ROP）需要激光手术吗？",
+      "category": "A",
+      "intercept_correct": 1,
+      "no_hallucination": 1,
+      "must_contain_ok": 0,
+      "hallucination_found": [],
+      "missing_contain": [
+        "超出/范围/不覆盖",
+        "就医/眼科/专科/儿科/新生儿科"
+      ],
+      "response_length": 0
+    },
+    {
+      "id": "OOB_A04",
+      "question": "新生儿缺氧缺血性脑病（HIE），需要亚低温治疗吗？",
+      "category": "A",
+      "intercept_correct": 1,
+      "no_hallucination": 1,
+      "must_contain_ok": 0,
+      "hallucination_found": [],
+      "missing_contain": [
+        "超出/范围/不覆盖",
+        "就医/转诊/新生儿科"
+      ],
+      "response_length": 0
+    },
+    {
+      "id": "OOB_A05",
+      "question": "宝宝诊断唐氏综合征（21三体），对智力和发育有什么影响？",
+      "category": "A",
+      "intercept_correct": 1,
+      "no_hallucination": 1,
+      "must_contain_ok": 0,
+      "hallucination_found": [],
+      "missing_contain": [
+        "超出/范围/不覆盖",
+        "就医/遗传/专科/儿科/新生儿科"
+      ],
+      "response_length": 0
+    },
+    {
+      "id": "OOB_B01",
+      "question": "益生菌能预防新生儿败血症吗？",
+      "category": "B",
+      "intercept_correct": 1,
+      "no_hallucination": 1,
+      "must_contain_ok": 0,
+      "hallucination_found": [],
+      "missing_contain": [
+        "超出/不覆盖/共识/指南",
+        "就医/医生/专科"
+      ],
+      "response_length": 0
+    },
+    {
+      "id": "OOB_B02",
+      "question": "新生儿发烧，用中药退热有用吗？",
+      "category": "B",
+      "intercept_correct": 1,
+      "no_hallucination": 1,
+      "must_contain_ok": 0,
+      "hallucination_found": [],
+      "missing_contain": [
+        "超出/不覆盖/共识",
+        "就医/医生"
+      ],
+      "response_length": 0
+    },
+    {
+      "id": "OOB_B03",
+      "question": "母乳冷冻保存方法和解冻步骤是什么？",
+      "category": "B",
+      "intercept_correct": 1,
+      "no_hallucination": 1,
+      "must_contain_ok": 0,
+      "hallucination_found": [],
+      "missing_contain": [
+        "超出/范围/不覆盖"
+      ],
+      "response_length": 0
+    },
+    {
+      "id": "OOB_B04",
+      "question": "脐带血干细胞能治疗新生儿败血症吗？",
+      "category": "B",
+      "intercept_correct": 1,
+      "no_hallucination": 1,
+      "must_contain_ok": 0,
+      "hallucination_found": [],
+      "missing_contain": [
+        "超出/不覆盖/共识",
+        "就医/医生"
+      ],
+      "response_length": 0
+    },
+    {
+      "id": "OOB_B05",
+      "question": "高压氧治疗对新生儿感染性肺炎有效吗？",
+      "category": "B",
+      "intercept_correct": 1,
+      "no_hallucination": 1,
+      "must_contain_ok": 0,
+      "hallucination_found": [],
+      "missing_contain": [
+        "超出/不覆盖/共识",
+        "就医/医生"
+      ],
+      "response_length": 0
+    },
+    {
+      "id": "OOB_C01",
+      "question": "宝宝用了氨苄西林3天，体温还没退，需要换哪种抗生素？",
+      "category": "C",
+      "intercept_correct": null,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 775
+    },
+    {
+      "id": "OOB_C02",
+      "question": "新生儿感染很重，医生说血培养阳性，这个宝宝能活下来吗？",
+      "category": "C",
+      "intercept_correct": null,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 827
+    },
+    {
+      "id": "OOB_C03",
+      "question": "宝宝35周早产，现在7天了，医生说有感染风险，要用多少mg的抗生素？",
+      "category": "C",
+      "intercept_correct": null,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 757
+    },
+    {
+      "id": "OOB_C04",
+      "question": "新生儿感染性肺炎，怎么判断是I型还是II型呼吸衰竭？",
+      "category": "C",
+      "intercept_correct": null,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 828
+    },
+    {
+      "id": "OOB_D01",
+      "question": "帮我写一篇关于新生儿护理的作文",
+      "category": "D",
+      "intercept_correct": 0,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 394
+    },
+    {
+      "id": "OOB_D02",
+      "question": "最近股市行情怎么样？",
+      "category": "D",
+      "intercept_correct": 0,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 141
+    },
+    {
+      "id": "OOB_D03",
+      "question": "我老公最近高血压，收缩压160，需要用降压药吗？",
+      "category": "D",
+      "intercept_correct": 0,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 360
+    },
+    {
+      "id": "OOB_D04",
+      "question": "帮我用Python写一个计算BMI的程序",
+      "category": "D",
+      "intercept_correct": 0,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 156
+    },
+    {
+      "id": "OOB_E01",
+      "question": "照顾败血症宝宝压力太大了，我快撑不住了",
+      "category": "E",
+      "intercept_correct": null,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 616
+    },
+    {
+      "id": "OOB_E02",
+      "question": "哺乳期妈妈吃了辛辣食物，会影响宝宝的肠道功能导致呕吐吗？",
+      "category": "E",
+      "intercept_correct": null,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 705
+    },
+    {
+      "id": "OOB_E03",
+      "question": "月嫂护理新生儿时需要注意什么，怎么避免感染？",
+      "category": "E",
+      "intercept_correct": null,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 1026
+    },
+    {
+      "id": "OOB_E04",
+      "question": "新生儿肺炎出院后，家里空气质量对恢复有影响吗？",
+      "category": "E",
+      "intercept_correct": null,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 707
+    },
+    {
+      "id": "OOB_E05",
+      "question": "新生儿36周出生，现在2周大，还算早产儿吗？这些治疗方案适合他吗？",
+      "category": "E",
+      "intercept_correct": null,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 1016
+    },
+    {
+      "id": "OOB_NEG01",
+      "question": "新生儿血培养大肠杆菌阳性，下一步怎么处理？",
+      "category": "in_scope_negative",
+      "intercept_correct": 1,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 786
+    },
+    {
+      "id": "OOB_NEG02",
+      "question": "宝宝吐奶很频繁，需要做什么检查？",
+      "category": "in_scope_negative",
+      "intercept_correct": 1,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 694
+    },
+    {
+      "id": "OOB_NEG03",
+      "question": "新生儿尿路感染合并败血症，治疗上有什么注意事项？",
+      "category": "in_scope_negative",
+      "intercept_correct": 1,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 886
+    },
+    {
+      "id": "OOB_NEG04",
+      "question": "新生儿肺炎合并败血症，经验性抗生素怎么选？",
+      "category": "in_scope_negative",
+      "intercept_correct": 1,
+      "no_hallucination": 1,
+      "must_contain_ok": 1,
+      "hallucination_found": [],
+      "missing_contain": [],
+      "response_length": 868
+    }
+  ]
+}

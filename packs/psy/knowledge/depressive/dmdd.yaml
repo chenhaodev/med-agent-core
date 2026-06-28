@@ -1,0 +1,86 @@
+specialty: depressive
+specialty_zh: 抑郁障碍
+disease: dmdd
+disease_zh: 破坏性心境失调障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: DMDD_CORE_FEATURES
+  title: 核心特征
+  source_page: 179
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 核心是慢性、严重、持续的易激惹，表现为两种形式：频繁的脾气爆发和爆发间期的持续烦躁或愤怒情绪。
+  - 脾气爆发常因挫败引发，包括言语或行为攻击（对物、对人），且与情境或挑衅严重不成比例。
+  - 爆发间期的易怒/愤怒情绪几乎每天存在，明显被他人（如父母、老师、同伴）观察到。
+- id: DMDD_DIAGNOSTIC_CRITERIA
+  title: 诊断标准
+  source_page: 178
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 严重反复的脾气爆发（言语或身体攻击），反应强度或持续时间与情境/挑衅明显不成比例。
+  - 脾气爆发与发展水平不符；平均每周至少3次。
+  - 爆发间期持续易怒或愤怒，几乎每天，且被他人观察到。
+  - 症状持续至少12个月，期间没有连续3个月无症状。
+  - 至少在两个不同场合（家、学校、同伴中）出现，且至少在一个场合严重。
+  - 首次诊断年龄6~18岁，起病于10岁前；不能有过躁狂/轻躁狂发作（超过1天）。
+  - 不能同时诊断对立违抗障碍、间歇性爆发障碍或双相障碍。
+- id: DMDD_PREVALENCE
+  title: 患病率
+  source_page: 179
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 在儿童精神科门诊中很常见，但社区患病率尚不明确。
+  - 巴西一项11岁儿童队列研究显示患病率约为2.5%。
+  - 性别差异不明显，但门诊样本中男孩居多（土耳其回顾性研究中高达80%）。
+  - 可能在较年轻儿童中更常见（美国6岁儿童社区样本中为8.2%）。
+- id: DMDD_DEVELOPMENT_COURSE
+  title: 起病与病程
+  source_page: 180
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 起病必须早于10岁，诊断适用于6~18岁年龄段。
+  - 症状随年龄可能变化；约半数患儿1年后仍符合诊断，但未达诊断标准的儿童常仍持续有临床意义的易激惹。
+  - 转为双相障碍的风险极低；但成年后患单相抑郁和/或焦虑障碍的风险增加。
+- id: DMDD_RISK_PROGNOSTIC
+  title: 风险与预后因素
+  source_page: 180
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 儿童常有复杂的精神病史，慢性易激惹常在完全符合诊断标准前就出现，可能曾符合对立违抗障碍诊断。
+  - 环境因素：家庭生活紊乱（心理虐待、忽视、父母精神障碍、离异等）与核心行为相关。
+  - 遗传生理因素：家族抑郁史可能是风险因素；双胞胎研究提示早期易激惹与日后抑郁/焦虑存在遗传关联。
+  - 与双相障碍儿童相比，DMDD儿童在信息处理（如面孔情绪识别、决策控制）上存在共同和独特缺陷。
+- id: DMDD_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 182
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与双相障碍的关键区别：DMDD的易激惹是持续性的（非发作性），而双相障碍是发作性的，有明确的情绪发作期。
+  - 与对立违抗障碍的区别：DMDD要求在爆发间期有持续易怒情绪，且功能损害更严重；两者症状重叠时，仅诊断DMDD。
+  - 与间歇性爆发障碍的区别：DMDD要求爆发间期持续易怒，而间歇性爆发障碍无此要求，且症状持续时间（3个月 vs 12个月）不同。
+  - 如果易激惹仅出现在重度抑郁发作、持续性抑郁障碍或焦虑障碍恶化期中，应优先诊断那些障碍。
+  - 自闭症谱系障碍中因常规中断引发的脾气爆发，不考虑DMDD诊断。
+- id: DMDD_COMORBIDITY
+  title: 常见共病
+  source_page: 182
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - DMDD的共病率极高，很少单独出现；常同时符合注意缺陷/多动障碍（ADHD）、焦虑障碍和/或重度抑郁障碍的诊断。
+  - 对立违抗障碍和间歇性爆发障碍不能与DMDD并存；若曾有过躁狂/轻躁狂发作，则不应诊断DMDD。
+  - 也常伴有品行障碍和物质使用障碍。
+- id: DMDD_FUNCTIONAL_CONSEQUENCES
+  title: 功能后果
+  source_page: 181
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 严重破坏家庭和同伴关系，学校表现受损，因极度低挫败容忍度难以参与正常活动。
+  - 导致家庭生活严重混乱，难以建立或维持友谊。
+  - 功能损害程度与儿童双相障碍相当，攻击和精神科住院均常见。

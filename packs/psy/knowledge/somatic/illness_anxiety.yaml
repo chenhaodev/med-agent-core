@@ -1,0 +1,82 @@
+specialty: somatic
+specialty_zh: 躯体症状及相关障碍
+disease: illness_anxiety
+disease_zh: 疾病焦虑障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: ILLNESS_ANXIETY_CORE
+  title: 疾病焦虑障碍核心特征
+  source_page: 357
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 核心是对患有或可能患上严重疾病的持续担心，即使没有或仅有轻微躯体症状。
+  - 高度健康焦虑，易被健康相关信息惊吓，担心不因适当医疗保证而减轻。
+  - 可表现为过度检查身体或回避医疗场景，疾病成为生活中心。
+- id: ILLNESS_ANXIETY_CRITERIA
+  title: 主要诊断标准（大众版）
+  source_page: 357
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A. 持续担心自己得重病；B. 躯体症状没有或很轻；C. 对健康高度焦虑，易受惊。
+  - D. 过度健康行为（如反复检查身体）或逃避就医；E. 上述状态持续≥6个月。
+  - F. 不能用其他精神障碍（如躯体症状障碍、惊恐障碍等）更好解释。
+  - 分两种类型：求医型（频繁就医）和回避型（几乎不看医生）。
+- id: ILLNESS_ANXIETY_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 359
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 社区调查中健康焦虑/疾病确信的1-2年患病率为1.3%-10%。
+  - 门诊医疗人群中6个月/1年患病率为2.2%-8%（加权平均3%）。
+  - 男女性患病率相近。
+- id: ILLNESS_ANXIETY_COURSE
+  title: 起病与病程
+  source_page: 359
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 通常为慢性、发作性、复发性，起病于成年早期至中期（20-40岁）。
+  - 儿童少见，但健康焦虑可始于儿童或青少年期。
+  - 老年人常聚焦于记忆或感觉丧失；病程可能随年龄变化（部分研究显示中年达峰后下降）。
+- id: ILLNESS_ANXIETY_RISK
+  title: 风险与预后因素
+  source_page: 359
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 重大生活压力或良性健康威胁可触发。
+  - 童年受虐、严重童年疾病、父母严重疾病或死亡增加成年后发病风险。
+  - 约1/3-1/2为短暂型，精神共病较少、医学共病较多、疾病焦虑较轻。
+- id: ILLNESS_ANXIETY_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 360
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需先排除真正的医学疾病（如内分泌、神经、恶性肿瘤等）。
+  - 与躯体症状障碍区别：后者必须有显著且困扰的躯体症状。
+  - 与广泛性焦虑区别：疾病焦虑聚焦于健康，其他焦虑涉及多个方面。
+  - 与惊恐障碍区别：疾病焦虑的焦虑持久而非发作性。
+  - 与OCD区别：疾病焦虑担心“已经得病”，OCD害怕“未来得病”，且OCD常有多重强迫。
+  - 与躯体妄想区别：疾病焦虑者能承认可能没病，想法不荒谬；躯体妄想更离奇（如器官腐烂）。
+- id: ILLNESS_ANXIETY_COMORBIDITY
+  title: 常见共病
+  source_page: 360
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常与焦虑障碍（尤其广泛性焦虑和惊恐障碍）、强迫症、抑郁障碍共病。
+  - 约三分之二患者至少合并一种其他主要精神障碍。
+  - 可能增加人格障碍风险。
+- id: ILLNESS_ANXIETY_FUNCTION
+  title: 功能后果与相关特征
+  source_page: 360
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 导致角色损害、身体功能下降、生活质量降低。
+  - 多数患者过度就医（反复求医、检查），但不满且感觉不被重视。
+  - 少数患者因焦虑而回避医疗，两极化行为均损害家庭和职业功能。

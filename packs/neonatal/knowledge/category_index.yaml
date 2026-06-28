@@ -1,0 +1,14 @@
+# category_index.yaml — extracted from a fork's bin/router.sh by
+# engine/tools/extract_router.py (data-driven routing). tier 2 = specialty
+# `:general` fallback, only tried when tier 1 (disease-level) misses.
+fallback: cardiology:general
+max_domains: 2
+domains:
+  - domain: "vomiting"
+    patterns: "呕吐|吐奶|吐了|喷射|反流|溢奶|喂养不耐受|喂奶后吐|溢出|吐出|奶量|腹胀|肚子胀|腹部膨隆|胃残留|幽门狭窄|胃扭转|胃食管反流|食管裂孔|胃肠功能|肠梗阻|坏死性小肠结肠炎|NEC|肠套叠|幽门肥厚|先天性幽门"
+  - domain: "uti"
+    patterns: "尿路感染|泌尿系感染|泌尿感染|菌尿|脓尿|尿培养|尿液培养|尿常规|UTI|膀胱炎|肾盂肾炎|输尿管|肾积水|泌尿系畸形|排尿|尿少|尿频|小便|排尿困难|哭闹排尿|泌尿道|尿液|尿细菌"
+  - domain: "sepsis"
+    patterns: "败血症|脓毒症|血培养|血液培养|菌血症|感染指标|CRP|C反应蛋白|白细胞计数|中性粒细胞|降钙素原|PCT|白介素|IL-6|IL-8|抗生素|抗菌药|青霉素|氨苄西林|头孢|万古霉素|美罗培南|发热|体温|体温不稳定|低体温|发烧|反应差|精神差|喂养差|嗜睡|感染征象"
+  - domain: "pneumonia"
+    patterns: "肺炎|呼吸|气促|呼吸急促|呼吸困难|呼吸窘迫|气急|喘|喘息|氧疗|吸氧|氧饱和度|SpO2|血氧|CPAP|呼吸机|机械通气|有创通气|肺部|啰音|呼吸音|胸片|X线|肺CT|胸部影像|痰|咳嗽|鼻塞|气管|支气管|肺泡|表面活性物质|PS|肺表面活性剂"

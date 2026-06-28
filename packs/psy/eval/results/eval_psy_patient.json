@@ -1,0 +1,598 @@
+{
+  "summary": {
+    "pack": "psy",
+    "evaluated": 52,
+    "errors": 0,
+    "avg_scores": {
+      "coverage": 9.81,
+      "accuracy": 9.96,
+      "safety": 10.0,
+      "total": 29.77
+    },
+    "pass_threshold": 0.85,
+    "baseline": {
+      "recorded_from": "med-agent-psy (pre-migration); fill before deleting"
+    }
+  },
+  "results": [
+    {
+      "id": "DEP_MDD_P1",
+      "question": "抑郁症一般有哪些表现？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "DEP_MDD_P2",
+      "question": "家人得了抑郁症，我们平时能了解些什么、什么时候要警惕？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "DEP_PMDD_P1",
+      "question": "经前情绪烦躁、易怒是怎么回事？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "DEP_PDD_P1",
+      "question": "长期抑郁、持续好几年是什么情况？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "ANX_GAD_P1",
+      "question": "总是莫名担心、紧张不安，正常吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "ANX_PANIC_P1",
+      "question": "惊恐发作是怎么回事？发作时怎么办？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "ANX_SOCIAL_P1",
+      "question": "社交恐惧症有哪些表现？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "ANX_PHOBIA_P1",
+      "question": "特别恐高、怕封闭空间，是恐惧症吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "BIP_P1",
+      "question": "双相情感障碍是什么？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "BIP_MANIA_P1",
+      "question": "躁狂发作有哪些表现？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "TRA_PTSD_P1",
+      "question": "经历车祸后总做噩梦、反复闪回，是创伤后应激吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "TRA_ADJ_P1",
+      "question": "适应障碍是什么意思？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "SCZ_P1",
+      "question": "总觉得有人要害我、听到有人说话，是精神分裂吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "SCZ_P2",
+      "question": "精神分裂症有哪些表现？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "DEP_MDD_D1",
+      "question": "重性抑郁障碍的 DSM-5 诊断要点有哪些？",
+      "scores": {
+        "coverage": 8,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 28
+      },
+      "flags": []
+    },
+    {
+      "id": "DEP_MDD_D2",
+      "question": "抑郁症的鉴别诊断有哪些？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "ANX_PANIC_D1",
+      "question": "惊恐障碍的诊断标准与鉴别诊断",
+      "scores": {
+        "coverage": 9,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 29
+      },
+      "flags": []
+    },
+    {
+      "id": "ANX_GAD_D1",
+      "question": "广泛性焦虑障碍的诊断要点",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "BIP_D1",
+      "question": "双相I型障碍的诊断标准",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "BIP_D2",
+      "question": "双相II型与双相I型如何区分？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "TRA_PTSD_D1",
+      "question": "PTSD 的诊断标准与病程",
+      "scores": {
+        "coverage": 9,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 29
+      },
+      "flags": []
+    },
+    {
+      "id": "TRA_ACUTE_D1",
+      "question": "急性应激障碍与 PTSD 的区别",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "SCZ_D1",
+      "question": "精神分裂症的诊断标准",
+      "scores": {
+        "coverage": 8,
+        "accuracy": 9,
+        "safety": 10,
+        "total": 27
+      },
+      "flags": [
+        "遗漏核心诊断要素：未提及‘症状持续至少6个月’（含前驱/残留期）",
+        "遗漏核心诊断要素：未提及‘排除其他精神障碍、物质使用或躯体疾病’"
+      ]
+    },
+    {
+      "id": "SCZ_D2",
+      "question": "分裂情感性障碍如何诊断？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "SCZ_DELU_D1",
+      "question": "妄想障碍的诊断要点",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "DEP_PMDD_D1",
+      "question": "经前期烦躁障碍的诊断标准",
+      "scores": {
+        "coverage": 8,
+        "accuracy": 9,
+        "safety": 10,
+        "total": 27
+      },
+      "flags": [
+        "未提及前瞻性每日症状记录这一核心诊断要求"
+      ]
+    },
+    {
+      "id": "ANX_SOCIAL_D1",
+      "question": "社交焦虑障碍的诊断要点",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "BIP_CYCLO_D1",
+      "question": "环性心境障碍的诊断标准",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "ND_ADHD_P1",
+      "question": "孩子注意力不集中、坐不住，是多动症吗？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "ND_AUTISM_P1",
+      "question": "孤独症有哪些早期表现？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "OCD_P1",
+      "question": "强迫症是什么？总是反复检查、反复洗手",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "DIS_DPDR_P1",
+      "question": "经常有不真实感和抽离感是怎么回事？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "SOM_ILL_P1",
+      "question": "总担心自己得了重病、反复就医检查也查不出",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "EAT_AN_P1",
+      "question": "神经性厌食有哪些表现和风险？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "ELIM_ENU_P1",
+      "question": "孩子五岁多了还总是尿床怎么办？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "SLEEP_INS_P1",
+      "question": "长期失眠睡不着，DSM 是怎么定义失眠障碍的？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "SLEEP_OSA_P1",
+      "question": "睡觉打鼾、夜里憋醒、白天嗜睡",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "SEX_ED_P1",
+      "question": "勃起障碍是怎么回事？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "GENDER_P1",
+      "question": "性别烦躁是什么意思？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "DISR_CONDUCT_P1",
+      "question": "品行障碍有哪些表现？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "SUB_ALC_P1",
+      "question": "酒精依赖、戒酒总是失败，该怎么办？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "NCD_DELIRIUM_P1",
+      "question": "谵妄是什么？老人住院后突然意识模糊",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "NCD_ALZ_P1",
+      "question": "阿尔茨海默病有哪些表现？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "PD_BPD_P1",
+      "question": "边缘型人格障碍是什么？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "OCD_D1",
+      "question": "强迫症的 DSM-5 诊断要点",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "EAT_AN_D1",
+      "question": "神经性厌食的诊断标准与医学风险",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "PD_BPD_D1",
+      "question": "边缘型人格障碍的诊断要点",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "MED_NMS_P1",
+      "question": "神经阻滞剂恶性综合征是什么？有哪些危险信号？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "MED_TD_P1",
+      "question": "长期吃抗精神病药出现不自主的口面部动作，是怎么回事？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    },
+    {
+      "id": "MED_DISC_P1",
+      "question": "停药综合征是什么意思？为什么精神科的药不能随便停？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": [
+        "引用来源可更具体，如说明DSM-5-TR第819页关于停药综合征的具体描述"
+      ]
+    },
+    {
+      "id": "MED_NMS_D1",
+      "question": "神经阻滞剂恶性综合征的识别与鉴别要点",
+      "scores": {
+        "coverage": 8,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 28
+      },
+      "flags": []
+    },
+    {
+      "id": "PAR_D1",
+      "question": "性欲倒错与性欲倒错障碍在 DSM-5 中如何区分？",
+      "scores": {
+        "coverage": 10,
+        "accuracy": 10,
+        "safety": 10,
+        "total": 30
+      },
+      "flags": []
+    }
+  ]
+}

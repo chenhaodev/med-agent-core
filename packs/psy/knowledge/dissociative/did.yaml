@@ -1,0 +1,121 @@
+specialty: dissociative
+specialty_zh: 分离障碍
+disease: did
+disease_zh: 分离性身份障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: DID_DEFINITION
+  title: 核心特征与定义
+  source_page: 331
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 核心是存在两个或更多不同的人格状态，或被附体的体验。
+  - 身份中断表现为自我连续感和主宰感明显断裂，伴随情感、行为、记忆等多方面改变。
+  - 人格状态可明显或隐蔽，多数患者不表现出明显交替，但主观体验为多重、重叠、干扰的状态。
+  - 患者可能感觉突然成为自己言语和行动的旁观者，无法控制，并出现各种幻觉。
+- id: DID_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准
+  source_page: 330
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A. 身份中断：存在两个或更多不同人格状态，伴有自我和主宰感的明显断裂，并导致情感、行为等变化。
+  - B. 反复回忆空白：对日常事件、重要个人信息或创伤事件的回忆出现空洞，无法用普通健忘解释。
+  - C. 症状引起临床上显著的痛苦，或损害社交、职业等重要功能。
+  - D. 这种障碍不是广泛接受的文化或宗教实践的正常部分。
+  - E. 症状不是物质（如酒精中毒）或其他躯体疾病的直接生理效应。
+- id: DID_PREVALENCE
+  title: 患病率
+  source_page: 333
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国一项小型社区研究中，成人12个月患病率为1.5%。
+  - 土耳其中部地区社区女性样本人群中，终生患病率为1.1%。
+- id: DID_DEVELOPMENT_COURSE
+  title: 起病与病程
+  source_page: 333
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可发生在任何年龄，从儿童早期到晚年。
+  - 儿童通常不直接表现出身份转换，而是以独立行动的想象伙伴或拟人化的“情绪”状态为主。
+  - 青少年常因外化症状、自杀/自伤行为或行为快速转变而就诊，易被误诊为ADHD或双相障碍。
+  - 老年人可能表现为貌似晚发的心境障碍、强迫症、偏执或认知障碍。
+  - 症状可被后期创伤或看似无关的应激触发，持续创伤可使症状恶化。
+- id: DID_RISK_PROGNOSTIC
+  title: 风险与预后因素
+  source_page: 334
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 早期生活创伤（忽视、身体/性/情感虐待，通常在5-6岁前）是重要风险因素。
+  - 约90%患者报告多种早期忽视和童年虐待，常持续至青少年晚期。
+  - 遗传因素约占分离症状个体差异的45%-50%，未共享的应激和创伤环境解释剩余大部分。
+  - 持续性的性、身体和情感创伤导致后期功能严重困难。
+  - 较差转归与严重社会心理应激、再受害、持续虐待、物质使用障碍、严重疾病等密切相关。
+- id: DID_DIFFERENTIAL_DIAG_1
+  title: 鉴别诊断（与分离性遗忘等）
+  source_page: 335
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与分离性遗忘的区别：DID额外有身份中断，存在两个以上人格状态。
+  - 与人格解体/现实解体障碍的区别：后者没有多重身份状态，也不报告分离性遗忘。
+  - 与重度抑郁障碍区别：心境障碍患者没有自我和主宰感的分离性波动以及分离性遗忘。
+- id: DID_DIFFERENTIAL_DIAG_2
+  title: 鉴别诊断（与双相/PTSD/精神病性障碍）
+  source_page: 335
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 易被误诊为双相II型（混合特征），但DID状态变化通常在几分钟到几小时，而非持续数天。
+  - 与PTSD鉴别：DID的分离性遗忘更复杂且慢性，不仅限于创伤事件；人格解体/现实解体可持续出现。
+  - 与精神分裂症等鉴别：DID的幻觉更多样（听觉、视觉等），且常与创伤相关；患者有高催眠能力，而精分患者低。
+  - 内容如思维插入、被控制感在DID中是自我疏离的，不伴妄想解释。
+- id: DID_DIFFERENTIAL_DIAG_3
+  title: 鉴别诊断（其他障碍）
+  source_page: 336
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与物质所致障碍：需区分物质导致的遗忘（如酒精黑视）与DID分离性遗忘。
+  - 与人格障碍：DID患者在不同身份间风格多变，不同于持久的人际模式障碍。
+  - 与创伤性脑损伤：TBI有意识丧失、定向障碍等神经体征，且无自我连贯性中断。
+  - 与功能性神经症状障碍：后者无两个以上不同人格状态或附体体验。
+  - 诈病者常过度报告戏剧化症状，且对患病不痛苦甚至得意。
+- id: DID_COMORBIDITY
+  title: 常见共病
+  source_page: 337
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见共病包括创伤后应激障碍（PTSD）、抑郁障碍、物质相关障碍、进食障碍、强迫症。
+  - 还常伴有反社会人格障碍以及其他特定人格障碍，如回避型、强迫型或边缘型特质。
+  - 许多患者还表现出功能性神经症状（如非癫痫性发作）和多种躯体不适。
+- id: DID_FUNCTIONAL_CONSEQUENCES
+  title: 功能后果
+  source_page: 335
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 儿童和青少年可能在学业和人际关系中功能差，但也有些在学校表现良好。
+  - 成人功能损害范围广泛，从看似轻微（如高功能专业人士）到严重。
+  - 高功能患者的家庭和亲子功能更易受损，而职业功能相对较好。
+  - 一些患者长期功能损害，处于慢性精神疾病水平。
+- id: DID_SUICIDE_SAFETY
+  title: 自杀/自伤风险与安全
+  source_page: 334
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 自杀行为常见：超过70%的门诊患者曾尝试自杀，多次尝试很普遍。
+  - 自伤和其他高风险行为高度流行。
+  - 多重交互风险因素：早期和后期累积严重创伤、高共病PTSD、抑郁障碍、物质使用障碍、人格障碍特征。
+  - 分离本身是多次自杀尝试的独立风险因素。
+  - 分离症状严重程度越高，自杀尝试和非自杀性自伤频率越高。
+  must_warn:
+  - 超过70%的分离性身份障碍门诊患者曾尝试自杀，多次尝试常见。
+  - 分离症状的严重程度与自杀尝试和非自杀性自伤的频率呈正相关。
+  - 患者常伴有多种自杀风险因素（严重创伤史、共病PTSD/抑郁/物质使用障碍、人格障碍特征），需严密监测和评估。

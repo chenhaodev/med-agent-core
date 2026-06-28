@@ -1,0 +1,98 @@
+specialty: schizophrenia
+specialty_zh: 精神分裂症谱系及其他精神病性障碍
+disease: schizophrenia
+disease_zh: 精神分裂症
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: SCHIZ_CORE
+  title: 核心特征
+  source_page: 114
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 精神分裂症是一种由阳性症状（妄想、幻觉、言语紊乱）和阴性症状（情感平淡、意志减退）为主的严重精神障碍。
+  - 常伴有认知、社交和职业功能显著损害，病程多呈慢性。
+  must_warn: []
+- id: SCHIZ_CRITERIA
+  title: 主要诊断标准
+  source_page: 114
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 症状标准：1个月内至少出现2项A症状（妄想、幻觉、言语紊乱、行为紊乱或阴性症状），且至少含前三者之一。
+  - 功能损害：工作、人际或自我照料能力显著低于发病前水平。
+  - 持续时间：总病程≥6个月，包括≥1个月活动期症状及可能的前驱/残留期。
+  - 排除分裂情感障碍、心境障碍伴精神病性特征、物质或躯体疾病所致的精神病。
+  must_warn: []
+- id: SCHIZ_PREVALENCE
+  title: 患病率
+  source_page: 117
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 终生患病率约0.3%-0.7%，男女患病率无显著差异。
+  - 某些群体（如移民、城市居民、难民）发病率较高。
+  must_warn: []
+- id: SCHIZ_DEVELOPMENT
+  title: 起病与病程
+  source_page: 117
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 典型起病于青少年晚期至30多岁，男性早于女性（男性20-25岁，女性25-35岁）。
+  - 病程异质性高，约56%首次发作可缓解，30%可康复；部分患者慢性迁延，认知和阴性症状较稳定。
+  - 儿童期发病罕见，症状不典型；40岁后发病者女性居多，症状以阳性为主，社会功能保存较好。
+  must_warn: []
+- id: SCHIZ_RISK
+  title: 风险与预后因素
+  source_page: 118
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 遗传因素显著，但多数患者无家族史；风险由多个常见和罕见等位基因贡献。
+  - 环境因素：冬季出生、城市环境、移民、社会贫困、围产期并发症（如缺氧）增加风险。
+  - 预后不良因素：男性、发病早、前驱期长、阴性症状突出、认知损害严重、治疗依从性差。
+  must_warn: []
+- id: SCHIZ_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 120
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与心境障碍伴精神病性特征区分：妄想或幻觉仅在心境发作时出现。
+  - 与分裂情感障碍区分：心境症状占活动期的多数时间。
+  - 与短暂精神病性障碍（<1月）、妄想障碍（无其他阳性症状）、分裂型人格障碍（亚阈值症状）等区分。
+  - 注意与强迫症、创伤后应激障碍、自闭症谱系障碍和物质所致精神病性障碍鉴别。
+  must_warn: []
+- id: SCHIZ_COMORBID
+  title: 常见共病
+  source_page: 116
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 心境症状（抑郁、焦虑）常见，约半数患者有抑郁症状。
+  - 恐惧和焦虑障碍发生率高。
+  - 常共病物质使用障碍，且增加自杀风险。
+  - 若符合条件，可共病自闭症谱系障碍或童年起病的沟通障碍。
+  must_warn: []
+- id: SCHIZ_SUICIDE
+  title: 自杀风险
+  source_page: 120
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 约5%-6%的患者死于自杀，约20%有过至少一次自杀企图。
+  - 风险因素包括命令性幻觉、抑郁症状、男性、年轻、高IQ、既往自杀尝试、治疗依从性差。
+  - 住院后或急性期后是高风险期，需密切监测。
+  must_warn:
+  - 精神分裂症患者自杀风险显著高于一般人群，必须评估自杀意念和企图，尤其出现命令性幻觉或新近出院时，应立即联系精神科医生或危机热线。
+- id: SCHIZ_FUNCTION
+  title: 功能后果
+  source_page: 120
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 精神分裂症导致显著的社会和职业功能障碍，教育进度和就业常受影响。
+  - 多数患者社交圈子有限，男性患者结婚率低。
+  - 认知缺陷（如记忆、注意力、执行功能）是功能损害的重要原因。
+  must_warn: []

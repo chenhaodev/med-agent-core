@@ -1,0 +1,54 @@
+id: alzheimer
+name: AD 家庭康复顾问
+source:
+  title: 阿尔茨海默病多元康复干预中国专家共识（2025）
+  ref: Chinese Journal of Alzheimer's Disease and Related Disorders 2025,8(3):147-165
+  kind: consensus
+audiences: [patient]
+features:
+  knowledge_injection: sections_only   # lite: runtime injects sections/*.md only
+  page_traceable: false
+  ingest: manual
+  deep_eval: false
+output_schema: prompts/output_schema.md
+sections_dir: prompts/sections
+system_base: prompts/system_base.md
+knowledge: knowledge/source            # provenance only (consensus/protocols/risk_factors yaml)
+knowledge_header: "以下是与用户问题相关的共识内容，你的回答必须严格基于这些内容："
+routing:
+  map: knowledge/category_index.yaml
+  fallback: cognitive
+  llm_fallback: true                    # old router.sh fell back to deepseek zero-shot
+oob:
+  templates: prompts/oob_templates.md
+  # Ported verbatim from med-agent-ad/bin/oob_check.sh — ordered, first-match-wins.
+  blocklist:
+    - type: other_disease
+      pattern: "帕金森|帕金森病|路易体痴呆|血管性痴呆|额颞叶痴呆|额颞叶变性|亨廷顿|亨廷顿舞蹈病|肌萎缩侧索硬化|渐冻症|ALS|多发性硬化|脑梗后|脑卒中后|中风后康复|脑出血后|脑外伤后遗症"
+    - type: not_in_consensus
+      pattern: "干细胞|细胞疗法|基因疗法|基因编辑|CRISPR|高压氧|高压氧舱|HBO|CBD|大麻|大麻素|大麻二酚|免疫细胞疗法|CAR-T|NK细胞|质子治疗|质子刀|电休克|ECT|深部脑刺激|DBS（深部）|脑深部电刺激|脑机接口|BCI|神经调制植入|阿杜那单抗|Aducanumab|仑卡奈单抗以外的|替代疗法|偏方|秘方"
+    - type: unrelated
+      pattern: "写作文|写一篇文章|写一篇作文|帮我写文|帮我写一篇文|帮我写篇|写代码|帮我编程|帮我写程序"
+    - type: unrelated
+      pattern: "糖尿病|高血糖|控血糖|血糖控制|胰岛素用法|降糖药|心力衰竭|心衰|冠心病|心脏病|心肌梗死|心律失常|房颤|高尿酸|痛风|骨质疏松|肾病|肾衰竭|肝病|肝硬化|肺炎|哮喘|慢阻肺|肿瘤|癌症|化疗"
+      unless: "老年痴呆|阿尔茨海默|AD|认知障碍|痴呆风险|危险因素"
+    - type: unrelated
+      pattern: "天气怎么样|天气如何|天气预报|查天气|今天.*天气|明天.*天气|股票|基金|理财|投资建议|做菜|菜谱|烹饪方法|怎么做菜|翻译成英文|翻译成中文|请翻译"
+      unless: "老年痴呆|阿尔茨海默|AD患者|痴呆|认知障碍"
+output:
+  oob_exempt_pattern: "超出.*范围|不在.*共识|共识.*不覆盖|超出了.*共识"
+  patient:
+    required_sections: ["【适用阶段】", "【方案要点】", "【频率", "【注意事项", "【依据】"]
+    citation_pattern: "共识第\\s*[0-9]+\\s*条|共识意见\\s*[0-9]+"
+model:
+  name: deepseek-chat
+  patient:
+    temperature: 0.3
+    max_tokens: 1500
+eval:
+  gold: eval/gold.yaml
+  oob_gold: eval/oob_gold.yaml
+  judge_prompt: eval/judge_prompt.md
+  pass_threshold: 0.90
+  baseline:
+    recorded_from: "med-agent-ad (pre-migration); fill avg/oob from its eval/results before deleting"

@@ -1,0 +1,89 @@
+specialty: neurocognitive
+specialty_zh: 神经认知障碍
+disease: ncd
+disease_zh: 重度与轻度神经认知障碍（总论）
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: NCD_DEFINITION
+  title: 神经认知障碍定义
+  source_page: 690
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 核心为获得性认知下降（注意、执行、学习记忆、语言、知觉-运动、社会认知等一个或多个领域）
+  - 重度与轻度区分基于对日常生活独立能力的影响程度
+- id: MAJOR_NCD_CRITERIA
+  title: 重度神经认知障碍诊断标准
+  source_page: 681
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 1. 存在一个或多个认知领域显著下降（主观关注+神经心理测试客观证据）
+  - 2. 认知缺陷干扰日常生活独立（需帮助完成付账单等复杂工具性活动），并排除谵妄和其他精神障碍
+- id: MILD_NCD_CRITERIA
+  title: 轻度神经认知障碍诊断标准
+  source_page: 683
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 1. 存在一个或多个认知领域轻度下降（主观关注+客观测试显示轻度损害）
+  - 2. 日常生活独立能力保留（但可能需更多努力或补偿策略），且排除谵妄和其他精神障碍
+- id: PREVALENCE
+  title: 患病率与流行病学
+  source_page: 693
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 65岁时痴呆（重度NCD）患病率约1-2%，85岁时达30%
+  - 轻度NCD（轻度认知障碍）在65岁为2-10%，85岁为5-25%
+  - 女性总体患病率更高（主要因寿命更长）；不同民族/种族患病率有差异
+- id: COURSE
+  title: 起病与病程
+  source_page: 694
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 病程因病因亚型而异：神经退行性疾病（如阿尔茨海默病）通常隐匿起病、渐进发展
+  - 创伤性脑损伤或中风常在特定时间后相对稳定；晚年发病常伴医疗问题和感觉缺失
+- id: RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 695
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 年龄是最强风险因素，因增加神经退行性和脑血管病风险
+  - 较低教育水平、不同种族背景（如非洲裔美国人风险较高）以及高血压、糖尿病等基础疾病也影响风险
+- id: DIFFERENTIAL_DIAG
+  title: 鉴别诊断要点
+  source_page: 698
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与正常老化、谵妄、重性抑郁障碍、特定学习障碍等鉴别
+  - 注意力和觉醒评估有助于区分谵妄；认知缺陷模式（记忆和执行缺陷一致提示阿尔茨海默病，可变提示抑郁）
+- id: BEHAVIORAL_SYMPTOMS
+  title: 常见伴随行为与精神症状
+  source_page: 688
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 精神病性症状（妄想、幻觉）常见于中重度NCD，尤其是阿尔茨海默病、路易体病
+  - 抑郁常见于早期，激越常见于中重度，冷漠也很普遍；其他包括睡眠障碍、漫游等
+- id: SUICIDAL_RISK
+  title: 自杀与自伤风险
+  source_page: 697
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 大规模研究显示神经认知障碍患者自杀行为风险升高
+  - 台湾全国性研究发现晚年自杀企图与随后诊断痴呆相关
+  must_warn:
+  - 神经认知障碍患者自杀行为风险升高，需高度警惕自伤或自杀可能；晚年自杀企图可能是痴呆的前兆信号
+- id: DIAGNOSTIC_ASSESSMENT
+  title: 诊断评估方法
+  source_page: 697
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 正式神经心理测试是诊断关键（尤其轻度NCD），提供定量评估各领域并作为基准
+  - 无法正式测试时可用简短床边评估（如简易精神状态检查）；神经影像（MRI、PET）有助于区分病因

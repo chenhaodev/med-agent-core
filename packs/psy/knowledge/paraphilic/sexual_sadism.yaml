@@ -1,0 +1,116 @@
+specialty: paraphilic
+specialty_zh: 性欲倒错障碍
+disease: sexual_sadism
+disease_zh: 性施虐障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: SSD_CORE
+  title: 核心特征与定义
+  source_page: 790
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 性施虐障碍是指至少6个月内反复、强烈地从他人身体或心理痛苦中获得性唤起，表现为幻想、冲动或行为。
+  - 诊断不要求本人承认，即使否认但客观证据充足（如反复对非同意者施虐）也可诊断。
+  - 如果承认有强烈兴趣但没有痛苦或功能损害，也未对非同意者行动，则不构成障碍，仅属性施虐偏好。
+  must_warn: []
+- id: SSD_CRITERIA_A
+  title: 诊断标准A：症状门槛
+  source_page: 790
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准A：持续至少6个月，反复出现的强烈性唤起来自他人身体或心理的痛苦，以幻想、冲动或行为表现出来。
+  - 涉及非同意对象的“反复”通常指多个受害者的多次事件，但也可能是同一受害者多次受虐或有强烈偏好证据。
+  must_warn: []
+- id: SSD_CRITERIA_B
+  title: 诊断标准B：行动或痛苦
+  source_page: 790
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准B：此人已对非同意者实施这些性冲动，或这些性冲动/幻想引起临床显著的痛苦或社交/职业等功能损害。
+  - 即使否认痛苦，但行为已对他人造成伤害或风险，也满足标准B。
+  must_warn:
+  - 诊断标准B涉及对非同意者的实际伤害行为，存在法律和道德风险。
+- id: SSD_SUBTYPES
+  title: 特殊标注：环境与缓解
+  source_page: 790
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 在控制环境下：适用于机构或受限制环境中无法进行施虐行为的人。
+  - 完全缓解：在非控制环境下至少5年未对非同意者行动，且无痛苦或功能损害。
+  must_warn: []
+- id: SSD_ADMIT_DENY
+  title: 承认者与否认者的诊断
+  source_page: 791
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 承认者若报告因性偏好而痛苦或功能受损，可诊断；若否认痛苦且未对非同意者行动，则不属于障碍。
+  - 否认者即使不承认施虐兴趣，但有多次非同意受害者等客观证据，仍可诊断。
+  must_warn: []
+- id: SSD_BDSM_DISTINCTION
+  title: BDSM与性施虐障碍区别
+  source_page: 791
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - BDSM是广泛术语，包含束缚、支配、施虐/受虐等角色扮演，通常在合意成人之间。
+  - 大部分参与BDSM社区的人并不因此痛苦或功能损害，也不对非同意者行动，因此不符合性施虐障碍诊断。
+  must_warn: []
+- id: SSD_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 791
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 普通人群患病率未知，主要来自法医样本；美国民事拘禁性罪犯中低于10%患有此障碍。
+  - 性谋杀案件中约三分之一存在施虐行为；澳大利亚普通人群过去一年参与BDSM的比例：男2.2%、女1.3%。
+  must_warn: []
+- id: SSD_DEVELOPMENT
+  title: 起病与病程
+  source_page: 791
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 施虐偏好本身可能是终生特质，但障碍的严重度随主观痛苦或对他人伤害风险波动。
+  - 许多人在青少年时期就意识到自己对BDSM的兴趣，随年龄增长兴趣和行为可能减弱。
+  must_warn: []
+- id: SSD_SUICIDE_RISK
+  title: 自杀/自伤风险与安全
+  source_page: 792
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 性施虐障碍与自杀念头/行为的关系尚不清楚。
+  - 一项针对321名BDSM参与者的研究发现，与污名相关的羞耻和内疚与自杀意念有关联。
+  must_warn:
+  - 羞耻和内疚可能增加自杀风险，尤其对于有BDSM倾向但感到社会排斥的个体。
+- id: SSD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 792
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与强奸等性攻击的区别：只有从受害者痛苦中获得愉悦（而非仅为达成性侵犯的工具性暴力）才可能诊断为性施虐障碍。
+  - 与品行障碍/反社会人格障碍的区别：后者可能有残忍或强迫性行为，但如果这些行为不反映对痛苦本身的性唤起，不应诊断。
+  must_warn: []
+- id: SSD_COMORBIDITY
+  title: 常见共病
+  source_page: 792
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 共病信息主要来自对非同意受害者实施犯罪的罪犯（几乎全男性），可能不适用于仅因主观痛苦而诊断的个体。
+  - 常见共病包括其他性欲倒错障碍，如受虐障碍（68.8%）、窥阴障碍（33.3%）、恋物性异装障碍（9.2%）等。
+  must_warn: []
+- id: SSD_CULTURE
+  title: 文化相关诊断问题
+  source_page: 791
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 不同国家对施虐行为的法律地位不同，会影响个体的痛苦程度和功能损害（因文化接受度和法律后果）。
+  must_warn: []

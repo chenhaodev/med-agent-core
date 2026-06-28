@@ -1,0 +1,93 @@
+specialty: sexual_dysfunction
+specialty_zh: 性功能失调
+disease: female_interest_arousal
+disease_zh: 女性性兴趣/唤起障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: FSAID_DEFINITION
+  title: 核心特征定义
+  source_page: 489
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 女性性兴趣/唤起障碍的核心是性兴趣或唤起缺乏或显著减少，至少出现6项症状中的3项。
+  - 症状需持续约6个月，并引起临床显著痛苦。
+  - 诊断必须排除其他精神障碍、严重关系问题（如伴侣暴力）或物质/药物的直接影响。
+  - 短期的性兴趣变化是常见的适应性反应，不属于障碍。
+  must_warn: []
+- id: FSAID_CRITERIA
+  title: 主要诊断标准
+  source_page: 489
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准A：至少3项，包括缺乏性活动兴趣、缺乏性幻想、很少主动且不接受伴侣邀请、缺乏性快感、对性线索无反应、缺乏生殖器或身体感觉。
+  - 症状几乎在所有性经历中发生（约75%-100%）。
+  - 标准B：症状持续至少6个月。
+  - 标准C：引起临床显著痛苦。标准D：排除其他原因。
+  must_warn: []
+- id: FSAID_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 491
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 约30%女性经历慢性低欲望，其中约一半伴有伴侣相关痛苦，四分之一有个人痛苦。
+  - 患病率因年龄、文化、症状持续时间和是否存在痛苦而差异很大。
+  - 当要求性功能痛苦时，患病率显著降低。
+  - 低欲望随年龄增加而更常见，但与低欲望相关的性痛苦随年龄减少。
+  must_warn: []
+- id: FSAID_COURSE
+  title: 起病与病程
+  source_page: 492
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 分为终生型（自性活跃开始）和获得型（正常功能后出现）。
+  - 适应性的性功能变化可能短暂，持续约6个月以上才构成障碍。
+  - 随年龄增长，性兴趣和唤起有正常变化。
+  - 长期关系中的女性更可能在无初始欲望时仍进行性活动。
+  must_warn: []
+- id: FSAID_RISK
+  title: 风险与预后因素
+  source_page: 492
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 气质因素：对性的负面认知和态度、精神障碍史。
+  - 环境因素：关系困难、伴侣性功能、早年压力和童年经历。
+  - 遗传和生理因素：糖尿病、甲状腺功能异常等医学状况。
+  - 遗传因素对女性性问题的脆弱性有强烈影响。
+  must_warn: []
+- id: FSAID_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 493
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需排除重度抑郁等非性精神障碍所致的兴趣缺失。
+  - 若症状始于开始使用物质/药物并随停药消失，考虑物质/药物所致性功能障碍。
+  - 若症状主要由另一种医学状况（如糖尿病）引起，不作此诊断。
+  - 严重关系问题、伴侣暴力或其他压力也能解释症状；其他性功能障碍可以共存。
+  must_warn: []
+- id: FSAID_COMORBIDITY
+  title: 常见共病
+  source_page: 493
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与其他性功能障碍（如女性高潮障碍）共病极为常见。
+  - 低欲望相关的痛苦与抑郁、甲状腺问题、焦虑、尿失禁等医学因素相关。
+  - 关节炎、炎症性肠病也与性唤起问题相关。
+  - 常伴有关系困难、慢性压力和情绪障碍。
+  must_warn: []
+- id: FSAID_SUICIDE
+  title: 自杀风险与安全
+  source_page: 493
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 性唤起和满足功能障碍与女性退伍军人及现役军人的自杀念头相关。
+  - 此关联在调整了创伤后应激障碍、抑郁、婚姻状态等因素后仍然存在。
+  must_warn:
+  - 性功能障碍（尤其是性唤起和满足问题）可能与自杀念头相关，需关注患者安全。

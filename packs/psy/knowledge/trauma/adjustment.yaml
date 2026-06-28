@@ -1,0 +1,89 @@
+specialty: trauma
+specialty_zh: 创伤及应激相关障碍
+disease: adjustment
+disease_zh: 适应障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: ADJ_DEFINITION
+  title: 适应障碍的定义与核心特征
+  source_page: 320
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 适应障碍的核心是在可识别的应激源出现后3个月内出现情绪或行为症状。
+  - 这些症状导致显著痛苦，痛苦程度与应激源严重程度不成比例（考虑外部背景和文化因素），或导致社交、工作等功能明显受损。
+  - 应激源可以是单一事件、多个事件、反复或持续存在的压力，也可能影响个人或群体。
+  must_warn: []
+- id: ADJ_CRITERIA
+  title: 主要诊断标准
+  source_page: 320
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 症状必须在应激源出现后3个月内开始。
+  - 痛苦明显超出正常预期，或功能严重受损（至少符合其中一条）。
+  - 症状不符合其他精神障碍的诊断标准，也不是原有疾病的加重。
+  - 症状不能解释为正常的丧亲反应或延长哀伤障碍。
+  - 一旦应激源或其后果终止，症状最多再持续6个月。
+  must_warn: []
+- id: ADJ_SUBTYPES
+  title: 亚型与病程标注
+  source_page: 320
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 根据主要表现标注亚型：伴抑郁心境、伴焦虑、伴混合焦虑和抑郁、伴行为紊乱、伴混合情绪和行为紊乱、或未特定。
+  - 病程标注：急性（症状少于6个月）或持续/慢性（症状6个月或更长，仅当应激源持久存在或其后果持续时使用）。
+  - 若应激源终止后症状超过6个月，则不再诊断为适应障碍。
+  must_warn: []
+- id: ADJ_PREVALENCE
+  title: 患病率
+  source_page: 321
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 适应障碍很常见，在门诊心理治疗中作为主要诊断的患者约占5%到20%。
+  - 在1990年代的澳大利亚、加拿大、以色列和美国医院精神科会诊中，适应障碍是最常见诊断之一，常达50%。
+  - 丹麦研究提示女性患病率可能更高。
+  must_warn: []
+- id: ADJ_COURSE
+  title: 起病与病程
+  source_page: 321
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 症状在应激源出现后3个月内起病；若是急性事件，起病常在数天内，病程仅数月。
+  - 若应激源或其后果持续存在，适应障碍可能转为慢性（持续≥6个月）。
+  - 应激源终止后症状若超过6个月，则不再符合适应障碍的诊断。
+  must_warn: []
+- id: ADJ_RISK
+  title: 风险与预后因素
+  source_page: 321
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 处于不利生活环境（如贫困、歧视）的人经历更多应激源，患适应障碍风险更高。
+  - 移民和难民面临巨大的文化与环境变化，可能增加适应障碍风险。
+  - 在一些文化背景下，对压力事件的痛苦反应可能不被视为异常，评估需考虑文化背景。
+  must_warn: []
+- id: ADJ_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 322
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与重性抑郁障碍的区别：适应障碍的情绪症状达不到重性抑郁标准，且与应激直接相关。
+  - 与创伤后应激障碍（PTSD）和急性应激障碍的区别：PTSD/急性应激障碍对创伤事件有特定症状（如再体验、回避），且时间标准不同（急性应激障碍3天-1月，PTSD至少1月）。
+  - 与人格障碍的区别：人格障碍是长期模式，适应障碍是急性应激相关的短暂功能下降；两者可共存。
+  - 与延长哀伤障碍及正常应激反应的区别：正常反应不构成障碍，适应障碍痛苦程度超出文化预期。
+  must_warn: []
+- id: ADJ_SUICIDE
+  title: 自杀与自伤风险
+  source_page: 321
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 适应障碍与自杀企图和自杀风险增加有关。
+  - 在移民人群中（如西欧的土耳其移民或海湾国家的南亚/东南亚移民），适应障碍是与自杀行为相关的最常见诊断之一。
+  must_warn:
+  - 适应障碍与自杀企图和自杀风险增加相关；在某些文化背景下，还存在自焚风险。如有自杀念头或行为，请立即联系危机热线或就医。

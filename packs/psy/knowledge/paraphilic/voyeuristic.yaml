@@ -1,0 +1,67 @@
+specialty: paraphilic
+specialty_zh: 性欲倒错障碍
+disease: voyeuristic
+disease_zh: 窥阴障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: VOY_DEF
+  title: 窥阴障碍核心特征
+  source_page: 780
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 至少6个月内反复对观察不知情者的裸体、脱衣或性活动产生强烈性兴奋。
+  - 这种兴奋表现为幻想、冲动或行为，并导致明显痛苦或功能损害。
+- id: VOY_CRITERIA
+  title: 主要诊断标准
+  source_page: 780
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A标准：持续至少6个月，通过观察不知情的裸体、脱衣或性活动产生反复、强烈的性唤起。
+  - B标准：个体已对不知情者采取行动，或冲动/幻想引起临床显著痛苦或社交、职业等功能损害。
+  - C标准：年满18岁（排除青春期正常好奇心）。
+  - 可选亚型：在限制环境中（如监狱）；完全缓解（至少5年无行为且无痛苦/损害）。
+- id: VOY_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 782
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 窥阴行为在普通人群中很常见，一生中出现率达34.5%（男50.3%，女21.2%）。
+  - 但达到诊断标准（强烈欲望+反复行为）的比例低得多，约2.1%。
+  - 男女行为比例约2:1~3:1；在性犯罪者中窥阴障碍患病率约3.7%。
+- id: VOY_COURSE
+  title: 起病与病程
+  source_page: 782
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 通常青春期开始意识到这种性兴趣，但诊断需18岁以上以区分正常好奇心。
+  - 病程可持续多年，主观痛苦和功能损害可能随时间变化。
+  - 部分人随年龄增长性兴趣和行为可能自然减少。
+- id: VOY_RISK
+  title: 风险与预后因素
+  source_page: 782
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 风险因素包括童年性虐待、物质滥用和性关注过度/性冲动过强。
+  - 但这些因素与窥阴行为的因果关系及特异性尚不明确。
+- id: VOY_DIFF
+  title: 鉴别诊断要点
+  source_page: 783
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需排除躁狂发作、神经认知障碍、智力发育障碍、精神分裂症等引起的性脱抑制。
+  - 若偷窥行为仅出现在上述疾病发作期，不应诊断窥阴障碍。
+  - 与品行障碍或反社会人格障碍区别在于后者有普遍违规行为，缺乏特定偷窥性兴趣。
+- id: VOY_COMORB
+  title: 常见共病情况
+  source_page: 783
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 已知共病主要基于对涉嫌或定罪男性的研究，但目前资料未列出具体疾病。
+  - 临床中需注意评估是否同时存在其他性欲倒错障碍（如露阴障碍）。

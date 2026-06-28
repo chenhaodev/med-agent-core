@@ -1,0 +1,79 @@
+specialty: ocd
+specialty_zh: 强迫及相关障碍
+disease: excoriation
+disease_zh: 抓痕（皮肤搔抓）障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: SKINPICK_DEFINITION
+  title: 定义与核心特征
+  source_page: 282
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 反复搔抓自己的皮肤，导致皮损，常见部位为面部、手臂和手。
+  - 抓痕行为可持续数小时，常伴有试图掩饰皮损的行为（如用化妆品或衣物遮盖）。
+  must_warn: []
+- id: SKINPICK_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准
+  source_page: 281
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A. 反复搔抓皮肤导致明显皮损。
+  - B. 多次尝试减少或停止搔抓但失败。
+  - C. 搔抓引起显著痛苦，或影响社交、工作等重要功能。
+  - D. 搔抓行为不是由药物（如可卡因）或其他躯体疾病（如疥疮）直接引起。
+  - E. 搔抓不是其他精神障碍（如妄想、体像障碍等）的症状。
+  must_warn: []
+- id: SKINPICK_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 283
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 在线调查显示当前患病率约2.1%，终生患病率约3.1%。
+  - 社区样本中，女性患者占四分之三以上。
+  must_warn: []
+- id: SKINPICK_DEVELOPMENT_COURSE
+  title: 起病与病程
+  source_page: 283
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常在青春期（伴随或紧随青春发育）起病，常以痤疮等皮肤病为先导。
+  - 病程通常为慢性，未经治疗时症状有波动；部分患者可间歇数周至数年。
+  must_warn: []
+- id: SKINPICK_RISK_PROGNOSTIC
+  title: 风险与预后因素
+  source_page: 284
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 有遗传易感性：该病在强迫症（OCD）患者及其一级亲属中比普通人群更常见。
+  must_warn: []
+- id: SKINPICK_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 285
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需排除精神病性障碍（如寄生虫妄想）、强迫症、身体畸形障碍（因外观担忧搔抓）。
+  - 也需与刻板运动障碍（早年起病）、抽动障碍、非自杀性自伤、物质使用（如可卡因）及皮肤病（如疥疮）区分。
+  must_warn: []
+- id: SKINPICK_COMORBIDITY
+  title: 常见共病
+  source_page: 284
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常与强迫症（OCD）共病，该病在OCD及一级亲属中更常见。
+  must_warn: []
+- id: SKINPICK_FUNCTIONAL_IMPACT
+  title: 功能损害与并发症
+  source_page: 285
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 多数患者每天至少花费1小时搔抓、思考搔抓或抵抗冲动，常回避社交场合。
+  - 医疗并发症包括组织损伤、瘢痕、感染；严重时需抗生素或手术治疗。
+  must_warn: []

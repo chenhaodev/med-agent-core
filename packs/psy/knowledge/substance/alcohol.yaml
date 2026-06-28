@@ -1,0 +1,89 @@
+specialty: substance
+specialty_zh: 物质相关及成瘾障碍
+disease: alcohol
+disease_zh: 酒精使用障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: AUD_DEFINITION
+  title: 什么是酒精使用障碍
+  source_page: 559
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 酒精使用障碍是一组行为与生理症状（如渴求、耐受、戒断）构成的问题性饮酒模式，导致显著的临床损害或痛苦。
+  - 患者常花大量时间获取、饮用或从酒效中恢复，即使明知会引发健康等问题仍继续饮酒。
+  - 渴求表现为强烈饮酒欲望，难以思考其他事情，常导致饮酒行为失控。
+  must_warn: []
+- id: AUD_CRITERIA
+  title: 诊断标准与严重度
+  source_page: 557
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 12个月内出现至少2项标准：饮酒量或时间超标、难以控制、花大量时间、渴求、失职、社交问题、放弃活动、危险情境、明知问题仍饮、耐受、戒断或为避免戒断而饮。
+  - 严重度：轻度2-3条，中度4-5条，重度6条及以上。
+  - 可标注缓解早期（3-12个月无标准）或持续缓解（12个月以上无标准，渴求除外），以及是否在限制环境中。
+  must_warn: []
+- id: AUD_PREVALENCE
+  title: 患病率
+  source_page: 560
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国成人终生患病率约29.1%（轻度8.6%，中度6.6%，重度13.9%）；澳大利亚约31.0%。
+  - 男性（36.0%）高于女性（22.7%）；12个月患病率18-29岁最高（16.2%），65岁以上仅1.5%。
+  - 不同种族患病率有差异：原住民和拉美裔较高，亚裔较低；移民文化适应后患病率上升。
+  must_warn: []
+- id: AUD_COURSE
+  title: 起病与病程
+  source_page: 561
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 初次醉酒多在15岁左右，起病高峰在青少年后期至20岁出头，多数人40岁前发病。
+  - 病程多变，常有缓解与复发；危机后戒酒可维持数周，但复饮后易迅速恶化。
+  - 严重病例只占少数，多数患者预后较乐观。
+  must_warn: []
+- id: AUD_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 562
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 遗传解释40%-60%风险，一级亲属患病风险高3-4倍；同卵双生共病率高于异卵。
+  - 环境风险包括贫困、歧视、失业、酒精易得性、同伴压力、低应对能力等。
+  - 低酒精反应（低敏感性）、冲动性、精神分裂症或双相障碍共病增加风险。
+  must_warn: []
+- id: AUD_DIFFERENTIAL
+  title: 鉴别诊断
+  source_page: 566
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 须与无害饮酒（偶尔低量、无损害）区分，多数饮酒者不发展为酒精使用障碍。
+  - 需区分酒精中毒、戒断和酒精所致精神障碍（这些常伴发，可合并诊断）。
+  - 与镇静-催眠-抗焦虑药使用障碍症状相似，需根据物质使用史和检测区分。
+  must_warn: []
+- id: AUD_COMORBIDITY
+  title: 常见共病
+  source_page: 567
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常与双相障碍、精神分裂症、反社会型人格障碍以及焦虑、抑郁障碍共病。
+  - 部分抑郁症状可能由急性中毒或戒断引起，而非独立重性抑郁。
+  - 严重重复醉酒可抑制免疫，增加感染和癌症风险。
+  must_warn: []
+- id: AUD_SUICIDE
+  title: 自杀/自伤风险
+  source_page: 565
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 严重醉酒和酒精所致抑郁/双相障碍是自杀的重要危险因素。
+  - 急性饮酒（尤其是24小时内大量饮酒）使自杀未遂风险升高近7倍。
+  - 酒精使用障碍者自杀行为显著增加，尤其在合并反社会人格时风险更高。
+  must_warn:
+  - 急性饮酒使自杀未遂风险升高近7倍，大量饮酒比少量饮酒风险更高。
+  - 酒精使用障碍者自杀行为显著增加，严重醉酒时风险最高。
+  - 饮酒与枪支拥有相关，饮酒者用枪自杀风险是非饮酒者的4-6倍。

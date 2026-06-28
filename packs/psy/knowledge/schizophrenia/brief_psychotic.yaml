@@ -1,0 +1,98 @@
+specialty: schizophrenia
+specialty_zh: 精神分裂症谱系及其他精神病性障碍
+disease: brief_psychotic
+disease_zh: 短暂精神病性障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: BPD_CORE_FEATURES
+  title: 核心特征与定义
+  source_page: 110
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 突发阳性精神病症状（妄想、幻觉、言语紊乱、明显紊乱或紧张症行为），至少含前三项之一。
+  - 症状不可被文化认可的反应解释（如宗教仪式幻听、丧亲交流）。
+  - 发作至少1天但不足1个月，并完全恢复到病前功能水平。
+  - 排除抑郁/双相障碍伴精神病特征、精神分裂症、物质或躯体疾病所致。
+  must_warn: []
+- id: BPD_DIAGNOSTIC_CRITERIA
+  title: 主要诊断标准要点
+  source_page: 109
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A项：出现妄想、幻觉、言语紊乱（如持续离题或语无伦次）或明显紊乱/紧张症行为，至少一项是前三者。
+  - B项：发作持续≥1天但＜1个月，最终完全恢复至病前功能。
+  - C项：不能用其他精神障碍、物质或躯体疾病更好解释。
+  - 可指定伴显著应激、不伴或围产期发作；伴紧张症需附加编码F06.1。
+  - 严重程度可量化评估（0-4分），但诊断不必使用。
+  must_warn: []
+- id: BPD_PREVALENCE
+  title: 患病率
+  source_page: 110
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 在多个国家首发精神病病例中约占2%-7%。
+  must_warn: []
+- id: BPD_DEVELOPMENT_COURSE
+  title: 起病与病程
+  source_page: 110
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可发于青少年或成年早期，平均发病年龄约30多岁。
+  - 症状持续时间可很短（仅几天），但必须在1个月内完全缓解。
+  - 超过50%个体复发，但多数社会功能和症状预后良好。
+  - 约半数诊断会变更（多转为精神分裂症谱系障碍）。
+  must_warn: []
+- id: BPD_RISK_PROGNOSIS
+  title: 风险与预后因素
+  source_page: 110
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 症状可能由显著应激触发（短暂反应性精神病），但也可无应激。
+  - 复发常见（>50%），但多数患者长期社会功能恢复良好。
+  - 至多半数患者诊断会改变，最常见转向精神分裂症谱系障碍。
+  must_warn: []
+- id: BPD_DIFFERENTIAL_DIAGNOSIS
+  title: 鉴别诊断要点
+  source_page: 111
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需排除躯体疾病（如库欣综合征、脑瘤）所致精神病（病史、体检、实验室检查）。
+  - 排除物质/药物（如致幻剂、药物）中毒或撤药所致精神病（毒物筛查、用药史）。
+  - 排除抑郁症或双相障碍伴精神病特征（症状仅在完整心境发作期出现）。
+  - 若症状持续≥1个月，应诊断精神分裂症样障碍、妄想障碍等。
+  - 同时排除谵妄、应激障碍等。
+  must_warn: []
+- id: BPD_COMORBIDITY
+  title: 常见共病
+  source_page: 109
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 可共病紧张症（需附加编码F06.1）。
+  - 常需与情感障碍、其他精神病性障碍鉴别，但也可独立存在。
+  - 发作时常伴情绪波动、混乱或冲动行为。
+  must_warn: []
+- id: BPD_SUICIDE_RISK
+  title: 自杀风险与安全警示
+  source_page: 110
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 急性期自杀行为风险增加，尤其当患者出现绝望、冲动或命令性幻听时。
+  must_warn:
+  - 原文指出：有自杀行为风险增加，尤其是在急性发作期。需密切监护和评估自杀意念。
+- id: BPD_CULTURAL_CONSIDERATIONS
+  title: 文化相关诊断考量
+  source_page: 111
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 区分症状与文化认可的反应（如丧亲时看到逝者、宗教仪式幻听），后者不视为病态。
+  - 评估妄想时需结合患者的文化和宗教背景。
+  must_warn: []

@@ -1,0 +1,114 @@
+specialty: feeding_eating
+specialty_zh: 喂食及进食障碍
+disease: binge_eating
+disease_zh: 暴食障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: BED_DEFINITION
+  title: 核心特征与定义
+  source_page: 393
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 暴食障碍核心是反复暴食发作，平均每周至少1次、持续3个月。
+  - 暴食时吃下明显多于常人同时间同情况的食量，且感觉失控。
+  - 暴食后伴随显著痛苦，没有清除等代偿行为。
+  must_warn: []
+- id: BED_CRITERIA_A
+  title: 诊断标准A：暴食发作
+  source_page: 393
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 在2小时内吃下明确大于常人的食物量。
+  - 发作期间有失控感，如无法停止或控制吃什么、吃多少。
+  - 失控感可能不完全，如有人进屋会停止；有时会计划暴食。
+  must_warn: []
+- id: BED_CRITERIA_B
+  title: 诊断标准B：伴随行为
+  source_page: 393
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 暴食发作时至少出现3项：比平时吃快得多、吃到不舒服。
+  - 不饿时大量进食、因尴尬独自吃、事后厌恶/抑郁/内疚。
+  must_warn: []
+- id: BED_CRITERIA_CDE
+  title: 诊断标准C/D/E
+  source_page: 394
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 暴食引起显著痛苦（C）。
+  - 平均每周至少1次，持续3个月（D）。
+  - 没有神经性贪食那样的反复代偿行为，也不只出现在贪食或厌食期间（E）。
+  must_warn: []
+- id: BED_SEVERITY
+  title: 严重程度分级
+  source_page: 394
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 轻度：每周1-3次暴食；中度：4-7次；重度：8-13次；极重度：≥14次。
+  - 部分缓解：既往符合标准，现平均每周少于1次。
+  - 完全缓解：既往符合标准，现无任何症状。
+  must_warn: []
+- id: BED_PREVALENCE
+  title: 患病率/流行病学
+  source_page: 395
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国社区12月患病率0.44%-1.2%，女性是男性的2-3倍。
+  - 终身患病率0.85%-2.8%（女性1.25%-3.5%，男性0.42%-2.0%）。
+  - 高收入工业国家患病率相近（0.1%-1.2%），拉丁美洲部分地区更高。
+  must_warn: []
+- id: BED_COURSE
+  title: 起病与病程
+  source_page: 395
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 通常始于青少年或成年早期，也可在成年后期发病。
+  - 很多人在暴食后开始节食（与贪食症相反）。
+  - 病程可变，缓解率高于贪食/厌食，但部分人呈持续/复发-缓解模式。
+  must_warn: []
+- id: BED_RISK
+  title: 风险与预后因素
+  source_page: 396
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 暴食障碍有家族聚集性，可能反映遗传影响。
+  - 负面情绪、人际压力、饮食限制、无聊等常触发暴食。
+  must_warn: []
+- id: BED_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 396
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与神经性贪食区别：暴食障碍无反复代偿行为（如催吐、过度运动）。
+  - 与肥胖不同：多数肥胖者无暴食；暴食障碍患者对体重体形更在意，共病更多。
+  - 若同时符合抑郁、双相或边缘人格障碍标准，可同时诊断。
+  must_warn: []
+- id: BED_COMORBIDITY
+  title: 常见共病
+  source_page: 397
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 最常共病重度抑郁障碍和酒精使用障碍。
+  - 精神共病与暴食严重程度相关，与肥胖程度无关。
+  - 暴食障碍与其他进食障碍的交叉转换不常见。
+  must_warn: []
+- id: BED_SUICIDE
+  title: 自杀风险与安全
+  source_page: 396
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 约25%的暴食障碍患者报告有过自杀意念。
+  - 评估时需关注自杀风险并进行安全干预。
+  must_warn:
+  - 约25%的暴食障碍患者有自杀意念，临床发现需立即评估安全风险。

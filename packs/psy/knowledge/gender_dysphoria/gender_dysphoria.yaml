@@ -1,0 +1,108 @@
+specialty: gender_dysphoria
+specialty_zh: 性别烦躁
+disease: gender_dysphoria
+disease_zh: 性别烦躁
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: GD_DEFINITION
+  title: 性别烦躁的核心定义
+  source_page: 514
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 个体体验/表达的性别与出生指定性别之间显著不一致，并伴临床显著痛苦或损害。
+  - 核心是这种不一致，而非性别认同本身；痛苦可能源于无法获得所需的医疗干预。
+  - 体验性别可包括非二元性别，不限于传统男女二分。
+  must_warn: []
+- id: GD_CRITERIA_CHILD
+  title: 儿童诊断标准
+  source_page: 513
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 至少6个月表现，满足8项中至少6项（必须包含第1项：强烈渴望成为另一性别）。
+  - 其他表现包括：偏爱异性服装、角色扮演、玩具、玩伴；拒绝自身性解剖结构。
+  - 导致社交、学业或其他重要领域的功能损害或痛苦。
+  - 可标注伴性发育障碍/差异。
+  must_warn: []
+- id: GD_CRITERIA_ADULT
+  title: 青少年与成人诊断标准
+  source_page: 513
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 至少6个月表现，满足6项中至少2项，包括体验与第一/第二性征不一致、渴望去除自身性征等。
+  - 必须伴有社交、职业或其他重要功能领域临床显著痛苦或损害。
+  - 可标注“后过渡期”：已全职以体验性别生活，并已完成至少一项性别确认医疗程序。
+  - 可标注伴性发育障碍/差异。
+  must_warn: []
+- id: GD_PREVALENCE
+  title: 患病率
+  source_page: 515
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 基于寻求性别确认治疗的人群，出生指定男性和女性患病率均低于0.1%（<1/1000）。
+  - 自报跨性别身份比例为0.5%-0.6%，体验性别不一致为0.6%-1.1%。
+  - 因许多个体未寻求专业治疗，实际患病率可能被低估。
+  must_warn: []
+- id: GD_COURSE
+  title: 起病与病程
+  source_page: 516
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 儿童期性别烦躁通常2-4岁起病，表现为持续性别非典型行为。
+  - 青春期前儿童部分在青春期后不再符合诊断，但多数自认为是同性恋/双性恋。
+  - 早发型病程可能持续至成年；迟发型在青春期或更晚出现，痛苦可能更波动。
+  - 伴性发育障碍的个体因早期医疗干预，性别烦躁表现更可预测。
+  must_warn: []
+- id: GD_RISK
+  title: 风险与预后因素
+  source_page: 518
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 气质因素：学龄前起病且性别不一致程度高者，持续到青春期的风险更大。
+  - 环境因素：出生指定男性有较多兄长者较常见。
+  - 遗传生理：有微弱家族聚集性，同卵双生一致率高于异卵；多基因基础影响脑性分化。
+  - 伴性发育障碍者：产前雄激素暴露显著偏离指定性别时，继发性别烦躁风险增高。
+  must_warn: []
+- id: GD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 520
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与单纯的性别角色非遵从区分：后者没有成为另一性别的强烈渴望。
+  - 异装障碍：以异性服装唤起性兴奋为特征，不怀疑自身指定性别。
+  - 躯体变形障碍：关注特定身体部位的外形异常，而非性别不匹配。
+  - 自闭症谱系：可能因刻板思维误解性别角色，需仔细鉴别共病。
+  - 精神分裂症：罕见出现属于另一性别的妄想，但内容古怪且随病情起伏。
+  must_warn: []
+- id: GD_COMORBIDITY
+  title: 常见共病
+  source_page: 520
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 儿童期常共病焦虑、破坏性冲动控制及抑郁障碍。
+  - 青少年和成人共病率更高，最常见焦虑和抑郁障碍。
+  - 自闭症谱系障碍在临床转诊青少年和成人中更常见。
+  - 经历骚扰和暴力者可能发展创伤后应激障碍。
+  must_warn: []
+- id: GD_SUICIDE
+  title: 自杀自伤风险与安全
+  source_page: 519
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 跨性别个体自杀企图率报告为30%-80%，风险因素包括既往虐待、性别受害、抑郁、物质滥用和年轻。
+  - 性别烦躁青少年自杀想法和行为显著高于非转诊青少年，尤其在未接受治疗前。
+  - 儿童期因性别问题转诊者自伤/自杀企图风险是对照组的8.6倍。
+  - 性别确认治疗后症状改善，但部分人仍存焦虑抑郁，自杀风险持续上升。
+  must_warn:
+  - 跨性别个体自杀企图率高达30%-80%，儿童期性别烦躁转诊者自伤/自杀风险是对照组的8.6倍。
+  - 青少年跨性别群体中，跨性别男性自杀企图率最高。
+  - 即使接受性别确认治疗，部分个体仍持续存在焦虑、抑郁和自杀风险。
+  - 缺乏家庭或社会支持、遭受歧视与受害化会进一步增加自杀风险。

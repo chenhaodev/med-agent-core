@@ -1,0 +1,85 @@
+specialty: ocd
+specialty_zh: 强迫及相关障碍
+disease: trichotillomania
+disease_zh: 拔毛癖
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: TRICH_CORE
+  title: 核心特征
+  source_page: 275
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 反复拔除自身毛发，导致脱发，常见于头皮、眉毛、眼睑
+  - 拔毛可呈短暂散布或持续数小时，可能维持数月或数年
+  - 拔毛前常有紧张感，拔毛后获得满足、愉悦或解脱
+  - 部分患者意识完全集中，部分则自动进行，多数两者混合
+- id: TRICH_DIAG
+  title: 诊断标准
+  source_page: 274
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A. 反复拔毛导致脱发
+  - B. 多次尝试减少或停止拔毛
+  - C. 拔毛引起显著痛苦或社交、职业等功能损害
+  - D. 拔毛或脱发不是由其他躯体疾病（如皮肤病）引起
+  - E. 拔毛不能用其他精神障碍（如身体畸形障碍BDD）更好地解释
+- id: TRICH_EPIDEM
+  title: 患病率
+  source_page: 277
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国非代表性样本12个月患病率约为1%-2%
+  - 临床样本中女性远多于男性（约10:1），社区样本中约2:1
+  - 儿童期男女比例较为均衡
+  - 一项代表性调查显示1.7%自报当前患有拔毛癖，性别差异不显著
+- id: TRICH_DEVEL
+  title: 起病与病程
+  source_page: 278
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常见于青春期前后起病，也可在婴儿期出现但多随发育缓解
+  - 若不治疗，通常为慢性病程，可有波动（时好时坏）
+  - 少数患者在发病几年内完全缓解且不再复发
+  - 女性经前期症状可能加重，妊娠期变化不一致
+- id: TRICH_RISK
+  title: 风险与预后因素
+  source_page: 278
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 有遗传易感性证据，在强迫症（OCD）及其亲属中更常见
+  - 家族聚集性提示共同生物学基础
+- id: TRICH_DIFF
+  title: 鉴别诊断要点
+  source_page: 279
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与美容性修毛、转弄头发等正常行为区分
+  - 不能归因于OCD的对称仪式、BDD的瑕疵感知或刻板运动障碍
+  - 精神障碍导致（如妄想/幻觉）引起的拔毛不诊断为拔毛癖
+  - 物质（如兴奋剂）可能加重但通常非主要原因
+- id: TRICH_COMORB
+  title: 常见共病
+  source_page: 280
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 最常见共病重性抑郁障碍和抓痕（皮肤搔抓）障碍
+  - 多数患者还有咬指甲等其他身体专注重复行为
+  - 也可共病焦虑障碍
+- id: TRICH_CONSEQ
+  title: 功能后果与并发症
+  source_page: 279
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 导致显著社交回避、职业与学业功能损害
+  - 可能引起不可逆的毛发生长损伤与质量下降
+  - 食毛症可形成毛粪石，引发腹痛、呕吐甚至肠梗阻
+  must_warn:
+  - 食毛症（吞咽毛发）可导致毛粪石，进而引起肠梗阻、肠穿孔，需紧急医疗处理

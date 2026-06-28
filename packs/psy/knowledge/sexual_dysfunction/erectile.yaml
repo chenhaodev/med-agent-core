@@ -1,0 +1,96 @@
+specialty: sexual_dysfunction
+specialty_zh: 性功能失调
+disease: erectile
+disease_zh: 勃起障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: ERECTILE_DEFINITION
+  title: 定义与核心特征
+  source_page: 482
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 勃起障碍的核心是在几乎所有性活动中，明显难以获得或维持勃起，或勃起硬度显著下降。
+  - 问题需持续至少6个月，并引起个人显著痛苦。
+  - DSM-5中严格区分“勃起障碍”（诊断类别）与“勃起功能障碍”（描述性术语）。
+  must_warn: []
+- id: ERECTILE_CRITERIA
+  title: 诊断标准要点
+  source_page: 482
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 标准A：以下3项中至少1项出现在约75%-100%的性活动场合——①明显难以勃起；②难以维持至结束；③硬度明显降低。
+  - 标准B：症状持续至少6个月。
+  - 标准C：引起临床显著痛苦。
+  - 标准D：不能由其他精神障碍、严重关系困扰、物质/药物或医学状况更好解释。
+  must_warn: []
+- id: ERECTILE_SUBTYPES
+  title: 亚型与严重度
+  source_page: 482
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 终生型：自性活动开始即存在；获得型：正常功能后发生。
+  - 广泛型：所有类型刺激或伴侣；情境型：仅特定情况或伴侣。
+  - 严重度根据痛苦程度分轻度、中度、重度。
+  must_warn: []
+- id: ERECTILE_PREVALENCE
+  title: 患病率与年龄分布
+  source_page: 483
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 40-80岁男性患病率约13%-21%；40岁以下低于10%；60多岁约20%-40%；70岁以上50%-75%。
+  - 澳大利亚一项研究发现70岁以上男性80%存在勃起障碍。
+  - 不同种族背景间无显著差异；老年男同性恋或双性恋者患病率相似。
+  must_warn: []
+- id: ERECTILE_COURSE
+  title: 起病与病程
+  source_page: 483
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 首次性尝试失败多与陌生伴侣、酒精/药物、不愿性交、同伴压力有关，通常可自发缓解。
+  - 获得型勃起障碍常与糖尿病、心血管疾病等生物学因素相关，多数持续存在。
+  - 终生型多与心理因素相关，可能自限或对心理干预有反应；随年龄增长发病率增加。
+  - 少数中度勃起失败可自发缓解；老年人对症状的痛苦程度低于年轻人。
+  must_warn: []
+- id: ERECTILE_RISK
+  title: 风险与预后因素
+  source_page: 483
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 年龄增长、吸烟、缺乏体育锻炼、糖尿病、性欲降低是获得型勃起障碍的风险因素。
+  must_warn: []
+- id: ERECTILE_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 485
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 排除重性抑郁障碍：若勃起困难由抑郁更好解释，则不诊断勃起障碍。
+  - 排除正常功能但过高期望：男性对勃起功能的期望不现实时不属于障碍。
+  - 排除物质/药物所致：症状始于使用物质或药物，停药或减量后消失。
+  - 排除其他医学状况：尤其是40-50岁以上或伴血管疾病、糖尿病者；情境性、急性起病更倾向心理性。
+  must_warn: []
+- id: ERECTILE_COMORBIDITY
+  title: 常见共病与伴随问题
+  source_page: 483
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 常伴低自尊、内疚、自我责备、沮丧、愤怒，或担心令伴侣失望。
+  - 可导致性回避、伴侣满意度下降，并常与焦虑、抑郁、糖尿病、心血管疾病共存。
+  must_warn: []
+- id: ERECTILE_SUICIDE
+  title: 自杀与自伤风险
+  source_page: 484
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 合并抑郁的勃起障碍患者中自杀念头或行为发生率升高，患者常将自杀症状归因于勃起问题。
+  - 前列腺癌治疗相关的勃起功能障碍可能通过诱发抑郁而增加自杀风险。
+  must_warn:
+  - 合并抑郁的勃起障碍患者需警惕自杀风险，尤其是治疗相关勃起功能障碍伴抑郁症状时。

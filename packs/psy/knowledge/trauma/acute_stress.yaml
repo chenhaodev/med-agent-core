@@ -1,0 +1,91 @@
+specialty: trauma
+specialty_zh: 创伤及应激相关障碍
+disease: acute_stress
+disease_zh: 急性应激障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: ASD_WHAT
+  title: 定义与核心特征
+  source_page: 315
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 核心特征是在暴露于创伤事件后3天至1个月内出现一系列症状，包括闯入、负性情绪、分离、回避和警觉反应。
+  - 症状通常包括对创伤的反复侵入性回忆、噩梦、闪回，以及强烈的心理痛苦或生理反应。
+  - 患者可能持续无法体验积极情绪，并出现现实感改变、分离性遗忘或回避行为。
+  - 睡眠问题、易怒、过度警觉、注意力不集中和惊跳反应也很常见。
+  must_warn: []
+- id: ASD_CRITERIA
+  title: 诊断标准（转述）
+  source_page: 315
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 必须直接经历、亲眼目睹、得知亲友遭遇、或反复接触创伤事件的厌恶细节（如急救人员收集遗体）。
+  - 自创伤后出现至少9个症状，分属于5个类别：闯入、负性情绪、分离、回避、警觉性增高。
+  - 症状需至少持续3天，且不超过1个月；通常创伤后立即出现，但满3天才可诊断。
+  - 引起明显的社交、职业或其他重要功能损害，且不是由物质或其他疾病导致。
+  must_warn: []
+- id: ASD_PREVALENCE
+  title: 患病率
+  source_page: 317
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 在近期（1个月内）创伤暴露人群中，非人际创伤（如车祸、烧伤）的患病率低于20%。
+  - 人际创伤（如强奸、攻击）的患病率较高，介于19%至50%之间。
+  must_warn: []
+- id: ASD_COURSE
+  title: 起病与病程
+  source_page: 317
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 最早在创伤后3天可诊断，症状可能自然缓解（1个月内）或进展为创伤后应激障碍（PTSD）。
+  - 约一半最终发展为PTSD的患者最初表现为急性应激障碍。
+  - 症状可能因持续应激或新创伤而缓解、稳定或恶化。
+  - 年幼儿童的症状表达不同，如噩梦内容不明确、通过游戏重演、可能不表现恐惧。
+  must_warn: []
+- id: ASD_RISK
+  title: 风险与预后因素
+  source_page: 317
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 风险因素包括既往精神障碍、高水平的负性情绪（如焦虑抑郁）、感知到的创伤严重程度高。
+  - 回避型应对方式和对创伤的灾难性认知（如夸大未来伤害、内疚、绝望）是重要预测因素。
+  - 有创伤史、创伤前声学惊跳反应增强也增加患病风险。
+  must_warn: []
+- id: ASD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 319
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与适应障碍的区别：压力源达不到创伤水平，或症状模式不符（如以抑郁愤怒为主）。
+  - 与惊恐障碍的区别：惊恐发作在急性应激障碍中常见，但惊恐障碍要求发作非预期且担心复发。
+  - 与分离障碍的区别：若仅有严重分离症状（如现实解体）而无其他特征，需考虑分离障碍。
+  - 与PTSD的区别：急性应激障碍症状必须在1个月内消失，否则应诊断PTSD。
+  - 与强迫症的区别：强迫思维与创伤无关，且有强迫行为。
+  - 与精神病性障碍的区别：闪回需与幻觉错觉区分，闪回直接与创伤相关且无其他精神病特征。
+  must_warn: []
+- id: ASD_GENDER
+  title: 性别差异
+  source_page: 318
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 多国研究发现女性患病率高于男性。
+  - 女性更可能经历高风险事件（如强奸、人际暴力、童年创伤），从而增加患病风险。
+  - 性别在情绪认知加工、神经生物学和应对方式上的差异也可能解释这一差异。
+  must_warn: []
+- id: ASD_FUNCTIONAL
+  title: 功能影响
+  source_page: 318
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 焦虑和回避行为导致社交、人际和职业功能严重受损。
+  - 极端焦虑干扰睡眠、精力和专注力，影响日常任务完成。
+  - 回避行为可能使患者拒绝就医、避免驾驶、缺勤等。
+  must_warn: []

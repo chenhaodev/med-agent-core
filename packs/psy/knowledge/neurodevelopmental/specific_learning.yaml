@@ -1,0 +1,102 @@
+specialty: neurodevelopmental
+specialty_zh: 神经发育障碍
+disease: specific_learning
+disease_zh: 特定学习障碍
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: SLD_DEFINITION
+  title: 特定学习障碍核心定义
+  source_page: 77
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 特定学习障碍是一种神经发育障碍，源于生物因素导致认知异常，表现为学习和使用阅读、写作、数学等学术技能持续困难。
+  - 关键特征是学习困难持久（≥6个月），且不是由于缺乏教育或智力障碍引起。
+  must_warn: []
+- id: SLD_CRITERIA
+  title: 主要诊断标准
+  source_page: 78
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - A. 至少存在一种学习技能困难持续6个月以上：如单词阅读不准确/慢、阅读理解差、拼写或书面表达困难、数感或计算困难、数学推理困难。
+  - B. 受影响的学术技能显著低于年龄水平，经个体化标准化成就测试和临床评估确认；17岁及以上可用病史替代。
+  - C. 学习困难始于学龄期，但可能到需求超过能力时才完全显现。
+  - D. 困难不能由智力障碍、未矫正的视听觉问题、其他精神/神经障碍、心理社会逆境、教学语言不熟或教育不足解释。
+  must_warn: []
+- id: SLD_SUBTYPES
+  title: 亚型与标注
+  source_page: 78
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 阅读障碍（dyslexia）：准确或流畅的单词识别、解码、拼写困难；需同时注明其他困难如阅读理解或数学推理。
+  - 书面表达障碍：拼写、语法标点、书面表达的清晰度或组织性受损。
+  - 数学障碍（dyscalculia）：处理数字信息、学习算术事实、准确流畅计算或数学推理困难。
+  - 严重程度分轻、中、重度：轻度可在支持下补偿；中度需强化教学；重度需持续个别化特殊教学。
+  must_warn: []
+- id: SLD_PREVALENCE
+  title: 患病率
+  source_page: 81
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 学龄儿童中特定学习障碍在阅读、写作、数学三个领域的患病率为5%-15%（美国、巴西、北爱尔兰数据）。
+  - 成人中的患病率未知。
+  must_warn: []
+- id: SLD_DEVELOPMENT
+  title: 起病与病程
+  source_page: 81
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 通常小学阶段开始识别，但早期先兆如语言延迟、节奏困难等可在学前出现。
+  - 终身性障碍，但表现随年龄和任务需求变化：小学时阅读解码困难，中学后阅读理解、数学问题解决突出。
+  - 成人期仍存在拼写、阅读流畅性或数字理解问题，可能回避读写活动。
+  must_warn: []
+- id: SLD_RISK
+  title: 风险与预后因素
+  source_page: 83
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 环境因素：社会经济地位低、产前或早期接触空气污染、尼古丁、铅、锰等神经毒物增加风险。
+  - 遗传因素：一级亲属患病风险提高4-10倍；阅读能力和障碍遗传度高（>0.6）。
+  - 早产或极低出生体重、1型神经纤维瘤病是风险因素；共病ADHD预测更差的结局。
+  - 学前期注意力、内化/外化问题严重可预测后续阅读和数学困难。
+  must_warn: []
+- id: SLD_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 84
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 与正常变异区分：后者因教育机会不足或第二语言学习所致，困难在充分教育后改善。
+  - 与智力障碍区分：特定学习障碍智力正常（IQ≥70±5），困难超出智力障碍通常水平。
+  - 与神经或感官障碍区分：后者有神经系统异常体征。
+  - 与ADHD区分：ADHD表现为执行困难而非特定技能缺陷；两者可共病。
+  must_warn: []
+- id: SLD_COMORBIDITY
+  title: 常见共病
+  source_page: 85
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 不同类型的特定学习障碍常互相共病（如阅读和数学障碍）。
+  - 常共病其他神经发育障碍：ADHD、沟通障碍、发育协调障碍、孤独症谱系障碍。
+  - 也共病焦虑、抑郁障碍和行为问题。
+  - 共病不排除诊断，但需临床判断学习困难是否主要由共病解释。
+  must_warn: []
+- id: SLD_SUICIDE
+  title: 自杀/自伤风险
+  source_page: 84
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 美国15岁公立学校青少年：阅读能力差者与典型阅读者相比，自杀念头和行为风险增高。
+  - 加拿大成人研究：有特定学习障碍者终生自杀尝试率高于无此障碍者，调整混杂因素后仍显著。
+  - 其中目睹父母慢性家庭暴力、曾患重度抑郁障碍者自杀行为风险进一步升高。
+  - 学业辍学、共病抑郁症状会增加自杀风险；高社会/情感支持则预测更好结局。
+  must_warn:
+  - 阅读能力差的青少年和成人中自杀念头和行为风险升高，需高度警惕。
+  - 共病抑郁或曾经历家庭暴力的特定学习障碍患者，自杀风险更高，应及时评估心理健康。

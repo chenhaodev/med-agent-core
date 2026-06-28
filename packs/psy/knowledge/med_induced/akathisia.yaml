@@ -1,0 +1,74 @@
+specialty: med_induced
+specialty_zh: 药物所致运动障碍及其他药物不良反应
+disease: akathisia
+disease_zh: 药物所致急性静坐不能
+source: 《精神障碍诊断与统计手册（第五版，DSM-5-TR）》
+entries:
+- id: AKATHISIA_DEFINITION
+  title: 核心特征与定义
+  source_page: 814
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 主观不安感，伴随至少一种观察到的运动：坐时腿晃动、站立时摇摆或原地踏步、踱步、无法静坐数分钟。
+  - 严重时无法维持任何姿势超过几秒，痛苦感显著。
+  must_warn: []
+- id: AKATHISIA_CRITERIA
+  title: 主要诊断标准
+  source_page: 814
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 症状通常在使用或加量能引起静坐不能的药物后4周内出现。
+  - 药物包括抗精神病药、其他多巴胺受体阻断剂、三环类抗抑郁药、SSRI、多巴胺激动剂、钙通道阻滞剂等。
+  - 症状不能由其他精神障碍（如精神分裂症、物质戒断、躁狂或抑郁激越、ADHD多动）或躯体疾病（如帕金森病、缺铁性贫血）更好解释。
+  must_warn: []
+- id: AKATHISIA_PREVALENCE
+  title: 患病率与流行病学
+  source_page: 815
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 使用抗精神病药或其他多巴胺受体阻断剂的患者中，静坐不能报告率差异很大（20%–75%）。
+  - 差异可能源于定义、处方实践、研究设计和人群特征的不同。
+  must_warn: []
+- id: AKATHISIA_COURSE
+  title: 起病与病程
+  source_page: 815
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 起病迅速，常在开始或增加致病药物后不久出现。
+  - 呈剂量依赖性，与高效价抗精神病药或中枢多巴胺受体亲和力高的药物更相关。
+  - 只要致病药物继续使用，静坐不能往往持续存在，但强度可随时间波动。
+  must_warn: []
+- id: AKATHISIA_RISK_FACTORS
+  title: 风险与预后因素
+  source_page: 815
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 高剂量、高效价抗精神病药（或多巴胺受体高亲和力药物）是主要风险因素。
+  - 降低致病药物剂量或停药后症状可缓解；但若误判为精神症状加重而增加剂量，会恶化情况。
+  must_warn: []
+- id: AKATHISIA_SUICIDE
+  title: 自杀/自伤风险与安全
+  source_page: 814
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 静坐不能可能导致严重主观痛苦，引起服药不依从。
+  - 可能伴随烦躁、易怒、攻击行为或自杀企图。
+  must_warn:
+  - 静坐不能患者可能出现自杀企图，需密切评估和防范自伤风险。
+  - 若同时出现精神病性症状恶化或行为失控，切勿盲目加大药物剂量，以免加重静坐不能并增加危险。
+- id: AKATHISIA_DIFFERENTIAL
+  title: 鉴别诊断要点
+  source_page: 814
+  evidence_level: 未注明
+  recommendation: 未注明
+  key_points:
+  - 需与帕金森病、缺铁性贫血导致的不安感区分；后者起病较缓，缺乏明确的药物时间关系。
+  - 也需要排除躁狂发作、物质戒断、ADHD的多动等精神障碍引起的激越。
+  - 迟发性运动障碍常伴有全身性不安感，可能与静坐不能共存。
+  must_warn: []
