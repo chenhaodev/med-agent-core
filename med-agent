@@ -18,12 +18,11 @@ set -euo pipefail
 
 CORE_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ENGINE="$CORE_ROOT/engine"
+# shellcheck source=engine/lib_pack.sh
+source "$ENGINE/lib_pack.sh"
 
 resolve_pack() {
-  local p="$1"
-  if [[ -d "$p" && -f "$p/pack.yaml" ]]; then echo "$p"; return; fi
-  if [[ -f "$CORE_ROOT/packs/$p/pack.yaml" ]]; then echo "$CORE_ROOT/packs/$p"; return; fi
-  echo "med-agent: pack not found: $p" >&2; exit 2
+  resolve_pack_dir "$1" || { echo "med-agent: pack not found: $1" >&2; exit 2; }
 }
 
 # Extract --pack from args, leave the rest intact.

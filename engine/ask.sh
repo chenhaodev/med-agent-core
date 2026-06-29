@@ -4,13 +4,17 @@
 # Generic replacement for every fork's bin/ask.sh.
 #
 # Usage:
-#   engine/ask.sh --pack PACK_DIR [--mode patient|doctor] [--domain D] [--debug] "问题"
+#   engine/ask.sh --pack <name|dir> [--mode patient|doctor] [--domain D] [--debug] "问题"
+# (prefer the top-level dispatcher: `med-agent ask --pack <name|dir> ...`)
+# --pack accepts a pack name (resolved to packs/<name>) or a pack directory.
 #
 # --domain D : force a routing tag, skip the router
 # --debug    : print routing / payload diagnostics to stderr
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=lib_pack.sh
+source "$SCRIPT_DIR/lib_pack.sh"
 
 PACK_DIR=""
 MODE="patient"
@@ -27,7 +31,8 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 [[ -z "$PACK_DIR" ]] && { echo "ask: --pack required" >&2; exit 2; }
-[[ -z "$QUESTION" ]] && { echo "用法：engine/ask.sh --pack P [--mode M] [--domain D] \"问题\"" >&2; exit 1; }
+PACK_DIR=$(resolve_pack_dir "$PACK_DIR") || { echo "ask: pack not found（--pack 接受包名或含 pack.yaml 的目录）" >&2; exit 2; }
+[[ -z "$QUESTION" ]] && { echo "用法：med-agent ask --pack <包名|目录> [--mode M] [--domain D] \"问题\"" >&2; exit 1; }
 
 # ─── 0. OOB ────────────────────────────────────────────────────────────────
 OOB_RESULT=$("$SCRIPT_DIR/oob_check.sh" --pack "$PACK_DIR" --mode "$MODE" "$QUESTION" 2>/dev/null || echo "in_scope")

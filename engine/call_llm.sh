@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # call_llm.sh — call the DeepSeek chat API (de-domained lift of every fork's
 # bin/call_deepseek.sh; the forks' versions were already domain-free).
-# Usage: echo '<json_payload>' | engine/call_llm.sh [--pack PACK_DIR] [--no-cache]
+# Usage: echo '<json_payload>' | engine/call_llm.sh [--pack <name|dir>] [--no-cache]
 # Output: the model's reply text (plain, no JSON wrapper).
 #
 # Response cache (on by default): content-addressed by the payload's sha256
@@ -14,6 +14,8 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CORE_ROOT="$(dirname "$SCRIPT_DIR")"
+# shellcheck source=lib_pack.sh
+source "$SCRIPT_DIR/lib_pack.sh"
 
 NO_CACHE="${NO_CACHE:-0}"
 PACK_DIR=""
@@ -24,6 +26,9 @@ while [[ $# -gt 0 ]]; do
     *) shift ;;
   esac
 done
+# --pack is optional here (only used for the per-pack .env). Resolve a bare name
+# when it maps to a pack dir; otherwise leave the value untouched.
+[[ -n "$PACK_DIR" ]] && { _RESOLVED=$(resolve_pack_dir "$PACK_DIR") && PACK_DIR="$_RESOLVED"; } || true
 
 # shellcheck disable=SC1091
 [[ -f "$CORE_ROOT/.env" ]] && source "$CORE_ROOT/.env"

@@ -4,8 +4,8 @@
 # the pack's routing.map (category_index.yaml) instead of inline bash vars.
 #
 # Usage:
-#   engine/router.sh --pack PACK_DIR "问题文本"
-#   echo "问题" | engine/router.sh --pack PACK_DIR
+#   engine/router.sh --pack <name|dir> "问题文本"
+#   echo "问题" | engine/router.sh --pack <name|dir>
 # Output: space-separated domain tags (e.g. "lifestyle cognitive"), capped at
 # max_domains, in table order; fallback used when nothing matches. When the pack
 # sets routing.llm_fallback and a key/cache is available, an unmatched question
@@ -16,6 +16,8 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=lib_pack.sh
+source "$SCRIPT_DIR/lib_pack.sh"
 
 PACK_DIR=""
 QUESTION=""
@@ -26,6 +28,7 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 [[ -z "$PACK_DIR" ]] && { echo "router: --pack required" >&2; exit 2; }
+PACK_DIR=$(resolve_pack_dir "$PACK_DIR") || { echo "router: pack not found（--pack 接受包名或含 pack.yaml 的目录）" >&2; exit 2; }
 [[ -z "$QUESTION" ]] && QUESTION="$(cat)"
 
 MANIFEST="$PACK_DIR/pack.yaml"

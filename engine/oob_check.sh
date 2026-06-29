@@ -4,8 +4,8 @@
 # from the pack manifest (oob.blocklist) instead of inline KEYWORDS_* vars.
 #
 # Usage:
-#   engine/oob_check.sh --pack PACK_DIR [--mode patient|doctor] "问题文本"
-#   echo "问题" | engine/oob_check.sh --pack PACK_DIR
+#   engine/oob_check.sh --pack <name|dir> [--mode patient|doctor] "问题文本"
+#   echo "问题" | engine/oob_check.sh --pack <name|dir>
 #
 # Output (action-based model, identical to the forks):
 #   in_scope                  — enters the normal pipeline
@@ -17,6 +17,8 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=lib_pack.sh
+source "$SCRIPT_DIR/lib_pack.sh"
 
 PACK_DIR=""
 MODE="patient"
@@ -29,6 +31,7 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 [[ -z "$PACK_DIR" ]] && { echo "oob_check: --pack required" >&2; exit 2; }
+PACK_DIR=$(resolve_pack_dir "$PACK_DIR") || { echo "oob_check: pack not found（--pack 接受包名或含 pack.yaml 的目录）" >&2; exit 2; }
 [[ -z "$QUESTION" ]] && QUESTION="$(cat || true)"
 [[ -z "$QUESTION" ]] && { echo "in_scope"; exit 0; }
 

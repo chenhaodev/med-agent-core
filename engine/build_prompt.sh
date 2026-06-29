@@ -16,6 +16,8 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=lib_pack.sh
+source "$SCRIPT_DIR/lib_pack.sh"
 
 PACK_DIR=""
 MODE="patient"
@@ -31,6 +33,7 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 [[ -z "$PACK_DIR" ]] && { echo "build_prompt: --pack required" >&2; exit 2; }
+PACK_DIR=$(resolve_pack_dir "$PACK_DIR") || { echo "build_prompt: pack not found（--pack 接受包名或含 pack.yaml 的目录）" >&2; exit 2; }
 [[ $# -lt 2 ]] && { echo "build_prompt: 用法 --pack P [--mode M] \"domains\" \"问题\"" >&2; exit 1; }
 
 DOMAINS="$1"
