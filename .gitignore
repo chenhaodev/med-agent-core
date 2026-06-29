@@ -5,5 +5,9 @@
 # Runtime LLM payload cache
 .cache/
 
+# Python bytecode
+__pycache__/
+*.py[cod]
+
 # OS cruft
 .DS_Store
